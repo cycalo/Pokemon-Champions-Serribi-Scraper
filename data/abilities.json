@@ -1,0 +1,401 @@
+{
+  "scraped_at": "2026-04-19T19:55:50+00:00",
+  "new_abilities": [
+    {
+      "slug": "piercingdrill",
+      "name": "Piercing Drill",
+      "effect": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target's protective effects is still triggered.",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/piercingdrill.shtml"
+    },
+    {
+      "slug": "dragonize",
+      "name": "Dragonize",
+      "effect": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/dragonize.shtml"
+    },
+    {
+      "slug": "megasol",
+      "name": "Mega Sol",
+      "effect": "Even when the sunlight has not turned harsh, the Pokémon can use its moves as if the weather were harsh sunlight.",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/megasol.shtml"
+    },
+    {
+      "slug": "spicyspray",
+      "name": "Spicy Spray",
+      "effect": "When the Pokémon takes damage from a move, it burns the attacker.",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/spicyspray.shtml"
+    }
+  ],
+  "mega_abilities": [
+    {
+      "national_dex": 36,
+      "pokemon": "Mega Clefable",
+      "pokemon_slug": "clefable",
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "abilities": [
+        {
+          "slug": "magicbounce",
+          "name": "Magic Bounce",
+          "url": "https://www.serebii.net/abilitydex/magicbounce.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 71,
+      "pokemon": "Mega Victreebel",
+      "pokemon_slug": "victreebel",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        {
+          "slug": "innardsout",
+          "name": "Innards Out",
+          "url": "https://www.serebii.net/abilitydex/innardsout.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 121,
+      "pokemon": "Mega Starmie",
+      "pokemon_slug": "starmie",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "abilities": [
+        {
+          "slug": "hugepower",
+          "name": "Huge Power",
+          "url": "https://www.serebii.net/abilitydex/hugepower.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 149,
+      "pokemon": "Mega Dragonite",
+      "pokemon_slug": "dragonite",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "abilities": [
+        {
+          "slug": "multiscale",
+          "name": "Multiscale",
+          "url": "https://www.serebii.net/abilitydex/multiscale.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 154,
+      "pokemon": "Mega Meganium",
+      "pokemon_slug": "meganium",
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "abilities": [
+        {
+          "slug": "megasol",
+          "name": "Mega Sol",
+          "url": "https://www.serebii.net/abilitydex/megasol.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 160,
+      "pokemon": "Mega Feraligatr",
+      "pokemon_slug": "feraligatr",
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "abilities": [
+        {
+          "slug": "dragonize",
+          "name": "Dragonize",
+          "url": "https://www.serebii.net/abilitydex/dragonize.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 227,
+      "pokemon": "Mega Skarmory",
+      "pokemon_slug": "skarmory",
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "abilities": [
+        {
+          "slug": "stalwart",
+          "name": "Stalwart",
+          "url": "https://www.serebii.net/abilitydex/stalwart.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 358,
+      "pokemon": "Mega Chimecho",
+      "pokemon_slug": "chimecho",
+      "types": [
+        "psychic",
+        "steel"
+      ],
+      "abilities": [
+        {
+          "slug": "levitate",
+          "name": "Levitate",
+          "url": "https://www.serebii.net/abilitydex/levitate.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 478,
+      "pokemon": "Mega Froslass",
+      "pokemon_slug": "froslass",
+      "types": [
+        "ice",
+        "ghost"
+      ],
+      "abilities": [
+        {
+          "slug": "snowwarning",
+          "name": "Snow Warning",
+          "url": "https://www.serebii.net/abilitydex/snowwarning.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 500,
+      "pokemon": "Mega Emboar",
+      "pokemon_slug": "emboar",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "abilities": [
+        {
+          "slug": "moldbreaker",
+          "name": "Mold Breaker",
+          "url": "https://www.serebii.net/abilitydex/moldbreaker.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 530,
+      "pokemon": "Mega Excadrill",
+      "pokemon_slug": "excadrill",
+      "types": [
+        "ground",
+        "steel"
+      ],
+      "abilities": [
+        {
+          "slug": "piercingdrill",
+          "name": "Piercing Drill",
+          "url": "https://www.serebii.net/abilitydex/piercingdrill.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 609,
+      "pokemon": "Mega Chandelure",
+      "pokemon_slug": "chandelure",
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "abilities": [
+        {
+          "slug": "infiltrator",
+          "name": "Infiltrator",
+          "url": "https://www.serebii.net/abilitydex/infiltrator.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 623,
+      "pokemon": "Mega Golurk",
+      "pokemon_slug": "golurk",
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "abilities": [
+        {
+          "slug": "unseenfist",
+          "name": "Unseen Fist",
+          "url": "https://www.serebii.net/abilitydex/unseenfist.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 652,
+      "pokemon": "Mega Chesnaught",
+      "pokemon_slug": "chesnaught",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "abilities": [
+        {
+          "slug": "bulletproof",
+          "name": "Bulletproof",
+          "url": "https://www.serebii.net/abilitydex/bulletproof.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 655,
+      "pokemon": "Mega Delphox",
+      "pokemon_slug": "delphox",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "abilities": [
+        {
+          "slug": "levitate",
+          "name": "Levitate",
+          "url": "https://www.serebii.net/abilitydex/levitate.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 658,
+      "pokemon": "Mega Greninja",
+      "pokemon_slug": "greninja",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "abilities": [
+        {
+          "slug": "protean",
+          "name": "Protean",
+          "url": "https://www.serebii.net/abilitydex/protean.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 670,
+      "pokemon": "Mega Floette",
+      "pokemon_slug": "floette",
+      "types": [
+        "fairy"
+      ],
+      "abilities": [
+        {
+          "slug": "fairyaura",
+          "name": "Fairy Aura",
+          "url": "https://www.serebii.net/abilitydex/fairyaura.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 678,
+      "pokemon": "Mega Meowstic",
+      "pokemon_slug": "meowstic",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        {
+          "slug": "trace",
+          "name": "Trace",
+          "url": "https://www.serebii.net/abilitydex/trace.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 701,
+      "pokemon": "Mega Hawlucha",
+      "pokemon_slug": "hawlucha",
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "abilities": [
+        {
+          "slug": "noguard",
+          "name": "No Guard",
+          "url": "https://www.serebii.net/abilitydex/noguard.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 740,
+      "pokemon": "Mega Crabominable",
+      "pokemon_slug": "crabominable",
+      "types": [
+        "fighting",
+        "ice"
+      ],
+      "abilities": [
+        {
+          "slug": "ironfist",
+          "name": "Iron Fist",
+          "url": "https://www.serebii.net/abilitydex/ironfist.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 780,
+      "pokemon": "Mega Drampa",
+      "pokemon_slug": "drampa",
+      "types": [
+        "normal",
+        "dragon"
+      ],
+      "abilities": [
+        {
+          "slug": "berserk",
+          "name": "Berserk",
+          "url": "https://www.serebii.net/abilitydex/berserk.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 952,
+      "pokemon": "Mega Scovillain",
+      "pokemon_slug": "scovillain",
+      "types": [
+        "grass",
+        "fire"
+      ],
+      "abilities": [
+        {
+          "slug": "spicyspray",
+          "name": "Spicy Spray",
+          "url": "https://www.serebii.net/abilitydex/spicyspray.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 970,
+      "pokemon": "Mega Glimmora",
+      "pokemon_slug": "glimmora",
+      "types": [
+        "rock",
+        "poison"
+      ],
+      "abilities": [
+        {
+          "slug": "adaptability",
+          "name": "Adaptability",
+          "url": "https://www.serebii.net/abilitydex/adaptability.shtml"
+        }
+      ]
+    }
+  ]
+}
