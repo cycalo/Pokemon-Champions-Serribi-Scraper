@@ -591,7 +591,7 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
     }
 
 
-def scrape_pokemon(*, sleep_between: float = 0.5, limit: Optional[int] = None) -> dict[str, Any]:
+def scrape_pokemon(*, sleep_between: float = 1.5, limit: Optional[int] = None) -> dict[str, Any]:
     """Full Pokémon scrape: fetch the listing, then every Pokémon's detail page.
 
     Returns a dict with two keys: `pokedex` (detailed per-slug data) and

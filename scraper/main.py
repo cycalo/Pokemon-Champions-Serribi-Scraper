@@ -25,7 +25,7 @@ def _now() -> str:
 
 
 def run(only: list[str] | None = None, pokemon_limit: int | None = None,
-        pokemon_sleep: float = 0.5) -> None:
+        pokemon_sleep: float = 1.5) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     only_set = set(only) if only else None
 
@@ -124,8 +124,13 @@ def main() -> None:
     parser.add_argument(
         "--pokemon-sleep",
         type=float,
-        default=0.5,
-        help="Seconds to sleep between per-Pokémon page requests (default 0.5).",
+        default=1.5,
+        help=(
+            "Base seconds to sleep between per-Pokémon page requests "
+            "(default 1.5; up to ~0.5s of random jitter is added on top to "
+            "stay roughly in the 1.5–2.0s range and avoid tripping Serebii's "
+            "rate limiter)."
+        ),
     )
 
     args = parser.parse_args()

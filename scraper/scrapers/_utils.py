@@ -1,6 +1,7 @@
 """Shared helpers for all Serebii scrapers."""
 from __future__ import annotations
 
+import random
 import re
 import time
 from pathlib import Path
@@ -113,5 +114,10 @@ def write_json(path: Path, data: Any) -> None:
         fh.write("\n")
 
 
-def polite_sleep(seconds: float = 0.5) -> None:
-    time.sleep(seconds)
+def polite_sleep(seconds: float = 1.5, jitter: float = 0.5) -> None:
+    """Sleep for roughly ``seconds`` (+ up to ``jitter`` seconds of randomness).
+
+    Defaults to 1.5–2.0s so Serebii doesn't IP-ban the scraper.
+    """
+    extra = random.uniform(0, max(0.0, jitter))
+    time.sleep(max(0.0, seconds) + extra)

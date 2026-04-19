@@ -214,7 +214,7 @@ Python 3.12+ is recommended.
 python -m venv .venv && source .venv/bin/activate
 pip install -r scraper/requirements.txt
 
-# Scrape everything (takes ~2 minutes due to the per-Pokémon sleep)
+# Scrape everything (takes ~5–7 minutes due to the per-Pokémon sleep)
 python scraper/main.py
 
 # Faster iteration: scrape a single source
@@ -224,7 +224,9 @@ python scraper/main.py --only moves items abilities
 python scraper/main.py --only pokemon --pokemon-limit 10
 
 # Override the politeness delay between detail-page requests
-python scraper/main.py --pokemon-sleep 0.25
+# (defaults to 1.5s + up to ~0.5s jitter; don't lower this unless you know
+# what you're doing — Serebii has been known to IP-ban aggressive scrapers)
+python scraper/main.py --pokemon-sleep 2.0
 ```
 
 Output JSON is written to [`./data`](./data) with `indent=2`.
@@ -233,7 +235,10 @@ Output JSON is written to [`./data`](./data) with `indent=2`.
 
 - Every request uses the exact User-Agent Serebii requires:
   `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36`
-- `time.sleep(0.5)` between individual Pokémon page requests (configurable).
+- Between individual Pokémon page requests the scraper sleeps for a base of
+  **1.5s plus up to ~0.5s of random jitter** (so roughly 1.5–2.0s per page).
+  This is intentionally conservative: Serebii has historically rate-limited
+  or IP-banned aggressive scrapers. Override with `--pokemon-sleep` if needed.
 - Each per-Pokémon scrape is wrapped in `try/except`; failures are recorded to
   `data/pokemon_failures.json` instead of crashing the run.
 
