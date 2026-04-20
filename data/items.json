@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-20T08:04:36+00:00",
+  "scraped_at": "2026-04-20T23:29:29+00:00",
   "count": 138,
   "categories": [
     "Berries",
@@ -12,64 +12,57 @@
       "slug": "abomasite",
       "name": "Abomasite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Abomasnow holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Abomasnow holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/abomasite.png",
-      "sprite_path": "images/items/abomasite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/abomasite.png"
     },
     {
       "slug": "absolite",
       "name": "Absolite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Absol holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Absol holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/absolite.png",
-      "sprite_path": "images/items/absolite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/absolite.png"
     },
     {
       "slug": "aerodactylite",
       "name": "Aerodactylite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Aerodactyl holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Aerodactyl holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/aerodactylite.png",
-      "sprite_path": "images/items/aerodactylite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/aerodactylite.png"
     },
     {
       "slug": "aggronite",
       "name": "Aggronite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Aggron holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Aggron holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/aggronite.png",
-      "sprite_path": "images/items/aggronite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/aggronite.png"
     },
     {
       "slug": "alakazite",
       "name": "Alakazite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Alakazam holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Alakazam holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/alakazite.png",
-      "sprite_path": "images/items/alakazite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/alakazite.png"
     },
     {
       "slug": "altarianite",
       "name": "Altarianite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Altaria holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Altaria holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/altarianite.png",
-      "sprite_path": "images/items/altarianite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/altarianite.png"
     },
     {
       "slug": "ampharosite",
       "name": "Ampharosite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Ampharos holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Ampharos holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/ampharosite.png",
-      "sprite_path": "images/items/ampharosite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/ampharosite.png"
     },
     {
       "slug": "aspear-berry",
@@ -77,17 +70,15 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to thaw itself after being frozen.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/aspearberry.png",
-      "sprite_path": "images/items/aspear-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/aspearberry.png"
     },
     {
       "slug": "audinite",
       "name": "Audinite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Audino holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Audino holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/audinite.png",
-      "sprite_path": "images/items/audinite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/audinite.png"
     },
     {
       "slug": "babiri-berry",
@@ -95,62 +86,55 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Steel-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/babiriberry.png",
-      "sprite_path": "images/items/babiri-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/babiriberry.png"
     },
     {
       "slug": "banettite",
       "name": "Banettite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Banette holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Banette holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/banettite.png",
-      "sprite_path": "images/items/banettite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/banettite.png"
     },
     {
       "slug": "beedrillite",
       "name": "Beedrillite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Beedrill holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Beedrill holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/beedrillite.png",
-      "sprite_path": "images/items/beedrillite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/beedrillite.png"
     },
     {
       "slug": "black-belt",
       "name": "Black Belt",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This belt helps with focus and boosts the power of the holder's Fighting-type moves.",
+      "effect": "This belt helps with focus and boosts the power of the holder's Fighting-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/blackbelt.png",
-      "sprite_path": "images/items/black-belt.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/blackbelt.png"
     },
     {
       "slug": "black-glasses",
       "name": "Black Glasses",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves.",
+      "effect": "It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/blackglasses.png",
-      "sprite_path": "images/items/black-glasses.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/blackglasses.png"
     },
     {
       "slug": "blastoisinite",
       "name": "Blastoisinite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Blastoise holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Blastoise holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/blastoisinite.png",
-      "sprite_path": "images/items/blastoisinite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/blastoisinite.png"
     },
     {
       "slug": "bright-powder",
       "name": "Bright Powder",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves.",
+      "effect": "This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/brightpowder.png",
-      "sprite_path": "images/items/bright-powder.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/brightpowder.png"
     },
     {
       "slug": "bug-type-affinity-ticket",
@@ -158,53 +142,47 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Bug-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/bug-typeaffinityticket.png",
-      "sprite_path": "images/items/bug-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/bug-typeaffinityticket.png"
     },
     {
       "slug": "cameruptite",
       "name": "Cameruptite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Camerupt holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Camerupt holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/cameruptite.png",
-      "sprite_path": "images/items/cameruptite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/cameruptite.png"
     },
     {
       "slug": "chandelurite",
       "name": "Chandelurite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Chandelure holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chandelurite.png",
-      "sprite_path": "images/items/chandelurite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chandelurite.png"
     },
     {
       "slug": "charcoal",
       "name": "Charcoal",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a combustible fuel that boosts the power of the holder's Fire-type moves.",
+      "effect": "It's a combustible fuel that boosts the power of the holder's Fire-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/charcoal.png",
-      "sprite_path": "images/items/charcoal.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/charcoal.png"
     },
     {
       "slug": "charizardite-x",
       "name": "Charizardite X",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Charizard holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/charizarditex.png",
-      "sprite_path": "images/items/charizardite-x.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/charizarditex.png"
     },
     {
       "slug": "charizardite-y",
       "name": "Charizardite Y",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Charizard holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/charizarditey.png",
-      "sprite_path": "images/items/charizardite-y.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/charizarditey.png"
     },
     {
       "slug": "charti-berry",
@@ -212,8 +190,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Rock-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chartiberry.png",
-      "sprite_path": "images/items/charti-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chartiberry.png"
     },
     {
       "slug": "cheri-berry",
@@ -221,17 +198,15 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to free itself from paralysis.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/cheriberry.png",
-      "sprite_path": "images/items/cheri-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/cheriberry.png"
     },
     {
       "slug": "chesnaughtite",
       "name": "Chesnaughtite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Chesnaught holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Chesnaught from Pokémon Legends: Z-A",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chesnaughtite.png",
-      "sprite_path": "images/items/chesnaughtite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chesnaughtite.png"
     },
     {
       "slug": "chesto-berry",
@@ -239,8 +214,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to shake off its drowsiness.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chestoberry.png",
-      "sprite_path": "images/items/chesto-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chestoberry.png"
     },
     {
       "slug": "chilan-berry",
@@ -248,26 +222,23 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a Normal-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chilanberry.png",
-      "sprite_path": "images/items/chilan-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chilanberry.png"
     },
     {
       "slug": "chimechite",
       "name": "Chimechite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Chimecho holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chimechite.png",
-      "sprite_path": "images/items/chimechite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chimechite.png"
     },
     {
       "slug": "choice-scarf",
       "name": "Choice Scarf",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This curious scarf boosts the holder's Speed stat but only allows the use of a single move.",
+      "effect": "This curious scarf boosts the holder's Speed stat but only allows the use of a single move.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/choicescarf.png",
-      "sprite_path": "images/items/choice-scarf.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/choicescarf.png"
     },
     {
       "slug": "chople-berry",
@@ -275,17 +246,15 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Fighting-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/chopleberry.png",
-      "sprite_path": "images/items/chople-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/chopleberry.png"
     },
     {
       "slug": "clefablite",
       "name": "Clefablite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Clefable holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/clefablite.png",
-      "sprite_path": "images/items/clefablite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/clefablite.png"
     },
     {
       "slug": "coba-berry",
@@ -293,8 +262,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Flying-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/cobaberry.png",
-      "sprite_path": "images/items/coba-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/cobaberry.png"
     },
     {
       "slug": "colbur-berry",
@@ -302,17 +270,15 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Dark-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/colburberry.png",
-      "sprite_path": "images/items/colbur-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/colburberry.png"
     },
     {
       "slug": "crabominite",
       "name": "Crabominite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Crabominable holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/crabominite.png",
-      "sprite_path": "images/items/crabominite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/crabominite.png"
     },
     {
       "slug": "dark-type-affinity-ticket",
@@ -320,26 +286,23 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Dark-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/dark-typeaffinityticket.png",
-      "sprite_path": "images/items/dark-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/dark-typeaffinityticket.png"
     },
     {
       "slug": "delphoxite",
       "name": "Delphoxite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Delphox holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Delphox from Pokémon Legends: Z-A",
-      "sprite": "https://www.serebii.net/itemdex/sprites/delphoxite.png",
-      "sprite_path": "images/items/delphoxite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/delphoxite.png"
     },
     {
       "slug": "dragon-fang",
       "name": "Dragon Fang",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This hard, sharp fang boosts the power of the holder's Dragon-type moves.",
+      "effect": "This hard, sharp fang boosts the power of the holder's Dragon-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/dragonfang.png",
-      "sprite_path": "images/items/dragon-fang.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/dragonfang.png"
     },
     {
       "slug": "dragon-type-affinity-ticket",
@@ -347,26 +310,23 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Dragon-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/dragon-typeaffinityticket.png",
-      "sprite_path": "images/items/dragon-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/dragon-typeaffinityticket.png"
     },
     {
       "slug": "dragoninite",
       "name": "Dragoninite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Dragonite holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/dragoninite.png",
-      "sprite_path": "images/items/dragoninite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/dragoninite.png"
     },
     {
       "slug": "drampanite",
       "name": "Drampanite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Drampa holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/drampanite.png",
-      "sprite_path": "images/items/drampanite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/drampanite.png"
     },
     {
       "slug": "electric-type-affinity-ticket",
@@ -374,35 +334,31 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Electric-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/electric-typeaffinityticket.png",
-      "sprite_path": "images/items/electric-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/electric-typeaffinityticket.png"
     },
     {
       "slug": "emboarite",
       "name": "Emboarite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Emboar holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/emboarite.png",
-      "sprite_path": "images/items/emboarite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/emboarite.png"
     },
     {
       "slug": "excadrite",
       "name": "Excadrite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Excadrill holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/excadrite.png",
-      "sprite_path": "images/items/excadrite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/excadrite.png"
     },
     {
       "slug": "fairy-feather",
       "name": "Fairy Feather",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
+      "effect": "This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/fairyfeather.png",
-      "sprite_path": "images/items/fairy-feather.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/fairyfeather.png"
     },
     {
       "slug": "fairy-type-affinity-ticket",
@@ -410,17 +366,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Fairy-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/fairy-typeaffinityticket.png",
-      "sprite_path": "images/items/fairy-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/fairy-typeaffinityticket.png"
     },
     {
       "slug": "feraligite",
       "name": "Feraligite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Feraligatr holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/feraligite.png",
-      "sprite_path": "images/items/feraligite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/feraligite.png"
     },
     {
       "slug": "fighting-type-affinity-ticket",
@@ -428,8 +382,7 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Fighting-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/fighting-typeaffinityticket.png",
-      "sprite_path": "images/items/fighting-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/fighting-typeaffinityticket.png"
     },
     {
       "slug": "fire-type-affinity-ticket",
@@ -437,17 +390,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Fire-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/fire-typeaffinityticket.png",
-      "sprite_path": "images/items/fire-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/fire-typeaffinityticket.png"
     },
     {
       "slug": "floettite",
       "name": "Floettite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A special Floette holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Floette Eternal Flower from Pokémon Legends: Z-A",
-      "sprite": "https://www.serebii.net/itemdex/sprites/floettite.png",
-      "sprite_path": "images/items/floettite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/floettite.png"
     },
     {
       "slug": "flying-type-affinity-ticket",
@@ -455,71 +406,63 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Flying-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/flying-typeaffinityticket.png",
-      "sprite_path": "images/items/flying-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/flying-typeaffinityticket.png"
     },
     {
       "slug": "focus-band",
       "name": "Focus Band",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP.",
+      "effect": "When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/focusband.png",
-      "sprite_path": "images/items/focus-band.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/focusband.png"
     },
     {
       "slug": "focus-sash",
       "name": "Focus Sash",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once.",
+      "effect": "If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/focussash.png",
-      "sprite_path": "images/items/focus-sash.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/focussash.png"
     },
     {
       "slug": "froslassite",
       "name": "Froslassite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Froslass holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/froslassite.png",
-      "sprite_path": "images/items/froslassite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/froslassite.png"
     },
     {
       "slug": "galladite",
       "name": "Galladite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gallade holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gallade holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/galladite.png",
-      "sprite_path": "images/items/galladite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/galladite.png"
     },
     {
       "slug": "garchompite",
       "name": "Garchompite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Garchomp holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Garchomp holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/garchompite.png",
-      "sprite_path": "images/items/garchompite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/garchompite.png"
     },
     {
       "slug": "gardevoirite",
       "name": "Gardevoirite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gardevoir holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gardevoir holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/gardevoirite.png",
-      "sprite_path": "images/items/gardevoirite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/gardevoirite.png"
     },
     {
       "slug": "gengarite",
       "name": "Gengarite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gengar holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gengar holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/gengarite.png",
-      "sprite_path": "images/items/gengarite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/gengarite.png"
     },
     {
       "slug": "ghost-type-affinity-ticket",
@@ -527,35 +470,31 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Ghost-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/ghost-typeaffinityticket.png",
-      "sprite_path": "images/items/ghost-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/ghost-typeaffinityticket.png"
     },
     {
       "slug": "glalitite",
       "name": "Glalitite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Glalie holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Glalie holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/glalitite.png",
-      "sprite_path": "images/items/glalitite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/glalitite.png"
     },
     {
       "slug": "glimmoranite",
       "name": "Glimmoranite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Glimmora holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/glimmoranite.png",
-      "sprite_path": "images/items/glimmoranite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/glimmoranite.png"
     },
     {
       "slug": "golurkite",
       "name": "Golurkite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Golurk holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/golurkite.png",
-      "sprite_path": "images/items/golurkite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/golurkite.png"
     },
     {
       "slug": "grass-type-affinity-ticket",
@@ -563,17 +502,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Grass-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/grass-typeaffinityticket.png",
-      "sprite_path": "images/items/grass-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/grass-typeaffinityticket.png"
     },
     {
       "slug": "greninjite",
       "name": "Greninjite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Greninja holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Greninja from Pokémon Legends: Z-A",
-      "sprite": "https://www.serebii.net/itemdex/sprites/greninjite.png",
-      "sprite_path": "images/items/greninjite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/greninjite.png"
     },
     {
       "slug": "ground-type-affinity-ticket",
@@ -581,17 +518,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Ground-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/ground-typeaffinityticket.png",
-      "sprite_path": "images/items/ground-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/ground-typeaffinityticket.png"
     },
     {
       "slug": "gyaradosite",
       "name": "Gyaradosite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gyarados holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gyarados holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/gyaradosite.png",
-      "sprite_path": "images/items/gyaradosite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/gyaradosite.png"
     },
     {
       "slug": "haban-berry",
@@ -599,44 +534,39 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Dragon-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/habanberry.png",
-      "sprite_path": "images/items/haban-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/habanberry.png"
     },
     {
       "slug": "hard-stone",
       "name": "Hard Stone",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a durable stone that boosts the power of the holder's Rock-type moves.",
+      "effect": "It's a durable stone that boosts the power of the holder's Rock-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/hardstone.png",
-      "sprite_path": "images/items/hard-stone.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/hardstone.png"
     },
     {
       "slug": "hawluchanite",
       "name": "Hawluchanite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Hawlucha holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/hawluchanite.png",
-      "sprite_path": "images/items/hawluchanite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/hawluchanite.png"
     },
     {
       "slug": "heracronite",
       "name": "Heracronite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Heracross holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Heracross holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/heracronite.png",
-      "sprite_path": "images/items/heracronite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/heracronite.png"
     },
     {
       "slug": "houndoominite",
       "name": "Houndoominite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Houndoom holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Houndoom holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/houndoominite.png",
-      "sprite_path": "images/items/houndoominite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/houndoominite.png"
     },
     {
       "slug": "ice-type-affinity-ticket",
@@ -644,17 +574,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Ice-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/ice-typeaffinityticket.png",
-      "sprite_path": "images/items/ice-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/ice-typeaffinityticket.png"
     },
     {
       "slug": "kangaskhanite",
       "name": "Kangaskhanite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Kangaskhan holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Kangaskhan holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/kangaskhanite.png",
-      "sprite_path": "images/items/kangaskhanite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/kangaskhanite.png"
     },
     {
       "slug": "kasib-berry",
@@ -662,8 +590,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Ghost-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/kasibberry.png",
-      "sprite_path": "images/items/kasib-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/kasibberry.png"
     },
     {
       "slug": "kebia-berry",
@@ -671,26 +598,23 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Poison-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/kebiaberry.png",
-      "sprite_path": "images/items/kebia-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/kebiaberry.png"
     },
     {
       "slug": "king-s-rock",
       "name": "King's Rock",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack.",
+      "effect": "It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/king'srock.png",
-      "sprite_path": "images/items/king-s-rock.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/king'srock.png"
     },
     {
       "slug": "leftovers",
       "name": "Leftovers",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It slowly but steadily restores the holder's HP.",
+      "effect": "It slowly but steadily restores the holder's HP.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/leftovers.png",
-      "sprite_path": "images/items/leftovers.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/leftovers.png"
     },
     {
       "slug": "leppa-berry",
@@ -698,35 +622,31 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 PP to a move.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/leppaberry.png",
-      "sprite_path": "images/items/leppa-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/leppaberry.png"
     },
     {
       "slug": "light-ball",
       "name": "Light Ball",
       "category": "Hold Items",
-      "effect": "An item to be held by Pikachu. It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats.",
+      "effect": "It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats.",
       "location": "Shop 1000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/lightball.png",
-      "sprite_path": "images/items/light-ball.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/lightball.png"
     },
     {
       "slug": "lopunnite",
       "name": "Lopunnite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Lopunny holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Lopunny holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/lopunnite.png",
-      "sprite_path": "images/items/lopunnite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/lopunnite.png"
     },
     {
       "slug": "lucarionite",
       "name": "Lucarionite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Lucario holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Lucario holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/lucarionite.png",
-      "sprite_path": "images/items/lucarionite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/lucarionite.png"
     },
     {
       "slug": "lum-berry",
@@ -734,98 +654,87 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of any status condition it may have.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/lumberry.png",
-      "sprite_path": "images/items/lum-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/lumberry.png"
     },
     {
       "slug": "magnet",
       "name": "Magnet",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a powerful magnet that boosts the power of the holder's Electric-type moves.",
+      "effect": "It's a powerful magnet that boosts the power of the holder's Electric-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/magnet.png",
-      "sprite_path": "images/items/magnet.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/magnet.png"
     },
     {
       "slug": "manectite",
       "name": "Manectite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Manectric holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Manectric holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/manectite.png",
-      "sprite_path": "images/items/manectite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/manectite.png"
     },
     {
       "slug": "medichamite",
       "name": "Medichamite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Medicham holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Medicham holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/medichamite.png",
-      "sprite_path": "images/items/medichamite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/medichamite.png"
     },
     {
       "slug": "meganiumite",
       "name": "Meganiumite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Meganium holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/meganiumite.png",
-      "sprite_path": "images/items/meganiumite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/meganiumite.png"
     },
     {
       "slug": "mental-herb",
       "name": "Mental Herb",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. The holder will be able to shake off move-binding effects to move freely— but only once.",
+      "effect": "The holder will be able to shake off move-binding effects to move freely— but only once.",
       "location": "Shop 1000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/mentalherb.png",
-      "sprite_path": "images/items/mental-herb.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/mentalherb.png"
     },
     {
       "slug": "meowsticite",
       "name": "Meowsticite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Meowstic holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/meowsticite.png",
-      "sprite_path": "images/items/meowsticite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/meowsticite.png"
     },
     {
       "slug": "metal-coat",
       "name": "Metal Coat",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a special metallic coating that boosts the power of the holder's Steel-type moves.",
+      "effect": "It's a special metallic coating that boosts the power of the holder's Steel-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/metalcoat.png",
-      "sprite_path": "images/items/metal-coat.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/metalcoat.png"
     },
     {
       "slug": "miracle-seed",
       "name": "Miracle Seed",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a seed imbued with life force that boosts the power of the holder's Grass-type moves.",
+      "effect": "It's a seed imbued with life force that boosts the power of the holder's Grass-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/miracleseed.png",
-      "sprite_path": "images/items/miracle-seed.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/miracleseed.png"
     },
     {
       "slug": "mystic-water",
       "name": "Mystic Water",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This teardrop-shaped gem boosts the power of the holder's Water-type moves.",
+      "effect": "This teardrop-shaped gem boosts the power of the holder's Water-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/mysticwater.png",
-      "sprite_path": "images/items/mystic-water.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/mysticwater.png"
     },
     {
       "slug": "never-melt-ice",
       "name": "Never-Melt Ice",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves.",
+      "effect": "It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/never-meltice.png",
-      "sprite_path": "images/items/never-melt-ice.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/never-meltice.png"
     },
     {
       "slug": "normal-type-affinity-ticket",
@@ -833,8 +742,7 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Normal-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/normal-typeaffinityticket.png",
-      "sprite_path": "images/items/normal-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/normal-typeaffinityticket.png"
     },
     {
       "slug": "occa-berry",
@@ -842,8 +750,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Fire-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/occaberry.png",
-      "sprite_path": "images/items/occa-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/occaberry.png"
     },
     {
       "slug": "oran-berry",
@@ -851,8 +758,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 HP to itself.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/oranberry.png",
-      "sprite_path": "images/items/oran-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/oranberry.png"
     },
     {
       "slug": "passho-berry",
@@ -860,8 +766,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Water-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/passhoberry.png",
-      "sprite_path": "images/items/passho-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/passhoberry.png"
     },
     {
       "slug": "payapa-berry",
@@ -869,8 +774,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Psychic-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/payapaberry.png",
-      "sprite_path": "images/items/payapa-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/payapaberry.png"
     },
     {
       "slug": "pecha-berry",
@@ -878,8 +782,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to lift the effects of being poisoned from itself.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/pechaberry.png",
-      "sprite_path": "images/items/pecha-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/pechaberry.png"
     },
     {
       "slug": "persim-berry",
@@ -887,35 +790,31 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of confusion.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/persimberry.png",
-      "sprite_path": "images/items/persim-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/persimberry.png"
     },
     {
       "slug": "pidgeotite",
       "name": "Pidgeotite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Pidgeot holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Pidgeot holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/pidgeotite.png",
-      "sprite_path": "images/items/pidgeotite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/pidgeotite.png"
     },
     {
       "slug": "pinsirite",
       "name": "Pinsirite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Pinsir holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Pinsir holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/pinsirite.png",
-      "sprite_path": "images/items/pinsirite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/pinsirite.png"
     },
     {
       "slug": "poison-barb",
       "name": "Poison Barb",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This small poisonous barb boosts the power of the holder's Poison-type moves.",
+      "effect": "This small poisonous barb boosts the power of the holder's Poison-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/poisonbarb.png",
-      "sprite_path": "images/items/poison-barb.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/poisonbarb.png"
     },
     {
       "slug": "poison-type-affinity-ticket",
@@ -923,8 +822,7 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Poison-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/poison-typeaffinityticket.png",
-      "sprite_path": "images/items/poison-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/poison-typeaffinityticket.png"
     },
     {
       "slug": "psychic-type-affinity-ticket",
@@ -932,17 +830,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Psychic-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/psychic-typeaffinityticket.png",
-      "sprite_path": "images/items/psychic-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/psychic-typeaffinityticket.png"
     },
     {
       "slug": "quick-claw",
       "name": "Quick Claw",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This light, sharp claw lets the holder occasionally unleash a move faster than it usually would.",
+      "effect": "This light, sharp claw lets the holder occasionally unleash a move faster than it usually would.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/quickclaw.png",
-      "sprite_path": "images/items/quick-claw.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/quickclaw.png"
     },
     {
       "slug": "quick-coupon",
@@ -950,8 +846,7 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that can be used to reduce the wait time in Recruit Ranch",
       "location": "Missions Battle Pass Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/quickcoupon.png",
-      "sprite_path": "images/items/quick-coupon.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/quickcoupon.png"
     },
     {
       "slug": "rawst-berry",
@@ -959,8 +854,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of a burn.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/rawstberry.png",
-      "sprite_path": "images/items/rawst-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/rawstberry.png"
     },
     {
       "slug": "rindo-berry",
@@ -968,8 +862,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Grass-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/rindoberry.png",
-      "sprite_path": "images/items/rindo-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/rindoberry.png"
     },
     {
       "slug": "rock-type-affinity-ticket",
@@ -977,8 +870,7 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Rock-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/rock-typeaffinityticket.png",
-      "sprite_path": "images/items/rock-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/rock-typeaffinityticket.png"
     },
     {
       "slug": "roseli-berry",
@@ -986,71 +878,63 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Fairy-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/roseliberry.png",
-      "sprite_path": "images/items/roseli-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/roseliberry.png"
     },
     {
       "slug": "sablenite",
       "name": "Sablenite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Sableye holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Sableye holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/sablenite.png",
-      "sprite_path": "images/items/sablenite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/sablenite.png"
     },
     {
       "slug": "scizorite",
       "name": "Scizorite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Scizor holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Scizor holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/scizorite.png",
-      "sprite_path": "images/items/scizorite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/scizorite.png"
     },
     {
       "slug": "scope-lens",
       "name": "Scope Lens",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
+      "effect": "It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
       "location": "Shop 1000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/scopelens.png",
-      "sprite_path": "images/items/scope-lens.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/scopelens.png"
     },
     {
       "slug": "scovillainite",
       "name": "Scovillainite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Scovillain holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/scovillainite.png",
-      "sprite_path": "images/items/scovillainite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/scovillainite.png"
     },
     {
       "slug": "sharp-beak",
       "name": "Sharp Beak",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a long, sharp beak that boosts the power of the holder's Flying-type moves.",
+      "effect": "It's a long, sharp beak that boosts the power of the holder's Flying-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/sharpbeak.png",
-      "sprite_path": "images/items/sharp-beak.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/sharpbeak.png"
     },
     {
       "slug": "sharpedonite",
       "name": "Sharpedonite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Sharpedo holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Sharpedo holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/sharpedonite.png",
-      "sprite_path": "images/items/sharpedonite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/sharpedonite.png"
     },
     {
       "slug": "shell-bell",
       "name": "Shell Bell",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. The holder restores a little HP to itself every time it inflicts damage with an attack.",
+      "effect": "The holder restores a little HP to itself every time it inflicts damage with an attack.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/shellbell.png",
-      "sprite_path": "images/items/shell-bell.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/shellbell.png"
     },
     {
       "slug": "shuca-berry",
@@ -1058,26 +942,23 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Ground-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/shucaberry.png",
-      "sprite_path": "images/items/shuca-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/shucaberry.png"
     },
     {
       "slug": "silk-scarf",
       "name": "Silk Scarf",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a sumptuous scarf that boosts the power of the holder's Normal-type moves.",
+      "effect": "It's a sumptuous scarf that boosts the power of the holder's Normal-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/silkscarf.png",
-      "sprite_path": "images/items/silk-scarf.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/silkscarf.png"
     },
     {
       "slug": "silver-powder",
       "name": "Silver Powder",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a shiny silver powder that boosts the power of the holder's Bug-type moves.",
+      "effect": "It's a shiny silver powder that boosts the power of the holder's Bug-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/silverpowder.png",
-      "sprite_path": "images/items/silver-powder.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/silverpowder.png"
     },
     {
       "slug": "sitrus-berry",
@@ -1085,53 +966,47 @@
       "category": "Berries",
       "effect": "If a Pokémon holds one of these Berries, it will be able to restore a small amount of HP to itself.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/sitrusberry.png",
-      "sprite_path": "images/items/sitrus-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/sitrusberry.png"
     },
     {
       "slug": "skarmorite",
       "name": "Skarmorite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Skarmory holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/skarmorite.png",
-      "sprite_path": "images/items/skarmorite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/skarmorite.png"
     },
     {
       "slug": "slowbronite",
       "name": "Slowbronite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however.",
+      "effect": "A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/slowbronite.png",
-      "sprite_path": "images/items/slowbronite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/slowbronite.png"
     },
     {
       "slug": "soft-sand",
       "name": "Soft Sand",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This loose, silky sand boosts the power of the holder's Ground-type moves.",
+      "effect": "This loose, silky sand boosts the power of the holder's Ground-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/softsand.png",
-      "sprite_path": "images/items/soft-sand.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/softsand.png"
     },
     {
       "slug": "spell-tag",
       "name": "Spell Tag",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves.",
+      "effect": "It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/spelltag.png",
-      "sprite_path": "images/items/spell-tag.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/spelltag.png"
     },
     {
       "slug": "starminite",
       "name": "Starminite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Starmie holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/starminite.png",
-      "sprite_path": "images/items/starminite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/starminite.png"
     },
     {
       "slug": "steel-type-affinity-ticket",
@@ -1139,17 +1014,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Steel-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/steel-typeaffinityticket.png",
-      "sprite_path": "images/items/steel-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/steel-typeaffinityticket.png"
     },
     {
       "slug": "steelixite",
       "name": "Steelixite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Steelix holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Steelix holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/steelixite.png",
-      "sprite_path": "images/items/steelixite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/steelixite.png"
     },
     {
       "slug": "tanga-berry",
@@ -1157,8 +1030,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Bug-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/tangaberry.png",
-      "sprite_path": "images/items/tanga-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/tangaberry.png"
     },
     {
       "slug": "teammate-ticket",
@@ -1166,8 +1038,7 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that can be used to recruit a Pokémon at Recruit Ranch",
       "location": "Missions Battle Pass Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/teammateticket.png",
-      "sprite_path": "images/items/teammate-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/teammateticket.png"
     },
     {
       "slug": "training-ticket",
@@ -1175,44 +1046,39 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that can be used to train a Pokémon without using Victory Points",
       "location": "Missions Battle Pass Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/trainingticket.png",
-      "sprite_path": "images/items/training-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/trainingticket.png"
     },
     {
       "slug": "twisted-spoon",
       "name": "Twisted Spoon",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves.",
+      "effect": "This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves.",
       "location": "Shop 700 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/twistedspoon.png",
-      "sprite_path": "images/items/twisted-spoon.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/twistedspoon.png"
     },
     {
       "slug": "tyranitarite",
       "name": "Tyranitarite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Tyranitar holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Tyranitar holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/tyranitarite.png",
-      "sprite_path": "images/items/tyranitarite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/tyranitarite.png"
     },
     {
       "slug": "venusaurite",
       "name": "Venusaurite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Venusaur holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Venusaur holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/venusaurite.png",
-      "sprite_path": "images/items/venusaurite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/venusaurite.png"
     },
     {
       "slug": "victreebelite",
       "name": "Victreebelite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Victreebel holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/victreebelite.png",
-      "sprite_path": "images/items/victreebelite.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/victreebelite.png"
     },
     {
       "slug": "wacan-berry",
@@ -1220,8 +1086,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Electric-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/wacanberry.png",
-      "sprite_path": "images/items/wacan-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/wacanberry.png"
     },
     {
       "slug": "water-type-affinity-ticket",
@@ -1229,17 +1094,15 @@
       "category": "Miscellaneous Items",
       "effect": "A ticket that makes you more likely to meet Water-type Pokémon in the next lineup.",
       "location": "Achievements",
-      "sprite": "https://www.serebii.net/itemdex/sprites/water-typeaffinityticket.png",
-      "sprite_path": "images/items/water-type-affinity-ticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/water-typeaffinityticket.png"
     },
     {
       "slug": "white-herb",
       "name": "White Herb",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It will restore any lowered stat in battle—but only once.",
+      "effect": "It will restore any lowered stat in battle—but only once.",
       "location": "Beginning",
-      "sprite": "https://www.serebii.net/itemdex/sprites/whiteherb.png",
-      "sprite_path": "images/items/white-herb.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/whiteherb.png"
     },
     {
       "slug": "yache-berry",
@@ -1247,8 +1110,7 @@
       "category": "Berries",
       "effect": "If a Pokémon holding this Berry is hit with a supereffective Ice-type move, the power of that move will be weakened.",
       "location": "Shop 400 VP",
-      "sprite": "https://www.serebii.net/itemdex/sprites/yacheberry.png",
-      "sprite_path": "images/items/yache-berry.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/yacheberry.png"
     }
   ]
 }

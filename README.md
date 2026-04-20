@@ -168,13 +168,15 @@ Same rules as per-Pokémon moves: `power` is `null` for status moves, and
       "slug": "abomasite",
       "name": "Abomasite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones…",
+      "effect": "An Abomasnow holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/abomasite.png"
     }
   ]
 }
 ```
+
+For **Hold Items**, the scraper drops the repeated prefix *“An item to be held by a Pokémon.”* (and the single outlier *“An item to be held by Pikachu.”* for Light Ball). For **Mega Stones**, it drops *“One of a variety of mysterious Mega Stones.”* so `effect` starts with the Pokémon-specific sentence. Other categories are unchanged.
 
 ### Images and `data/images.json`
 

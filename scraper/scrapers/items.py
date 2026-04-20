@@ -13,6 +13,36 @@ from ._utils import (
 
 ITEMS_URL = "https://www.serebii.net/pokemonchampions/items.shtml"
 
+# Serebii repeats the same boilerplate at the start of many item blurbs. Strip it
+# so consumers only see the meaningful part (category-specific).
+# Most hold items: "An item to be held by a Pokémon." Light Ball is the only
+# outlier on the Champions page: "An item to be held by Pikachu."
+_HOLD_ITEM_PREFIX = re.compile(
+    r"^\s*An item to be held by (?:a )?(?:Pokémon|Pokemon|Pikachu)\.\s*",
+    re.IGNORECASE,
+)
+_MEGA_STONE_PREFIX = re.compile(
+    r"^\s*One of a variety of mysterious Mega Stones\.\s*",
+    re.IGNORECASE,
+)
+
+
+def _strip_item_effect_boilerplate(effect: Optional[str], category: str) -> Optional[str]:
+    """Remove category-specific filler that Serebii prepends to every row."""
+    if not effect:
+        return None
+    text = effect.strip()
+    if not text:
+        return None
+
+    if category == "Hold Items":
+        text = _HOLD_ITEM_PREFIX.sub("", text)
+    elif category == "Mega Stone":
+        text = _MEGA_STONE_PREFIX.sub("", text)
+
+    text = " ".join(text.split())
+    return text or None
+
 
 def _category_before(table) -> str:
     """Categories are marked with a <b> (e.g. 'Hold Items') directly above each table."""
@@ -61,12 +91,13 @@ def scrape_items(url: str = ITEMS_URL) -> dict[str, Any]:
             if img and img.get("src"):
                 sprite = absolute_url(img["src"])
 
+            raw_effect = clean_text(effect_cell) or None
             items.append(
                 {
                     "slug": _slug(name),
                     "name": name,
                     "category": category_name,
-                    "effect": clean_text(effect_cell) or None,
+                    "effect": _strip_item_effect_boilerplate(raw_effect, category_name),
                     "location": clean_text(location_cell) if location_cell else None,
                     "sprite": sprite,
                 }
