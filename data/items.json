@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-20T15:25:15+00:00",
+  "scraped_at": "2026-04-20T23:36:46+00:00",
   "count": 138,
   "categories": [
     "Berries",
@@ -12,7 +12,7 @@
       "slug": "abomasite",
       "name": "Abomasite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Abomasnow holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Abomasnow holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/abomasite.png",
       "sprite_path": "images/items/abomasite.png"
@@ -21,7 +21,7 @@
       "slug": "absolite",
       "name": "Absolite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Absol holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Absol holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/absolite.png",
       "sprite_path": "images/items/absolite.png"
@@ -30,7 +30,7 @@
       "slug": "aerodactylite",
       "name": "Aerodactylite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Aerodactyl holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Aerodactyl holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/aerodactylite.png",
       "sprite_path": "images/items/aerodactylite.png"
@@ -39,7 +39,7 @@
       "slug": "aggronite",
       "name": "Aggronite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Aggron holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Aggron holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/aggronite.png",
       "sprite_path": "images/items/aggronite.png"
@@ -48,7 +48,7 @@
       "slug": "alakazite",
       "name": "Alakazite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Alakazam holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Alakazam holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/alakazite.png",
       "sprite_path": "images/items/alakazite.png"
@@ -57,7 +57,7 @@
       "slug": "altarianite",
       "name": "Altarianite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Altaria holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Altaria holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/altarianite.png",
       "sprite_path": "images/items/altarianite.png"
@@ -66,7 +66,7 @@
       "slug": "ampharosite",
       "name": "Ampharosite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Ampharos holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Ampharos holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/ampharosite.png",
       "sprite_path": "images/items/ampharosite.png"
@@ -84,7 +84,7 @@
       "slug": "audinite",
       "name": "Audinite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Audino holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Audino holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/audinite.png",
       "sprite_path": "images/items/audinite.png"
@@ -102,7 +102,7 @@
       "slug": "banettite",
       "name": "Banettite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Banette holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Banette holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/banettite.png",
       "sprite_path": "images/items/banettite.png"
@@ -111,7 +111,7 @@
       "slug": "beedrillite",
       "name": "Beedrillite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Beedrill holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Beedrill holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/beedrillite.png",
       "sprite_path": "images/items/beedrillite.png"
@@ -120,7 +120,7 @@
       "slug": "black-belt",
       "name": "Black Belt",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This belt helps with focus and boosts the power of the holder's Fighting-type moves.",
+      "effect": "This belt helps with focus and boosts the power of the holder's Fighting-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/blackbelt.png",
       "sprite_path": "images/items/black-belt.png"
@@ -129,7 +129,7 @@
       "slug": "black-glasses",
       "name": "Black Glasses",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves.",
+      "effect": "It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/blackglasses.png",
       "sprite_path": "images/items/black-glasses.png"
@@ -138,7 +138,7 @@
       "slug": "blastoisinite",
       "name": "Blastoisinite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Blastoise holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Blastoise holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/blastoisinite.png",
       "sprite_path": "images/items/blastoisinite.png"
@@ -147,7 +147,7 @@
       "slug": "bright-powder",
       "name": "Bright Powder",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves.",
+      "effect": "This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/brightpowder.png",
       "sprite_path": "images/items/bright-powder.png"
@@ -165,7 +165,7 @@
       "slug": "cameruptite",
       "name": "Cameruptite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Camerupt holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Camerupt holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/cameruptite.png",
       "sprite_path": "images/items/cameruptite.png"
@@ -174,7 +174,7 @@
       "slug": "chandelurite",
       "name": "Chandelurite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Chandelure holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/chandelurite.png",
       "sprite_path": "images/items/chandelurite.png"
@@ -183,7 +183,7 @@
       "slug": "charcoal",
       "name": "Charcoal",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a combustible fuel that boosts the power of the holder's Fire-type moves.",
+      "effect": "It's a combustible fuel that boosts the power of the holder's Fire-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/charcoal.png",
       "sprite_path": "images/items/charcoal.png"
@@ -192,7 +192,7 @@
       "slug": "charizardite-x",
       "name": "Charizardite X",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Charizard holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/charizarditex.png",
       "sprite_path": "images/items/charizardite-x.png"
@@ -201,7 +201,7 @@
       "slug": "charizardite-y",
       "name": "Charizardite Y",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Charizard holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/charizarditey.png",
       "sprite_path": "images/items/charizardite-y.png"
@@ -228,7 +228,7 @@
       "slug": "chesnaughtite",
       "name": "Chesnaughtite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Chesnaught holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Chesnaught from Pokémon Legends: Z-A",
       "sprite": "https://www.serebii.net/itemdex/sprites/chesnaughtite.png",
       "sprite_path": "images/items/chesnaughtite.png"
@@ -255,7 +255,7 @@
       "slug": "chimechite",
       "name": "Chimechite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Chimecho holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/chimechite.png",
       "sprite_path": "images/items/chimechite.png"
@@ -264,7 +264,7 @@
       "slug": "choice-scarf",
       "name": "Choice Scarf",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This curious scarf boosts the holder's Speed stat but only allows the use of a single move.",
+      "effect": "This curious scarf boosts the holder's Speed stat but only allows the use of a single move.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/choicescarf.png",
       "sprite_path": "images/items/choice-scarf.png"
@@ -282,7 +282,7 @@
       "slug": "clefablite",
       "name": "Clefablite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Clefable holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/clefablite.png",
       "sprite_path": "images/items/clefablite.png"
@@ -309,7 +309,7 @@
       "slug": "crabominite",
       "name": "Crabominite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Crabominable holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/crabominite.png",
       "sprite_path": "images/items/crabominite.png"
@@ -327,7 +327,7 @@
       "slug": "delphoxite",
       "name": "Delphoxite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Delphox holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Delphox from Pokémon Legends: Z-A",
       "sprite": "https://www.serebii.net/itemdex/sprites/delphoxite.png",
       "sprite_path": "images/items/delphoxite.png"
@@ -336,7 +336,7 @@
       "slug": "dragon-fang",
       "name": "Dragon Fang",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This hard, sharp fang boosts the power of the holder's Dragon-type moves.",
+      "effect": "This hard, sharp fang boosts the power of the holder's Dragon-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/dragonfang.png",
       "sprite_path": "images/items/dragon-fang.png"
@@ -354,7 +354,7 @@
       "slug": "dragoninite",
       "name": "Dragoninite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Dragonite holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/dragoninite.png",
       "sprite_path": "images/items/dragoninite.png"
@@ -363,7 +363,7 @@
       "slug": "drampanite",
       "name": "Drampanite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Drampa holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/drampanite.png",
       "sprite_path": "images/items/drampanite.png"
@@ -381,7 +381,7 @@
       "slug": "emboarite",
       "name": "Emboarite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Emboar holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/emboarite.png",
       "sprite_path": "images/items/emboarite.png"
@@ -390,7 +390,7 @@
       "slug": "excadrite",
       "name": "Excadrite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle.",
+      "effect": "An Excadrill holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/excadrite.png",
       "sprite_path": "images/items/excadrite.png"
@@ -399,7 +399,7 @@
       "slug": "fairy-feather",
       "name": "Fairy Feather",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
+      "effect": "This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/fairyfeather.png",
       "sprite_path": "images/items/fairy-feather.png"
@@ -417,7 +417,7 @@
       "slug": "feraligite",
       "name": "Feraligite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Feraligatr holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/feraligite.png",
       "sprite_path": "images/items/feraligite.png"
@@ -444,7 +444,7 @@
       "slug": "floettite",
       "name": "Floettite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A special Floette holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Floette Eternal Flower from Pokémon Legends: Z-A",
       "sprite": "https://www.serebii.net/itemdex/sprites/floettite.png",
       "sprite_path": "images/items/floettite.png"
@@ -462,7 +462,7 @@
       "slug": "focus-band",
       "name": "Focus Band",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP.",
+      "effect": "When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/focusband.png",
       "sprite_path": "images/items/focus-band.png"
@@ -471,7 +471,7 @@
       "slug": "focus-sash",
       "name": "Focus Sash",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once.",
+      "effect": "If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/focussash.png",
       "sprite_path": "images/items/focus-sash.png"
@@ -480,7 +480,7 @@
       "slug": "froslassite",
       "name": "Froslassite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Froslass holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/froslassite.png",
       "sprite_path": "images/items/froslassite.png"
@@ -489,7 +489,7 @@
       "slug": "galladite",
       "name": "Galladite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gallade holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gallade holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/galladite.png",
       "sprite_path": "images/items/galladite.png"
@@ -498,7 +498,7 @@
       "slug": "garchompite",
       "name": "Garchompite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Garchomp holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Garchomp holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/garchompite.png",
       "sprite_path": "images/items/garchompite.png"
@@ -507,7 +507,7 @@
       "slug": "gardevoirite",
       "name": "Gardevoirite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gardevoir holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gardevoir holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/gardevoirite.png",
       "sprite_path": "images/items/gardevoirite.png"
@@ -516,7 +516,7 @@
       "slug": "gengarite",
       "name": "Gengarite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gengar holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gengar holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/gengarite.png",
       "sprite_path": "images/items/gengarite.png"
@@ -534,7 +534,7 @@
       "slug": "glalitite",
       "name": "Glalitite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Glalie holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Glalie holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/glalitite.png",
       "sprite_path": "images/items/glalitite.png"
@@ -543,7 +543,7 @@
       "slug": "glimmoranite",
       "name": "Glimmoranite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Glimmora holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/glimmoranite.png",
       "sprite_path": "images/items/glimmoranite.png"
@@ -552,7 +552,7 @@
       "slug": "golurkite",
       "name": "Golurkite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Golurk holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/golurkite.png",
       "sprite_path": "images/items/golurkite.png"
@@ -570,7 +570,7 @@
       "slug": "greninjite",
       "name": "Greninjite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Greninja holding this stone will be able to Mega Evolve during battle.",
       "location": "Deposit a Greninja from Pokémon Legends: Z-A",
       "sprite": "https://www.serebii.net/itemdex/sprites/greninjite.png",
       "sprite_path": "images/items/greninjite.png"
@@ -588,7 +588,7 @@
       "slug": "gyaradosite",
       "name": "Gyaradosite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Gyarados holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Gyarados holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/gyaradosite.png",
       "sprite_path": "images/items/gyaradosite.png"
@@ -606,7 +606,7 @@
       "slug": "hard-stone",
       "name": "Hard Stone",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a durable stone that boosts the power of the holder's Rock-type moves.",
+      "effect": "It's a durable stone that boosts the power of the holder's Rock-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/hardstone.png",
       "sprite_path": "images/items/hard-stone.png"
@@ -615,7 +615,7 @@
       "slug": "hawluchanite",
       "name": "Hawluchanite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Hawlucha holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/hawluchanite.png",
       "sprite_path": "images/items/hawluchanite.png"
@@ -624,7 +624,7 @@
       "slug": "heracronite",
       "name": "Heracronite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Heracross holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Heracross holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/heracronite.png",
       "sprite_path": "images/items/heracronite.png"
@@ -633,7 +633,7 @@
       "slug": "houndoominite",
       "name": "Houndoominite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Houndoom holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Houndoom holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/houndoominite.png",
       "sprite_path": "images/items/houndoominite.png"
@@ -651,7 +651,7 @@
       "slug": "kangaskhanite",
       "name": "Kangaskhanite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Kangaskhan holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Kangaskhan holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/kangaskhanite.png",
       "sprite_path": "images/items/kangaskhanite.png"
@@ -678,7 +678,7 @@
       "slug": "king-s-rock",
       "name": "King's Rock",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack.",
+      "effect": "It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/king'srock.png",
       "sprite_path": "images/items/king-s-rock.png"
@@ -687,7 +687,7 @@
       "slug": "leftovers",
       "name": "Leftovers",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It slowly but steadily restores the holder's HP.",
+      "effect": "It slowly but steadily restores the holder's HP.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/leftovers.png",
       "sprite_path": "images/items/leftovers.png"
@@ -705,7 +705,7 @@
       "slug": "light-ball",
       "name": "Light Ball",
       "category": "Hold Items",
-      "effect": "An item to be held by Pikachu. It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats.",
+      "effect": "It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats.",
       "location": "Shop 1000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/lightball.png",
       "sprite_path": "images/items/light-ball.png"
@@ -714,7 +714,7 @@
       "slug": "lopunnite",
       "name": "Lopunnite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Lopunny holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Lopunny holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/lopunnite.png",
       "sprite_path": "images/items/lopunnite.png"
@@ -723,7 +723,7 @@
       "slug": "lucarionite",
       "name": "Lucarionite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Lucario holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Lucario holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/lucarionite.png",
       "sprite_path": "images/items/lucarionite.png"
@@ -741,7 +741,7 @@
       "slug": "magnet",
       "name": "Magnet",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a powerful magnet that boosts the power of the holder's Electric-type moves.",
+      "effect": "It's a powerful magnet that boosts the power of the holder's Electric-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/magnet.png",
       "sprite_path": "images/items/magnet.png"
@@ -750,7 +750,7 @@
       "slug": "manectite",
       "name": "Manectite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Manectric holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Manectric holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/manectite.png",
       "sprite_path": "images/items/manectite.png"
@@ -759,7 +759,7 @@
       "slug": "medichamite",
       "name": "Medichamite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Medicham holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Medicham holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/medichamite.png",
       "sprite_path": "images/items/medichamite.png"
@@ -768,7 +768,7 @@
       "slug": "meganiumite",
       "name": "Meganiumite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Meganium holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/meganiumite.png",
       "sprite_path": "images/items/meganiumite.png"
@@ -777,7 +777,7 @@
       "slug": "mental-herb",
       "name": "Mental Herb",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. The holder will be able to shake off move-binding effects to move freely— but only once.",
+      "effect": "The holder will be able to shake off move-binding effects to move freely— but only once.",
       "location": "Shop 1000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/mentalherb.png",
       "sprite_path": "images/items/mental-herb.png"
@@ -786,7 +786,7 @@
       "slug": "meowsticite",
       "name": "Meowsticite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Meowstic holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/meowsticite.png",
       "sprite_path": "images/items/meowsticite.png"
@@ -795,7 +795,7 @@
       "slug": "metal-coat",
       "name": "Metal Coat",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a special metallic coating that boosts the power of the holder's Steel-type moves.",
+      "effect": "It's a special metallic coating that boosts the power of the holder's Steel-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/metalcoat.png",
       "sprite_path": "images/items/metal-coat.png"
@@ -804,7 +804,7 @@
       "slug": "miracle-seed",
       "name": "Miracle Seed",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a seed imbued with life force that boosts the power of the holder's Grass-type moves.",
+      "effect": "It's a seed imbued with life force that boosts the power of the holder's Grass-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/miracleseed.png",
       "sprite_path": "images/items/miracle-seed.png"
@@ -813,7 +813,7 @@
       "slug": "mystic-water",
       "name": "Mystic Water",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This teardrop-shaped gem boosts the power of the holder's Water-type moves.",
+      "effect": "This teardrop-shaped gem boosts the power of the holder's Water-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/mysticwater.png",
       "sprite_path": "images/items/mystic-water.png"
@@ -822,7 +822,7 @@
       "slug": "never-melt-ice",
       "name": "Never-Melt Ice",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves.",
+      "effect": "It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/never-meltice.png",
       "sprite_path": "images/items/never-melt-ice.png"
@@ -894,7 +894,7 @@
       "slug": "pidgeotite",
       "name": "Pidgeotite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Pidgeot holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Pidgeot holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/pidgeotite.png",
       "sprite_path": "images/items/pidgeotite.png"
@@ -903,7 +903,7 @@
       "slug": "pinsirite",
       "name": "Pinsirite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Pinsir holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Pinsir holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/pinsirite.png",
       "sprite_path": "images/items/pinsirite.png"
@@ -912,7 +912,7 @@
       "slug": "poison-barb",
       "name": "Poison Barb",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This small poisonous barb boosts the power of the holder's Poison-type moves.",
+      "effect": "This small poisonous barb boosts the power of the holder's Poison-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/poisonbarb.png",
       "sprite_path": "images/items/poison-barb.png"
@@ -939,7 +939,7 @@
       "slug": "quick-claw",
       "name": "Quick Claw",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This light, sharp claw lets the holder occasionally unleash a move faster than it usually would.",
+      "effect": "This light, sharp claw lets the holder occasionally unleash a move faster than it usually would.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/quickclaw.png",
       "sprite_path": "images/items/quick-claw.png"
@@ -993,7 +993,7 @@
       "slug": "sablenite",
       "name": "Sablenite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Sableye holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Sableye holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/sablenite.png",
       "sprite_path": "images/items/sablenite.png"
@@ -1002,7 +1002,7 @@
       "slug": "scizorite",
       "name": "Scizorite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Scizor holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Scizor holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/scizorite.png",
       "sprite_path": "images/items/scizorite.png"
@@ -1011,7 +1011,7 @@
       "slug": "scope-lens",
       "name": "Scope Lens",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
+      "effect": "It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
       "location": "Shop 1000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/scopelens.png",
       "sprite_path": "images/items/scope-lens.png"
@@ -1020,7 +1020,7 @@
       "slug": "scovillainite",
       "name": "Scovillainite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Scovillain holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/scovillainite.png",
       "sprite_path": "images/items/scovillainite.png"
@@ -1029,7 +1029,7 @@
       "slug": "sharp-beak",
       "name": "Sharp Beak",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a long, sharp beak that boosts the power of the holder's Flying-type moves.",
+      "effect": "It's a long, sharp beak that boosts the power of the holder's Flying-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/sharpbeak.png",
       "sprite_path": "images/items/sharp-beak.png"
@@ -1038,7 +1038,7 @@
       "slug": "sharpedonite",
       "name": "Sharpedonite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Sharpedo holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Sharpedo holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/sharpedonite.png",
       "sprite_path": "images/items/sharpedonite.png"
@@ -1047,7 +1047,7 @@
       "slug": "shell-bell",
       "name": "Shell Bell",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. The holder restores a little HP to itself every time it inflicts damage with an attack.",
+      "effect": "The holder restores a little HP to itself every time it inflicts damage with an attack.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/shellbell.png",
       "sprite_path": "images/items/shell-bell.png"
@@ -1065,7 +1065,7 @@
       "slug": "silk-scarf",
       "name": "Silk Scarf",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a sumptuous scarf that boosts the power of the holder's Normal-type moves.",
+      "effect": "It's a sumptuous scarf that boosts the power of the holder's Normal-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/silkscarf.png",
       "sprite_path": "images/items/silk-scarf.png"
@@ -1074,7 +1074,7 @@
       "slug": "silver-powder",
       "name": "Silver Powder",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a shiny silver powder that boosts the power of the holder's Bug-type moves.",
+      "effect": "It's a shiny silver powder that boosts the power of the holder's Bug-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/silverpowder.png",
       "sprite_path": "images/items/silver-powder.png"
@@ -1092,7 +1092,7 @@
       "slug": "skarmorite",
       "name": "Skarmorite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Skarmory holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/skarmorite.png",
       "sprite_path": "images/items/skarmorite.png"
@@ -1101,7 +1101,7 @@
       "slug": "slowbronite",
       "name": "Slowbronite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however.",
+      "effect": "A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/slowbronite.png",
       "sprite_path": "images/items/slowbronite.png"
@@ -1110,7 +1110,7 @@
       "slug": "soft-sand",
       "name": "Soft Sand",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This loose, silky sand boosts the power of the holder's Ground-type moves.",
+      "effect": "This loose, silky sand boosts the power of the holder's Ground-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/softsand.png",
       "sprite_path": "images/items/soft-sand.png"
@@ -1119,7 +1119,7 @@
       "slug": "spell-tag",
       "name": "Spell Tag",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves.",
+      "effect": "It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/spelltag.png",
       "sprite_path": "images/items/spell-tag.png"
@@ -1128,7 +1128,7 @@
       "slug": "starminite",
       "name": "Starminite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Starmie holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/starminite.png",
       "sprite_path": "images/items/starminite.png"
@@ -1146,7 +1146,7 @@
       "slug": "steelixite",
       "name": "Steelixite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Steelix holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Steelix holding this stone will be able to Mega Evolve during battle.",
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/steelixite.png",
       "sprite_path": "images/items/steelixite.png"
@@ -1182,7 +1182,7 @@
       "slug": "twisted-spoon",
       "name": "Twisted Spoon",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves.",
+      "effect": "This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves.",
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/twistedspoon.png",
       "sprite_path": "images/items/twisted-spoon.png"
@@ -1191,7 +1191,7 @@
       "slug": "tyranitarite",
       "name": "Tyranitarite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Tyranitar holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Tyranitar holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/tyranitarite.png",
       "sprite_path": "images/items/tyranitarite.png"
@@ -1200,7 +1200,7 @@
       "slug": "venusaurite",
       "name": "Venusaurite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Venusaur holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Venusaur holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/venusaurite.png",
       "sprite_path": "images/items/venusaurite.png"
@@ -1209,7 +1209,7 @@
       "slug": "victreebelite",
       "name": "Victreebelite",
       "category": "Mega Stone",
-      "effect": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle.",
+      "effect": "A Victreebel holding this stone will be able to Mega Evolve during battle.",
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/victreebelite.png",
       "sprite_path": "images/items/victreebelite.png"
@@ -1236,7 +1236,7 @@
       "slug": "white-herb",
       "name": "White Herb",
       "category": "Hold Items",
-      "effect": "An item to be held by a Pokémon. It will restore any lowered stat in battle—but only once.",
+      "effect": "It will restore any lowered stat in battle—but only once.",
       "location": "Beginning",
       "sprite": "https://www.serebii.net/itemdex/sprites/whiteherb.png",
       "sprite_path": "images/items/white-herb.png"
