@@ -2,8 +2,9 @@
 
 Scrapes battle-relevant data for the mobile game **Pokémon Champions** from
 [Serebii.net](https://www.serebii.net/pokemonchampions/) and writes it to JSON
-files in [`data/`](./data) that can be shipped as-is to a Flutter team-builder
-app. A GitHub Action refreshes the data every Monday.
+files in [`data/`](./data) **plus** a tree of sprite/icon assets in
+[`images/`](./images), so a Flutter team-builder app can ship them as bundled
+assets. A GitHub Action refreshes both every Monday.
 
 ## What gets scraped
 
@@ -14,6 +15,7 @@ app. A GitHub Action refreshes the data every Monday.
 | [`/pokemonchampions/moves.shtml`](https://www.serebii.net/pokemonchampions/moves.shtml) | `data/moves.json` | Every move's type, category, power, accuracy, PP and effect |
 | [`/pokemonchampions/items.shtml`](https://www.serebii.net/pokemonchampions/items.shtml) | `data/items.json` | Hold items, Mega Stones, Berries and Misc items |
 | [`/pokemonchampions/newabilities.shtml`](https://www.serebii.net/pokemonchampions/newabilities.shtml) + [`/pokemonchampions/megaabilities.shtml`](https://www.serebii.net/pokemonchampions/megaabilities.shtml) | `data/abilities.json` | Champions-exclusive new abilities + which Pokémon gain which ability when Mega-Evolving |
+| Pokémon sprites, type icons, move-category icons, item sprites | `images/**` + `data/images.json` manifest | Local copies of every sprite used by the app |
 
 All numeric fields that aren't applicable (e.g. the power of a status move, or
 the accuracy of a never-miss move) are stored as `null`, **not** `0` or `100`.
@@ -174,6 +176,75 @@ Same rules as per-Pokémon moves: `power` is `null` for status moves, and
 }
 ```
 
+### Images and `data/images.json`
+
+All sprites are downloaded to [`images/`](./images) with a stable, human-readable
+layout:
+
+```
+images/
+├── pokemon/             # per form: 003.png, 003-m.png, 006-mx.png, 006-my.png, 026-a.png, …
+├── types/
+│   ├── normal.gif …     # inline type icons (18 GIFs, used in move/dex tables)
+│   └── icons/
+│       └── normal.png …  # SV-style type icons (18 PNGs, used in weakness tables)
+├── move-categories/
+│   ├── physical.png
+│   ├── special.png
+│   └── status.png        # Serebii calls this "other"; we rename it on disk
+└── items/                # one PNG per item slug, e.g. abomasite.png
+```
+
+After running the scraper, every consumer-facing JSON also gains a
+`sprite_path` field so the Flutter app can address images by a **relative repo
+path** (e.g. `images/pokemon/003.png`) without doing any URL resolution:
+
+- `data/pokemon.json` — each Pokémon gets `sprite_path` for its base form, and
+  every entry in `forms[]` gets its own. Charizard's `forms[]` points at
+  `006-mx.png` / `006-my.png` respectively — the X/Y order comes straight from
+  Serebii's listing.
+- `data/pokemon_listing.json` — every row carries its own `sprite_path`, so
+  regional variants (e.g. Alolan Raichu's `026-a.png`) are addressable.
+- `data/items.json` — each item gets `sprite_path`.
+
+The full manifest lives in `data/images.json`, including a summary block:
+
+```json
+{
+  "scraped_at": "...",
+  "summary": {
+    "pokemon": { "total": 258, "with_local_path": 258 },
+    "types": { "total": 18, "with_local_path": 18 },
+    "move_categories": { "total": 3, "with_local_path": 3 },
+    "items": { "total": 138, "with_local_path": 138 }
+  },
+  "pokemon": [
+    {
+      "slug": "charizard",
+      "name": "Mega Charizard",
+      "national_dex": 6,
+      "is_mega": true,
+      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/006-mx.png",
+      "sprite_path": "images/pokemon/006-mx.png",
+      "status": "downloaded"
+    }
+  ],
+  "types": [
+    { "type": "fire", "gif_path": "images/types/fire.gif", "icon_path": "images/types/icons/fire.png" }
+  ],
+  "move_categories": [
+    { "category": "physical", "sprite_path": "images/move-categories/physical.png" }
+  ],
+  "items": [
+    { "slug": "abomasite", "name": "Abomasite", "source_url": "...", "sprite_path": "images/items/abomasite.png", "status": "downloaded" }
+  ]
+}
+```
+
+The downloader is **idempotent** — anything already on disk is skipped — so
+weekly re-runs only pull newly-added sprites. Pass `--force-images` to re-fetch
+everything (e.g. if Serebii updates existing art).
+
 ### `data/abilities.json`
 
 ```json
@@ -214,7 +285,9 @@ Python 3.12+ is recommended.
 python -m venv .venv && source .venv/bin/activate
 pip install -r scraper/requirements.txt
 
-# Scrape everything (takes ~5–7 minutes due to the per-Pokémon sleep)
+# Scrape everything (takes ~7–10 minutes on a cold repo because of the
+# per-Pokémon sleep + all the first-time image downloads; subsequent runs
+# reuse images from disk and take ~5–7 minutes)
 python scraper/main.py
 
 # Faster iteration: scrape a single source
@@ -223,10 +296,19 @@ python scraper/main.py --only moves items abilities
 # Smoke-test the per-Pokémon parser on a handful of pages
 python scraper/main.py --only pokemon --pokemon-limit 10
 
+# Just (re-)download images. Idempotent: skips anything already on disk.
+python scraper/main.py --only images
+
+# Force-refresh every image (e.g. if Serebii updates existing art)
+python scraper/main.py --only images --force-images
+
 # Override the politeness delay between detail-page requests
 # (defaults to 1.5s + up to ~0.5s jitter; don't lower this unless you know
 # what you're doing — Serebii has been known to IP-ban aggressive scrapers)
 python scraper/main.py --pokemon-sleep 2.0
+
+# Override the per-image delay (default 0.25s + jitter)
+python scraper/main.py --only images --image-sleep 0.5
 ```
 
 Output JSON is written to [`./data`](./data) with `indent=2`.
@@ -273,9 +355,16 @@ pokemon-champions-data/
 │       └── pokemon.py
 ├── data/
 │   ├── abilities.json
+│   ├── images.json
 │   ├── items.json
 │   ├── moves.json
 │   ├── pokemon.json
 │   └── pokemon_listing.json
+├── images/
+│   ├── items/
+│   ├── move-categories/
+│   ├── pokemon/
+│   └── types/
+│       └── icons/
 └── README.md
 ```
