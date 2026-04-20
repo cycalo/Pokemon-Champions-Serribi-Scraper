@@ -14,11 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # v6 / v6 run on Node.js 24 (v4 / v5 used Node 20, deprecated on GH-hosted runners)
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
