@@ -1,372 +1,60 @@
-# Pokémon Champions — Serebii Data Scraper
+# Pokémon Champions — Serebii data scraper
 
-Scrapes battle-relevant data for the mobile game **Pokémon Champions** from
-[Serebii.net](https://www.serebii.net/pokemonchampions/) and writes it to JSON
-files in [`data/`](./data) **plus** a tree of sprite/icon assets in
-[`images/`](./images), so a Flutter team-builder app can ship them as bundled
-assets. A GitHub Action refreshes both every Monday.
+Scrapes **Pokémon Champions** data from [Serebii.net](https://www.serebii.net/pokemonchampions/) into [`data/`](./data) and downloads sprites and icons into [`images/`](./images), for use as bundled assets (e.g. in a Flutter app). A [GitHub Action](.github/workflows/scrape.yml) refreshes data **every Monday at 06:00 UTC** (and can be run manually).
 
-## What gets scraped
+## Outputs
 
-| Source page | Output file | What's in it |
+| Step | Files | Contents |
 | --- | --- | --- |
-| [`/pokemonchampions/pokemon.shtml`](https://www.serebii.net/pokemonchampions/pokemon.shtml) + every `/pokedex-champions/<slug>/` page | `data/pokemon.json` | Full pokédex: types, abilities, base stats, max-stat ranges, type matchups, Mega/alternate forms, full learnset |
-| same as above (raw listing only) | `data/pokemon_listing.json` | Flat list of every row on the dex page (one entry per form, including Megas) |
-| [`/pokemonchampions/moves.shtml`](https://www.serebii.net/pokemonchampions/moves.shtml) | `data/moves.json` | Every move's type, category, power, accuracy, PP and effect |
-| [`/pokemonchampions/items.shtml`](https://www.serebii.net/pokemonchampions/items.shtml) | `data/items.json` | Hold items, Mega Stones, Berries and Misc items |
-| [`/pokemonchampions/newabilities.shtml`](https://www.serebii.net/pokemonchampions/newabilities.shtml) + [`/pokemonchampions/megaabilities.shtml`](https://www.serebii.net/pokemonchampions/megaabilities.shtml) | `data/abilities.json` | Champions-exclusive new abilities + which Pokémon gain which ability when Mega-Evolving |
-| Pokémon sprites, type icons, move-category icons, item sprites | `images/**` + `data/images.json` manifest | Local copies of every sprite used by the app |
+| `pokemon` | `pokemon.json`, `pokemon_listing.json` | Full dex (types, abilities, stats, matchups, forms, learnsets) plus a flat listing (one row per form). Failures → `pokemon_failures.json`. |
+| `moves` | `moves.json` | All moves: type, category, power, accuracy, PP, effect. |
+| `items` | `items.json` | Hold items, Mega Stones, Berries, misc. |
+| `abilities` | `abilities.json` | Champions-only abilities and Mega ability mappings. |
+| `images` | `images/**`, `images.json` | Local sprites/icons and a manifest; adds `sprite_path` to Pokémon and item JSON when present. |
 
-All numeric fields that aren't applicable (e.g. the power of a status move, or
-the accuracy of a never-miss move) are stored as `null`, **not** `0` or `100`.
+Sources are the Champions section on Serebii (dex listing, per-species pages, moves/items/abilities pages, and asset URLs referenced from those pages).
 
-## Output schemas
+**Conventions:** N/A numeric fields (e.g. status move power, never-miss accuracy) are `null`, not `0` or `100`. Most top-level JSON includes `scraped_at` (ISO-8601) and `count` where it helps consumers check freshness.
 
-Every output file is wrapped with a `scraped_at` ISO-8601 timestamp and a
-`count` (where meaningful) so consumers can cheap-check freshness without
-parsing the whole file.
-
-### `data/pokemon.json`
-
-```json
-{
-  "scraped_at": "2026-04-19T19:57:00+00:00",
-  "count": 186,
-  "pokemon": [
-    {
-      "slug": "venusaur",
-      "name": "Venusaur",
-      "national_dex": 3,
-      "types": ["grass", "poison"],
-      "abilities": [
-        {
-          "slug": "overgrow",
-          "name": "Overgrow",
-          "url": "https://www.serebii.net/abilitydex/overgrow.shtml",
-          "description": "When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%."
-        }
-      ],
-      "stats": {
-        "base": {
-          "hp": 80, "attack": 82, "defense": 83,
-          "sp_attack": 100, "sp_defense": 100, "speed": 80
-        },
-        "total": 525,
-        "max_at_level_100": {
-          "hindering":  { "hp": "155 - 187", "attack": "91 - 120", "...": "..." },
-          "neutral":    { "hp": "155 - 187", "attack": "102 - 134", "...": "..." },
-          "beneficial": { "hp": "155 - 187", "attack": "112 - 147", "...": "..." }
-        }
-      },
-      "type_effectiveness": {
-        "normal": 1.0, "fire": 2.0, "water": 0.5, "...": "..."
-      },
-      "classification": "Seed Pokémon",
-      "height": "6'07\" 2m",
-      "weight": "220.5lbs 100kg",
-      "gender_ratio": "Male ♂ : 88% Female ♀ : 12%",
-      "other_names": "Japan : Fushigibana フシギバナ French : Florizarre ...",
-      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/003.png",
-      "forms": [
-        {
-          "name": "Mega Venusaur",
-          "types": ["grass", "poison"],
-          "abilities": [
-            { "slug": "thickfat", "name": "Thick Fat", "url": "...", "description": "Fire and Ice-type moves deal 50% damage." }
-          ],
-          "stats": { "base": { "hp": 80, "attack": 100, "...": "..." }, "total": 625, "max_at_level_100": { "...": "..." } },
-          "type_effectiveness": { "...": "..." },
-          "classification": "Seed Pokémon",
-          "height": "7'10\" 2.4m",
-          "weight": "342.8lbs 155.5kg"
-        }
-      ],
-      "moves": [
-        {
-          "slug": "bodyslam",
-          "name": "Body Slam",
-          "type": "normal",
-          "category": "physical",
-          "power": 85,
-          "accuracy": 100,
-          "pp": 16,
-          "effect_chance": 30,
-          "description": "Has a 30% chance of paralyzing the target…",
-          "url": "https://www.serebii.net/attackdex-champions/bodyslam.shtml"
-        }
-      ],
-      "page_url": "https://www.serebii.net/pokedex-champions/venusaur/"
-    }
-  ]
-}
-```
-
-Notes:
-
-- `category` is one of `"physical"`, `"special"`, `"status"`. Status moves have
-  `power: null`.
-- `accuracy` is `null` for moves that can't miss (Serebii marks them as `101`).
-- `type_effectiveness` is a map from attacking type to damage multiplier
-  (`0`, `0.25`, `0.5`, `1`, `2`, `4`). Values of `0` correspond to immunities.
-- `forms[]` contains Mega Evolutions and game-canonical alternate forms whose
-  types, stats or abilities differ from the base form.
-- `moves[]` is the complete learnset of the **base form**. Mega-form learnsets
-  are identical in practice so they're not duplicated.
-
-### `data/pokemon_listing.json`
-
-A thin wrapper around the raw dex-listing page, one entry per row (so both
-`Venusaur` and `Mega Venusaur` get their own entry). Useful if you want sprites
-for Megas without walking `pokemon.json`.
-
-```json
-{
-  "national_dex": 3,
-  "name": "Mega Venusaur",
-  "slug": "venusaur",
-  "page_url": "https://www.serebii.net/pokedex-champions/venusaur/",
-  "types": ["grass", "poison"],
-  "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/003-m.png",
-  "is_mega": true
-}
-```
-
-### `data/moves.json`
-
-```json
-{
-  "scraped_at": "...",
-  "count": 494,
-  "moves": [
-    {
-      "slug": "acidspray",
-      "name": "Acid Spray",
-      "type": "poison",
-      "category": "special",
-      "power": 40,
-      "accuracy": 100,
-      "pp": 20,
-      "effect": "Lowers the target's Sp. Def stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/acidspray.shtml"
-    }
-  ]
-}
-```
-
-Same rules as per-Pokémon moves: `power` is `null` for status moves, and
-`accuracy` is `null` for never-miss moves.
-
-### `data/items.json`
-
-```json
-{
-  "scraped_at": "...",
-  "count": 138,
-  "categories": ["Berries", "Hold Items", "Mega Stone", "Miscellaneous Items"],
-  "items": [
-    {
-      "slug": "abomasite",
-      "name": "Abomasite",
-      "category": "Mega Stone",
-      "effect": "An Abomasnow holding this stone will be able to Mega Evolve during battle.",
-      "location": "Mega Evolution Tutorial",
-      "sprite": "https://www.serebii.net/itemdex/sprites/abomasite.png"
-    }
-  ]
-}
-```
-
-For **Hold Items**, the scraper drops the repeated prefix *“An item to be held by a Pokémon.”* (and the single outlier *“An item to be held by Pikachu.”* for Light Ball). For **Mega Stones**, it drops *“One of a variety of mysterious Mega Stones.”* so `effect` starts with the Pokémon-specific sentence. Other categories are unchanged.
-
-### Images and `data/images.json`
-
-All sprites are downloaded to [`images/`](./images) with a stable, human-readable
-layout:
-
-```
-images/
-├── pokemon/             # per form: 003.png, 003-m.png, 006-mx.png, 006-my.png, 026-a.png, …
-├── types/
-│   ├── normal.gif …     # inline type icons (18 GIFs, used in move/dex tables)
-│   └── icons/
-│       └── normal.png …  # SV-style type icons (18 PNGs, used in weakness tables)
-├── move-categories/
-│   ├── physical.png
-│   ├── special.png
-│   └── status.png        # Serebii calls this "other"; we rename it on disk
-└── items/                # one PNG per item slug, e.g. abomasite.png
-```
-
-After running the scraper, every consumer-facing JSON also gains a
-`sprite_path` field so the Flutter app can address images by a **relative repo
-path** (e.g. `images/pokemon/003.png`) without doing any URL resolution:
-
-- `data/pokemon.json` — each Pokémon gets `sprite_path` for its base form, and
-  every entry in `forms[]` gets its own. Charizard's `forms[]` points at
-  `006-mx.png` / `006-my.png` respectively — the X/Y order comes straight from
-  Serebii's listing.
-- `data/pokemon_listing.json` — every row carries its own `sprite_path`, so
-  regional variants (e.g. Alolan Raichu's `026-a.png`) are addressable.
-- `data/items.json` — each item gets `sprite_path`.
-
-The full manifest lives in `data/images.json`, including a summary block:
-
-```json
-{
-  "scraped_at": "...",
-  "summary": {
-    "pokemon": { "total": 258, "with_local_path": 258 },
-    "types": { "total": 18, "with_local_path": 18 },
-    "move_categories": { "total": 3, "with_local_path": 3 },
-    "items": { "total": 138, "with_local_path": 138 }
-  },
-  "pokemon": [
-    {
-      "slug": "charizard",
-      "name": "Mega Charizard",
-      "national_dex": 6,
-      "is_mega": true,
-      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/006-mx.png",
-      "sprite_path": "images/pokemon/006-mx.png",
-      "status": "downloaded"
-    }
-  ],
-  "types": [
-    { "type": "fire", "gif_path": "images/types/fire.gif", "icon_path": "images/types/icons/fire.png" }
-  ],
-  "move_categories": [
-    { "category": "physical", "sprite_path": "images/move-categories/physical.png" }
-  ],
-  "items": [
-    { "slug": "abomasite", "name": "Abomasite", "source_url": "...", "sprite_path": "images/items/abomasite.png", "status": "downloaded" }
-  ]
-}
-```
-
-The downloader is **idempotent** — anything already on disk is skipped — so
-weekly re-runs only pull newly-added sprites. Pass `--force-images` to re-fetch
-everything (e.g. if Serebii updates existing art).
-
-### `data/abilities.json`
-
-```json
-{
-  "scraped_at": "...",
-  "new_abilities": [
-    {
-      "slug": "piercingdrill",
-      "name": "Piercing Drill",
-      "effect": "When the Pokémon uses contact moves…",
-      "new_in_champions": true,
-      "url": "https://www.serebii.net/abilitydex/piercingdrill.shtml"
-    }
-  ],
-  "mega_abilities": [
-    {
-      "national_dex": 36,
-      "pokemon": "Mega Clefable",
-      "pokemon_slug": "clefable",
-      "types": ["fairy"],
-      "abilities": [
-        { "slug": "magicbounce", "name": "Magic Bounce", "url": "..." }
-      ]
-    }
-  ]
-}
-```
-
-`mega_abilities[]` is the mapping from a Mega form to the ability it gains on
-Mega-Evolution. Cross-reference with `pokemon.json → forms[]` in a
-team-builder: when a player equips a Mega Stone, swap in the ability here.
+**Images:** Layout under `images/` is `pokemon/`, `types/` (+ `types/icons/`), `move-categories/`, `items/`. Downloads are **idempotent** (existing files skipped); use `--force-images` to re-fetch all. The `images` step needs existing `pokemon_listing.json` and `items.json` (run `pokemon` and `items` first, or a full run).
 
 ## Running locally
 
-Python 3.12+ is recommended.
+Python **3.12+** recommended.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r scraper/requirements.txt
 
-# Scrape everything (takes ~7–10 minutes on a cold repo because of the
-# per-Pokémon sleep + all the first-time image downloads; subsequent runs
-# reuse images from disk and take ~5–7 minutes)
 python scraper/main.py
-
-# Faster iteration: scrape a single source
-python scraper/main.py --only moves items abilities
-
-# Smoke-test the per-Pokémon parser on a handful of pages
-python scraper/main.py --only pokemon --pokemon-limit 10
-
-# Just (re-)download images. Idempotent: skips anything already on disk.
-python scraper/main.py --only images
-
-# Force-refresh every image (e.g. if Serebii updates existing art)
-python scraper/main.py --only images --force-images
-
-# Override the politeness delay between detail-page requests
-# (defaults to 1.5s + up to ~0.5s jitter; don't lower this unless you know
-# what you're doing — Serebii has been known to IP-ban aggressive scrapers)
-python scraper/main.py --pokemon-sleep 2.0
-
-# Override the per-image delay (default 0.25s + jitter)
-python scraper/main.py --only images --image-sleep 0.5
 ```
 
-Output JSON is written to [`./data`](./data) with `indent=2`.
+Useful flags:
 
-### How the scraper stays polite
+| Flag | Purpose |
+| --- | --- |
+| `--only pokemon moves …` | Subset of: `pokemon`, `moves`, `items`, `abilities`, `images` |
+| `--pokemon-limit N` | Only fetch N Pokémon detail pages (quick parser tests) |
+| `--pokemon-sleep SEC` | Delay between dex detail requests (default `1.5` s + jitter) |
+| `--image-sleep SEC` | Delay between image downloads (default `0.25` s) |
+| `--force-images` | Re-download images even if already on disk |
 
-- Every request uses the exact User-Agent Serebii requires:
-  `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36`
-- Between individual Pokémon page requests the scraper sleeps for a base of
-  **1.5s plus up to ~0.5s of random jitter** (so roughly 1.5–2.0s per page).
-  This is intentionally conservative: Serebii has historically rate-limited
-  or IP-banned aggressive scrapers. Override with `--pokemon-sleep` if needed.
-- Each per-Pokémon scrape is wrapped in `try/except`; failures are recorded to
-  `data/pokemon_failures.json` instead of crashing the run.
+Full runs are slow on a cold tree (many HTTP requests + first-time images); later runs reuse `images/` and are faster.
+
+**Politeness:** Requests use Serebii’s expected User-Agent. Default Pokémon pacing is conservative (~1.5–2 s between detail pages including jitter); lowering delays risks rate limits or blocks. Per-species errors are recorded in `pokemon_failures.json` without stopping the whole run.
 
 ## GitHub Actions
 
-The workflow in [`.github/workflows/scrape.yml`](./.github/workflows/scrape.yml):
+[`.github/workflows/scrape.yml`](.github/workflows/scrape.yml): schedule **Monday 06:00 UTC**, `workflow_dispatch`, Python 3.12, `pip install -r scraper/requirements.txt`, `python scraper/main.py`, then commit/push only if `data/` or `images/` changed (`contents: write`).
 
-- Runs every **Monday at 06:00 UTC** and also exposes a manual
-  `workflow_dispatch` trigger.
-- Uses **Python 3.12 on `ubuntu-latest`**.
-- Installs `scraper/requirements.txt`, runs `python scraper/main.py`, and only
-  commits + pushes if the files in `data/` actually changed.
-- Uses `permissions: contents: write` so the commit step can push back to the
-  repo.
-
-## Repo layout
+## Layout
 
 ```
-pokemon-champions-data/
-├── .github/
-│   └── workflows/
-│       └── scrape.yml
-├── scraper/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── scrapers/
-│       ├── __init__.py
-│       ├── _utils.py
-│       ├── abilities.py
-│       ├── items.py
-│       ├── moves.py
-│       └── pokemon.py
-├── data/
-│   ├── abilities.json
-│   ├── images.json
-│   ├── items.json
-│   ├── moves.json
-│   ├── pokemon.json
-│   └── pokemon_listing.json
-├── images/
-│   ├── items/
-│   ├── move-categories/
-│   ├── pokemon/
-│   └── types/
-│       └── icons/
+├── .github/workflows/scrape.yml
+├── scraper/           # main.py, requirements.txt, scrapers/
+├── data/              # *.json outputs
+├── images/            # downloaded assets
 └── README.md
 ```
+
+For field-level structure, open the JSON under `data/` or read the scrapers under `scraper/scrapers/`.
