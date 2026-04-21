@@ -225,16 +225,13 @@ def _parse_weakness_table(table: Tag) -> Optional[dict[str, float]]:
 
 
 def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
-    """Parse the 'Stats' dextable including base stats and max-level ranges."""
+    """Parse the 'Stats' dextable: Champions uses base stats only (no levels on-page)."""
     rows = table.find_all("tr", recursive=False)
-    # Expect: caption row, stat label row (HP/Atk/...), base stat row, then up to 3 max-stat rows.
     if len(rows) < 3:
         return None
 
-    # Find the row containing stat labels.
     label_row = None
     base_row = None
-    max_rows: list[Tag] = []
     for row in rows:
         cells = row.find_all(["td", "th"], recursive=False)
         cell_texts = [clean_text(c) for c in cells]
@@ -245,8 +242,6 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
         if label_row is not None and base_row is None and cells and "base stats" in cell_texts[0].lower():
             base_row = row
             continue
-        if label_row is not None and base_row is not None and cells and "max stats" in cell_texts[0].lower():
-            max_rows.append(row)
 
     if label_row is None or base_row is None:
         return None
@@ -254,7 +249,6 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
     label_cells = [clean_text(c).lower() for c in label_row.find_all(["td", "th"], recursive=False)]
     base_cells = [clean_text(c) for c in base_row.find_all(["td", "th"], recursive=False)]
 
-    # label_cells typically starts with an empty cell before HP. Align by matching known labels.
     label_to_key = {
         "hp": "hp",
         "attack": "attack",
@@ -276,33 +270,9 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
         sum(v for v in base_stats.values() if v is not None) or None
     )
 
-    max_stats: dict[str, dict[str, Optional[str]]] = {}
-    for mrow in max_rows:
-        cells = [clean_text(c) for c in mrow.find_all(["td", "th"], recursive=False)]
-        if not cells:
-            continue
-        label = cells[0]
-        nature_key = "hindering"
-        if "neutral" in label.lower():
-            nature_key = "neutral"
-        elif "beneficial" in label.lower():
-            nature_key = "beneficial"
-
-        # Values may start at index 1 or 2 depending on whether there's a "Standard" column.
-        offset = 1
-        if len(cells) > 7 and cells[1].lower() == "standard":
-            offset = 2
-
-        entry: dict[str, Optional[str]] = {}
-        for i, key in enumerate(STAT_KEYS):
-            if offset + i < len(cells):
-                entry[key] = cells[offset + i] or None
-        max_stats[nature_key] = entry
-
     return {
         "base": base_stats,
         "total": total,
-        "max_at_level_100": max_stats or None,
     }
 
 
