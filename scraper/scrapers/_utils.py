@@ -90,6 +90,20 @@ def parse_number(text: str) -> Optional[int]:
         return None
 
 
+def parse_stat_range_low(text: str) -> Optional[int]:
+    """First integer in a Serebii stat cell: '153 - 185' -> 153, '104' -> 104."""
+    text = (text or "").strip()
+    if not text or text in {"--", "-"}:
+        return None
+    m = re.match(r"^(\d[\d,]*)\s*-\s*(\d[\d,]*)", text.replace(",", ""))
+    if m:
+        try:
+            return int(m.group(1))
+        except ValueError:
+            return None
+    return parse_number(text)
+
+
 def slug_from_href(href: Optional[str]) -> Optional[str]:
     if not href:
         return None
