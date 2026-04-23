@@ -14,6 +14,7 @@ from ._utils import (
     fetch_html,
     make_soup,
     parse_number,
+    parse_stat_range_low,
     polite_sleep,
     slug_from_href,
 )
@@ -225,13 +226,19 @@ def _parse_weakness_table(table: Tag) -> Optional[dict[str, float]]:
 
 
 def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
-    """Parse the 'Stats' dextable: Champions uses base stats only (no levels on-page)."""
+    """Parse the Stats dextable for Pokémon Champions.
+
+    In-game stats match the **low** end of each range on the **Max Stats /
+    Neutral Nature** row (not the classic BST row). If that row is missing,
+    fall back to the traditional Base Stats row.
+    """
     rows = table.find_all("tr", recursive=False)
     if len(rows) < 3:
         return None
 
     label_row = None
-    base_row = None
+    serebii_bst_row = None
+    neutral_max_row = None
     for row in rows:
         cells = row.find_all(["td", "th"], recursive=False)
         cell_texts = [clean_text(c) for c in cells]
@@ -239,15 +246,17 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
         if "hp" in lowered and "attack" in lowered and label_row is None:
             label_row = row
             continue
-        if label_row is not None and base_row is None and cells and "base stats" in cell_texts[0].lower():
-            base_row = row
-            continue
+        if label_row is not None and cells:
+            c0 = cell_texts[0].lower()
+            if serebii_bst_row is None and "base stats" in c0:
+                serebii_bst_row = row
+                continue
+            if "max stats" in c0 and "neutral" in c0:
+                neutral_max_row = row
+                continue
 
-    if label_row is None or base_row is None:
+    if label_row is None:
         return None
-
-    label_cells = [clean_text(c).lower() for c in label_row.find_all(["td", "th"], recursive=False)]
-    base_cells = [clean_text(c) for c in base_row.find_all(["td", "th"], recursive=False)]
 
     label_to_key = {
         "hp": "hp",
@@ -259,21 +268,41 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
     }
 
     base_stats: dict[str, Optional[int]] = {k: None for k in STAT_KEYS}
-    for label, value in zip(label_cells, base_cells):
-        key = label_to_key.get(label)
-        if key is not None:
-            base_stats[key] = parse_number(value)
 
-    total_text = base_cells[0] if base_cells else ""
-    total_match = re.search(r"Total:\s*(\d+)", total_text)
-    total = int(total_match.group(1)) if total_match else (
-        sum(v for v in base_stats.values() if v is not None) or None
-    )
+    if neutral_max_row is not None:
+        cells = [clean_text(c) for c in neutral_max_row.find_all(["td", "th"], recursive=False)]
+        offset = 2 if len(cells) > 7 and cells[1].lower() == "standard" else 1
+        for i, key in enumerate(STAT_KEYS):
+            if offset + i < len(cells):
+                base_stats[key] = parse_stat_range_low(cells[offset + i])
+    elif serebii_bst_row is not None:
+        label_cells = [clean_text(c).lower() for c in label_row.find_all(["td", "th"], recursive=False)]
+        bst_cells = [clean_text(c) for c in serebii_bst_row.find_all(["td", "th"], recursive=False)]
+        for label, value in zip(label_cells, bst_cells):
+            key = label_to_key.get(label)
+            if key is not None:
+                base_stats[key] = parse_number(value)
+    else:
+        return None
+
+    total = sum(v for v in base_stats.values() if v is not None) or None
 
     return {
         "base": base_stats,
         "total": total,
     }
+
+
+def _stats_variant_form_title(table: Tag) -> Optional[str]:
+    """If this is a secondary stats block (e.g. 'Stats - Galarian Slowking'), return the subtitle."""
+    for cell in table.find_all(["td", "th"], class_="fooevo", recursive=True):
+        raw = clean_text(cell).strip()
+        m = re.match(r"(?i)stats\s*-\s*(.+)", raw)
+        if m:
+            title = m.group(1).strip()
+            # Serebii uses 'Stats - ' with nothing after for some Megas; do not start a new form group.
+            return title or None
+    return None
 
 
 KNOWN_SECTION_HEADS = {
@@ -452,16 +481,20 @@ def _parse_moves_table(table: Tag) -> list[dict[str, Any]]:
 def _split_into_forms(tables: list[Tag]) -> list[tuple[Optional[str], list[Tag]]]:
     """Split the dextables into (form_title or None, tables) groups.
 
-    The first group covers the base Pokémon (title=None). Any subsequent group
-    starts at a form-caption table like 'Mega Venusaur'.
+    The first group covers the base Pokémon (title=None). A new group starts at
+    a form-caption table (e.g. Mega) or at a ``Stats - <variant>`` dextable
+    (e.g. Galarian Slowking on the same page as the standard form).
     """
     groups: list[tuple[Optional[str], list[Tag]]] = [(None, [])]
     for table in tables:
         form_title = _is_form_caption(table)
         if form_title:
             groups.append((form_title, []))
-        else:
-            groups[-1][1].append(table)
+        elif _classify_dextable(table) == "stats":
+            stats_variant = _stats_variant_form_title(table)
+            if stats_variant:
+                groups.append((stats_variant, []))
+        groups[-1][1].append(table)
     # Strip empty groups.
     return [g for g in groups if g[1]]
 

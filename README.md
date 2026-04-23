@@ -14,7 +14,7 @@ Scrapes **Pokémon Champions** data from [Serebii.net](https://www.serebii.net/p
 
 Sources are the Champions section on Serebii (dex listing, per-species pages, moves/items/abilities pages, and asset URLs referenced from those pages).
 
-**Conventions:** N/A numeric fields (e.g. status move power, never-miss accuracy) are `null`, not `0` or `100`. Most top-level JSON includes `scraped_at` (ISO-8601) and `count` where it helps consumers check freshness. In `pokemon.json`, each `stats` object has **`base`** (the six base stats plus **`total`**) only; Serebii’s level-100 max-stat rows are not scraped, since Champions does not use levels.
+**Conventions:** N/A numeric fields (e.g. status move power, never-miss accuracy) are `null`, not `0` or `100`. Most top-level JSON includes `scraped_at` (ISO-8601) and `count` where it helps consumers check freshness. In `pokemon.json`, each `stats` object has **`base`** (six integers) and **`total`** (their sum). Those six values are the **low** end of each range on Serebii’s **Max Stats — Neutral Nature** row (what Champions uses as combat stats), not the small “Base Stats” BST row on the page.
 
 **Images:** Layout under `images/` is `pokemon/`, `types/` (+ `types/icons/`), `move-categories/`, `items/`. Downloads are **idempotent** (existing files skipped); use `--force-images` to re-fetch all. The `images` step needs existing `pokemon_listing.json` and `items.json` (run `pokemon` and `items` first, or a full run).
 

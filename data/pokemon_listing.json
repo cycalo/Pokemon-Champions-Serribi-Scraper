@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-21T20:08:58+00:00",
+  "scraped_at": "2026-04-23T01:18:56+00:00",
   "count": 258,
   "entries": [
     {
@@ -12,8 +12,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/003.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/003.png"
+      "is_mega": false
     },
     {
       "national_dex": 3,
@@ -25,8 +24,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/003-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/003-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 6,
@@ -38,8 +36,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/006.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/006.png"
+      "is_mega": false
     },
     {
       "national_dex": 6,
@@ -51,8 +48,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/006-mx.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/006-mx.png"
+      "is_mega": true
     },
     {
       "national_dex": 6,
@@ -64,8 +60,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/006-my.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/006-my.png"
+      "is_mega": true
     },
     {
       "national_dex": 9,
@@ -76,8 +71,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/009.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/009.png"
+      "is_mega": false
     },
     {
       "national_dex": 9,
@@ -88,8 +82,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/009-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/009-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 15,
@@ -101,8 +94,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/015.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/015.png"
+      "is_mega": false
     },
     {
       "national_dex": 15,
@@ -114,8 +106,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/015-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/015-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 18,
@@ -127,8 +118,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/018.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/018.png"
+      "is_mega": false
     },
     {
       "national_dex": 18,
@@ -140,8 +130,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/018-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/018-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 24,
@@ -152,8 +141,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/024.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/024.png"
+      "is_mega": false
     },
     {
       "national_dex": 25,
@@ -164,8 +152,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/025.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/025.png"
+      "is_mega": false
     },
     {
       "national_dex": 26,
@@ -176,8 +163,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/026.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/026.png"
+      "is_mega": false
     },
     {
       "national_dex": 26,
@@ -189,8 +175,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/026-a.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/026-a.png"
+      "is_mega": false
     },
     {
       "national_dex": 36,
@@ -201,8 +186,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/036.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/036.png"
+      "is_mega": false
     },
     {
       "national_dex": 36,
@@ -214,8 +198,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/036-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/036-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 38,
@@ -226,8 +209,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/038.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/038.png"
+      "is_mega": false
     },
     {
       "national_dex": 38,
@@ -239,8 +221,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/038-a.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/038-a.png"
+      "is_mega": false
     },
     {
       "national_dex": 59,
@@ -251,8 +232,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/059.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/059.png"
+      "is_mega": false
     },
     {
       "national_dex": 59,
@@ -264,8 +244,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/059-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/059-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 65,
@@ -276,8 +255,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/065.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/065.png"
+      "is_mega": false
     },
     {
       "national_dex": 65,
@@ -288,8 +266,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/065-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/065-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 68,
@@ -300,8 +277,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/068.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/068.png"
+      "is_mega": false
     },
     {
       "national_dex": 71,
@@ -313,8 +289,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/071.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/071.png"
+      "is_mega": false
     },
     {
       "national_dex": 71,
@@ -326,8 +301,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/071-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/071-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 80,
@@ -339,8 +313,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/080.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/080.png"
+      "is_mega": false
     },
     {
       "national_dex": 80,
@@ -352,8 +325,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/080-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/080-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 80,
@@ -365,8 +337,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/080-g.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/080-g.png"
+      "is_mega": false
     },
     {
       "national_dex": 94,
@@ -378,8 +349,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/094.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/094.png"
+      "is_mega": false
     },
     {
       "national_dex": 94,
@@ -391,8 +361,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/094-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/094-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 115,
@@ -403,8 +372,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/115.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/115.png"
+      "is_mega": false
     },
     {
       "national_dex": 115,
@@ -415,8 +383,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/115-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/115-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 121,
@@ -428,8 +395,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/121.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/121.png"
+      "is_mega": false
     },
     {
       "national_dex": 121,
@@ -441,8 +407,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/121-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/121-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 127,
@@ -453,8 +418,7 @@
         "bug"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/127.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/127.png"
+      "is_mega": false
     },
     {
       "national_dex": 127,
@@ -466,8 +430,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/127-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/127-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 128,
@@ -478,8 +441,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/128.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/128.png"
+      "is_mega": false
     },
     {
       "national_dex": 128,
@@ -490,8 +452,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/128-p.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/128-p.png"
+      "is_mega": false
     },
     {
       "national_dex": 130,
@@ -503,8 +464,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/130.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/130.png"
+      "is_mega": false
     },
     {
       "national_dex": 130,
@@ -516,8 +476,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/130-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/130-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 132,
@@ -528,8 +487,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/132.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/132.png"
+      "is_mega": false
     },
     {
       "national_dex": 134,
@@ -540,8 +498,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/134.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/134.png"
+      "is_mega": false
     },
     {
       "national_dex": 135,
@@ -552,8 +509,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/135.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/135.png"
+      "is_mega": false
     },
     {
       "national_dex": 136,
@@ -564,8 +520,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/136.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/136.png"
+      "is_mega": false
     },
     {
       "national_dex": 142,
@@ -577,8 +532,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/142.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/142.png"
+      "is_mega": false
     },
     {
       "national_dex": 142,
@@ -590,8 +544,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/142-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/142-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 143,
@@ -602,8 +555,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/143.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/143.png"
+      "is_mega": false
     },
     {
       "national_dex": 149,
@@ -615,8 +567,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/149.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/149.png"
+      "is_mega": false
     },
     {
       "national_dex": 149,
@@ -628,8 +579,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/149-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/149-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 154,
@@ -640,8 +590,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/154.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/154.png"
+      "is_mega": false
     },
     {
       "national_dex": 154,
@@ -653,8 +602,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/154-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/154-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 157,
@@ -665,8 +613,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/157.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/157.png"
+      "is_mega": false
     },
     {
       "national_dex": 157,
@@ -678,8 +625,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/157-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/157-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 160,
@@ -690,8 +636,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/160.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/160.png"
+      "is_mega": false
     },
     {
       "national_dex": 160,
@@ -703,8 +648,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/160-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/160-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 168,
@@ -716,8 +660,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/168.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/168.png"
+      "is_mega": false
     },
     {
       "national_dex": 181,
@@ -728,8 +671,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/181.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/181.png"
+      "is_mega": false
     },
     {
       "national_dex": 181,
@@ -741,8 +683,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/181-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/181-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 184,
@@ -754,8 +695,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/184.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/184.png"
+      "is_mega": false
     },
     {
       "national_dex": 186,
@@ -766,8 +706,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/186.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/186.png"
+      "is_mega": false
     },
     {
       "national_dex": 196,
@@ -778,8 +717,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/196.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/196.png"
+      "is_mega": false
     },
     {
       "national_dex": 197,
@@ -790,8 +728,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/197.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/197.png"
+      "is_mega": false
     },
     {
       "national_dex": 199,
@@ -803,8 +740,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/199.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/199.png"
+      "is_mega": false
     },
     {
       "national_dex": 199,
@@ -816,8 +752,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/199-g.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/199-g.png"
+      "is_mega": false
     },
     {
       "national_dex": 205,
@@ -829,8 +764,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/205.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/205.png"
+      "is_mega": false
     },
     {
       "national_dex": 208,
@@ -842,8 +776,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/208.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/208.png"
+      "is_mega": false
     },
     {
       "national_dex": 208,
@@ -855,8 +788,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/208-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/208-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 212,
@@ -868,8 +800,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/212.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/212.png"
+      "is_mega": false
     },
     {
       "national_dex": 212,
@@ -881,8 +812,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/212-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/212-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 214,
@@ -894,8 +824,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/214.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/214.png"
+      "is_mega": false
     },
     {
       "national_dex": 214,
@@ -907,8 +836,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/214-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/214-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 227,
@@ -920,8 +848,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/227.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/227.png"
+      "is_mega": false
     },
     {
       "national_dex": 227,
@@ -933,8 +860,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/227-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/227-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 229,
@@ -946,8 +872,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/229.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/229.png"
+      "is_mega": false
     },
     {
       "national_dex": 229,
@@ -959,8 +884,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/229-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/229-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 248,
@@ -972,8 +896,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/248.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/248.png"
+      "is_mega": false
     },
     {
       "national_dex": 248,
@@ -985,8 +908,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/248-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/248-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 279,
@@ -998,8 +920,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/279.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/279.png"
+      "is_mega": false
     },
     {
       "national_dex": 282,
@@ -1011,8 +932,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/282.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/282.png"
+      "is_mega": false
     },
     {
       "national_dex": 282,
@@ -1024,8 +944,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/282-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/282-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 302,
@@ -1037,8 +956,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/302.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/302.png"
+      "is_mega": false
     },
     {
       "national_dex": 302,
@@ -1050,8 +968,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/302-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/302-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 306,
@@ -1063,8 +980,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/306.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/306.png"
+      "is_mega": false
     },
     {
       "national_dex": 306,
@@ -1075,8 +991,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/306-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/306-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 308,
@@ -1088,8 +1003,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/308.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/308.png"
+      "is_mega": false
     },
     {
       "national_dex": 308,
@@ -1101,8 +1015,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/308-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/308-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 310,
@@ -1113,8 +1026,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/310.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/310.png"
+      "is_mega": false
     },
     {
       "national_dex": 310,
@@ -1125,8 +1037,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/310-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/310-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 319,
@@ -1138,8 +1049,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/319.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/319.png"
+      "is_mega": false
     },
     {
       "national_dex": 319,
@@ -1151,8 +1061,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/319-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/319-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 323,
@@ -1164,8 +1073,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/323.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/323.png"
+      "is_mega": false
     },
     {
       "national_dex": 323,
@@ -1177,8 +1085,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/323-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/323-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 324,
@@ -1189,8 +1096,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/324.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/324.png"
+      "is_mega": false
     },
     {
       "national_dex": 334,
@@ -1202,8 +1108,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/334.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/334.png"
+      "is_mega": false
     },
     {
       "national_dex": 334,
@@ -1215,8 +1120,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/334-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/334-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 350,
@@ -1227,8 +1131,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/350.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/350.png"
+      "is_mega": false
     },
     {
       "national_dex": 351,
@@ -1239,8 +1142,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/351.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/351.png"
+      "is_mega": false
     },
     {
       "national_dex": 354,
@@ -1251,8 +1153,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/354.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/354.png"
+      "is_mega": false
     },
     {
       "national_dex": 354,
@@ -1263,8 +1164,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/354-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/354-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 358,
@@ -1275,8 +1175,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/358.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/358.png"
+      "is_mega": false
     },
     {
       "national_dex": 358,
@@ -1288,8 +1187,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/358-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/358-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 359,
@@ -1300,8 +1198,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/359.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/359.png"
+      "is_mega": false
     },
     {
       "national_dex": 359,
@@ -1312,8 +1209,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/359-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/359-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 362,
@@ -1324,8 +1220,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/362.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/362.png"
+      "is_mega": false
     },
     {
       "national_dex": 362,
@@ -1336,8 +1231,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/362-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/362-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 389,
@@ -1349,8 +1243,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/389.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/389.png"
+      "is_mega": false
     },
     {
       "national_dex": 392,
@@ -1362,8 +1255,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/392.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/392.png"
+      "is_mega": false
     },
     {
       "national_dex": 395,
@@ -1375,8 +1267,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/395.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/395.png"
+      "is_mega": false
     },
     {
       "national_dex": 405,
@@ -1387,8 +1278,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/405.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/405.png"
+      "is_mega": false
     },
     {
       "national_dex": 407,
@@ -1400,8 +1290,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/407.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/407.png"
+      "is_mega": false
     },
     {
       "national_dex": 409,
@@ -1412,8 +1301,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/409.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/409.png"
+      "is_mega": false
     },
     {
       "national_dex": 411,
@@ -1425,8 +1313,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/411.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/411.png"
+      "is_mega": false
     },
     {
       "national_dex": 428,
@@ -1437,8 +1324,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/428.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/428.png"
+      "is_mega": false
     },
     {
       "national_dex": 428,
@@ -1450,8 +1336,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/428-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/428-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 442,
@@ -1463,8 +1348,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/442.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/442.png"
+      "is_mega": false
     },
     {
       "national_dex": 445,
@@ -1476,8 +1360,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/445.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/445.png"
+      "is_mega": false
     },
     {
       "national_dex": 445,
@@ -1489,8 +1372,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/445-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/445-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 448,
@@ -1502,8 +1384,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/448.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/448.png"
+      "is_mega": false
     },
     {
       "national_dex": 448,
@@ -1515,8 +1396,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/448-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/448-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 450,
@@ -1527,8 +1407,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/450.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/450.png"
+      "is_mega": false
     },
     {
       "national_dex": 454,
@@ -1540,8 +1419,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/454.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/454.png"
+      "is_mega": false
     },
     {
       "national_dex": 460,
@@ -1553,8 +1431,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/460.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/460.png"
+      "is_mega": false
     },
     {
       "national_dex": 460,
@@ -1566,8 +1443,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/460-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/460-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 461,
@@ -1579,8 +1455,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/461.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/461.png"
+      "is_mega": false
     },
     {
       "national_dex": 464,
@@ -1592,8 +1467,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/464.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/464.png"
+      "is_mega": false
     },
     {
       "national_dex": 470,
@@ -1604,8 +1478,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/470.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/470.png"
+      "is_mega": false
     },
     {
       "national_dex": 471,
@@ -1616,8 +1489,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/471.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/471.png"
+      "is_mega": false
     },
     {
       "national_dex": 472,
@@ -1629,8 +1501,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/472.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/472.png"
+      "is_mega": false
     },
     {
       "national_dex": 473,
@@ -1642,8 +1513,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/473.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/473.png"
+      "is_mega": false
     },
     {
       "national_dex": 475,
@@ -1655,8 +1525,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/475.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/475.png"
+      "is_mega": false
     },
     {
       "national_dex": 475,
@@ -1668,8 +1537,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/475-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/475-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 478,
@@ -1681,8 +1549,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/478.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/478.png"
+      "is_mega": false
     },
     {
       "national_dex": 478,
@@ -1694,8 +1561,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/478-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/478-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 479,
@@ -1707,8 +1573,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/479.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/479.png"
+      "is_mega": false
     },
     {
       "national_dex": 497,
@@ -1719,8 +1584,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/497.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/497.png"
+      "is_mega": false
     },
     {
       "national_dex": 500,
@@ -1732,8 +1596,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/500.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/500.png"
+      "is_mega": false
     },
     {
       "national_dex": 500,
@@ -1745,8 +1608,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/500-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/500-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 503,
@@ -1757,8 +1619,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/503.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/503.png"
+      "is_mega": false
     },
     {
       "national_dex": 503,
@@ -1770,8 +1631,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/503-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/503-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 505,
@@ -1782,8 +1642,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/505.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/505.png"
+      "is_mega": false
     },
     {
       "national_dex": 510,
@@ -1794,8 +1653,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/510.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/510.png"
+      "is_mega": false
     },
     {
       "national_dex": 512,
@@ -1806,8 +1664,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/512.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/512.png"
+      "is_mega": false
     },
     {
       "national_dex": 514,
@@ -1818,8 +1675,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/514.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/514.png"
+      "is_mega": false
     },
     {
       "national_dex": 516,
@@ -1830,8 +1686,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/516.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/516.png"
+      "is_mega": false
     },
     {
       "national_dex": 530,
@@ -1843,8 +1698,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/530.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/530.png"
+      "is_mega": false
     },
     {
       "national_dex": 530,
@@ -1856,8 +1710,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/530-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/530-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 531,
@@ -1868,8 +1721,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/531.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/531.png"
+      "is_mega": false
     },
     {
       "national_dex": 531,
@@ -1881,8 +1733,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/531-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/531-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 534,
@@ -1893,8 +1744,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/534.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/534.png"
+      "is_mega": false
     },
     {
       "national_dex": 547,
@@ -1906,8 +1756,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/547.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/547.png"
+      "is_mega": false
     },
     {
       "national_dex": 553,
@@ -1919,8 +1768,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/553.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/553.png"
+      "is_mega": false
     },
     {
       "national_dex": 563,
@@ -1931,8 +1779,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/563.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/563.png"
+      "is_mega": false
     },
     {
       "national_dex": 569,
@@ -1943,8 +1790,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/569.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/569.png"
+      "is_mega": false
     },
     {
       "national_dex": 571,
@@ -1955,8 +1801,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/571.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/571.png"
+      "is_mega": false
     },
     {
       "national_dex": 571,
@@ -1968,8 +1813,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/571-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/571-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 579,
@@ -1980,8 +1824,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/579.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/579.png"
+      "is_mega": false
     },
     {
       "national_dex": 584,
@@ -1992,8 +1835,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/584.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/584.png"
+      "is_mega": false
     },
     {
       "national_dex": 587,
@@ -2005,8 +1847,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/587.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/587.png"
+      "is_mega": false
     },
     {
       "national_dex": 609,
@@ -2018,8 +1859,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/609.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/609.png"
+      "is_mega": false
     },
     {
       "national_dex": 609,
@@ -2031,8 +1871,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/609-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/609-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 614,
@@ -2043,8 +1882,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/614.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/614.png"
+      "is_mega": false
     },
     {
       "national_dex": 618,
@@ -2056,8 +1894,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/618.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/618.png"
+      "is_mega": false
     },
     {
       "national_dex": 618,
@@ -2069,8 +1906,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/618-g.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/618-g.png"
+      "is_mega": false
     },
     {
       "national_dex": 623,
@@ -2082,8 +1918,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/623.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/623.png"
+      "is_mega": false
     },
     {
       "national_dex": 623,
@@ -2095,8 +1930,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/623-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/623-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 635,
@@ -2108,8 +1942,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/635.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/635.png"
+      "is_mega": false
     },
     {
       "national_dex": 637,
@@ -2121,8 +1954,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/637.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/637.png"
+      "is_mega": false
     },
     {
       "national_dex": 652,
@@ -2134,8 +1966,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/652.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/652.png"
+      "is_mega": false
     },
     {
       "national_dex": 652,
@@ -2147,8 +1978,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/652-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/652-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 655,
@@ -2160,8 +1990,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/655.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/655.png"
+      "is_mega": false
     },
     {
       "national_dex": 655,
@@ -2173,8 +2002,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/655-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/655-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 658,
@@ -2186,8 +2014,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/658.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/658.png"
+      "is_mega": false
     },
     {
       "national_dex": 658,
@@ -2199,8 +2026,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/658-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/658-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 660,
@@ -2212,8 +2038,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/660.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/660.png"
+      "is_mega": false
     },
     {
       "national_dex": 663,
@@ -2225,8 +2050,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/663.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/663.png"
+      "is_mega": false
     },
     {
       "national_dex": 666,
@@ -2238,8 +2062,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/666.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/666.png"
+      "is_mega": false
     },
     {
       "national_dex": 670,
@@ -2250,8 +2073,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/670-e.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/670-e.png"
+      "is_mega": false
     },
     {
       "national_dex": 670,
@@ -2262,8 +2084,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/670-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/670-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 671,
@@ -2274,8 +2095,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/671.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/671.png"
+      "is_mega": false
     },
     {
       "national_dex": 675,
@@ -2287,8 +2107,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/675.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/675.png"
+      "is_mega": false
     },
     {
       "national_dex": 676,
@@ -2299,8 +2118,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/676.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/676.png"
+      "is_mega": false
     },
     {
       "national_dex": 678,
@@ -2311,8 +2129,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/678.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/678.png"
+      "is_mega": false
     },
     {
       "national_dex": 678,
@@ -2323,8 +2140,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/678-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/678-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 681,
@@ -2336,8 +2152,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/681.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/681.png"
+      "is_mega": false
     },
     {
       "national_dex": 683,
@@ -2348,8 +2163,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/683.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/683.png"
+      "is_mega": false
     },
     {
       "national_dex": 685,
@@ -2360,8 +2174,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/685.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/685.png"
+      "is_mega": false
     },
     {
       "national_dex": 693,
@@ -2372,8 +2185,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/693.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/693.png"
+      "is_mega": false
     },
     {
       "national_dex": 695,
@@ -2385,8 +2197,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/695.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/695.png"
+      "is_mega": false
     },
     {
       "national_dex": 697,
@@ -2398,8 +2209,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/697.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/697.png"
+      "is_mega": false
     },
     {
       "national_dex": 699,
@@ -2411,8 +2221,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/699.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/699.png"
+      "is_mega": false
     },
     {
       "national_dex": 700,
@@ -2423,8 +2232,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/700.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/700.png"
+      "is_mega": false
     },
     {
       "national_dex": 701,
@@ -2436,8 +2244,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/701.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/701.png"
+      "is_mega": false
     },
     {
       "national_dex": 701,
@@ -2449,8 +2256,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/701-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/701-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 702,
@@ -2462,8 +2268,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/702.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/702.png"
+      "is_mega": false
     },
     {
       "national_dex": 706,
@@ -2474,8 +2279,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/706.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/706.png"
+      "is_mega": false
     },
     {
       "national_dex": 706,
@@ -2487,8 +2291,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/706-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/706-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 707,
@@ -2500,8 +2303,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/707.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/707.png"
+      "is_mega": false
     },
     {
       "national_dex": 709,
@@ -2513,8 +2315,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/709.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/709.png"
+      "is_mega": false
     },
     {
       "national_dex": 711,
@@ -2526,8 +2327,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/711.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/711.png"
+      "is_mega": false
     },
     {
       "national_dex": 713,
@@ -2538,8 +2338,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/713.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/713.png"
+      "is_mega": false
     },
     {
       "national_dex": 713,
@@ -2551,8 +2350,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/713-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/713-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 715,
@@ -2564,8 +2362,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/715.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/715.png"
+      "is_mega": false
     },
     {
       "national_dex": 724,
@@ -2577,8 +2374,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/724.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/724.png"
+      "is_mega": false
     },
     {
       "national_dex": 724,
@@ -2590,8 +2386,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/724-h.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/724-h.png"
+      "is_mega": false
     },
     {
       "national_dex": 727,
@@ -2603,8 +2398,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/727.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/727.png"
+      "is_mega": false
     },
     {
       "national_dex": 730,
@@ -2616,8 +2410,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/730.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/730.png"
+      "is_mega": false
     },
     {
       "national_dex": 733,
@@ -2629,8 +2422,7 @@
         "flying"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/733.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/733.png"
+      "is_mega": false
     },
     {
       "national_dex": 740,
@@ -2642,8 +2434,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/740.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/740.png"
+      "is_mega": false
     },
     {
       "national_dex": 740,
@@ -2655,8 +2446,7 @@
         "ice"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/740-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/740-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 745,
@@ -2667,8 +2457,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/745.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/745.png"
+      "is_mega": false
     },
     {
       "national_dex": 748,
@@ -2680,8 +2469,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/748.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/748.png"
+      "is_mega": false
     },
     {
       "national_dex": 750,
@@ -2692,8 +2480,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/750.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/750.png"
+      "is_mega": false
     },
     {
       "national_dex": 752,
@@ -2705,8 +2492,7 @@
         "bug"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/752.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/752.png"
+      "is_mega": false
     },
     {
       "national_dex": 758,
@@ -2718,8 +2504,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/758.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/758.png"
+      "is_mega": false
     },
     {
       "national_dex": 763,
@@ -2730,8 +2515,7 @@
         "grass"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/763.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/763.png"
+      "is_mega": false
     },
     {
       "national_dex": 765,
@@ -2743,8 +2527,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/765.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/765.png"
+      "is_mega": false
     },
     {
       "national_dex": 766,
@@ -2755,8 +2538,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/766.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/766.png"
+      "is_mega": false
     },
     {
       "national_dex": 778,
@@ -2768,8 +2550,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/778.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/778.png"
+      "is_mega": false
     },
     {
       "national_dex": 780,
@@ -2781,8 +2562,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/780.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/780.png"
+      "is_mega": false
     },
     {
       "national_dex": 780,
@@ -2794,8 +2574,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/780-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/780-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 784,
@@ -2807,8 +2586,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/784.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/784.png"
+      "is_mega": false
     },
     {
       "national_dex": 823,
@@ -2820,8 +2598,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/823.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/823.png"
+      "is_mega": false
     },
     {
       "national_dex": 841,
@@ -2833,8 +2610,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/841.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/841.png"
+      "is_mega": false
     },
     {
       "national_dex": 842,
@@ -2846,8 +2622,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/842.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/842.png"
+      "is_mega": false
     },
     {
       "national_dex": 844,
@@ -2858,8 +2633,7 @@
         "ground"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/844.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/844.png"
+      "is_mega": false
     },
     {
       "national_dex": 855,
@@ -2870,8 +2644,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/855.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/855.png"
+      "is_mega": false
     },
     {
       "national_dex": 858,
@@ -2883,8 +2656,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/858.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/858.png"
+      "is_mega": false
     },
     {
       "national_dex": 866,
@@ -2896,8 +2668,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/866.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/866.png"
+      "is_mega": false
     },
     {
       "national_dex": 867,
@@ -2909,8 +2680,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/867.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/867.png"
+      "is_mega": false
     },
     {
       "national_dex": 869,
@@ -2921,8 +2691,7 @@
         "fairy"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/869.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/869.png"
+      "is_mega": false
     },
     {
       "national_dex": 877,
@@ -2934,8 +2703,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/877.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/877.png"
+      "is_mega": false
     },
     {
       "national_dex": 887,
@@ -2947,8 +2715,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/887.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/887.png"
+      "is_mega": false
     },
     {
       "national_dex": 899,
@@ -2960,8 +2727,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/899.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/899.png"
+      "is_mega": false
     },
     {
       "national_dex": 900,
@@ -2973,8 +2739,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/900.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/900.png"
+      "is_mega": false
     },
     {
       "national_dex": 902,
@@ -2986,8 +2751,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/902.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/902.png"
+      "is_mega": false
     },
     {
       "national_dex": 903,
@@ -2999,8 +2763,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/903.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/903.png"
+      "is_mega": false
     },
     {
       "national_dex": 908,
@@ -3012,8 +2775,7 @@
         "dark"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/908.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/908.png"
+      "is_mega": false
     },
     {
       "national_dex": 911,
@@ -3025,8 +2787,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/911.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/911.png"
+      "is_mega": false
     },
     {
       "national_dex": 914,
@@ -3038,8 +2799,7 @@
         "fighting"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/914.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/914.png"
+      "is_mega": false
     },
     {
       "national_dex": 925,
@@ -3050,8 +2810,7 @@
         "normal"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/925.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/925.png"
+      "is_mega": false
     },
     {
       "national_dex": 934,
@@ -3062,8 +2821,7 @@
         "rock"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/934.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/934.png"
+      "is_mega": false
     },
     {
       "national_dex": 936,
@@ -3075,8 +2833,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/936.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/936.png"
+      "is_mega": false
     },
     {
       "national_dex": 937,
@@ -3088,8 +2845,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/937.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/937.png"
+      "is_mega": false
     },
     {
       "national_dex": 939,
@@ -3100,8 +2856,7 @@
         "electric"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/939.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/939.png"
+      "is_mega": false
     },
     {
       "national_dex": 952,
@@ -3113,8 +2868,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/952.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/952.png"
+      "is_mega": false
     },
     {
       "national_dex": 952,
@@ -3126,8 +2880,7 @@
         "fire"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/952-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/952-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 956,
@@ -3138,8 +2891,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/956.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/956.png"
+      "is_mega": false
     },
     {
       "national_dex": 959,
@@ -3151,8 +2903,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/959.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/959.png"
+      "is_mega": false
     },
     {
       "national_dex": 964,
@@ -3163,8 +2914,7 @@
         "water"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/964.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/964.png"
+      "is_mega": false
     },
     {
       "national_dex": 968,
@@ -3175,8 +2925,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/968.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/968.png"
+      "is_mega": false
     },
     {
       "national_dex": 970,
@@ -3188,8 +2937,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/970.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/970.png"
+      "is_mega": false
     },
     {
       "national_dex": 970,
@@ -3201,8 +2949,7 @@
         "poison"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/970-m.png",
-      "is_mega": true,
-      "sprite_path": "images/pokemon/970-m.png"
+      "is_mega": true
     },
     {
       "national_dex": 981,
@@ -3214,8 +2961,7 @@
         "psychic"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/981.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/981.png"
+      "is_mega": false
     },
     {
       "national_dex": 983,
@@ -3227,8 +2973,7 @@
         "steel"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/983.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/983.png"
+      "is_mega": false
     },
     {
       "national_dex": 1013,
@@ -3240,8 +2985,7 @@
         "ghost"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/1013.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/1013.png"
+      "is_mega": false
     },
     {
       "national_dex": 1018,
@@ -3253,8 +2997,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/1018.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/1018.png"
+      "is_mega": false
     },
     {
       "national_dex": 1019,
@@ -3266,8 +3009,7 @@
         "dragon"
       ],
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/1019.png",
-      "is_mega": false,
-      "sprite_path": "images/pokemon/1019.png"
+      "is_mega": false
     }
   ]
 }
