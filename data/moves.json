@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-23T01:24:15+00:00",
+  "scraped_at": "2026-04-27T00:11:02+00:00",
   "count": 494,
   "moves": [
     {
@@ -5114,7 +5114,7 @@
       "power": 20,
       "accuracy": 90,
       "pp": 12,
-      "effect": "The user attacks 3 times in a rowÃ¢â¬âfirst with a power of 20 then with a power of 40 then with a power of 60. The attack ends if the user misses.",
+      "effect": "The user attacks 3 times in a row-first with a power of 20 then with a power of 40 then with a power of 60. The attack ends if the user misses.",
       "url": "https://www.serebii.net/attackdex-champions/tripleaxel.shtml"
     },
     {
