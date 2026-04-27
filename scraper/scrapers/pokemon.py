@@ -356,6 +356,72 @@ def _is_form_caption(table: Tag) -> Optional[str]:
     return title
 
 
+def _is_regional_form_standard_moves_table(table: Tag) -> bool:
+    """Serebii uses headers like *Alola Form Standard Moves* / *Galarian Form Standard Moves* for regional learnsets.
+
+    The plain *Standard Moves* table is the default species learnset; these regional tables are a separate
+    dextable and must be classified as *moves* (not *unknown*).
+    """
+    heads = [clean_text(h) for h in table.find_all("td", class_="fooevo", recursive=True)]
+    h0 = (heads[0] or "").lower() if heads else ""
+    if h0 == "standard moves":
+        return False
+    if "standard moves" in h0 and "form" in h0:
+        return True
+    if "form standard moves" in h0:
+        return True
+    return False
+
+
+def _is_plain_base_stats_dextable(table: Tag) -> bool:
+    """True for the dextable headed exactly ``Stats`` (the default form), not ``Stats - Alolan *`` style."""
+    for cell in table.find_all(["td", "th"], class_="fooevo", recursive=True):
+        raw = clean_text(cell)
+        if re.match(r"(?i)^stats\s*$", raw):
+            return True
+    return False
+
+
+def _find_regional_learnset_split(
+    dextables: list[Tag],
+) -> Optional[tuple[int, int, int]]:
+    """If the page has a regional *Form Standard Moves* block, return (r, b, a) indices in ``dextables``.
+
+    Serebii interleaves: ... default learnset, regional learnset, **Stats** (default), **Stats - Regional**.
+    The old parser kept regional moves in the first form group, wrongfully merging learnsets. We split the
+    first group at ``r`` and pull the plain **Stats** row (``b``) into the default form only.
+    """
+    for r, table in enumerate(dextables):
+        if not _is_regional_form_standard_moves_table(table):
+            continue
+        if r + 2 < len(dextables):
+            t_stats = dextables[r + 1]
+            t_regional = dextables[r + 2]
+            if _is_plain_base_stats_dextable(t_stats) and _stats_variant_form_title(t_regional):
+                return (r, r + 1, r + 2)
+    return None
+
+
+def _resplit_forms_for_regional_learnsets(
+    dextables: list[Tag],
+) -> list[tuple[Optional[str], list[Tag]]]:
+    """Split the default form group when Serebii gives a second learnset (Alola / Galar, etc.) on the same page."""
+    tri = _find_regional_learnset_split(dextables)
+    if not tri:
+        return _split_into_forms(dextables)
+    r, b, a = tri
+    variant_title = _stats_variant_form_title(dextables[a])
+    kanto_tables = dextables[0:r] + [dextables[b]]
+    regional_tables = [dextables[r], dextables[a]]
+    tail = dextables[a + 1 :]
+    groups: list[tuple[Optional[str], list[Tag]]] = [
+        (None, kanto_tables),
+        (variant_title, regional_tables),
+    ]
+    groups.extend(_split_into_forms(tail))
+    return [g for g in groups if g[1]]
+
+
 def _classify_dextable(table: Tag) -> str:
     """Label a dextable by what content it holds."""
     heads = [clean_text(h) for h in table.find_all("td", class_="fooevo", recursive=True)]
@@ -366,7 +432,7 @@ def _classify_dextable(table: Tag) -> str:
         return "picture"
     if head_low.startswith("stats"):
         return "stats"
-    if head_low.startswith("standard moves"):
+    if head_low.startswith("standard moves") or _is_regional_form_standard_moves_table(table):
         return "moves"
     if head_low == "evolutionary chain":
         return "evolution"
@@ -532,6 +598,26 @@ def _form_from_group(title: Optional[str], tables: list[Tag]) -> dict[str, Any]:
     return form
 
 
+def _learnset_move_slugs_in_order(moves: list[dict[str, Any]]) -> tuple[str, ...]:
+    return tuple(m.get("slug") or "" for m in moves)
+
+
+def _group_last_moves_table(
+    title: Optional[str], tables: list[Tag]
+) -> tuple[Optional[Tag], list[dict[str, Any]]]:
+    """Return the last *Standard Moves* dextable in a form group and its parse (the effective learnset)."""
+    move_tables: list[Tag] = [t for t in tables if _classify_dextable(t) == "moves"]
+    if not move_tables:
+        return None, []
+    last = move_tables[-1]
+    return last, _parse_moves_table(last)
+
+
+def _is_mega_form_name(name: Optional[str]) -> bool:
+    n = (name or "").lower().strip()
+    return n.startswith("mega ")
+
+
 def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]:
     """Scrape a single Pokémon page: base info + every form + full learnset."""
     html = fetch_html(page_url)
@@ -541,27 +627,44 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
     if not dextables:
         return None
 
-    groups = _split_into_forms(dextables)
+    groups = _resplit_forms_for_regional_learnsets(dextables)
     if not groups:
         return None
 
     forms: list[dict[str, Any]] = []
-    moves: list[dict[str, Any]] = []
-
+    group_moves: list[list[dict[str, Any]]] = []
     for title, tables in groups:
         form = _form_from_group(title, tables)
         if form.get("name") or form.get("types") or form.get("stats"):
             forms.append(form)
-        # The learnset lives in the base form group only.
-        for table in tables:
-            if _classify_dextable(table) == "moves":
-                moves = _parse_moves_table(table)
+            _, mlist = _group_last_moves_table(title, tables)
+            group_moves.append(mlist)
 
     if not forms:
         return None
 
     base = forms[0]
     base_info = base.get("info", {})
+    species_moves = group_moves[0] if group_moves else []
+
+    form_entries: list[dict[str, Any]] = []
+    for form_data, f_moves in zip(forms[1:], group_moves[1:]):
+        entry: dict[str, Any] = {
+            "name": form_data.get("name"),
+            "types": form_data.get("types"),
+            "abilities": form_data.get("abilities"),
+            "stats": form_data.get("stats"),
+            "type_effectiveness": form_data.get("type_effectiveness"),
+            "classification": form_data.get("info", {}).get("classification"),
+            "height": form_data.get("info", {}).get("height"),
+            "weight": form_data.get("info", {}).get("weight"),
+            "is_mega": _is_mega_form_name(form_data.get("name")),
+        }
+        if f_moves and _learnset_move_slugs_in_order(f_moves) != _learnset_move_slugs_in_order(
+            species_moves
+        ):
+            entry["moves"] = f_moves
+        form_entries.append(entry)
 
     return {
         "slug": slug,
@@ -576,20 +679,8 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         "weight": base_info.get("weight"),
         "gender_ratio": base_info.get("gender_ratio"),
         "other_names": base_info.get("other_names"),
-        "forms": [
-            {
-                "name": f.get("name"),
-                "types": f.get("types"),
-                "abilities": f.get("abilities"),
-                "stats": f.get("stats"),
-                "type_effectiveness": f.get("type_effectiveness"),
-                "classification": f.get("info", {}).get("classification"),
-                "height": f.get("info", {}).get("height"),
-                "weight": f.get("info", {}).get("weight"),
-            }
-            for f in forms[1:]
-        ],
-        "moves": moves,
+        "forms": form_entries,
+        "moves": species_moves,
         "page_url": page_url,
     }
 
