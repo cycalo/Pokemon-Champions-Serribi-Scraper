@@ -1,7 +1,10 @@
 """Scrape the Pokemon Champions move list from Serebii."""
 from __future__ import annotations
 
-from typing import Any
+import re
+from typing import Any, Optional
+
+from bs4 import BeautifulSoup
 
 from ._utils import (
     absolute_url,
@@ -11,10 +14,33 @@ from ._utils import (
     fetch_html,
     make_soup,
     parse_number,
+    polite_sleep,
     slug_from_href,
 )
 
 MOVES_URL = "https://www.serebii.net/pokemonchampions/moves.shtml"
+
+
+def _extract_speed_priority_from_soup(soup: BeautifulSoup) -> Optional[int]:
+    """Parse the Speed Priority integer from a Champions AttackDex detail page."""
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr", recursive=False)
+        for idx, row in enumerate(rows):
+            cells = row.find_all(["td", "th"], recursive=False)
+            if len(cells) < 2:
+                continue
+            labels = [clean_text(c).lower() for c in cells]
+            if not any("speed priority" in lab for lab in labels):
+                continue
+            if idx + 1 >= len(rows):
+                continue
+            value_cells = rows[idx + 1].find_all(["td", "th"], recursive=False)
+            if len(value_cells) < 2:
+                continue
+            raw = clean_text(value_cells[1]).strip()
+            if re.fullmatch(r"-?\d+", raw):
+                return int(raw)
+    return None
 
 
 def _parse_accuracy(raw: str) -> Any:
@@ -31,7 +57,7 @@ def _parse_accuracy(raw: str) -> Any:
     return value
 
 
-def scrape_moves(url: str = MOVES_URL) -> list[dict[str, Any]]:
+def scrape_moves(url: str = MOVES_URL, *, detail_sleep: float = 1.5) -> list[dict[str, Any]]:
     html = fetch_html(url)
     soup = make_soup(html)
 
@@ -93,8 +119,30 @@ def scrape_moves(url: str = MOVES_URL) -> list[dict[str, Any]]:
                 "pp": pp,
                 "effect": effect,
                 "url": absolute_url(href),
+                "speed_priority": None,
             }
         )
 
     moves.sort(key=lambda m: m["name"].lower())
+
+    missing = 0
+    for i, move in enumerate(moves):
+        detail_url = move.get("url")
+        if not detail_url:
+            missing += 1
+            continue
+        try:
+            html = fetch_html(detail_url)
+            pri = _extract_speed_priority_from_soup(make_soup(html))
+            move["speed_priority"] = pri
+            if pri is None:
+                missing += 1
+        except Exception:
+            missing += 1
+        if i < len(moves) - 1:
+            polite_sleep(detail_sleep)
+
+    if missing:
+        print(f"   warning: {missing} moves missing speed_priority after detail scrape", flush=True)
+
     return moves

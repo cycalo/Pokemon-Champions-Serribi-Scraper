@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-27T08:21:59+00:00",
+  "scraped_at": "2026-05-01T23:55:27+00:00",
   "count": 494,
   "moves": [
     {
@@ -11,7 +11,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/accelerock.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/accelerock.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "acidarmor",
@@ -22,7 +23,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Defense stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/acidarmor.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/acidarmor.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "acidspray",
@@ -33,7 +35,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Sp. Def stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/acidspray.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/acidspray.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "acrobatics",
@@ -44,7 +47,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "This move's power is doubled if the user isn't holding an item.",
-      "url": "https://www.serebii.net/attackdex-champions/acrobatics.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/acrobatics.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "acupressure",
@@ -55,7 +59,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the Attack Defense Sp. Atk Sp. Def Speed accuracy or evasiveness of the user or an ally by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/acupressure.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/acupressure.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aerialace",
@@ -66,7 +71,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/aerialace.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aerialace.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "afteryou",
@@ -77,7 +83,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Makes the target move immediately after the user.",
-      "url": "https://www.serebii.net/attackdex-champions/afteryou.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/afteryou.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "agility",
@@ -88,7 +95,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Speed stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/agility.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/agility.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aircutter",
@@ -99,7 +107,8 @@
       "accuracy": 95,
       "pp": 20,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/aircutter.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aircutter.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "airslash",
@@ -110,7 +119,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Has a 30% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/airslash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/airslash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "alluringvoice",
@@ -121,7 +131,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Confuses the target if its stats were boosted during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/alluringvoice.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/alluringvoice.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "allyswitch",
@@ -132,7 +143,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "The user switches spots with one of its allies. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/allyswitch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/allyswitch.shtml",
+      "speed_priority": 2
     },
     {
       "slug": "amnesia",
@@ -143,7 +155,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Sp. Def stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/amnesia.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/amnesia.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ancientpower",
@@ -154,7 +167,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Has a 10% chance of boosting the user's Attack Defense Sp. Atk Sp. Def and Speed stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/ancientpower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ancientpower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "appleacid",
@@ -165,7 +179,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/appleacid.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/appleacid.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aquacutter",
@@ -176,7 +191,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/aquacutter.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aquacutter.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aquajet",
@@ -187,7 +203,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/aquajet.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aquajet.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "aquaring",
@@ -198,7 +215,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user gains the Aqua Ring status.",
-      "url": "https://www.serebii.net/attackdex-champions/aquaring.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aquaring.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aquastep",
@@ -209,7 +227,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Boosts the user's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/aquastep.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aquastep.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aquatail",
@@ -220,7 +239,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/aquatail.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aquatail.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "armorcannon",
@@ -231,7 +251,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Lowers the user's Defense and Sp. Def stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/armorcannon.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/armorcannon.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aromaticmist",
@@ -242,7 +263,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts an ally's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/aromaticmist.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aromaticmist.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "assurance",
@@ -253,7 +275,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the target has already taken damage during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/assurance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/assurance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "attract",
@@ -264,7 +287,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Gives the target the Infatuated status. This move will fail against a target that is the same gender as the user or whose gender is unknown.",
-      "url": "https://www.serebii.net/attackdex-champions/attract.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/attract.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aurasphere",
@@ -275,7 +299,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/aurasphere.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aurasphere.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "aurawheel",
@@ -286,7 +311,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Boosts the user's Speed stat by 1 stage. This move's type depends on Morpeko's form.",
-      "url": "https://www.serebii.net/attackdex-champions/aurawheel.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/aurawheel.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "auroraveil",
@@ -297,7 +323,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the user's side the Aurora Veil status for 5 turns. This move can be used only in snow.",
-      "url": "https://www.serebii.net/attackdex-champions/auroraveil.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/auroraveil.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "avalanche",
@@ -308,7 +335,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the target has already dealt damage to the user with a move in the same turn.",
-      "url": "https://www.serebii.net/attackdex-champions/avalanche.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/avalanche.shtml",
+      "speed_priority": -4
     },
     {
       "slug": "axekick",
@@ -319,7 +347,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 30% chance of confusing the target. If this move misses or fails the user takes damage equal to 1/2 of its max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/axekick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/axekick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "baby-dolleyes",
@@ -330,7 +359,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/baby-dolleyes.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/baby-dolleyes.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "banefulbunker",
@@ -341,7 +371,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn become poisoned. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/banefulbunker.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/banefulbunker.shtml",
+      "speed_priority": 4
     },
     {
       "slug": "batonpass",
@@ -352,7 +383,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user switches out of battle to be replaced by another party Pokémon. If the user had any stat changes a substitute or other such effects they will be passed on to the Pokémon switching in.",
-      "url": "https://www.serebii.net/attackdex-champions/batonpass.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/batonpass.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "beakblast",
@@ -363,7 +395,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "If the user is hit by a contact move before it uses this move the attacker will be burned.",
-      "url": "https://www.serebii.net/attackdex-champions/beakblast.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/beakblast.shtml",
+      "speed_priority": -3
     },
     {
       "slug": "beatup",
@@ -374,7 +407,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The target is attacked as many times as the number of Pokémon in the user's party. Pokémon that have fainted or have a status condition are not counted. This move's power is calculated based on the Attack stats of the party Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/beatup.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/beatup.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "belch",
@@ -385,7 +419,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "This move fails unless the user has eaten a Berry during the battle.",
-      "url": "https://www.serebii.net/attackdex-champions/belch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/belch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bellydrum",
@@ -396,7 +431,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user loses 1/2 of its max HP to boost its Attack stat to its sixth stage. This move fails if the user doesn't have enough remaining HP.",
-      "url": "https://www.serebii.net/attackdex-champions/bellydrum.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bellydrum.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bind",
@@ -407,7 +443,8 @@
       "accuracy": 85,
       "pp": 20,
       "effect": "Gives the target the Bound status.",
-      "url": "https://www.serebii.net/attackdex-champions/bind.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bind.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bite",
@@ -418,7 +455,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Has a 30% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/bite.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bite.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bitterblade",
@@ -429,7 +467,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/bitterblade.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bitterblade.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bittermalice",
@@ -440,7 +479,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/bittermalice.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bittermalice.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "blastburn",
@@ -451,7 +491,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Recharging status on the turn after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/blastburn.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/blastburn.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "blazekick",
@@ -462,7 +503,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 10% chance of burning the target. This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/blazekick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/blazekick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "blizzard",
@@ -473,7 +515,8 @@
       "accuracy": 70,
       "pp": 8,
       "effect": "Has a 10% chance of freezing targets. This move never misses in snow.",
-      "url": "https://www.serebii.net/attackdex-champions/blizzard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/blizzard.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "block",
@@ -484,7 +527,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Gives the target the Can't Escape status.",
-      "url": "https://www.serebii.net/attackdex-champions/block.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/block.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bodypress",
@@ -495,7 +539,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The damage dealt by this move is calculated using the user's Defense stat instead of its Attack stat.",
-      "url": "https://www.serebii.net/attackdex-champions/bodypress.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bodypress.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bodyslam",
@@ -506,7 +551,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 30% chance of paralyzing the target. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
-      "url": "https://www.serebii.net/attackdex-champions/bodyslam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bodyslam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bonerush",
@@ -517,7 +563,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/bonerush.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bonerush.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "boomburst",
@@ -528,7 +575,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/boomburst.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/boomburst.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bounce",
@@ -539,7 +587,8 @@
       "accuracy": 85,
       "pp": 8,
       "effect": "The user gains the Sky-High status on the turn this move is used then attacks on the following turn. This move has a 30% chance of paralyzing the target.",
-      "url": "https://www.serebii.net/attackdex-champions/bounce.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bounce.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bravebird",
@@ -550,7 +599,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The user takes 1/3 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/bravebird.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bravebird.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "breakingswipe",
@@ -561,7 +611,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Lowers targets' Attack stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/breakingswipe.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/breakingswipe.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "brickbreak",
@@ -572,7 +623,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side.",
-      "url": "https://www.serebii.net/attackdex-champions/brickbreak.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/brickbreak.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "brutalswing",
@@ -583,7 +635,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/brutalswing.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/brutalswing.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bugbite",
@@ -594,7 +647,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "If the target is holding a Berry the user eats that Berry and gains its effect.",
-      "url": "https://www.serebii.net/attackdex-champions/bugbite.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bugbite.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bugbuzz",
@@ -605,7 +659,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/bugbuzz.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bugbuzz.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bulkup",
@@ -616,7 +671,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Attack and Defense stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/bulkup.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bulkup.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bulldoze",
@@ -627,7 +683,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers targets' Speed stats by 1 stage. When Grassy Terrain is active this move's power is halved.",
-      "url": "https://www.serebii.net/attackdex-champions/bulldoze.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bulldoze.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "bulletpunch",
@@ -638,7 +695,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/bulletpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bulletpunch.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "bulletseed",
@@ -649,7 +707,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/bulletseed.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/bulletseed.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "burnup",
@@ -660,7 +719,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The user loses the Fire type. Cures the user of being frozen. This move fails unless it is used by a Fire type.",
-      "url": "https://www.serebii.net/attackdex-champions/burnup.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/burnup.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "burningjealousy",
@@ -671,7 +731,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Burns targets if their stats were boosted during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/burningjealousy.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/burningjealousy.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "calmmind",
@@ -682,7 +743,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Sp. Atk and Sp. Def stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/calmmind.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/calmmind.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ceaselessedge",
@@ -693,7 +755,8 @@
       "accuracy": 90,
       "pp": 16,
       "effect": "Gives the opponent's side the Spikes status.",
-      "url": "https://www.serebii.net/attackdex-champions/ceaselessedge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ceaselessedge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "charge",
@@ -704,7 +767,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Sp. Def stat by 1 stage. The user gains the Electric Boost status.",
-      "url": "https://www.serebii.net/attackdex-champions/charge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/charge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "chargebeam",
@@ -715,7 +779,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 70% chance of boosting the user's Sp. Atk stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/chargebeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/chargebeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "charm",
@@ -726,7 +791,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Attack stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/charm.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/charm.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "chillingwater",
@@ -737,7 +803,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/chillingwater.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/chillingwater.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "chillyreception",
@@ -748,7 +815,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Summons snow for 5 turns. The user switches out of battle to be replaced by another party Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/chillyreception.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/chillyreception.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "circlethrow",
@@ -759,7 +827,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
-      "url": "https://www.serebii.net/attackdex-champions/circlethrow.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/circlethrow.shtml",
+      "speed_priority": -6
     },
     {
       "slug": "clangingscales",
@@ -770,7 +839,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Lowers the user's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/clangingscales.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/clangingscales.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "clangoroussoul",
@@ -781,7 +851,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user loses 1/3 of its max HP to boost its Attack Defense Sp. Atk Sp. Def and Speed stats by 1 stage. This move fails if the user doesn't have enough remaining HP.",
-      "url": "https://www.serebii.net/attackdex-champions/clangoroussoul.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/clangoroussoul.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "clearsmog",
@@ -792,7 +863,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Removes all stat changes from the target. This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/clearsmog.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/clearsmog.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "closecombat",
@@ -803,7 +875,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Lowers the user's Defense and Sp. Def stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/closecombat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/closecombat.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "coaching",
@@ -814,7 +887,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Boosts allies' Attack and Defense stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/coaching.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/coaching.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "coil",
@@ -825,7 +899,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Attack and Defense stats as well as its accuracy by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/coil.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/coil.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "comeuppance",
@@ -836,7 +911,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user retaliates to deal 150% of the damage it took from an opponent's move during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/comeuppance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/comeuppance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "confuseray",
@@ -847,7 +923,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Confuses the target.",
-      "url": "https://www.serebii.net/attackdex-champions/confuseray.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/confuseray.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "copycat",
@@ -858,7 +935,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user mimics the move that was last used. This move fails if no other move has been used yet.",
-      "url": "https://www.serebii.net/attackdex-champions/copycat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/copycat.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "corrosivegas",
@@ -869,7 +947,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Causes all other Pokémon on the field to lose their held items.",
-      "url": "https://www.serebii.net/attackdex-champions/corrosivegas.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/corrosivegas.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "cosmicpower",
@@ -880,7 +959,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Defense and Sp. Def stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/cosmicpower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/cosmicpower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "cottonguard",
@@ -891,7 +971,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Boosts the user's Defense stat by 3 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/cottonguard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/cottonguard.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "cottonspore",
@@ -902,7 +983,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers targets' Speed stats by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/cottonspore.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/cottonspore.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "counter",
@@ -913,7 +995,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The user retaliates to deal double the damage it took from an opponent's physical move during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/counter.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/counter.shtml",
+      "speed_priority": -5
     },
     {
       "slug": "covet",
@@ -924,7 +1007,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "If the user is not already holding an item it steals the target's held item.",
-      "url": "https://www.serebii.net/attackdex-champions/covet.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/covet.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "crabhammer",
@@ -935,7 +1019,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/crabhammer.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/crabhammer.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "crosschop",
@@ -946,7 +1031,8 @@
       "accuracy": 80,
       "pp": 8,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/crosschop.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/crosschop.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "crosspoison",
@@ -957,7 +1043,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Has a 10% chance of poisoning the target. This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/crosspoison.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/crosspoison.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "crunch",
@@ -968,7 +1055,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 20% chance of lowering the target's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/crunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/crunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "crushclaw",
@@ -979,7 +1067,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": "Has a 50% chance of lowering the target's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/crushclaw.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/crushclaw.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "curse",
@@ -990,7 +1079,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Ghost-type: The user loses 1/2 of its max HP to give the target the Cursed status. Non-Ghost-type: Lowers the user's Speed stat by 1 stage and boosts its Attack and Defense stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/curse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/curse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "darkpulse",
@@ -1001,7 +1091,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 20% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/darkpulse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/darkpulse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "darkestlariat",
@@ -1012,7 +1103,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move ignores the target's stat changes when dealing damage.",
-      "url": "https://www.serebii.net/attackdex-champions/darkestlariat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/darkestlariat.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dazzlinggleam",
@@ -1023,7 +1115,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/dazzlinggleam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dazzlinggleam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "decorate",
@@ -1034,7 +1127,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Boosts the target's Attack and Sp. Atk stats by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/decorate.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/decorate.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "defog",
@@ -1045,7 +1139,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Lowers the target's evasiveness by 1 stage. Removes statuses such as Reflect Spikes and Safeguard as well as any terrain.",
-      "url": "https://www.serebii.net/attackdex-champions/defog.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/defog.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "destinybond",
@@ -1056,7 +1151,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user gains the Destiny Bound status. This move fails if used in succession.",
-      "url": "https://www.serebii.net/attackdex-champions/destinybond.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/destinybond.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "detect",
@@ -1067,7 +1163,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/detect.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/detect.shtml",
+      "speed_priority": 4
     },
     {
       "slug": "dig",
@@ -1078,7 +1175,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Underground status on the turn this move is used then attacks on the following turn.",
-      "url": "https://www.serebii.net/attackdex-champions/dig.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dig.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "direclaw",
@@ -1089,7 +1187,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 30% chance of leaving the target poisoned paralyzed or asleep.",
-      "url": "https://www.serebii.net/attackdex-champions/direclaw.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/direclaw.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "disable",
@@ -1100,7 +1199,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Gives the target the Move Disabled status for 4 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/disable.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/disable.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "discharge",
@@ -1111,7 +1211,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 30% chance of paralyzing targets.",
-      "url": "https://www.serebii.net/attackdex-champions/discharge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/discharge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dive",
@@ -1122,7 +1223,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Submerged status on the turn this move is used then attacks on the following turn.",
-      "url": "https://www.serebii.net/attackdex-champions/dive.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dive.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "doublehit",
@@ -1133,7 +1235,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user attacks twice in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/doublehit.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/doublehit.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "doubleteam",
@@ -1144,7 +1247,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Boosts the user's evasiveness by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/doubleteam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/doubleteam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "double-edge",
@@ -1155,7 +1259,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The user takes 1/3 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/double-edge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/double-edge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dracometeor",
@@ -1166,7 +1271,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "Lowers the user's Sp. Atk stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/dracometeor.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dracometeor.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragoncheer",
@@ -1177,7 +1283,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Gives allies a Critical-Hit Ratio Boost. Dragon types receive a 2-stage boost. All other types receive a 1-stage boost.",
-      "url": "https://www.serebii.net/attackdex-champions/dragoncheer.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragoncheer.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragonclaw",
@@ -1188,7 +1295,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/dragonclaw.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragonclaw.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragondance",
@@ -1199,7 +1307,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Attack and Speed stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/dragondance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragondance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragondarts",
@@ -1210,7 +1319,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user attacks twice in a row. If there are 2 opposing Pokémon each of them is attacked once.",
-      "url": "https://www.serebii.net/attackdex-champions/dragondarts.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragondarts.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragonpulse",
@@ -1221,7 +1331,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/dragonpulse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragonpulse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragonrush",
@@ -1232,7 +1343,8 @@
       "accuracy": 75,
       "pp": 12,
       "effect": "Has a 20% chance of making the target flinch. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
-      "url": "https://www.serebii.net/attackdex-champions/dragonrush.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragonrush.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dragontail",
@@ -1243,7 +1355,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
-      "url": "https://www.serebii.net/attackdex-champions/dragontail.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dragontail.shtml",
+      "speed_priority": -6
     },
     {
       "slug": "drainpunch",
@@ -1254,7 +1367,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/drainpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/drainpunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "drainingkiss",
@@ -1265,7 +1379,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user's HP is restored by 3/4 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/drainingkiss.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/drainingkiss.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "drillpeck",
@@ -1276,7 +1391,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/drillpeck.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/drillpeck.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "drillrun",
@@ -1287,7 +1403,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/drillrun.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/drillrun.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dualwingbeat",
@@ -1298,7 +1415,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user attacks twice in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/dualwingbeat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dualwingbeat.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "dynamicpunch",
@@ -1309,7 +1427,8 @@
       "accuracy": 50,
       "pp": 8,
       "effect": "Confuses the target.",
-      "url": "https://www.serebii.net/attackdex-champions/dynamicpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/dynamicpunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "earthpower",
@@ -1320,7 +1439,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/earthpower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/earthpower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "earthquake",
@@ -1331,7 +1451,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled against targets that have the Underground status. When Grassy Terrain is active this move's power is halved.",
-      "url": "https://www.serebii.net/attackdex-champions/earthquake.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/earthquake.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "eerieimpulse",
@@ -1342,7 +1463,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Lowers the target's Sp. Atk stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/eerieimpulse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/eerieimpulse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "eeriespell",
@@ -1353,7 +1475,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Removes 3 PP from the move last used by the target.",
-      "url": "https://www.serebii.net/attackdex-champions/eeriespell.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/eeriespell.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "electricterrain",
@@ -1364,7 +1487,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Turns the entire field into Electric Terrain for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/electricterrain.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/electricterrain.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "electrify",
@@ -1375,7 +1499,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "If this move hits the target before it uses a move its move becomes Electric type for that turn.",
-      "url": "https://www.serebii.net/attackdex-champions/electrify.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/electrify.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "electroball",
@@ -1386,7 +1511,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The higher the user's Speed stat compared to the target's the greater this move's power (ranging between 40 and 150).",
-      "url": "https://www.serebii.net/attackdex-champions/electroball.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/electroball.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "electroshot",
@@ -1397,7 +1523,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Charging status on the turn this move is used then attacks on the following turn. In rain the user does not gain the Charging status and can attack immediately. The user's Sp. Atk stat is boosted by 1 stage on the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/electroshot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/electroshot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "electroweb",
@@ -1408,7 +1535,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Lowers targets' Speed stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/electroweb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/electroweb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "encore",
@@ -1419,7 +1547,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Gives the target the Encore status.",
-      "url": "https://www.serebii.net/attackdex-champions/encore.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/encore.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "endeavor",
@@ -1430,7 +1559,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Deals damage to the target equal to its remaining HP minus the user's remaining HP. This move fails if the target's HP is the same as or lower than the user's.",
-      "url": "https://www.serebii.net/attackdex-champions/endeavor.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/endeavor.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "endure",
@@ -1441,7 +1571,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/endure.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/endure.shtml",
+      "speed_priority": 4
     },
     {
       "slug": "energyball",
@@ -1452,7 +1583,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/energyball.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/energyball.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "entrainment",
@@ -1463,7 +1595,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Changes the target's Ability to be the same as the user's.",
-      "url": "https://www.serebii.net/attackdex-champions/entrainment.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/entrainment.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "eruption",
@@ -1474,7 +1607,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The less HP the user has left the lower this move's power (ranging between 1 and 150).",
-      "url": "https://www.serebii.net/attackdex-champions/eruption.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/eruption.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "expandingforce",
@@ -1485,7 +1619,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "If the user is under the effect of Psychic Terrain this move's power is boosted by 50% and its range extends to all opponents.",
-      "url": "https://www.serebii.net/attackdex-champions/expandingforce.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/expandingforce.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "explosion",
@@ -1496,7 +1631,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The user faints upon using this move.",
-      "url": "https://www.serebii.net/attackdex-champions/explosion.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/explosion.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "extrasensory",
@@ -1507,7 +1643,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Has a 10% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/extrasensory.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/extrasensory.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "extremespeed",
@@ -1518,7 +1655,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/extremespeed.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/extremespeed.shtml",
+      "speed_priority": 2
     },
     {
       "slug": "facade",
@@ -1529,7 +1667,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
-      "url": "https://www.serebii.net/attackdex-champions/facade.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/facade.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "fairylock",
@@ -1540,7 +1679,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Gives all Pokémon on the field the Fairy Locked status.",
-      "url": "https://www.serebii.net/attackdex-champions/fairylock.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fairylock.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "fakeout",
@@ -1551,7 +1691,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Makes the target flinch. This move fails unless it is the first move used by the user after it enters a battle.",
-      "url": "https://www.serebii.net/attackdex-champions/fakeout.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fakeout.shtml",
+      "speed_priority": 3
     },
     {
       "slug": "faketears",
@@ -1562,7 +1703,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Sp. Def stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/faketears.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/faketears.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "featherdance",
@@ -1573,7 +1715,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Lowers the target's Attack stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/featherdance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/featherdance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "feint",
@@ -1584,7 +1727,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move can hit a target using a move such as Protect or Detect and removes the effects of those moves.",
-      "url": "https://www.serebii.net/attackdex-champions/feint.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/feint.shtml",
+      "speed_priority": 2
     },
     {
       "slug": "fellstinger",
@@ -1595,7 +1739,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Boosts the user's Attack stat by 3 stages if this move knocks out the target.",
-      "url": "https://www.serebii.net/attackdex-champions/fellstinger.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fellstinger.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ficklebeam",
@@ -1606,7 +1751,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "This move has a 30% chance of its power being doubled.",
-      "url": "https://www.serebii.net/attackdex-champions/ficklebeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ficklebeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "fierydance",
@@ -1617,7 +1763,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 50% chance of boosting the user's Sp. Atk stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/fierydance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fierydance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "finalgambit",
@@ -1628,7 +1775,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The user faints. This move deals damage to the target equal to the user's remaining HP at the time this move was used.",
-      "url": "https://www.serebii.net/attackdex-champions/finalgambit.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/finalgambit.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "fireblast",
@@ -1639,7 +1787,8 @@
       "accuracy": 85,
       "pp": 8,
       "effect": "Has a 10% chance of burning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/fireblast.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fireblast.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "firefang",
@@ -1650,7 +1799,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Has a 10% chance of burning the target and a 10% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/firefang.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/firefang.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "firelash",
@@ -1661,7 +1811,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Lowers the target's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/firelash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/firelash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "firepunch",
@@ -1672,7 +1823,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of burning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/firepunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/firepunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "firespin",
@@ -1683,7 +1835,8 @@
       "accuracy": 85,
       "pp": 16,
       "effect": "Gives the target the Bound status.",
-      "url": "https://www.serebii.net/attackdex-champions/firespin.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/firespin.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "firstimpression",
@@ -1694,7 +1847,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move fails unless it is the first move used by the user after it enters a battle.",
-      "url": "https://www.serebii.net/attackdex-champions/firstimpression.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/firstimpression.shtml",
+      "speed_priority": 2
     },
     {
       "slug": "fissure",
@@ -1705,7 +1859,8 @@
       "accuracy": 30,
       "pp": 8,
       "effect": "Knocks out the target. The accuracy of this move is fixed at 30%.",
-      "url": "https://www.serebii.net/attackdex-champions/fissure.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fissure.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flail",
@@ -1716,7 +1871,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The less HP the user has left the greater this move's power (ranging between 20 and 200).",
-      "url": "https://www.serebii.net/attackdex-champions/flail.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flail.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flamecharge",
@@ -1727,7 +1883,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Boosts the user's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/flamecharge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flamecharge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flamethrower",
@@ -1738,7 +1895,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of burning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/flamethrower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flamethrower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flareblitz",
@@ -1749,7 +1907,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of burning the target. Cures the user of being frozen. The user also takes 1/3 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/flareblitz.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flareblitz.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flashcannon",
@@ -1760,7 +1919,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/flashcannon.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flashcannon.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flatter",
@@ -1771,7 +1931,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Boosts the target's Sp. Atk stat by 1 stage and confuses it.",
-      "url": "https://www.serebii.net/attackdex-champions/flatter.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flatter.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "fling",
@@ -1782,7 +1943,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power and effects depend on the user's held item. The held item is lost after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/fling.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fling.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flipturn",
@@ -1793,7 +1955,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "After attacking the user switches out of battle to be replaced by another party Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/flipturn.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flipturn.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flowertrick",
@@ -1804,7 +1967,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "This move never misses and is always a critical hit.",
-      "url": "https://www.serebii.net/attackdex-champions/flowertrick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flowertrick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "fly",
@@ -1815,7 +1979,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "The user gains the Sky-High status on the turn this move is used then attacks on the following turn.",
-      "url": "https://www.serebii.net/attackdex-champions/fly.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/fly.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "flyingpress",
@@ -1826,7 +1991,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": "The damage dealt by this move is calculated by combining the effectiveness of the move's own type with that of the Flying type. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
-      "url": "https://www.serebii.net/attackdex-champions/flyingpress.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/flyingpress.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "focusblast",
@@ -1837,7 +2003,8 @@
       "accuracy": 70,
       "pp": 8,
       "effect": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/focusblast.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/focusblast.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "focusenergy",
@@ -1848,7 +2015,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user gains a 2-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/focusenergy.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/focusenergy.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "focuspunch",
@@ -1859,7 +2027,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move fails if the user has already taken damage from a move in the same turn.",
-      "url": "https://www.serebii.net/attackdex-champions/focuspunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/focuspunch.shtml",
+      "speed_priority": -3
     },
     {
       "slug": "followme",
@@ -1870,7 +2039,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user redirects opponents' moves toward itself. This effect works only on single-target moves.",
-      "url": "https://www.serebii.net/attackdex-champions/followme.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/followme.shtml",
+      "speed_priority": 2
     },
     {
       "slug": "forest'scurse",
@@ -1881,7 +2051,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Gives the target the Forest Cursed status.",
-      "url": "https://www.serebii.net/attackdex-champions/forest'scurse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/forest'scurse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "foulplay",
@@ -1892,7 +2063,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The damage dealt by this move is calculated using the target's Attack stat instead of the user's Attack stat.",
-      "url": "https://www.serebii.net/attackdex-champions/foulplay.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/foulplay.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "freeze-dry",
@@ -1903,7 +2075,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move is also super effective against Water-type Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/freeze-dry.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/freeze-dry.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "frenzyplant",
@@ -1914,7 +2087,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Recharging status on the turn after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/frenzyplant.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/frenzyplant.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "frostbreath",
@@ -1925,7 +2099,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Always a critical hit.",
-      "url": "https://www.serebii.net/attackdex-champions/frostbreath.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/frostbreath.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "futuresight",
@@ -1936,7 +2111,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Gives the target's spot the Future Attack status.",
-      "url": "https://www.serebii.net/attackdex-champions/futuresight.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/futuresight.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gastroacid",
@@ -1947,7 +2123,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Gives the target the No Ability status.",
-      "url": "https://www.serebii.net/attackdex-champions/gastroacid.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gastroacid.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gigadrain",
@@ -1958,7 +2135,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/gigadrain.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gigadrain.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gigaimpact",
@@ -1969,7 +2147,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Recharging status on the turn after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/gigaimpact.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gigaimpact.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gigatonhammer",
@@ -1980,7 +2159,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "This move can't be used twice in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/gigatonhammer.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gigatonhammer.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "glare",
@@ -1991,7 +2171,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Paralyzes the target.",
-      "url": "https://www.serebii.net/attackdex-champions/glare.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/glare.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "grassknot",
@@ -2002,7 +2183,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The heavier the target the greater this move's power (ranging between 20 and 120).",
-      "url": "https://www.serebii.net/attackdex-champions/grassknot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/grassknot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "grassyglide",
@@ -2013,7 +2195,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "If the user is under the effect of Grassy Terrain this move's priority becomes +1.",
-      "url": "https://www.serebii.net/attackdex-champions/grassyglide.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/grassyglide.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "grassyterrain",
@@ -2024,7 +2207,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Turns the entire field into Grassy Terrain for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/grassyterrain.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/grassyterrain.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gravapple",
@@ -2035,7 +2219,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Defense stat by 1 stage. This move's power is boosted by 50% when the Gravity status is active.",
-      "url": "https://www.serebii.net/attackdex-champions/gravapple.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gravapple.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gravity",
@@ -2046,7 +2231,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Gives the entire field the Gravity status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/gravity.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gravity.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "growth",
@@ -2057,7 +2243,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Attack and Sp. Atk stats by 1 stage. In harsh sunlight these stats will be boosted by 2 stages instead.",
-      "url": "https://www.serebii.net/attackdex-champions/growth.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/growth.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "guardsplit",
@@ -2068,7 +2255,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user adds its Defense stat to the target's Defense stat then splits the total in half for them to share. It does the same with each of their Sp. Def stats.",
-      "url": "https://www.serebii.net/attackdex-champions/guardsplit.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/guardsplit.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "guardswap",
@@ -2079,7 +2267,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user swaps the changes to its Defense and Sp. Def stats with the changes to the target's Defense and Sp. Def stats.",
-      "url": "https://www.serebii.net/attackdex-champions/guardswap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/guardswap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "guillotine",
@@ -2090,7 +2279,8 @@
       "accuracy": 30,
       "pp": 8,
       "effect": "Knocks out the target. The accuracy of this move is fixed at 30%.",
-      "url": "https://www.serebii.net/attackdex-champions/guillotine.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/guillotine.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gunkshot",
@@ -2101,7 +2291,8 @@
       "accuracy": 80,
       "pp": 8,
       "effect": "Has a 30% chance of poisoning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/gunkshot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gunkshot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "gyroball",
@@ -2112,7 +2303,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The lower the user's Speed stat compared to the target's the greater this move's power (ranging between 1 and 150).",
-      "url": "https://www.serebii.net/attackdex-champions/gyroball.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/gyroball.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hammerarm",
@@ -2123,7 +2315,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Lowers the user's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/hammerarm.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hammerarm.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hardpress",
@@ -2134,7 +2327,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The more HP the target has left the greater this move's power (ranging between 1 and 100).",
-      "url": "https://www.serebii.net/attackdex-champions/hardpress.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hardpress.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "haze",
@@ -2145,7 +2339,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Eliminates every stat change on the entire field.",
-      "url": "https://www.serebii.net/attackdex-champions/haze.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/haze.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "headsmash",
@@ -2156,7 +2351,8 @@
       "accuracy": 80,
       "pp": 8,
       "effect": "The user takes 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/headsmash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/headsmash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "headlongrush",
@@ -2167,7 +2363,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Lowers the user's Defense and Sp. Def stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/headlongrush.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/headlongrush.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "healbell",
@@ -2178,7 +2375,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user cures the status conditions of all the Pokémon in its party including itself as well as its allies.",
-      "url": "https://www.serebii.net/attackdex-champions/healbell.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/healbell.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "healpulse",
@@ -2189,7 +2387,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Restores 1/2 of the target's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/healpulse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/healpulse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "healingwish",
@@ -2200,7 +2399,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user faints. The Pokémon taking its place will have its HP fully restored and its status conditions cured.",
-      "url": "https://www.serebii.net/attackdex-champions/healingwish.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/healingwish.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "heatcrash",
@@ -2211,7 +2411,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The more the user outweighs the target the greater this move's power (ranging between 40 and 120). If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
-      "url": "https://www.serebii.net/attackdex-champions/heatcrash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/heatcrash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "heatwave",
@@ -2222,7 +2423,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 10% chance of burning targets.",
-      "url": "https://www.serebii.net/attackdex-champions/heatwave.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/heatwave.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "heavyslam",
@@ -2233,7 +2435,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The more the user outweighs the target the greater this move's power (ranging between 40 and 120). If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
-      "url": "https://www.serebii.net/attackdex-champions/heavyslam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/heavyslam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "helpinghand",
@@ -2244,7 +2447,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the power of an ally's move by 50% during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/helpinghand.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/helpinghand.shtml",
+      "speed_priority": 5
     },
     {
       "slug": "hex",
@@ -2255,7 +2459,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the target has a status condition.",
-      "url": "https://www.serebii.net/attackdex-champions/hex.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hex.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "highhorsepower",
@@ -2266,7 +2471,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/highhorsepower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/highhorsepower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "highjumpkick",
@@ -2277,7 +2483,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "If this move misses or fails the user takes damage equal to 1/2 of its max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/highjumpkick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/highjumpkick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "horndrill",
@@ -2288,7 +2495,8 @@
       "accuracy": 30,
       "pp": 8,
       "effect": "Knocks out the target. The accuracy of this move is fixed at 30%.",
-      "url": "https://www.serebii.net/attackdex-champions/horndrill.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/horndrill.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hornleech",
@@ -2299,7 +2507,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/hornleech.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hornleech.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "howl",
@@ -2310,7 +2519,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the Attack stats of the user and its allies by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/howl.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/howl.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hurricane",
@@ -2321,7 +2531,8 @@
       "accuracy": 70,
       "pp": 12,
       "effect": "Has a 30% chance of confusing the target. This move never misses in rain and can hit a target that has the Sky-High status.",
-      "url": "https://www.serebii.net/attackdex-champions/hurricane.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hurricane.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hydrocannon",
@@ -2332,7 +2543,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Recharging status on the turn after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/hydrocannon.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hydrocannon.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hydropump",
@@ -2343,7 +2555,8 @@
       "accuracy": 80,
       "pp": 8,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/hydropump.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hydropump.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hyperbeam",
@@ -2354,7 +2567,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Recharging status on the turn after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/hyperbeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hyperbeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hypervoice",
@@ -2365,7 +2579,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/hypervoice.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hypervoice.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "hypnosis",
@@ -2376,7 +2591,8 @@
       "accuracy": 60,
       "pp": 20,
       "effect": "Puts the target to sleep.",
-      "url": "https://www.serebii.net/attackdex-champions/hypnosis.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/hypnosis.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "icebeam",
@@ -2387,7 +2603,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of freezing the target.",
-      "url": "https://www.serebii.net/attackdex-champions/icebeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/icebeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "icefang",
@@ -2398,7 +2615,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Has a 10% chance of freezing the target and a 10% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/icefang.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/icefang.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "icehammer",
@@ -2409,7 +2627,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Lowers the user's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/icehammer.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/icehammer.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "icepunch",
@@ -2420,7 +2639,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of freezing the target.",
-      "url": "https://www.serebii.net/attackdex-champions/icepunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/icepunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "iceshard",
@@ -2431,7 +2651,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/iceshard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/iceshard.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "icespinner",
@@ -2442,7 +2663,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Removes any terrain.",
-      "url": "https://www.serebii.net/attackdex-champions/icespinner.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/icespinner.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "iciclecrash",
@@ -2453,7 +2675,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 30% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/iciclecrash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/iciclecrash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "iciclespear",
@@ -2464,7 +2687,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/iciclespear.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/iciclespear.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "icywind",
@@ -2475,7 +2699,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Lowers targets' Speed stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/icywind.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/icywind.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "imprison",
@@ -2486,7 +2711,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user gains the Sealing Off status.",
-      "url": "https://www.serebii.net/attackdex-champions/imprison.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/imprison.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "infernalparade",
@@ -2497,7 +2723,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 30% chance of burning the target. This move's power is doubled if the target has a status condition.",
-      "url": "https://www.serebii.net/attackdex-champions/infernalparade.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/infernalparade.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "inferno",
@@ -2508,7 +2735,8 @@
       "accuracy": 50,
       "pp": 8,
       "effect": "Burns the target.",
-      "url": "https://www.serebii.net/attackdex-champions/inferno.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/inferno.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "infestation",
@@ -2519,7 +2747,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Gives the target the Bound status.",
-      "url": "https://www.serebii.net/attackdex-champions/infestation.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/infestation.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ingrain",
@@ -2530,7 +2759,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user gains the Ingrained status.",
-      "url": "https://www.serebii.net/attackdex-champions/ingrain.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ingrain.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "instruct",
@@ -2541,7 +2771,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "The user makes the target reuse the last move it used.",
-      "url": "https://www.serebii.net/attackdex-champions/instruct.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/instruct.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "irondefense",
@@ -2552,7 +2783,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Boosts the user's Defense stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/irondefense.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/irondefense.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ironhead",
@@ -2563,7 +2795,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 20% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/ironhead.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ironhead.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "irontail",
@@ -2574,7 +2807,8 @@
       "accuracy": 75,
       "pp": 16,
       "effect": "Has a 30% chance of lowering the target's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/irontail.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/irontail.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "jetpunch",
@@ -2585,7 +2819,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/jetpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/jetpunch.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "king'sshield",
@@ -2596,7 +2831,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user protects itself from incoming attacks for the turn and changes into its Shield Forme. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered by 1 stage. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/king'sshield.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/king'sshield.shtml",
+      "speed_priority": 4
     },
     {
       "slug": "knockoff",
@@ -2607,7 +2843,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move's power is boosted by 50% if the target is holding an item. Causes the target to lose its held item.",
-      "url": "https://www.serebii.net/attackdex-champions/knockoff.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/knockoff.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "kowtowcleave",
@@ -2618,7 +2855,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/kowtowcleave.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/kowtowcleave.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lashout",
@@ -2629,7 +2867,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "This move's power is doubled if the user's stats were lowered during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/lashout.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lashout.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lastresort",
@@ -2640,7 +2879,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "This move fails unless the user has already used all the other moves it knows.",
-      "url": "https://www.serebii.net/attackdex-champions/lastresort.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lastresort.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lastrespects",
@@ -2651,7 +2891,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is increased by 50 for each time that a Pokémon in the user's party has fainted.",
-      "url": "https://www.serebii.net/attackdex-champions/lastrespects.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lastrespects.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lavaplume",
@@ -2662,7 +2903,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 30% chance of burning targets.",
-      "url": "https://www.serebii.net/attackdex-champions/lavaplume.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lavaplume.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "leafblade",
@@ -2673,7 +2915,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/leafblade.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/leafblade.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "leafstorm",
@@ -2684,7 +2927,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "Lowers the user's Sp. Atk stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/leafstorm.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/leafstorm.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "leechlife",
@@ -2695,7 +2939,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/leechlife.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/leechlife.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "leechseed",
@@ -2706,7 +2951,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Gives the target the Leech Seeded status.",
-      "url": "https://www.serebii.net/attackdex-champions/leechseed.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/leechseed.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lifedew",
@@ -2717,7 +2963,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Restores 1/4 of the max HP of the user and its allies.",
-      "url": "https://www.serebii.net/attackdex-champions/lifedew.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lifedew.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lightofruin",
@@ -2728,7 +2975,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user takes 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/lightofruin.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lightofruin.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lightscreen",
@@ -2739,7 +2987,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the user's side the Light Screen status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/lightscreen.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lightscreen.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "liquidation",
@@ -2750,7 +2999,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 20% chance of lowering the target's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/liquidation.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/liquidation.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lock-on",
@@ -2761,7 +3011,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user gains the Locked On status.",
-      "url": "https://www.serebii.net/attackdex-champions/lock-on.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lock-on.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lowkick",
@@ -2772,7 +3023,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The heavier the target the greater this move's power (ranging between 20 and 120).",
-      "url": "https://www.serebii.net/attackdex-champions/lowkick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lowkick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lowsweep",
@@ -2783,7 +3035,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/lowsweep.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lowsweep.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "luminacrash",
@@ -2794,7 +3047,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Sp. Def stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/luminacrash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/luminacrash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "lunge",
@@ -2805,7 +3059,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Lowers the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/lunge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/lunge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "machpunch",
@@ -2816,7 +3071,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/machpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/machpunch.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "magicpowder",
@@ -2827,7 +3083,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Changes the target's type to Psychic.",
-      "url": "https://www.serebii.net/attackdex-champions/magicpowder.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/magicpowder.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "magicroom",
@@ -2838,7 +3095,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Gives the entire field the Magic Room status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/magicroom.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/magicroom.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "magnetrise",
@@ -2849,7 +3107,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user gains the Magnet Rise status.",
-      "url": "https://www.serebii.net/attackdex-champions/magnetrise.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/magnetrise.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "magneticflux",
@@ -2860,7 +3119,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "If the user or its allies have the Plus Ability or the Minus Ability their Defense and Sp. Def stats are boosted by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/magneticflux.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/magneticflux.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "matchagotcha",
@@ -2871,7 +3131,8 @@
       "accuracy": 90,
       "pp": 16,
       "effect": "Has a 20% chance of burning targets. The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/matchagotcha.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/matchagotcha.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "meanlook",
@@ -2882,7 +3143,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Gives the target the Can't Escape status.",
-      "url": "https://www.serebii.net/attackdex-champions/meanlook.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/meanlook.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "megakick",
@@ -2893,7 +3155,8 @@
       "accuracy": 75,
       "pp": 8,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/megakick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/megakick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "megahorn",
@@ -2904,7 +3167,8 @@
       "accuracy": 85,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/megahorn.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/megahorn.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "memento",
@@ -2915,7 +3179,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Attack and Sp. Atk stats by 2 stages. The user faints upon using this move.",
-      "url": "https://www.serebii.net/attackdex-champions/memento.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/memento.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "metalburst",
@@ -2926,7 +3191,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user retaliates to deal 150% of the damage it took from an opponent's move during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/metalburst.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/metalburst.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "metalsound",
@@ -2937,7 +3203,8 @@
       "accuracy": 85,
       "pp": 20,
       "effect": "Lowers the target's Sp. Def stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/metalsound.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/metalsound.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "meteorbeam",
@@ -2948,7 +3215,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user gains the Charging status on the turn this move is used then attacks on the following turn. The user's Sp. Atk stat is boosted by 1 stage on the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/meteorbeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/meteorbeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "meteormash",
@@ -2959,7 +3227,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 20% chance of boosting the user's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/meteormash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/meteormash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "milkdrink",
@@ -2970,7 +3239,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/milkdrink.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/milkdrink.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "minimize",
@@ -2981,7 +3251,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Boosts the user's evasiveness by 2 stages. The user gains the Minimized status.",
-      "url": "https://www.serebii.net/attackdex-champions/minimize.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/minimize.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mirrorcoat",
@@ -2992,7 +3263,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The user retaliates to deal double the damage it took from an opponent's special move during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/mirrorcoat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mirrorcoat.shtml",
+      "speed_priority": -5
     },
     {
       "slug": "mistyexplosion",
@@ -3003,7 +3275,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "If the user is under the effect of Misty Terrain this move's power is boosted by 50%. The user faints upon using this move.",
-      "url": "https://www.serebii.net/attackdex-champions/mistyexplosion.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mistyexplosion.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mistyterrain",
@@ -3014,7 +3287,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Turns the entire field into Misty Terrain for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/mistyterrain.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mistyterrain.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "moonblast",
@@ -3025,7 +3299,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of lowering the target's Sp. Atk stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/moonblast.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/moonblast.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "moonlight",
@@ -3036,7 +3311,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP. In harsh sunlight 2/3 of its max HP will be restored instead. In all other weather conditions 1/4 of its max HP will be restored instead.",
-      "url": "https://www.serebii.net/attackdex-champions/moonlight.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/moonlight.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "morningsun",
@@ -3047,7 +3323,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP. In harsh sunlight 2/3 of its max HP will be restored instead. In all other weather conditions 1/4 of its max HP will be restored instead.",
-      "url": "https://www.serebii.net/attackdex-champions/morningsun.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/morningsun.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mortalspin",
@@ -3058,7 +3335,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Removes the Bound and Leech Seeded statuses from the user and removes the Sticky Web Stealth Rock Spikes and Toxic Spikes statuses from the user's side. Poisons targets.",
-      "url": "https://www.serebii.net/attackdex-champions/mortalspin.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mortalspin.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mountaingale",
@@ -3069,7 +3347,8 @@
       "accuracy": 85,
       "pp": 12,
       "effect": "Has a 30% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/mountaingale.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mountaingale.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mudshot",
@@ -3080,7 +3359,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Lowers the target's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/mudshot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mudshot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mud-slap",
@@ -3091,7 +3371,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's accuracy by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/mud-slap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mud-slap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "muddywater",
@@ -3102,7 +3383,8 @@
       "accuracy": 85,
       "pp": 12,
       "effect": "Has a 30% chance of lowering targets' accuracy by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/muddywater.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/muddywater.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "mysticalfire",
@@ -3113,7 +3395,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Sp. Atk stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/mysticalfire.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/mysticalfire.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "nastyplot",
@@ -3124,7 +3407,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Sp. Atk stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/nastyplot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/nastyplot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "nightdaze",
@@ -3135,7 +3419,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": "Has a 40% chance of lowering the target's accuracy by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/nightdaze.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/nightdaze.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "nightshade",
@@ -3146,7 +3431,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Deals 50 HP of damage.",
-      "url": "https://www.serebii.net/attackdex-champions/nightshade.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/nightshade.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "nightslash",
@@ -3157,7 +3443,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/nightslash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/nightslash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "nobleroar",
@@ -3168,7 +3455,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Attack and Sp. Atk stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/nobleroar.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/nobleroar.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "nuzzle",
@@ -3179,7 +3467,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Paralyzes the target.",
-      "url": "https://www.serebii.net/attackdex-champions/nuzzle.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/nuzzle.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "outrage",
@@ -3190,7 +3479,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Rampaging status.",
-      "url": "https://www.serebii.net/attackdex-champions/outrage.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/outrage.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "overheat",
@@ -3201,7 +3491,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "Lowers the user's Sp. Atk stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/overheat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/overheat.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "painsplit",
@@ -3212,7 +3503,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user adds its remaining HP to the target's remaining HP then splits the total in half for them to share.",
-      "url": "https://www.serebii.net/attackdex-champions/painsplit.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/painsplit.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "paraboliccharge",
@@ -3223,7 +3515,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The user's HP is restored by 1/2 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/paraboliccharge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/paraboliccharge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "partingshot",
@@ -3234,7 +3527,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Attack and Sp. Atk stats by 1 stage. The user then switches out of battle to be replaced by another party Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/partingshot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/partingshot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "payback",
@@ -3245,7 +3539,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the user attacks after the target.",
-      "url": "https://www.serebii.net/attackdex-champions/payback.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/payback.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "perishsong",
@@ -3256,7 +3551,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Gives all Pokémon on the field the Perishing status.",
-      "url": "https://www.serebii.net/attackdex-champions/perishsong.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/perishsong.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "petalblizzard",
@@ -3267,7 +3563,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/petalblizzard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/petalblizzard.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "petaldance",
@@ -3278,7 +3575,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Rampaging status.",
-      "url": "https://www.serebii.net/attackdex-champions/petaldance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/petaldance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "phantomforce",
@@ -3289,7 +3587,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Concealed status on the turn this move is used then attacks on the following turn. This move can hit a target using a move such as Protect or Detect and removes the effects of those moves.",
-      "url": "https://www.serebii.net/attackdex-champions/phantomforce.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/phantomforce.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "pinmissile",
@@ -3300,7 +3599,8 @@
       "accuracy": 95,
       "pp": 20,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/pinmissile.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/pinmissile.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "playrough",
@@ -3311,7 +3611,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 10% chance of lowering the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/playrough.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/playrough.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "pluck",
@@ -3322,7 +3623,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "If the target is holding a Berry the user eats that Berry and gains its effect.",
-      "url": "https://www.serebii.net/attackdex-champions/pluck.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/pluck.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "poisonfang",
@@ -3333,7 +3635,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 50% chance of badly poisoning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/poisonfang.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/poisonfang.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "poisonjab",
@@ -3344,7 +3647,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Has a 30% chance of poisoning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/poisonjab.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/poisonjab.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "poisonpowder",
@@ -3355,7 +3659,8 @@
       "accuracy": 75,
       "pp": 20,
       "effect": "Poisons the target.",
-      "url": "https://www.serebii.net/attackdex-champions/poisonpowder.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/poisonpowder.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "pollenpuff",
@@ -3366,7 +3671,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "When used on an ally this move restores 1/2 of its max HP instead of dealing damage.",
-      "url": "https://www.serebii.net/attackdex-champions/pollenpuff.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/pollenpuff.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "poltergeist",
@@ -3377,7 +3683,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "This move fails if the target isn't holding an item.",
-      "url": "https://www.serebii.net/attackdex-champions/poltergeist.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/poltergeist.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "populationbomb",
@@ -3388,7 +3695,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user attacks 1 to 10 times in a row. The attack ends if the user misses.",
-      "url": "https://www.serebii.net/attackdex-champions/populationbomb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/populationbomb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "pounce",
@@ -3399,7 +3707,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/pounce.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/pounce.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powergem",
@@ -3410,7 +3719,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/powergem.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powergem.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powershift",
@@ -3421,7 +3731,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user gains the Atk/Def Swapped status.",
-      "url": "https://www.serebii.net/attackdex-champions/powershift.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powershift.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powersplit",
@@ -3432,7 +3743,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user adds its Attack stat to the target's Attack stat then splits the total in half for them to share. It does the same with each of their Sp. Atk stats.",
-      "url": "https://www.serebii.net/attackdex-champions/powersplit.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powersplit.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powerswap",
@@ -3443,7 +3755,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user swaps the changes to its Attack and Sp. Atk stats with the changes to the target's Attack and Sp. Atk stats.",
-      "url": "https://www.serebii.net/attackdex-champions/powerswap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powerswap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powertrick",
@@ -3454,7 +3767,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user gains the Atk/Def Swapped status.",
-      "url": "https://www.serebii.net/attackdex-champions/powertrick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powertrick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powertrip",
@@ -3465,7 +3779,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is increased by 20 for each stage that the user's stats have been boosted.",
-      "url": "https://www.serebii.net/attackdex-champions/powertrip.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powertrip.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "powerwhip",
@@ -3476,7 +3791,8 @@
       "accuracy": 85,
       "pp": 12,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/powerwhip.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/powerwhip.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "protect",
@@ -3487,7 +3803,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/protect.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/protect.shtml",
+      "speed_priority": 4
     },
     {
       "slug": "psychup",
@@ -3498,7 +3815,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user copies the target's stat changes.",
-      "url": "https://www.serebii.net/attackdex-champions/psychup.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psychup.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psychic",
@@ -3509,7 +3827,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/psychic.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psychic.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psychicfangs",
@@ -3520,7 +3839,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side.",
-      "url": "https://www.serebii.net/attackdex-champions/psychicfangs.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psychicfangs.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psychicnoise",
@@ -3531,7 +3851,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Gives the target the Healing Prevented status for 2 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/psychicnoise.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psychicnoise.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psychicterrain",
@@ -3542,7 +3863,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Turns the entire field into Psychic Terrain for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/psychicterrain.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psychicterrain.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psychocut",
@@ -3553,7 +3875,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/psychocut.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psychocut.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psyshieldbash",
@@ -3564,7 +3887,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Boosts the user's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/psyshieldbash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psyshieldbash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "psyshock",
@@ -3575,7 +3899,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This is a special move but the damage it deals is calculated using the target's Defense stat.",
-      "url": "https://www.serebii.net/attackdex-champions/psyshock.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/psyshock.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "quash",
@@ -3586,7 +3911,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Causes the target to move last in the turn.",
-      "url": "https://www.serebii.net/attackdex-champions/quash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/quash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "quickattack",
@@ -3597,7 +3923,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/quickattack.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/quickattack.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "quickguard",
@@ -3608,7 +3935,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "The user protects itself and its allies from priority moves for the turn.",
-      "url": "https://www.serebii.net/attackdex-champions/quickguard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/quickguard.shtml",
+      "speed_priority": 3
     },
     {
       "slug": "quiverdance",
@@ -3619,7 +3947,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Sp. Atk Sp. Def and Speed stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/quiverdance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/quiverdance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ragepowder",
@@ -3630,7 +3959,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "The user redirects opponents' moves toward itself. This effect works only on single-target moves.",
-      "url": "https://www.serebii.net/attackdex-champions/ragepowder.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ragepowder.shtml",
+      "speed_priority": 2
     },
     {
       "slug": "ragingbull",
@@ -3641,7 +3971,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side. This move's type depends on the user's form.",
-      "url": "https://www.serebii.net/attackdex-champions/ragingbull.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ragingbull.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "ragingfury",
@@ -3652,7 +3983,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Rampaging status.",
-      "url": "https://www.serebii.net/attackdex-champions/ragingfury.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/ragingfury.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "raindance",
@@ -3663,7 +3995,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Summons rain for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/raindance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/raindance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "rapidspin",
@@ -3674,7 +4007,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Removes the Bound and Leech Seeded statuses from the user and removes the Sticky Web Stealth Rock Spikes and Toxic Spikes statuses from the user's side. Boosts the user's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/rapidspin.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rapidspin.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "razorshell",
@@ -3685,7 +4019,8 @@
       "accuracy": 95,
       "pp": 12,
       "effect": "Has a 50% chance of lowering the target's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/razorshell.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/razorshell.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "recover",
@@ -3696,7 +4031,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/recover.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/recover.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "recycle",
@@ -3707,7 +4043,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Regenerates the last held item that the user consumed. The user then holds this item once more.",
-      "url": "https://www.serebii.net/attackdex-champions/recycle.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/recycle.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "reflect",
@@ -3718,7 +4055,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the user's side the Reflect status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/reflect.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/reflect.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "reflecttype",
@@ -3729,7 +4067,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "The user becomes the same type or types as the target.",
-      "url": "https://www.serebii.net/attackdex-champions/reflecttype.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/reflecttype.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "rest",
@@ -3740,7 +4079,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
-      "url": "https://www.serebii.net/attackdex-champions/rest.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rest.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "reversal",
@@ -3751,7 +4091,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The less HP the user has left the greater this move's power (ranging between 20 and 200).",
-      "url": "https://www.serebii.net/attackdex-champions/reversal.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/reversal.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "risingvoltage",
@@ -3762,7 +4103,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "This move's power is doubled if the target is under the effect of Electric Terrain.",
-      "url": "https://www.serebii.net/attackdex-champions/risingvoltage.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/risingvoltage.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "roar",
@@ -3773,7 +4115,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
-      "url": "https://www.serebii.net/attackdex-champions/roar.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/roar.shtml",
+      "speed_priority": -6
     },
     {
       "slug": "rockblast",
@@ -3784,7 +4127,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/rockblast.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rockblast.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "rockpolish",
@@ -3795,7 +4139,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Speed stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/rockpolish.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rockpolish.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "rockslide",
@@ -3806,7 +4151,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Has a 30% chance of making targets flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/rockslide.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rockslide.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "rocktomb",
@@ -3817,7 +4163,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Lowers the target's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/rocktomb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rocktomb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "rockwrecker",
@@ -3828,7 +4175,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Recharging status on the turn after this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/rockwrecker.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/rockwrecker.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "roleplay",
@@ -3839,7 +4187,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Changes the user's Ability to be the same as the target's.",
-      "url": "https://www.serebii.net/attackdex-champions/roleplay.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/roleplay.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "roost",
@@ -3850,7 +4199,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP. If the user is a Flying type it will lose the Flying type for the turn.",
-      "url": "https://www.serebii.net/attackdex-champions/roost.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/roost.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "round",
@@ -3861,7 +4211,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "If multiple Pokémon use this move in the same turn the second user onward will act immediately after the first and the power of the second Round onward will be doubled.",
-      "url": "https://www.serebii.net/attackdex-champions/round.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/round.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sacredsword",
@@ -3872,7 +4223,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "This move ignores the target's stat changes when dealing damage.",
-      "url": "https://www.serebii.net/attackdex-champions/sacredsword.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sacredsword.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "safeguard",
@@ -3883,7 +4235,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the user's side the Safeguard status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/safeguard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/safeguard.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "saltcure",
@@ -3894,7 +4247,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Gives the target the Salt Cured status.",
-      "url": "https://www.serebii.net/attackdex-champions/saltcure.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/saltcure.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sandtomb",
@@ -3905,7 +4259,8 @@
       "accuracy": 85,
       "pp": 16,
       "effect": "Gives the target the Bound status.",
-      "url": "https://www.serebii.net/attackdex-champions/sandtomb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sandtomb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sandstorm",
@@ -3916,7 +4271,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Summons a sandstorm for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/sandstorm.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sandstorm.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "scald",
@@ -3927,7 +4283,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 30% chance of burning the target. Cures the user and target of being frozen.",
-      "url": "https://www.serebii.net/attackdex-champions/scald.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/scald.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "scaleshot",
@@ -3938,7 +4295,8 @@
       "accuracy": 90,
       "pp": 20,
       "effect": "The user attacks 2 to 5 times in a row. This move lowers the user's Defense stat by 1 stage and boosts its Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/scaleshot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/scaleshot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "scaryface",
@@ -3949,7 +4307,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Lowers the target's Speed stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/scaryface.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/scaryface.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "scorchingsands",
@@ -3960,7 +4319,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 30% chance of burning the target. Cures the user and target of being frozen.",
-      "url": "https://www.serebii.net/attackdex-champions/scorchingsands.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/scorchingsands.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "screech",
@@ -3971,7 +4331,8 @@
       "accuracy": 85,
       "pp": 20,
       "effect": "Lowers the target's Defense stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/screech.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/screech.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "seedbomb",
@@ -3982,7 +4343,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/seedbomb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/seedbomb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "seismictoss",
@@ -3993,7 +4355,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Deals 50 HP of damage.",
-      "url": "https://www.serebii.net/attackdex-champions/seismictoss.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/seismictoss.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "self-destruct",
@@ -4004,7 +4367,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The user faints upon using this move.",
-      "url": "https://www.serebii.net/attackdex-champions/self-destruct.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/self-destruct.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shadowball",
@@ -4015,7 +4379,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 20% chance of lowering the target's Sp. Def stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/shadowball.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shadowball.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shadowclaw",
@@ -4026,7 +4391,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/shadowclaw.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shadowclaw.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shadowpunch",
@@ -4037,7 +4403,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/shadowpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shadowpunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shadowsneak",
@@ -4048,7 +4415,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/shadowsneak.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shadowsneak.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "shedtail",
@@ -4059,7 +4427,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user loses 1/2 of its max HP to create a substitute then switches out of battle to be replaced by another party Pokémon. The substitute will be hit by moves instead of that Pokémon and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/shedtail.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shedtail.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sheercold",
@@ -4070,7 +4439,8 @@
       "accuracy": 30,
       "pp": 8,
       "effect": "Knocks out the target. This move does not affect Ice types. The accuracy of this move is fixed at 30%. If used by Pokémon other than Ice types the accuracy of this move is 20%.",
-      "url": "https://www.serebii.net/attackdex-champions/sheercold.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sheercold.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shellsidearm",
@@ -4081,7 +4451,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 20% chance of poisoning the target. Becomes a physical move if that will deal more damage.",
-      "url": "https://www.serebii.net/attackdex-champions/shellsidearm.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shellsidearm.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shellsmash",
@@ -4092,7 +4463,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Lowers the user's Defense and Sp. Def stats by 1 stage and boosts its Attack Sp. Atk and Speed stats by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/shellsmash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shellsmash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "shelter",
@@ -4103,7 +4475,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Boosts the user's Defense stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/shelter.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/shelter.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "simplebeam",
@@ -4114,7 +4487,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Changes the target's Ability to Simple.",
-      "url": "https://www.serebii.net/attackdex-champions/simplebeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/simplebeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sing",
@@ -4125,7 +4499,8 @@
       "accuracy": 55,
       "pp": 16,
       "effect": "Puts the target to sleep.",
-      "url": "https://www.serebii.net/attackdex-champions/sing.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sing.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "skillswap",
@@ -4136,7 +4511,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user and the target swap their Abilities.",
-      "url": "https://www.serebii.net/attackdex-champions/skillswap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/skillswap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "skittersmack",
@@ -4147,7 +4523,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Lowers the target's Sp. Atk stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/skittersmack.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/skittersmack.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "skyattack",
@@ -4158,7 +4535,8 @@
       "accuracy": 90,
       "pp": 8,
       "effect": "The user gains the Charging status on the turn this move is used then attacks on the following turn. This move has a 30% chance of making the target flinch and it has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/skyattack.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/skyattack.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "slackoff",
@@ -4169,7 +4547,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/slackoff.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/slackoff.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sleeppowder",
@@ -4180,7 +4559,8 @@
       "accuracy": 75,
       "pp": 16,
       "effect": "Puts the target to sleep.",
-      "url": "https://www.serebii.net/attackdex-champions/sleeppowder.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sleeppowder.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sleeptalk",
@@ -4191,7 +4571,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
-      "url": "https://www.serebii.net/attackdex-champions/sleeptalk.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sleeptalk.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sludgebomb",
@@ -4202,7 +4583,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 30% chance of poisoning the target.",
-      "url": "https://www.serebii.net/attackdex-champions/sludgebomb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sludgebomb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sludgewave",
@@ -4213,7 +4595,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 10% chance of poisoning targets.",
-      "url": "https://www.serebii.net/attackdex-champions/sludgewave.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sludgewave.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "smackdown",
@@ -4224,7 +4607,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "If the target is off the ground it gains the Landed status. This move can hit a target that has the Sky-High status.",
-      "url": "https://www.serebii.net/attackdex-champions/smackdown.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/smackdown.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "smartstrike",
@@ -4235,7 +4619,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/smartstrike.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/smartstrike.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "snaptrap",
@@ -4246,7 +4631,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Gives the target the Bound status.",
-      "url": "https://www.serebii.net/attackdex-champions/snaptrap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/snaptrap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "snarl",
@@ -4257,7 +4643,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Lowers targets' Sp. Atk stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/snarl.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/snarl.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "snore",
@@ -4268,7 +4655,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Can be used only if the user is asleep. Has a 30% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/snore.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/snore.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "snowscape",
@@ -4279,7 +4667,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Summons snow for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/snowscape.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/snowscape.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "soak",
@@ -4290,7 +4679,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Changes the target's type to Water.",
-      "url": "https://www.serebii.net/attackdex-champions/soak.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/soak.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "soft-boiled",
@@ -4301,7 +4691,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/soft-boiled.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/soft-boiled.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "solarbeam",
@@ -4312,7 +4703,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Charging status on the turn this move is used then attacks on the following turn. In harsh sunlight the user does not gain the Charging status and can attack immediately. This move's power is halved in any other weather condition.",
-      "url": "https://www.serebii.net/attackdex-champions/solarbeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/solarbeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "solarblade",
@@ -4323,7 +4715,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Charging status on the turn this move is used then attacks on the following turn. In harsh sunlight the user does not gain the Charging status and can attack immediately. This move's power is halved in any other weather condition.",
-      "url": "https://www.serebii.net/attackdex-champions/solarblade.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/solarblade.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sparklingaria",
@@ -4334,7 +4727,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Cures targets of their burns.",
-      "url": "https://www.serebii.net/attackdex-champions/sparklingaria.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sparklingaria.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "speedswap",
@@ -4345,7 +4739,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user and the target swap their Speed stats.",
-      "url": "https://www.serebii.net/attackdex-champions/speedswap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/speedswap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "spicyextract",
@@ -4356,7 +4751,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Lowers the target's Defense stat by 2 stages and boosts its Attack stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/spicyextract.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spicyextract.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "spikes",
@@ -4367,7 +4763,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the opponent's side the Spikes status.",
-      "url": "https://www.serebii.net/attackdex-champions/spikes.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spikes.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "spikyshield",
@@ -4378,7 +4775,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn take damage equal to 1/8 of their max HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
-      "url": "https://www.serebii.net/attackdex-champions/spikyshield.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spikyshield.shtml",
+      "speed_priority": 4
     },
     {
       "slug": "spiritshackle",
@@ -4389,7 +4787,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Gives the target the Can't Escape status.",
-      "url": "https://www.serebii.net/attackdex-champions/spiritshackle.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spiritshackle.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "spitup",
@@ -4400,7 +4799,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The higher the user's Stockpiling level the greater this move's power (ranging between 100 and 300). This move fails unless the user has the Stockpiling status.",
-      "url": "https://www.serebii.net/attackdex-champions/spitup.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spitup.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "spite",
@@ -4411,7 +4811,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Removes 4 PP from the move last used by the target.",
-      "url": "https://www.serebii.net/attackdex-champions/spite.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spite.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "spore",
@@ -4422,7 +4823,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Puts the target to sleep.",
-      "url": "https://www.serebii.net/attackdex-champions/spore.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/spore.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stealthrock",
@@ -4433,7 +4835,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the opponent's side the Stealth Rock status.",
-      "url": "https://www.serebii.net/attackdex-champions/stealthrock.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stealthrock.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "steelbeam",
@@ -4444,7 +4847,8 @@
       "accuracy": 95,
       "pp": 8,
       "effect": "After attacking the user takes damage equal to 1/2 of its max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/steelbeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/steelbeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "steelroller",
@@ -4455,7 +4859,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Removes any terrain. This move fails if there is no terrain on the field.",
-      "url": "https://www.serebii.net/attackdex-champions/steelroller.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/steelroller.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "steelwing",
@@ -4466,7 +4871,8 @@
       "accuracy": 90,
       "pp": 20,
       "effect": "Has a 10% chance of boosting the user's Defense stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/steelwing.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/steelwing.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stickyweb",
@@ -4477,7 +4883,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the opponent's side the Sticky Web status.",
-      "url": "https://www.serebii.net/attackdex-champions/stickyweb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stickyweb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stockpile",
@@ -4488,7 +4895,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Defense and Sp. Def stats by 1 stage. Raises the user's Stockpiling level by 1. Can be used up to 3 times.",
-      "url": "https://www.serebii.net/attackdex-champions/stockpile.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stockpile.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stompingtantrum",
@@ -4499,7 +4907,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the user couldn't act or its move missed or failed on the previous turn.",
-      "url": "https://www.serebii.net/attackdex-champions/stompingtantrum.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stompingtantrum.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stoneaxe",
@@ -4510,7 +4919,8 @@
       "accuracy": 90,
       "pp": 16,
       "effect": "Gives the opponent's side the Stealth Rock status.",
-      "url": "https://www.serebii.net/attackdex-champions/stoneaxe.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stoneaxe.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stoneedge",
@@ -4521,7 +4931,8 @@
       "accuracy": 80,
       "pp": 8,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/stoneedge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stoneedge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "storedpower",
@@ -4532,7 +4943,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is increased by 20 for each stage that the user's stats have been boosted.",
-      "url": "https://www.serebii.net/attackdex-champions/storedpower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/storedpower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stormthrow",
@@ -4543,7 +4955,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Always a critical hit.",
-      "url": "https://www.serebii.net/attackdex-champions/stormthrow.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stormthrow.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "strengthsap",
@@ -4554,7 +4967,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Restores the user's HP by an amount equal to the target's Attack stat. Lowers the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/strengthsap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/strengthsap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stringshot",
@@ -4565,7 +4979,8 @@
       "accuracy": 95,
       "pp": 20,
       "effect": "Lowers targets' Speed stats by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/stringshot.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stringshot.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "struggle",
@@ -4576,7 +4991,8 @@
       "accuracy": null,
       "pp": 1,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/struggle.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/struggle.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "strugglebug",
@@ -4587,7 +5003,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers targets' Sp. Atk stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/strugglebug.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/strugglebug.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stuffcheeks",
@@ -4598,7 +5015,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user eats its held Berry and boosts its Defense stat by 2 stages. This move can't be used if the user is not holding a Berry.",
-      "url": "https://www.serebii.net/attackdex-champions/stuffcheeks.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stuffcheeks.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "stunspore",
@@ -4609,7 +5027,8 @@
       "accuracy": 75,
       "pp": 20,
       "effect": "Paralyzes the target.",
-      "url": "https://www.serebii.net/attackdex-champions/stunspore.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/stunspore.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "substitute",
@@ -4620,7 +5039,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/substitute.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/substitute.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "suckerpunch",
@@ -4631,7 +5051,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "This move fails unless the target has chosen an attack and has not yet attacked during the turn this move is used.",
-      "url": "https://www.serebii.net/attackdex-champions/suckerpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/suckerpunch.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "sunnyday",
@@ -4642,7 +5063,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Summons harsh sunlight for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/sunnyday.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sunnyday.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "superfang",
@@ -4653,7 +5075,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Deals damage to the target equal to 1/2 of its remaining HP. Deals 1 HP of damage to a target that has only 1 HP left.",
-      "url": "https://www.serebii.net/attackdex-champions/superfang.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/superfang.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "supercellslam",
@@ -4664,7 +5087,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "If this move misses or fails the user takes damage equal to 1/2 of its max HP. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
-      "url": "https://www.serebii.net/attackdex-champions/supercellslam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/supercellslam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "superpower",
@@ -4675,7 +5099,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "Lowers the user's Attack and Defense stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/superpower.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/superpower.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "surf",
@@ -4686,7 +5111,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "This move's power is doubled against targets that have the Submerged status.",
-      "url": "https://www.serebii.net/attackdex-champions/surf.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/surf.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "swagger",
@@ -4697,7 +5123,8 @@
       "accuracy": 85,
       "pp": 16,
       "effect": "Boosts the target's Attack stat by 2 stages and confuses it.",
-      "url": "https://www.serebii.net/attackdex-champions/swagger.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/swagger.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "swallow",
@@ -4708,7 +5135,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The higher the user's Stockpiling level the more HP the user restores. Level 1 1/4 of the user's max HP is restored. Level 2 1/2 of the user's max HP is restored. Level 3 The user's HP is fully restored. This move fails unless the user has the Stockpiling status.",
-      "url": "https://www.serebii.net/attackdex-champions/swallow.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/swallow.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sweetkiss",
@@ -4719,7 +5147,8 @@
       "accuracy": 75,
       "pp": 12,
       "effect": "Confuses the target.",
-      "url": "https://www.serebii.net/attackdex-champions/sweetkiss.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sweetkiss.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "sweetscent",
@@ -4730,7 +5159,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers targets' evasiveness by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/sweetscent.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/sweetscent.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "switcheroo",
@@ -4741,7 +5171,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user and the target swap their held items.",
-      "url": "https://www.serebii.net/attackdex-champions/switcheroo.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/switcheroo.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "swordsdance",
@@ -4752,7 +5183,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Boosts the user's Attack stat by 2 stages.",
-      "url": "https://www.serebii.net/attackdex-champions/swordsdance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/swordsdance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "synthesis",
@@ -4763,7 +5195,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Restores 1/2 of the user's max HP. In harsh sunlight 2/3 of its max HP will be restored instead. In all other weather conditions 1/4 of its max HP will be restored instead.",
-      "url": "https://www.serebii.net/attackdex-champions/synthesis.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/synthesis.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "syrupbomb",
@@ -4774,7 +5207,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Gives the target the Syrupy status for 3 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/syrupbomb.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/syrupbomb.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tailslap",
@@ -4785,7 +5219,8 @@
       "accuracy": 85,
       "pp": 12,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/tailslap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tailslap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tailwind",
@@ -4796,7 +5231,8 @@
       "accuracy": null,
       "pp": 16,
       "effect": "Gives the user's side the Tailwind status for 4 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/tailwind.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tailwind.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "taunt",
@@ -4807,7 +5243,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Gives the target the Taunted status.",
-      "url": "https://www.serebii.net/attackdex-champions/taunt.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/taunt.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tearfullook",
@@ -4818,7 +5255,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Lowers the target's Attack and Sp. Atk stats by 1 stage. This move ignores the target's evasiveness and can hit a target using a move such as Protect.",
-      "url": "https://www.serebii.net/attackdex-champions/tearfullook.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tearfullook.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "teatime",
@@ -4829,7 +5267,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Causes all Pokémon on the field to eat their held Berries.",
-      "url": "https://www.serebii.net/attackdex-champions/teatime.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/teatime.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "teeterdance",
@@ -4840,7 +5279,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Confuses all other Pokémon on the field.",
-      "url": "https://www.serebii.net/attackdex-champions/teeterdance.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/teeterdance.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "temperflare",
@@ -4851,7 +5291,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the user couldn't act or its move missed or failed on the previous turn.",
-      "url": "https://www.serebii.net/attackdex-champions/temperflare.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/temperflare.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "terrainpulse",
@@ -4862,7 +5303,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the user is under the effect of a terrain. This move's type depends on the terrain.",
-      "url": "https://www.serebii.net/attackdex-champions/terrainpulse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/terrainpulse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thief",
@@ -4873,7 +5315,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "If the user is not already holding an item it steals the target's held item.",
-      "url": "https://www.serebii.net/attackdex-champions/thief.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thief.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thrash",
@@ -4884,7 +5327,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Rampaging status.",
-      "url": "https://www.serebii.net/attackdex-champions/thrash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thrash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "throatchop",
@@ -4895,7 +5339,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Gives the target the Throat Chopped status.",
-      "url": "https://www.serebii.net/attackdex-champions/throatchop.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/throatchop.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thunder",
@@ -4906,7 +5351,8 @@
       "accuracy": 70,
       "pp": 12,
       "effect": "Has a 30% chance of paralyzing the target. This move never misses in rain and can hit a target that has the Sky-High status.",
-      "url": "https://www.serebii.net/attackdex-champions/thunder.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thunder.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thunderfang",
@@ -4917,7 +5363,8 @@
       "accuracy": 95,
       "pp": 16,
       "effect": "Has a 10% chance of paralyzing the target and a 10% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/thunderfang.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thunderfang.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thunderpunch",
@@ -4928,7 +5375,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of paralyzing the target.",
-      "url": "https://www.serebii.net/attackdex-champions/thunderpunch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thunderpunch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thunderwave",
@@ -4939,7 +5387,8 @@
       "accuracy": 90,
       "pp": 20,
       "effect": "Paralyzes the target.",
-      "url": "https://www.serebii.net/attackdex-champions/thunderwave.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thunderwave.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "thunderbolt",
@@ -4950,7 +5399,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of paralyzing the target.",
-      "url": "https://www.serebii.net/attackdex-champions/thunderbolt.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/thunderbolt.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tickle",
@@ -4961,7 +5411,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Attack and Defense stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/tickle.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tickle.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tidyup",
@@ -4972,7 +5423,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Removes the Sticky Web Stealth Rock Substitute Spikes and Toxic Spikes statuses from the entire field. Boosts the user's Attack and Speed stats by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/tidyup.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tidyup.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "torchsong",
@@ -4983,7 +5435,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Boosts the user's Sp. Atk stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/torchsong.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/torchsong.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "torment",
@@ -4994,7 +5447,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Gives the target the Unable to Repeat status.",
-      "url": "https://www.serebii.net/attackdex-champions/torment.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/torment.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "toxic",
@@ -5005,7 +5459,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "Badly poisons the target. If the user is a Poison type this move will never miss.",
-      "url": "https://www.serebii.net/attackdex-champions/toxic.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/toxic.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "toxicspikes",
@@ -5016,7 +5471,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "Gives the opponent's side the Toxic Spikes status.",
-      "url": "https://www.serebii.net/attackdex-champions/toxicspikes.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/toxicspikes.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "toxicthread",
@@ -5027,7 +5483,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Lowers the target's Speed stat by 2 stages and poisons it.",
-      "url": "https://www.serebii.net/attackdex-champions/toxicthread.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/toxicthread.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "trailblaze",
@@ -5038,7 +5495,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Boosts the user's Speed stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/trailblaze.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/trailblaze.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "transform",
@@ -5049,7 +5507,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "The user transforms into a copy of the target. It also copies all of the target's stats apart from its HP.",
-      "url": "https://www.serebii.net/attackdex-champions/transform.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/transform.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "triattack",
@@ -5060,7 +5519,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 20% chance of leaving the target burned frozen or paralyzed.",
-      "url": "https://www.serebii.net/attackdex-champions/triattack.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/triattack.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "trick",
@@ -5071,7 +5531,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user and the target swap their held items.",
-      "url": "https://www.serebii.net/attackdex-champions/trick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/trick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "trickroom",
@@ -5082,7 +5543,8 @@
       "accuracy": null,
       "pp": 8,
       "effect": "Gives the entire field the Trick Room status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/trickroom.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/trickroom.shtml",
+      "speed_priority": -7
     },
     {
       "slug": "trick-or-treat",
@@ -5093,7 +5555,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Gives the target the Trick-or-Treating status.",
-      "url": "https://www.serebii.net/attackdex-champions/trick-or-treat.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/trick-or-treat.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "triplearrows",
@@ -5104,7 +5567,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Has a 50% chance of lowering the target's Defense stat by 1 stage and has a 30% chance of making the target flinch. This move has a 1-stage Critical-Hit Ratio Boost.",
-      "url": "https://www.serebii.net/attackdex-champions/triplearrows.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/triplearrows.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tripleaxel",
@@ -5115,7 +5579,8 @@
       "accuracy": 90,
       "pp": 12,
       "effect": "The user attacks 3 times in a row-first with a power of 20 then with a power of 40 then with a power of 60. The attack ends if the user misses.",
-      "url": "https://www.serebii.net/attackdex-champions/tripleaxel.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tripleaxel.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "tropkick",
@@ -5126,7 +5591,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Lowers the target's Attack stat by 1 stage.",
-      "url": "https://www.serebii.net/attackdex-champions/tropkick.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/tropkick.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "twinbeam",
@@ -5137,7 +5603,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user attacks twice in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/twinbeam.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/twinbeam.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "u-turn",
@@ -5148,7 +5615,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "After attacking the user switches out of battle to be replaced by another party Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/u-turn.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/u-turn.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "upperhand",
@@ -5159,7 +5627,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Makes the target flinch. This move fails if the target isn't about to use a priority move.",
-      "url": "https://www.serebii.net/attackdex-champions/upperhand.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/upperhand.shtml",
+      "speed_priority": 3
     },
     {
       "slug": "uproar",
@@ -5170,7 +5639,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user gains the Uproar status.",
-      "url": "https://www.serebii.net/attackdex-champions/uproar.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/uproar.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "vacuumwave",
@@ -5181,7 +5651,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/vacuumwave.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/vacuumwave.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "venoshock",
@@ -5192,7 +5663,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "This move's power is doubled if the target is poisoned or badly poisoned.",
-      "url": "https://www.serebii.net/attackdex-champions/venoshock.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/venoshock.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "voltswitch",
@@ -5203,7 +5675,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "After attacking the user switches out of battle to be replaced by another party Pokémon.",
-      "url": "https://www.serebii.net/attackdex-champions/voltswitch.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/voltswitch.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "volttackle",
@@ -5214,7 +5687,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 10% chance of paralyzing the target. The user also takes 1/3 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/volttackle.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/volttackle.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "waterpulse",
@@ -5225,7 +5699,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "Has a 20% chance of confusing the target.",
-      "url": "https://www.serebii.net/attackdex-champions/waterpulse.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/waterpulse.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "watershuriken",
@@ -5236,7 +5711,8 @@
       "accuracy": 100,
       "pp": 20,
       "effect": "The user attacks 2 to 5 times in a row.",
-      "url": "https://www.serebii.net/attackdex-champions/watershuriken.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/watershuriken.shtml",
+      "speed_priority": 1
     },
     {
       "slug": "waterspout",
@@ -5247,7 +5723,8 @@
       "accuracy": 100,
       "pp": 8,
       "effect": "The less HP the user has left the lower this move's power (ranging between 1 and 150).",
-      "url": "https://www.serebii.net/attackdex-champions/waterspout.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/waterspout.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "waterfall",
@@ -5258,7 +5735,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "Has a 20% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/waterfall.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/waterfall.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "wavecrash",
@@ -5269,7 +5747,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "The user takes 1/3 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/wavecrash.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/wavecrash.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "weatherball",
@@ -5280,7 +5759,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
-      "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "whirlpool",
@@ -5291,7 +5771,8 @@
       "accuracy": 85,
       "pp": 16,
       "effect": "Gives the target the Bound status. This move's power is doubled if the target has the Submerged status.",
-      "url": "https://www.serebii.net/attackdex-champions/whirlpool.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/whirlpool.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "whirlwind",
@@ -5302,7 +5783,8 @@
       "accuracy": null,
       "pp": 20,
       "effect": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
-      "url": "https://www.serebii.net/attackdex-champions/whirlwind.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/whirlwind.shtml",
+      "speed_priority": -6
     },
     {
       "slug": "wideguard",
@@ -5313,7 +5795,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "During the turn this move is used the user protects its side from moves that target all allies.",
-      "url": "https://www.serebii.net/attackdex-champions/wideguard.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/wideguard.shtml",
+      "speed_priority": 3
     },
     {
       "slug": "wildcharge",
@@ -5324,7 +5807,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The user takes 1/4 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/wildcharge.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/wildcharge.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "will-o-wisp",
@@ -5335,7 +5819,8 @@
       "accuracy": 85,
       "pp": 16,
       "effect": "Burns the target.",
-      "url": "https://www.serebii.net/attackdex-champions/will-o-wisp.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/will-o-wisp.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "wish",
@@ -5346,7 +5831,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Gives the user's spot the Wish status.",
-      "url": "https://www.serebii.net/attackdex-champions/wish.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/wish.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "wonderroom",
@@ -5357,7 +5843,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Gives the entire field the Wonder Room status for 5 turns.",
-      "url": "https://www.serebii.net/attackdex-champions/wonderroom.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/wonderroom.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "woodhammer",
@@ -5368,7 +5855,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": "The user takes 1/3 of the damage dealt by this move.",
-      "url": "https://www.serebii.net/attackdex-champions/woodhammer.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/woodhammer.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "worryseed",
@@ -5379,7 +5867,8 @@
       "accuracy": 100,
       "pp": 12,
       "effect": "Changes the target's Ability to Insomnia.",
-      "url": "https://www.serebii.net/attackdex-champions/worryseed.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/worryseed.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "wrap",
@@ -5390,7 +5879,8 @@
       "accuracy": 90,
       "pp": 20,
       "effect": "Gives the target the Bound status.",
-      "url": "https://www.serebii.net/attackdex-champions/wrap.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/wrap.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "x-scissor",
@@ -5401,7 +5891,8 @@
       "accuracy": 100,
       "pp": 16,
       "effect": null,
-      "url": "https://www.serebii.net/attackdex-champions/x-scissor.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/x-scissor.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "yawn",
@@ -5412,7 +5903,8 @@
       "accuracy": null,
       "pp": 12,
       "effect": "Makes the target drowsy. This move never misses.",
-      "url": "https://www.serebii.net/attackdex-champions/yawn.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/yawn.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "zapcannon",
@@ -5423,7 +5915,8 @@
       "accuracy": 50,
       "pp": 8,
       "effect": "Paralyzes the target.",
-      "url": "https://www.serebii.net/attackdex-champions/zapcannon.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/zapcannon.shtml",
+      "speed_priority": 0
     },
     {
       "slug": "zenheadbutt",
@@ -5434,7 +5927,8 @@
       "accuracy": 90,
       "pp": 16,
       "effect": "Has a 20% chance of making the target flinch.",
-      "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml"
+      "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml",
+      "speed_priority": 0
     }
   ]
 }
