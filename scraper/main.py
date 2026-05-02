@@ -41,6 +41,7 @@ def run(
     only: list[str] | None = None,
     pokemon_limit: int | None = None,
     pokemon_sleep: float = 1.5,
+    move_detail_sleep: float = 1.5,
     image_sleep: float = 0.25,
     force_images: bool = False,
 ) -> None:
@@ -52,7 +53,7 @@ def run(
 
     if should_run("moves"):
         print("=> Scraping moves...", flush=True)
-        moves = scrape_moves()
+        moves = scrape_moves(detail_sleep=move_detail_sleep)
         write_json(
             DATA_DIR / "moves.json",
             {"scraped_at": _now(), "count": len(moves), "moves": moves},
@@ -199,6 +200,15 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--move-detail-sleep",
+        type=float,
+        default=1.5,
+        help=(
+            "Base seconds between each move AttackDex detail page fetch when "
+            "scraping speed priority (default 1.5; jitter matches pokemon scraper)."
+        ),
+    )
+    parser.add_argument(
         "--image-sleep",
         type=float,
         default=0.25,
@@ -220,6 +230,7 @@ def main() -> None:
         only=args.only,
         pokemon_limit=args.pokemon_limit,
         pokemon_sleep=args.pokemon_sleep,
+        move_detail_sleep=args.move_detail_sleep,
         image_sleep=args.image_sleep,
         force_images=args.force_images,
     )
