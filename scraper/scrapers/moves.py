@@ -21,13 +21,16 @@ from ._utils import (
 MOVES_URL = "https://www.serebii.net/pokemonchampions/moves.shtml"
 
 
-def _extract_speed_priority_from_soup(soup: BeautifulSoup) -> Optional[int]:
-    """Parse the Speed Priority integer from a Champions AttackDex detail page."""
+def _extract_in_depth_stats(soup: BeautifulSoup) -> tuple[Optional[int], Optional[str]]:
+    """Parse Speed Priority and Pokémon Hit in Battle from a Champions AttackDex page.
+
+    Both values live in the same two-row block (crit rate | priority | hit scope).
+    """
     for table in soup.find_all("table"):
         rows = table.find_all("tr", recursive=False)
         for idx, row in enumerate(rows):
             cells = row.find_all(["td", "th"], recursive=False)
-            if len(cells) < 2:
+            if len(cells) < 3:
                 continue
             labels = [clean_text(c).lower() for c in cells]
             if not any("speed priority" in lab for lab in labels):
@@ -35,12 +38,16 @@ def _extract_speed_priority_from_soup(soup: BeautifulSoup) -> Optional[int]:
             if idx + 1 >= len(rows):
                 continue
             value_cells = rows[idx + 1].find_all(["td", "th"], recursive=False)
-            if len(value_cells) < 2:
+            if len(value_cells) < 3:
                 continue
-            raw = clean_text(value_cells[1]).strip()
-            if re.fullmatch(r"-?\d+", raw):
-                return int(raw)
-    return None
+            pri_raw = clean_text(value_cells[1]).strip()
+            speed_priority: Optional[int] = None
+            if re.fullmatch(r"-?\d+", pri_raw):
+                speed_priority = int(pri_raw)
+            hit_raw = clean_text(value_cells[2]).strip()
+            pokemon_hit = hit_raw or None
+            return speed_priority, pokemon_hit
+    return None, None
 
 
 def _parse_accuracy(raw: str) -> Any:
@@ -120,29 +127,40 @@ def scrape_moves(url: str = MOVES_URL, *, detail_sleep: float = 1.5) -> list[dic
                 "effect": effect,
                 "url": absolute_url(href),
                 "speed_priority": None,
+                "pokemon_hit_in_battle": None,
             }
         )
 
     moves.sort(key=lambda m: m["name"].lower())
 
-    missing = 0
+    missing_pri = 0
+    missing_hit = 0
     for i, move in enumerate(moves):
         detail_url = move.get("url")
         if not detail_url:
-            missing += 1
+            missing_pri += 1
+            missing_hit += 1
             continue
         try:
             html = fetch_html(detail_url)
-            pri = _extract_speed_priority_from_soup(make_soup(html))
+            pri, hit = _extract_in_depth_stats(make_soup(html))
             move["speed_priority"] = pri
+            move["pokemon_hit_in_battle"] = hit
             if pri is None:
-                missing += 1
+                missing_pri += 1
+            if hit is None:
+                missing_hit += 1
         except Exception:
-            missing += 1
+            missing_pri += 1
+            missing_hit += 1
         if i < len(moves) - 1:
             polite_sleep(detail_sleep)
 
-    if missing:
-        print(f"   warning: {missing} moves missing speed_priority after detail scrape", flush=True)
+    if missing_pri or missing_hit:
+        print(
+            f"   warning: {missing_pri} moves missing speed_priority, "
+            f"{missing_hit} missing pokemon_hit_in_battle after detail scrape",
+            flush=True,
+        )
 
     return moves
