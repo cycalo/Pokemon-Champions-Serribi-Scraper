@@ -5,7 +5,7 @@ import re
 from typing import Any, Optional
 from urllib.parse import urljoin
 
-from bs4 import Tag
+from bs4 import BeautifulSoup, Tag
 
 from ._utils import (
     BASE_URL,
@@ -28,6 +28,17 @@ TYPE_COLUMN_ORDER = [
     "fighting", "poison", "ground", "flying", "psychic", "bug",
     "rock", "ghost", "dragon", "dark", "steel", "fairy",
 ]
+
+# Champions Rotom page lists one shared weakness row per appliance + base; types per row
+# live in the Name table. Order here is the canonical export order for apps.
+ROTOM_FORM_SPECS: tuple[tuple[str, str, str], ...] = (
+    ("Rotom (Base)", "base", "479"),
+    ("Heat Rotom", "heat", "479-h"),
+    ("Wash Rotom", "wash", "479-w"),
+    ("Frost Rotom", "frost", "479-f"),
+    ("Fan Rotom", "fan", "479-s"),
+    ("Mow Rotom", "mow", "479-m"),
+)
 
 
 def _extract_types_from_cell(cell: Optional[Tag]) -> list[str]:
@@ -223,6 +234,216 @@ def _parse_weakness_table(table: Tag) -> Optional[dict[str, float]]:
             continue
 
     return result or None
+
+
+def _rotom_serebii_label_to_canonical(label: str) -> str:
+    t = label.strip()
+    if t == "Rotom":
+        return "Rotom (Base)"
+    return t
+
+
+def _parse_rotom_multiform_type_rows(soup: BeautifulSoup) -> dict[str, list[str]]:
+    """Parse the nested Type table on Rotom's Name dextable (one row per form)."""
+    mapping: dict[str, list[str]] = {}
+    for table in soup.find_all("table", class_="dextable"):
+        rows = table.find_all("tr", recursive=False)
+        if len(rows) < 2:
+            continue
+        hdr = [clean_text(c).lower() for c in rows[0].find_all(["td", "th"], recursive=False)]
+        if "name" not in hdr or "type" not in hdr:
+            continue
+        value_cells = rows[1].find_all(["td", "th"], recursive=False)
+        if len(value_cells) <= hdr.index("type"):
+            continue
+        type_cell = value_cells[hdr.index("type")]
+        inner = type_cell.find("table")
+        if inner is None:
+            continue
+        for tr in inner.find_all("tr", recursive=False):
+            tds = tr.find_all(["td", "th"], recursive=False)
+            if len(tds) < 2:
+                continue
+            raw_name = clean_text(tds[0])
+            types = _extract_types_from_cell(tds[1])
+            if raw_name and types:
+                mapping[_rotom_serebii_label_to_canonical(raw_name)] = types
+        if mapping:
+            return mapping
+    return mapping
+
+
+def _normalize_type_slug(raw: str) -> str:
+    if raw == "psychict":
+        return "psychic"
+    return raw
+
+
+def _is_rotom_weakness_icon_row(cells: list[Tag]) -> bool:
+    if len(cells) < 10:
+        return False
+    hits = 0
+    for c in cells:
+        cls = c.get("class") or []
+        if "footype" not in cls:
+            continue
+        if c.find("img") and re.search(r"/type/(?:icon/)?([a-zA-Z]+)\.(?:gif|png)", c.get_text() + (c.find("img").get("src") or "")):
+            hits += 1
+    return hits >= 10
+
+
+def _is_rotom_weakness_multiplier_row(cells: list[Tag]) -> bool:
+    if len(cells) < 10:
+        return False
+    for c in cells:
+        cls = c.get("class") or []
+        if "footype" not in cls:
+            return False
+        txt = clean_text(c).replace("*", "").strip()
+        if not re.fullmatch(r"\d*\.?\d+", txt):
+            return False
+    return True
+
+
+def _parse_rotom_weakness_sections(table: Tag) -> list[tuple[str, dict[str, float]]]:
+    """Parse stacked 'Damage Taken <i>…</i>' weakness blocks (base row has no subheading)."""
+    rows = table.find_all("tr", recursive=False)
+    types_order: list[str] = []
+    sections: list[tuple[str, dict[str, float]]] = []
+    pending_label: Optional[str] = None
+
+    for row in rows:
+        cells = row.find_all(["td", "th"], recursive=False)
+        if not cells:
+            continue
+
+        if not types_order and _is_rotom_weakness_icon_row(cells):
+            for c in cells:
+                img = c.find("img")
+                if not img:
+                    continue
+                src = img.get("src", "")
+                m = re.search(r"/type/(?:icon/)?([a-zA-Z]+)\.(?:gif|png)", src)
+                if m:
+                    types_order.append(_normalize_type_slug(m.group(1).lower()))
+            continue
+
+        if len(cells) == 1:
+            txt = clean_text(cells[0])
+            if "damage taken" in txt.lower():
+                italic = cells[0].find("i")
+                pending_label = clean_text(italic) if italic else None
+                continue
+
+        if types_order and _is_rotom_weakness_multiplier_row(cells):
+            label = pending_label or "Rotom (Base)"
+            label = _rotom_serebii_label_to_canonical(label)
+            eff: dict[str, float] = {}
+            for type_name, cell in zip(types_order, cells):
+                if not type_name:
+                    continue
+                raw = clean_text(cell).replace("*", "").strip()
+                if not raw:
+                    continue
+                try:
+                    eff[type_name] = float(raw)
+                except ValueError:
+                    continue
+            if eff:
+                sections.append((label, eff))
+            pending_label = None
+
+    return sections
+
+
+def _find_rotom_weakness_table(soup: BeautifulSoup) -> Optional[Tag]:
+    for table in soup.find_all("table", class_="dextable"):
+        if not table.find(string=re.compile(r"Weakness", re.I)):
+            continue
+        if table.find(string=re.compile(r"Damage Taken", re.I)):
+            return table
+    return None
+
+
+def _find_champions_stats_table(soup: BeautifulSoup, *, alternate: bool) -> Optional[Tag]:
+    for table in soup.find_all("table", class_="dextable"):
+        head = table.find(["td", "th"], class_="fooevo")
+        if head is None:
+            continue
+        h2 = head.find("h2")
+        raw = clean_text(h2) if h2 else clean_text(head)
+        low = raw.lower().strip()
+        if alternate:
+            if "alternate" in low and "stats" in low:
+                return table
+        else:
+            if re.match(r"(?i)^stats\s*$", raw.strip()):
+                return table
+    return None
+
+
+def _parse_sprite_select_keys(soup: BeautifulSoup) -> dict[str, str]:
+    """Map sprite title (e.g. 'Heat Rotom') -> data-key (e.g. '479-h')."""
+    keys: dict[str, str] = {}
+    for a in soup.select("a.sprite-select"):
+        title = (a.get("title") or "").strip()
+        dk = (a.get("data-key") or "").strip()
+        if title and dk:
+            keys[_rotom_serebii_label_to_canonical(title)] = dk
+    return keys
+
+
+def _normalize_rotom_detail(soup: BeautifulSoup, detail: dict[str, Any]) -> None:
+    """Replace merged Rotom data with six explicit appliance + base variants."""
+    type_by_form = _parse_rotom_multiform_type_rows(soup)
+    wtable = _find_rotom_weakness_table(soup)
+    if not type_by_form or wtable is None:
+        return
+
+    weak_sections = _parse_rotom_weakness_sections(wtable)
+    eff_by_form = {label: eff for label, eff in weak_sections}
+
+    base_stats_table = _find_champions_stats_table(soup, alternate=False)
+    alt_stats_table = _find_champions_stats_table(soup, alternate=True)
+    base_stats = _parse_stats_table(base_stats_table) if base_stats_table else detail.get("stats")
+    alt_stats = _parse_stats_table(alt_stats_table) if alt_stats_table else base_stats
+
+    sprite_keys = _parse_sprite_select_keys(soup)
+    abilities = detail.get("abilities") or []
+
+    form_entries: list[dict[str, Any]] = []
+    for display_name, form_key, default_sprite_key in ROTOM_FORM_SPECS:
+        types = type_by_form.get(display_name)
+        if not types:
+            continue
+        stats = base_stats if form_key == "base" else alt_stats
+        eff = eff_by_form.get(display_name)
+        if eff is None:
+            continue
+        form_entries.append(
+            {
+                "name": display_name,
+                "form_key": form_key,
+                "sprite_key": sprite_keys.get(display_name, default_sprite_key),
+                "types": types,
+                "abilities": abilities,
+                "stats": stats,
+                "type_effectiveness": eff,
+                "classification": detail.get("classification"),
+                "height": detail.get("height"),
+                "weight": detail.get("weight"),
+                "is_mega": False,
+            }
+        )
+
+    if len(form_entries) != len(ROTOM_FORM_SPECS):
+        return
+
+    base_block = form_entries[0]
+    detail["types"] = base_block["types"]
+    detail["stats"] = base_block["stats"]
+    detail["type_effectiveness"] = base_block["type_effectiveness"]
+    detail["forms"] = form_entries
 
 
 def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
@@ -666,7 +887,7 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
             entry["moves"] = f_moves
         form_entries.append(entry)
 
-    return {
+    result = {
         "slug": slug,
         "name": base.get("name"),
         "national_dex": base_info.get("national_dex"),
@@ -683,6 +904,11 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         "moves": species_moves,
         "page_url": page_url,
     }
+
+    if slug == "rotom":
+        _normalize_rotom_detail(soup, result)
+
+    return result
 
 
 def scrape_pokemon(*, sleep_between: float = 1.5, limit: Optional[int] = None) -> dict[str, Any]:
