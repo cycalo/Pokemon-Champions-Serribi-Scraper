@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-11T09:58:46+00:00",
+  "scraped_at": "2026-05-11T14:51:32+00:00",
   "count": 186,
   "pokemon": [
     {
@@ -78273,12 +78273,7 @@
       "national_dex": 479,
       "types": [
         "electric",
-        "ghost",
-        "ice",
-        "fire",
-        "grass",
-        "flying",
-        "water"
+        "ghost"
       ],
       "abilities": [
         {
@@ -78326,9 +78321,73 @@
       "other_names": "Japan : Rotom ロトム French : Motisma German : Rotom Korean : 로토무",
       "forms": [
         {
-          "name": "Alternate Forms",
-          "types": [],
-          "abilities": [],
+          "name": "Rotom (Base)",
+          "form_key": "base",
+          "sprite_key": "479",
+          "types": [
+            "electric",
+            "ghost"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 125,
+              "attack": 70,
+              "defense": 97,
+              "sp_attack": 115,
+              "sp_defense": 97,
+              "speed": 111
+            },
+            "total": 615
+          },
+          "type_effectiveness": {
+            "normal": 0.0,
+            "fire": 1.0,
+            "water": 1.0,
+            "electric": 0.5,
+            "grass": 1.0,
+            "ice": 1.0,
+            "fighting": 0.0,
+            "poison": 0.5,
+            "ground": 2.0,
+            "flying": 0.5,
+            "psychic": 1.0,
+            "bug": 0.5,
+            "rock": 1.0,
+            "ghost": 2.0,
+            "dragon": 1.0,
+            "dark": 2.0,
+            "steel": 0.5,
+            "fairy": 1.0
+          },
+          "classification": "Plasma Pokémon",
+          "height": "1'00\" 0.3m",
+          "weight": "0.7lbs 0.3kg",
+          "is_mega": false
+        },
+        {
+          "name": "Heat Rotom",
+          "form_key": "heat",
+          "sprite_key": "479-h",
+          "types": [
+            "electric",
+            "fire"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
           "stats": {
             "base": {
               "hp": 110,
@@ -78340,10 +78399,237 @@
             },
             "total": 680
           },
-          "type_effectiveness": null,
-          "classification": null,
-          "height": null,
-          "weight": null,
+          "type_effectiveness": {
+            "normal": 1.0,
+            "fire": 0.5,
+            "water": 2.0,
+            "electric": 0.5,
+            "grass": 0.5,
+            "ice": 0.5,
+            "fighting": 1.0,
+            "poison": 1.0,
+            "ground": 4.0,
+            "flying": 0.5,
+            "psychic": 1.0,
+            "bug": 0.5,
+            "rock": 2.0,
+            "ghost": 1.0,
+            "dragon": 1.0,
+            "dark": 1.0,
+            "steel": 0.25,
+            "fairy": 0.5
+          },
+          "classification": "Plasma Pokémon",
+          "height": "1'00\" 0.3m",
+          "weight": "0.7lbs 0.3kg",
+          "is_mega": false
+        },
+        {
+          "name": "Wash Rotom",
+          "form_key": "wash",
+          "sprite_key": "479-w",
+          "types": [
+            "electric",
+            "water"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 110,
+              "attack": 85,
+              "defense": 127,
+              "sp_attack": 125,
+              "sp_defense": 127,
+              "speed": 106
+            },
+            "total": 680
+          },
+          "type_effectiveness": {
+            "normal": 1.0,
+            "fire": 0.5,
+            "water": 0.5,
+            "electric": 1.0,
+            "grass": 2.0,
+            "ice": 0.5,
+            "fighting": 1.0,
+            "poison": 1.0,
+            "ground": 2.0,
+            "flying": 0.5,
+            "psychic": 1.0,
+            "bug": 1.0,
+            "rock": 1.0,
+            "ghost": 1.0,
+            "dragon": 1.0,
+            "dark": 1.0,
+            "steel": 0.25,
+            "fairy": 1.0
+          },
+          "classification": "Plasma Pokémon",
+          "height": "1'00\" 0.3m",
+          "weight": "0.7lbs 0.3kg",
+          "is_mega": false
+        },
+        {
+          "name": "Frost Rotom",
+          "form_key": "frost",
+          "sprite_key": "479-f",
+          "types": [
+            "electric",
+            "ice"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 110,
+              "attack": 85,
+              "defense": 127,
+              "sp_attack": 125,
+              "sp_defense": 127,
+              "speed": 106
+            },
+            "total": 680
+          },
+          "type_effectiveness": {
+            "normal": 1.0,
+            "fire": 2.0,
+            "water": 1.0,
+            "electric": 0.5,
+            "grass": 1.0,
+            "ice": 0.5,
+            "fighting": 2.0,
+            "poison": 1.0,
+            "ground": 2.0,
+            "flying": 0.5,
+            "psychic": 1.0,
+            "bug": 1.0,
+            "rock": 2.0,
+            "ghost": 1.0,
+            "dragon": 1.0,
+            "dark": 1.0,
+            "steel": 1.0,
+            "fairy": 1.0
+          },
+          "classification": "Plasma Pokémon",
+          "height": "1'00\" 0.3m",
+          "weight": "0.7lbs 0.3kg",
+          "is_mega": false
+        },
+        {
+          "name": "Fan Rotom",
+          "form_key": "fan",
+          "sprite_key": "479-s",
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 110,
+              "attack": 85,
+              "defense": 127,
+              "sp_attack": 125,
+              "sp_defense": 127,
+              "speed": 106
+            },
+            "total": 680
+          },
+          "type_effectiveness": {
+            "normal": 1.0,
+            "fire": 1.0,
+            "water": 1.0,
+            "electric": 1.0,
+            "grass": 0.5,
+            "ice": 2.0,
+            "fighting": 0.5,
+            "poison": 1.0,
+            "ground": 0.0,
+            "flying": 0.5,
+            "psychic": 1.0,
+            "bug": 0.5,
+            "rock": 2.0,
+            "ghost": 1.0,
+            "dragon": 1.0,
+            "dark": 1.0,
+            "steel": 0.5,
+            "fairy": 1.0
+          },
+          "classification": "Plasma Pokémon",
+          "height": "1'00\" 0.3m",
+          "weight": "0.7lbs 0.3kg",
+          "is_mega": false
+        },
+        {
+          "name": "Mow Rotom",
+          "form_key": "mow",
+          "sprite_key": "479-m",
+          "types": [
+            "electric",
+            "grass"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 110,
+              "attack": 85,
+              "defense": 127,
+              "sp_attack": 125,
+              "sp_defense": 127,
+              "speed": 106
+            },
+            "total": 680
+          },
+          "type_effectiveness": {
+            "normal": 1.0,
+            "fire": 2.0,
+            "water": 0.5,
+            "electric": 0.25,
+            "grass": 0.5,
+            "ice": 2.0,
+            "fighting": 1.0,
+            "poison": 2.0,
+            "ground": 1.0,
+            "flying": 1.0,
+            "psychic": 1.0,
+            "bug": 2.0,
+            "rock": 1.0,
+            "ghost": 1.0,
+            "dragon": 1.0,
+            "dark": 1.0,
+            "steel": 0.5,
+            "fairy": 1.0
+          },
+          "classification": "Plasma Pokémon",
+          "height": "1'00\" 0.3m",
+          "weight": "0.7lbs 0.3kg",
           "is_mega": false
         }
       ],
