@@ -1,6 +1,6 @@
 # Privacy Policy — ChampionsDex
 
-**Effective date:** April 24, 2026  
+**Effective date:** 9 May 2026  
 **App:** ChampionsDex (unofficial fan companion for Pokémon Champions)  
 **Platform:** Android, iOS (where distributed)
 
@@ -11,13 +11,12 @@ This policy describes how ChampionsDex (“the app”, “we”) handles informa
 ## Summary
 
 - **No account** is required. There is no sign-in and no user profile stored on our servers (we do not operate user accounts for this app).
-- **Team plans, saved Pokémon Builder builds, match logs, Champions Assistant session transcripts (chat history UI), settings, and cached game reference data** are stored **on your device** by default.
+- **Saved teams, Pokémon Builder builds, match logs, settings, backup-folder preference, and cached game reference data** are stored **on your device** by default.
 - The app may **download reference JSON and images** from **public GitHub-hosted URLs** (see §2) and cache them locally.
-- **Typography** uses the `google_fonts` package; font files may be **fetched from Google** the first time a style is used (or when the font cache is cleared), which is a standard operating-system–level HTTPS request, not used for advertising or behavioral profiling inside this app.
-- **Optional crash reporting** may be enabled only in **specific release builds** that are compiled with a Sentry DSN. Default builds distributed without that flag do **not** send telemetry to Sentry.
+- **Typography** uses the `google_fonts` package; font files may be **fetched from Google** the first time a style is used (or when the font cache is cleared), which is a standard HTTPS request, not used for advertising or behavioral profiling inside this app.
+- **Optional crash reporting** may be enabled only in **specific release builds** that are compiled with a Sentry DSN (`SENTRY_DSN`). Default builds distributed without that flag do **not** send telemetry to Sentry.
 - We **do not** include third-party advertising SDKs, behavioral analytics, or sale of personal data for advertising.
-- **AI Coach** (AI tab): if you add your own **Google AI Studio / Gemini-compatible API key** in **AI Coach → Settings**, prompts and model traffic (including tool-call payloads) are sent **directly to Google’s generative AI endpoints** under your account. With **no key**, those flows do not contact Google. ChampionsDex does **not** host or proxy Coach conversations.
-- **Champions Assistant** (Tools tab): if you add your own **[Groq](https://console.groq.com/) API key** under **Settings → Champions Assistant**, the app stores it in the device secure store and sends your messages **directly to Groq** under your account; dataset tools run **on your device** against cached reference data. ChampionsDex servers do **not** proxy or store those chats.
+- **AI Coach** (AI tab): when the feature is available in your build and you run it, **prompts, model responses, and tool-call traffic** are sent **from your device directly to Google’s Generative Language API** (Gemini, OpenAI-compatible endpoint as implemented in the app). The app **does not** operate a ChampionsDex server that proxies those conversations. **Current preview-style builds** authenticate using an **application-embedded API credential** (not a key you type into Settings). **Credits / “Preview access”** preferences used to gate runs are stored **locally** (e.g. SharedPreferences), not on our servers.
 
 ---
 
@@ -28,11 +27,10 @@ The app stores, among other things:
 - **Saved teams and related team-builder state** (via local databases such as Hive), including **local identifiers** (UUIDs) for each team record.
 - **Saved Pokémon Builder builds** (single-Pokémon loadouts / drafts and related picker state) in Hive, also keyed by **local UUIDs**.
 - **Match logger entries** (match format, participating teams/build snapshots, results, notes) in Hive, for your personal history and stats inside the app.
-- **Champions Assistant session records** (display transcript only; not used as training data by us) in Hive so you can return to prior chats on the same device.
-- **App settings and preferences** (via mechanisms such as SharedPreferences), including theme and accent choices.
+- **App settings and preferences** (via mechanisms such as SharedPreferences), including theme, accent, AI-related toggles, and **the backup export directory you choose** (where the app is allowed to write backup files on your device).
 - **Cached copies** of public reference files (Pokémon, moves, items, abilities, image manifest) and **cached images** (e.g. sprites) so the app can work offline after the initial download.
 
-**Uninstalling the app** removes application sandbox data on your device, subject to how your operating system handles backups and residual files.
+**Uninstalling the app** removes application sandbox data on your device, subject to how your operating system handles backups and residual files. **Files you exported** (for example JSON backups in a folder you picked, or content sent via Share) remain under your control outside the app sandbox.
 
 ---
 
@@ -45,13 +43,13 @@ To obtain and update Pokédex, move, item, and related reference data, the app r
 - `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-Serribi-Scraper/main/data/`
 - `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-Serribi-Scraper/main/images/`
 
-**Supplementary Pokémon artwork** may also be requested from **`raw.githubusercontent.com/HybridShivam/Pokemon`** (high-quality static images mapped from species sprites) when the app chooses that URL for display.
+**Supplementary Pokémon artwork** may also be requested from **`https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/imagesHQ/`** when the app maps a species sprite to a high-quality static image.
 
-**Optional shiny artwork** in the Pokédex may load from **`raw.githubusercontent.com/PokeAPI/sprites`** (mirrored official-artwork shiny files referenced in the app’s bundled URL table). Those are ordinary image GETs, not account sign-ins.
+**Optional artwork overrides** may load from **`raw.githubusercontent.com/PokeAPI/sprites`** for specific bundled URL mappings. Those are ordinary image GETs, not account sign-ins.
 
-Those requests are ordinary HTTPS downloads initiated by the app (for example on first use, when you choose **Settings → Refresh data now**, or when loading images that are not yet cached). **GitHub** (and its infrastructure providers) will see standard connection metadata that any HTTPS host would see (such as IP address and TLS metadata) as part of delivering the file. This app does not send your team names, notes, match logs, or saved rosters to those repositories as part of normal reference downloads.
+Those requests are ordinary HTTPS downloads initiated by the app (for example on first use, when you use **Settings → Clear cache & refresh data**, or when loading images that are not yet cached). **GitHub** (and its infrastructure providers) will see standard connection metadata that any HTTPS host would see (such as IP address and TLS metadata) as part of delivering the file. This app does not send your team names, notes, match logs, or saved rosters to those repositories as part of normal reference downloads.
 
-You can delete cached JSON reference files from **Settings → Clear cache** (sprites may still be held in the image cache until cleared by the system or the app’s image layer; reference JSON fetches will run again when needed).
+You can delete cached JSON reference files from **Settings → Clear cache & refresh data** (image layers may retain sprites until cleared by the system or the app’s image cache; reference JSON fetches will run again when needed).
 
 ### 2.2 Google Fonts
 
@@ -69,32 +67,24 @@ Diagnostic reports can still include **technical context** that Sentry’s SDKs 
 
 If your build **does not** ship with a Sentry DSN, **no data is sent to Sentry** from that mechanism.
 
-### 2.4 Champions Assistant (Groq)
+### 2.4 AI Coach (Google Gemini)
 
-The **Champions Assistant** feature is optional and uses **your Groq API key** if you paste one under **Settings → Champions Assistant**.
+The **AI Coach** feature (AI tab) is optional. When it is enabled in your build and you start a flow, the app sends **prompts, model responses, and tool-call traffic** **directly from your device to Google’s Generative Language API** (Gemini, using the OpenAI-compatible surface implemented in the app).
 
-- Groq receives your chat prompts (including standard tool-call payloads the model emits as part of completions) routed **directly** from your device.
-- Dataset **tool execution** (lookups against moves, species, items, etc.) runs **locally** on your phone against cached reference data; only what the model needs for the conversation is sent to Groq as part of the chat/tool protocol.
-- Requests are authenticated with **your** key rather than ours.
-- Removing the API key clears it from Flutter Secure Storage / the OS-supported keystore.
-
-See Groq’s own policies regarding how they handle API traffic: [Groq Console](https://console.groq.com/).
-
-### 2.5 AI Coach (Google Gemini)
-
-The **AI Coach** feature (AI tab) is optional and uses **your Google AI Studio / Gemini-compatible API key** if you add it under **AI Coach → Settings** (in-app).
-
-- When a key is present and you run Build, Review, or Optimize flows, **prompts, model responses, and tool-call traffic** are sent **directly from your device to Google’s generative AI API** (OpenAI-compatible endpoint as implemented in the app), authenticated with **your** key.
-- With **no** key configured, the app does not send AI Coach traffic to Google from that feature path.
-- The API key is stored using **Flutter Secure Storage** (OS-backed secure storage where available).
+- **Authentication:** preview-style builds may ship with an **embedded application credential** in the binary (obfuscation is not a substitute for secrecy—treat preview builds accordingly). The app **does not** require you to paste an API key into Settings for that path today.
+- **Content:** traffic includes your interview answers, summaries of teams/builds you ask the Coach to work on, and structured tool results derived from the local dataset so the model can answer. It can include **Pokémon / move / item identifiers and stats** drawn from the same public reference data the app already downloads.
+- **No proxy:** ChampionsDex does **not** host a server that relays Coach traffic; your device talks to Google’s endpoints.
+- **Gating:** “Preview access”, credit balance, and related flags are stored **on-device** (SharedPreferences) for UX and abuse mitigation; they are not a cloud account.
 
 See Google’s terms and privacy documentation for **Google AI / Gemini API** usage.
 
-### 2.6 Backup and restore
+### 2.5 Backup and restore
 
-**Settings → Backup & Restore** can write a **JSON export** of your saved **teams and Pokémon Builder builds** to app-accessible storage on your device. If you use **Share** on a backup file, the **destination app you pick** receives that file. **Match logs** and **Champions Assistant transcripts** are not part of this backup format (only teams and builds).
+**Settings → Backup & Restore** asks you to **choose a folder** (via the platform file/folder picker) where **Create backup** may write a **JSON export** of your saved **teams and Pokémon Builder builds**. On some Android versions the app may request **storage-related permissions** so it can write to the location you selected. **Match logs** are **not** included in that backup format.
 
-### 2.7 Sharing features
+If you use **Share** on a backup file, the **destination app you pick** receives that file.
+
+### 2.6 Sharing features
 
 If you use **Share** or export features (including team cards, text exports, or backup files), content is passed to the **share sheet or target app you choose** (for example Messages, email, or cloud storage). We do not control how those third-party apps process data.
 
@@ -119,14 +109,14 @@ ChampionsDex is a companion tool for planning teams in a video game. If you are 
 
 Because the app is **local-first** and does not operate a mandatory cloud account:
 
-- **Export / delete “server-side” data:** There is typically **no server-side user database** maintained by the app authors for core functionality. Primary control is **on-device** (clear cache, delete teams in-app, or uninstall).
+- **Export / delete “server-side” data:** There is typically **no server-side user database** maintained by the app authors for core functionality. Primary control is **on-device** (clear cache, delete teams in-app, change backup folder, or uninstall).
 - **Regional rights:** Depending on where you live, privacy laws may give you additional rights regarding personal data. Much of what the app processes is **device-local** or **ephemeral HTTPS traffic** to third-party infrastructure as described above.
 
 ---
 
 ## 6. International users
 
-If you use the app outside the country where the maintainer resides, your information may be processed in accordance with this policy and the practices of infrastructure providers you connect to (for example GitHub, Google Fonts, Google AI when you enable AI Coach, Groq when you enable Champions Assistant, or Sentry when enabled).
+If you use the app outside the country where the maintainer resides, your information may be processed in accordance with this policy and the practices of infrastructure providers you connect to (for example GitHub, Google Fonts, Google AI when you use AI Coach, or Sentry when enabled).
 
 ---
 
