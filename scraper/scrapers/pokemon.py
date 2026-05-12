@@ -417,6 +417,17 @@ def _normalize_rotom_detail(soup: BeautifulSoup, detail: dict[str, Any]) -> None
         if not types:
             continue
         stats = base_stats if form_key == "base" else alt_stats
+        if (
+            form_key != "base"
+            and isinstance(stats, dict)
+            and isinstance(base_stats, dict)
+        ):
+            bb = base_stats.get("base")
+            if isinstance(bb, dict) and bb.get("hp") is not None:
+                sb = stats.get("base")
+                if isinstance(sb, dict):
+                    sb["hp"] = bb["hp"]
+                    _recalculate_champions_stat_total(stats)
         eff = eff_by_form.get(display_name)
         if eff is None:
             continue
@@ -512,6 +523,48 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
         "base": base_stats,
         "total": total,
     }
+
+
+def _recalculate_champions_stat_total(stats: dict[str, Any]) -> None:
+    """Recompute ``stats['total']`` from integer values in ``stats['base']``."""
+    base_stats = stats.get("base")
+    if not isinstance(base_stats, dict):
+        return
+    total = sum(v for v in base_stats.values() if isinstance(v, int))
+    stats["total"] = total if total else None
+
+
+def apply_champions_shared_base_hp_to_form_entries(
+    default_form_stats: Optional[dict[str, Any]],
+    form_entries: list[dict[str, Any]],
+) -> None:
+    """Align alternate-form HP with the default form for Pokémon Champions.
+
+    In Champions, non–Mega regional and other alternate forms use the **same HP
+    as the default form** on the species page; other stats come from each form's
+    table. Serebii still lists main-series HP per form, so we overwrite ``hp`` for
+    every form entry except Mega Evolutions, then refresh the stat total.
+    """
+    if not default_form_stats or not form_entries:
+        return
+    base_block = default_form_stats.get("base")
+    if not isinstance(base_block, dict):
+        return
+    base_hp = base_block.get("hp")
+    if base_hp is None:
+        return
+
+    for entry in form_entries:
+        if entry.get("is_mega"):
+            continue
+        st = entry.get("stats")
+        if not isinstance(st, dict):
+            continue
+        inner = st.get("base")
+        if not isinstance(inner, dict):
+            continue
+        inner["hp"] = base_hp
+        _recalculate_champions_stat_total(st)
 
 
 def _stats_variant_form_title(table: Tag) -> Optional[str]:
@@ -904,6 +957,8 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         "moves": species_moves,
         "page_url": page_url,
     }
+
+    apply_champions_shared_base_hp_to_form_entries(result.get("stats"), form_entries)
 
     if slug == "rotom":
         _normalize_rotom_detail(soup, result)
