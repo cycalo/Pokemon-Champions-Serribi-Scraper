@@ -5725,14 +5725,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 120,
+              "hp": 135,
               "attack": 105,
               "defense": 70,
               "sp_attack": 115,
               "sp_defense": 105,
               "speed": 130
             },
-            "total": 645
+            "total": 660
           },
           "type_effectiveness": null,
           "classification": null,
@@ -8703,14 +8703,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 133,
+              "hp": 148,
               "attack": 87,
               "defense": 95,
               "sp_attack": 101,
               "sp_defense": 120,
               "speed": 129
             },
-            "total": 665
+            "total": 680
           },
           "type_effectiveness": null,
           "classification": null,
@@ -10389,14 +10389,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 155,
+              "hp": 165,
               "attack": 135,
               "defense": 100,
               "sp_attack": 115,
               "sp_defense": 100,
               "speed": 110
             },
-            "total": 715
+            "total": 725
           },
           "type_effectiveness": null,
           "classification": null,
@@ -14434,14 +14434,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 155,
+              "hp": 170,
               "attack": 120,
               "defense": 115,
               "sp_attack": 120,
               "sp_defense": 90,
               "speed": 50
             },
-            "total": 650
+            "total": 665
           },
           "type_effectiveness": null,
           "classification": null,
@@ -20119,14 +20119,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 135,
+              "hp": 150,
               "attack": 130,
               "defense": 125,
               "sp_attack": 50,
               "sp_defense": 90,
               "speed": 120
             },
-            "total": 650
+            "total": 665
           },
           "type_effectiveness": null,
           "classification": null,
@@ -27902,14 +27902,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 133,
+              "hp": 153,
               "attack": 104,
               "defense": 98,
               "sp_attack": 139,
               "sp_defense": 105,
               "speed": 115
             },
-            "total": 694
+            "total": 714
           },
           "type_effectiveness": null,
           "classification": null,
@@ -35739,14 +35739,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 155,
+              "hp": 170,
               "attack": 85,
               "defense": 100,
               "sp_attack": 130,
               "sp_defense": 130,
               "speed": 50
             },
-            "total": 650
+            "total": 665
           },
           "type_effectiveness": null,
           "classification": null,
@@ -78390,14 +78390,14 @@
           ],
           "stats": {
             "base": {
-              "hp": 110,
+              "hp": 125,
               "attack": 85,
               "defense": 127,
               "sp_attack": 125,
               "sp_defense": 127,
               "speed": 106
             },
-            "total": 680
+            "total": 695
           },
           "type_effectiveness": {
             "normal": 1.0,
@@ -78442,14 +78442,14 @@
           ],
           "stats": {
             "base": {
-              "hp": 110,
+              "hp": 125,
               "attack": 85,
               "defense": 127,
               "sp_attack": 125,
               "sp_defense": 127,
               "speed": 106
             },
-            "total": 680
+            "total": 695
           },
           "type_effectiveness": {
             "normal": 1.0,
@@ -78494,14 +78494,14 @@
           ],
           "stats": {
             "base": {
-              "hp": 110,
+              "hp": 125,
               "attack": 85,
               "defense": 127,
               "sp_attack": 125,
               "sp_defense": 127,
               "speed": 106
             },
-            "total": 680
+            "total": 695
           },
           "type_effectiveness": {
             "normal": 1.0,
@@ -78546,14 +78546,14 @@
           ],
           "stats": {
             "base": {
-              "hp": 110,
+              "hp": 125,
               "attack": 85,
               "defense": 127,
               "sp_attack": 125,
               "sp_defense": 127,
               "speed": 106
             },
-            "total": 680
+            "total": 695
           },
           "type_effectiveness": {
             "normal": 1.0,
@@ -78598,14 +78598,14 @@
           ],
           "stats": {
             "base": {
-              "hp": 110,
+              "hp": 125,
               "attack": 85,
               "defense": 127,
               "sp_attack": 125,
               "sp_defense": 127,
               "speed": 106
             },
-            "total": 680
+            "total": 695
           },
           "type_effectiveness": {
             "normal": 1.0,
@@ -80966,14 +80966,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 150,
+              "hp": 170,
               "attack": 128,
               "defense": 100,
               "sp_attack": 120,
               "sp_defense": 85,
               "speed": 105
             },
-            "total": 688
+            "total": 708
           },
           "type_effectiveness": null,
           "classification": null,
@@ -91776,14 +91776,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 115,
+              "hp": 135,
               "attack": 120,
               "defense": 80,
               "sp_attack": 145,
               "sp_defense": 80,
               "speed": 130
             },
-            "total": 670
+            "total": 690
           },
           "type_effectiveness": null,
           "classification": null,
@@ -97358,14 +97358,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 169,
+              "hp": 184,
               "attack": 101,
               "defense": 119,
               "sp_attack": 86,
               "sp_defense": 104,
               "speed": 52
             },
-            "total": 631
+            "total": 646
           },
           "type_effectiveness": null,
           "classification": null,
@@ -109985,14 +109985,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 120,
+              "hp": 135,
               "attack": 160,
               "defense": 70,
               "sp_attack": 160,
               "sp_defense": 70,
               "speed": 80
             },
-            "total": 660
+            "total": 675
           },
           "type_effectiveness": null,
           "classification": null,
@@ -117310,14 +117310,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 140,
+              "hp": 165,
               "attack": 120,
               "defense": 120,
               "sp_attack": 130,
               "sp_defense": 170,
               "speed": 80
             },
-            "total": 760
+            "total": 785
           },
           "type_effectiveness": null,
           "classification": null,
@@ -120482,14 +120482,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 115,
+              "hp": 140,
               "attack": 105,
               "defense": 142,
               "sp_attack": 78,
               "sp_defense": 95,
               "speed": 119
             },
-            "total": 654
+            "total": 679
           },
           "type_effectiveness": null,
           "classification": null,
@@ -120503,14 +120503,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 135,
+              "hp": 140,
               "attack": 115,
               "defense": 142,
               "sp_attack": 78,
               "sp_defense": 95,
               "speed": 89
             },
-            "total": 654
+            "total": 659
           },
           "type_effectiveness": null,
           "classification": null,
@@ -120524,14 +120524,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 145,
+              "hp": 140,
               "attack": 120,
               "defense": 142,
               "sp_attack": 78,
               "sp_defense": 95,
               "speed": 74
             },
-            "total": 654
+            "total": 649
           },
           "type_effectiveness": null,
           "classification": null,
@@ -121355,14 +121355,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 155,
+              "hp": 170,
               "attack": 147,
               "defense": 204,
               "sp_attack": 54,
               "sp_defense": 56,
               "speed": 58
             },
-            "total": 674
+            "total": 689
           },
           "type_effectiveness": null,
           "classification": null,
@@ -123473,14 +123473,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 148,
+              "hp": 153,
               "attack": 132,
               "defense": 100,
               "sp_attack": 115,
               "sp_defense": 115,
               "speed": 80
             },
-            "total": 690
+            "total": 695
           },
           "type_effectiveness": null,
           "classification": null,
@@ -128553,14 +128553,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 145,
+              "hp": 150,
               "attack": 135,
               "defense": 95,
               "sp_attack": 75,
               "sp_defense": 95,
               "speed": 102
             },
-            "total": 647
+            "total": 652
           },
           "type_effectiveness": null,
           "classification": null,
@@ -129308,14 +129308,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 135,
+              "hp": 150,
               "attack": 137,
               "defense": 85,
               "sp_attack": 75,
               "sp_defense": 85,
               "speed": 130
             },
-            "total": 647
+            "total": 662
           },
           "type_effectiveness": null,
           "classification": null,
@@ -148179,14 +148179,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 180,
+              "hp": 195,
               "attack": 112,
               "defense": 85,
               "sp_attack": 120,
               "sp_defense": 95,
               "speed": 98
             },
-            "total": 690
+            "total": 705
           },
           "type_effectiveness": null,
           "classification": null,
@@ -157450,14 +157450,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 160,
+              "hp": 175,
               "attack": 180,
               "defense": 117,
               "sp_attack": 126,
               "sp_defense": 107,
               "speed": 120
             },
-            "total": 810
+            "total": 825
           },
           "type_effectiveness": null,
           "classification": null,
