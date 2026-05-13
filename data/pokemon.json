@@ -106416,14 +106416,14 @@
           "abilities": [],
           "stats": {
             "base": {
-              "hp": 134,
+              "hp": 149,
               "attack": 85,
               "defense": 87,
               "sp_attack": 145,
               "sp_defense": 148,
               "speed": 112
             },
-            "total": 711
+            "total": 726
           },
           "type_effectiveness": null,
           "classification": null,

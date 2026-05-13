@@ -534,9 +534,40 @@ def _recalculate_champions_stat_total(stats: dict[str, Any]) -> None:
     stats["total"] = total if total else None
 
 
+def _champions_reference_hp_for_form_sync(
+    default_form_stats: Optional[dict[str, Any]],
+    all_form_groups: list[dict[str, Any]],
+) -> Optional[int]:
+    """HP value used to align non–Mega forms with the species' Champions default HP.
+
+    Normally this comes from the first form group's stats (plain ``Stats`` table).
+    Some pages (e.g. Floette) omit that table and only list variant/Mega stat blocks;
+    Eternal Floette then wrongly keeps the main-series HP from its own table while
+    Champions matches regular Floette. In that case we take the **maximum** HP
+    seen across all parsed form stat blocks on the page, which matches the
+    in-game Champions value for Floette (149 vs 134 on Serebii's Eternal table).
+    """
+    if default_form_stats:
+        base_block = default_form_stats.get("base")
+        if isinstance(base_block, dict) and base_block.get("hp") is not None:
+            return base_block["hp"]
+
+    candidates: list[int] = []
+    for grp in all_form_groups:
+        st = grp.get("stats")
+        if not isinstance(st, dict):
+            continue
+        inner = st.get("base")
+        if isinstance(inner, dict) and isinstance(inner.get("hp"), int):
+            candidates.append(inner["hp"])
+    return max(candidates) if candidates else None
+
+
 def apply_champions_shared_base_hp_to_form_entries(
     default_form_stats: Optional[dict[str, Any]],
     form_entries: list[dict[str, Any]],
+    *,
+    all_form_groups: Optional[list[dict[str, Any]]] = None,
 ) -> None:
     """Align alternate-form HP with the default form for Pokémon Champions.
 
@@ -544,13 +575,16 @@ def apply_champions_shared_base_hp_to_form_entries(
     as the default form** on the species page; other stats come from each form's
     table. Serebii still lists main-series HP per form, so we overwrite ``hp`` for
     every form entry except Mega Evolutions, then refresh the stat total.
+
+    When the species has no plain ``Stats`` dextable (``default_form_stats`` is
+    ``None`` or lacks HP), ``all_form_groups`` must include every parsed form group
+    so a fallback reference HP can be inferred (see
+    :func:`_champions_reference_hp_for_form_sync`).
     """
-    if not default_form_stats or not form_entries:
+    if not form_entries:
         return
-    base_block = default_form_stats.get("base")
-    if not isinstance(base_block, dict):
-        return
-    base_hp = base_block.get("hp")
+    groups = all_form_groups if all_form_groups is not None else []
+    base_hp = _champions_reference_hp_for_form_sync(default_form_stats, groups)
     if base_hp is None:
         return
 
@@ -958,7 +992,11 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         "page_url": page_url,
     }
 
-    apply_champions_shared_base_hp_to_form_entries(result.get("stats"), form_entries)
+    apply_champions_shared_base_hp_to_form_entries(
+        result.get("stats"),
+        form_entries,
+        all_form_groups=forms,
+    )
 
     if slug == "rotom":
         _normalize_rotom_detail(soup, result)
