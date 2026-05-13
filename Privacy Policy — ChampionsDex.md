@@ -40,8 +40,8 @@ The app stores, among other things:
 
 To obtain and update Pokédex, move, item, and related reference data, the app requests static files over HTTPS from:
 
-- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-Serribi-Scraper/main/data/`
-- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-Serribi-Scraper/main/images/`
+- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-serebii-Scraper/main/data/`
+- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-serebii-Scraper/main/images/`
 
 **Supplementary Pokémon artwork** may also be requested from **`https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/imagesHQ/`** when the app maps a species sprite to a high-quality static image.
 
