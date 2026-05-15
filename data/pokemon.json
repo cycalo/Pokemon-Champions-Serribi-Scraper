@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-13T20:37:18+00:00",
+  "scraped_at": "2026-05-15T14:54:59+00:00",
   "count": 186,
   "pokemon": [
     {
@@ -21430,8 +21430,7 @@
               "description": "Has a 20% chance of making the target flinch.",
               "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml"
             }
-          ],
-          "sprite_path": "images/pokemon/128-p.png"
+          ]
         },
         {
           "name": "Paldean Form Aqua Breed",
@@ -22119,8 +22118,7 @@
               "description": "Has a 20% chance of making the target flinch.",
               "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml"
             }
-          ],
-          "sprite_path": "images/pokemon/128-p.png"
+          ]
         }
       ],
       "moves": [
