@@ -730,6 +730,149 @@ def _resplit_forms_for_regional_learnsets(
     return [g for g in groups if g[1]]
 
 
+def _weakness_types_order_from_icon_row(icon_row: Tag) -> list[str]:
+    """Type column order from the icon row of a Champions weakness dextable."""
+    types_order: list[str] = []
+    for c in icon_row.find_all(["td", "th"], recursive=False):
+        img = c.find("img")
+        if img and img.get("src"):
+            m = re.search(r"/type/(?:icon/)?([a-zA-Z]+)\.(?:gif|png)", img["src"])
+            if m:
+                types_order.append(_normalize_type_slug(m.group(1).lower()))
+                continue
+        types_order.append("")
+    return types_order
+
+
+def _parse_tauros_weakness_by_form(table: Tag) -> dict[str, dict[str, float]]:
+    """Tauros packs four effectiveness rows (Kantonian + three Paldean breeds) in one dextable."""
+    rows = table.find_all("tr", recursive=False)
+    if len(rows) < 4:
+        return {}
+    types_order = _weakness_types_order_from_icon_row(rows[1])
+    if not any(types_order):
+        return {}
+
+    out: dict[str, dict[str, float]] = {}
+    current = "kantonian"
+    for row in rows[2:]:
+        cells = row.find_all(["td", "th"], recursive=False)
+        if len(cells) == 1:
+            tx = clean_text(cells[0]).lower()
+            if "blaze breed" in tx:
+                current = "blaze"
+            elif "aqua breed" in tx:
+                current = "aqua"
+            elif "paldean form" in tx:
+                current = "combat"
+            continue
+        if len(cells) >= 10:
+            eff: dict[str, float] = {}
+            for type_name, cell in zip(types_order, cells):
+                if not type_name:
+                    continue
+                raw = clean_text(cell).replace("*", "").strip()
+                if not raw:
+                    continue
+                try:
+                    eff[type_name] = float(raw)
+                except ValueError:
+                    continue
+            if eff:
+                out[current] = eff
+    return out
+
+
+def _resplit_tauros_form_groups(dextables: list[Tag]) -> list[tuple[Optional[str], list[Tag]]]:
+    """Split Tauros: Kantonian learnset + Stats, then each Paldean breed learnset sharing one Paldean stats block.
+
+    Serebii stacks *Standard Moves*, *Paldean Form Standard Moves*, *Standard Moves - Blaze Breed*,
+    *Standard Moves - Aqua Breed*, plain *Stats*, then *Stats - Paldean Tauros*. The generic
+    regional split expects Paldean moves immediately before default Stats, so without this
+    pass the parser merges all learnsets into Kantonian and drops Blaze/Aqua.
+    """
+    std_idx: Optional[int] = None
+    pal_idx: Optional[int] = None
+    blaze_idx: Optional[int] = None
+    aqua_idx: Optional[int] = None
+    stats_idx: Optional[int] = None
+    pal_stats_idx: Optional[int] = None
+
+    for i, t in enumerate(dextables):
+        heads = [clean_text(h) for h in t.find_all("td", class_="fooevo", recursive=True)]
+        h0 = (heads[0] or "").strip() if heads else ""
+        hl = h0.lower()
+        if hl == "standard moves":
+            std_idx = i
+        elif "paldean form standard moves" in hl:
+            pal_idx = i
+        elif hl.startswith("standard moves") and "blaze breed" in hl:
+            blaze_idx = i
+        elif hl.startswith("standard moves") and "aqua breed" in hl:
+            aqua_idx = i
+        elif _is_plain_base_stats_dextable(t):
+            stats_idx = i
+        elif hl.startswith("stats -") and "paldean" in hl:
+            pal_stats_idx = i
+
+    needed = (std_idx, pal_idx, blaze_idx, aqua_idx, stats_idx, pal_stats_idx)
+    if any(v is None for v in needed):
+        return _resplit_forms_for_regional_learnsets(dextables)
+
+    if not (std_idx < pal_idx < blaze_idx < aqua_idx < stats_idx < pal_stats_idx):
+        return _resplit_forms_for_regional_learnsets(dextables)
+
+    kanto_tables = list(dextables[0:pal_idx]) + [dextables[stats_idx]]
+    combat_tables = [dextables[pal_idx], dextables[pal_stats_idx]]
+    blaze_tables = [dextables[blaze_idx], dextables[pal_stats_idx]]
+    aqua_tables = [dextables[aqua_idx], dextables[pal_stats_idx]]
+
+    return [
+        (None, kanto_tables),
+        ("Paldean Form Combat Breed", combat_tables),
+        ("Paldean Form Blaze Breed", blaze_tables),
+        ("Paldean Form Aqua Breed", aqua_tables),
+    ]
+
+
+def _apply_tauros_champions_postprocess(dextables: list[Tag], result: dict[str, Any]) -> None:
+    """Fix merged types/abilities/weakness rows after the Tauros-specific dextable split."""
+    wtable = None
+    for t in dextables:
+        if _classify_dextable(t) == "weakness":
+            wtable = t
+            break
+    if wtable:
+        wmap = _parse_tauros_weakness_by_form(wtable)
+        if wmap.get("kantonian"):
+            result["type_effectiveness"] = wmap["kantonian"]
+        key_by_form_name = {
+            "Paldean Form Combat Breed": "combat",
+            "Paldean Form Blaze Breed": "blaze",
+            "Paldean Form Aqua Breed": "aqua",
+        }
+        for entry in result.get("forms") or []:
+            kn = key_by_form_name.get(entry.get("name") or "")
+            if kn and wmap.get(kn):
+                entry["type_effectiveness"] = wmap[kn]
+
+    result["types"] = ["normal"]
+
+    abs_all = result.get("abilities") or []
+    if len(abs_all) >= 6:
+        result["abilities"] = abs_all[:3]
+        type_by_form_name = {
+            "Paldean Form Combat Breed": ["fighting"],
+            "Paldean Form Blaze Breed": ["fighting", "fire"],
+            "Paldean Form Aqua Breed": ["fighting", "water"],
+        }
+        for entry in result.get("forms") or []:
+            entry["abilities"] = abs_all[3:6]
+            fn = entry.get("name")
+            if fn in type_by_form_name:
+                entry["types"] = type_by_form_name[fn]
+
+
 def _classify_dextable(table: Tag) -> str:
     """Label a dextable by what content it holds."""
     heads = [clean_text(h) for h in table.find_all("td", class_="fooevo", recursive=True)]
@@ -935,7 +1078,10 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
     if not dextables:
         return None
 
-    groups = _resplit_forms_for_regional_learnsets(dextables)
+    if slug == "tauros":
+        groups = _resplit_tauros_form_groups(dextables)
+    else:
+        groups = _resplit_forms_for_regional_learnsets(dextables)
     if not groups:
         return None
 
@@ -997,6 +1143,9 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         form_entries,
         all_form_groups=forms,
     )
+
+    if slug == "tauros":
+        _apply_tauros_champions_postprocess(dextables, result)
 
     if slug == "rotom":
         _normalize_rotom_detail(soup, result)
