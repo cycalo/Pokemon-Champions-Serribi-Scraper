@@ -1,6 +1,6 @@
 # Privacy Policy — ChampionsDex
 
-**Effective date:** 9 May 2026  
+**Effective date:** 16 May 2026  
 **App:** ChampionsDex (unofficial fan companion for Pokémon Champions)  
 **Platform:** Android, iOS (where distributed)
 
@@ -16,7 +16,8 @@ This policy describes how ChampionsDex (“the app”, “we”) handles informa
 - **Typography** uses the `google_fonts` package; font files may be **fetched from Google** the first time a style is used (or when the font cache is cleared), which is a standard HTTPS request, not used for advertising or behavioral profiling inside this app.
 - **Optional crash reporting** may be enabled only in **specific release builds** that are compiled with a Sentry DSN (`SENTRY_DSN`). Default builds distributed without that flag do **not** send telemetry to Sentry.
 - We **do not** include third-party advertising SDKs, behavioral analytics, or sale of personal data for advertising.
-- **AI Coach** (AI tab): when the feature is available in your build and you run it, **prompts, model responses, and tool-call traffic** are sent **from your device directly to Google’s Generative Language API** (Gemini, OpenAI-compatible endpoint as implemented in the app). The app **does not** operate a ChampionsDex server that proxies those conversations. **Current preview-style builds** authenticate using an **application-embedded API credential** (not a key you type into Settings). **Credits / “Preview access”** preferences used to gate runs are stored **locally** (e.g. SharedPreferences), not on our servers.
+- **AI Coach** (AI tab): when the feature is available in your build and you run it, **prompts, model responses, and tool-call traffic** are sent **from your device directly to Moonshot AI’s Kimi API** (OpenAI-compatible `chat/completions` at `https://api.moonshot.ai/v1/`, model **kimi-k2.6** as implemented in the app). The app **does not** operate a ChampionsDex server that proxies those conversations. **Current preview-style builds** authenticate using an **application-embedded API credential** (not a key you type into Settings). **Credits / “Preview access”** preferences used to gate runs are stored **locally** (e.g. SharedPreferences), not on our servers.
+- **Team import:** optional **screenshot OCR** (two in-game screenshots) and **Pokepaste** (paste Showdown-style team text) run **on your device**; see §2.7. Parsed rosters are not uploaded to ChampionsDex-operated servers by that feature path.
 
 ---
 
@@ -29,6 +30,7 @@ The app stores, among other things:
 - **Match logger entries** (match format, participating teams/build snapshots, results, notes) in Hive, for your personal history and stats inside the app.
 - **App settings and preferences** (via mechanisms such as SharedPreferences), including theme, accent, AI-related toggles, and **the backup export directory you choose** (where the app is allowed to write backup files on your device).
 - **Cached copies** of public reference files (Pokémon, moves, items, abilities, image manifest) and **cached images** (e.g. sprites) so the app can work offline after the initial download.
+- **Temporary images** you attach for screenshot-based import may be held in memory or app-accessible temp storage for the duration of the import session.
 
 **Uninstalling the app** removes application sandbox data on your device, subject to how your operating system handles backups and residual files. **Files you exported** (for example JSON backups in a folder you picked, or content sent via Share) remain under your control outside the app sandbox.
 
@@ -40,8 +42,10 @@ The app stores, among other things:
 
 To obtain and update Pokédex, move, item, and related reference data, the app requests static files over HTTPS from:
 
-- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-serebii-Scraper/main/data/`
-- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-serebii-Scraper/main/images/`
+- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-Serribi-Scraper/main/data/`
+- `https://raw.githubusercontent.com/cycalo/Pokemon-Champions-Serribi-Scraper/main/images/`
+
+The upstream project documents that it mirrors **Serebii.net** material for Pokémon Champions; the GitHub repository path retains a misspelling (**Serribi**) in the slug only—the URLs above are the live endpoints.
 
 **Supplementary Pokémon artwork** may also be requested from **`https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/imagesHQ/`** when the app maps a species sprite to a high-quality static image.
 
@@ -67,16 +71,16 @@ Diagnostic reports can still include **technical context** that Sentry’s SDKs 
 
 If your build **does not** ship with a Sentry DSN, **no data is sent to Sentry** from that mechanism.
 
-### 2.4 AI Coach (Google Gemini)
+### 2.4 AI Coach (Moonshot AI / Kimi)
 
-The **AI Coach** feature (AI tab) is optional. When it is enabled in your build and you start a flow, the app sends **prompts, model responses, and tool-call traffic** **directly from your device to Google’s Generative Language API** (Gemini, using the OpenAI-compatible surface implemented in the app).
+The **AI Coach** feature (AI tab) is optional. When it is enabled in your build and you start a flow, the app sends **prompts, model responses, and tool-call traffic** **directly from your device to Moonshot AI’s Kimi API** (OpenAI-compatible `POST /v1/chat/completions` at `https://api.moonshot.ai/v1/`, using model **kimi-k2.6** as implemented in the app).
 
 - **Authentication:** preview-style builds may ship with an **embedded application credential** in the binary (obfuscation is not a substitute for secrecy—treat preview builds accordingly). The app **does not** require you to paste an API key into Settings for that path today.
-- **Content:** traffic includes your interview answers, summaries of teams/builds you ask the Coach to work on, and structured tool results derived from the local dataset so the model can answer. It can include **Pokémon / move / item identifiers and stats** drawn from the same public reference data the app already downloads.
-- **No proxy:** ChampionsDex does **not** host a server that relays Coach traffic; your device talks to Google’s endpoints.
+- **Content:** traffic includes your interview answers, summaries of teams/builds you ask the Coach to work on, and structured tool results derived from the local dataset so the model can answer. It can include **Pokémon / move / item identifiers and stats** drawn from the same public reference data the app already downloads. Multi-step tool flows may include **reasoning-related fields** the provider requires to continue the conversation (as implemented in the app).
+- **No proxy:** ChampionsDex does **not** host a server that relays Coach traffic; your device talks to **Moonshot AI’s** endpoints.
 - **Gating:** “Preview access”, credit balance, and related flags are stored **on-device** (SharedPreferences) for UX and abuse mitigation; they are not a cloud account.
 
-See Google’s terms and privacy documentation for **Google AI / Gemini API** usage.
+See Moonshot AI / Kimi platform terms and privacy documentation for API usage (e.g. [platform.kimi.ai](https://platform.kimi.ai/)).
 
 ### 2.5 Backup and restore
 
@@ -87,6 +91,16 @@ If you use **Share** on a backup file, the **destination app you pick** receives
 ### 2.6 Sharing features
 
 If you use **Share** or export features (including team cards, text exports, or backup files), content is passed to the **share sheet or target app you choose** (for example Messages, email, or cloud storage). We do not control how those third-party apps process data.
+
+### 2.7 Team import (screenshots and Pokepaste)
+
+**Screenshot import (“Import team from screenshots”):** you may choose **photos from your gallery** or capture **new photos with the camera** (`image_picker`). Those images are processed **on your device** using **Google ML Kit** text recognition to extract text from your Pokémon Champions **Moves & More** and **Stats** screens. Extracted text is matched against the **same local reference dataset** the app already uses for the Pokédex. **We do not send your screenshots to a ChampionsDex-operated server** for this pipeline.
+
+**Pokepaste import:** you may **paste** Showdown-style team text (including via the system clipboard when you use a “paste” action). Parsing and resolution against Champions data happen **on-device**. Pasted content is not transmitted to our servers as part of that feature path.
+
+**Permissions (especially Android):** the app may declare or request permissions such as **camera**, **read media / photos**, or **storage** so the platform can allow gallery access, capture, or backup export as implemented. Grant only what you are comfortable with; you can decline camera or photo access and still use features that do not require them.
+
+For how **Google** handles ML Kit and related SDK practices, see Google’s developer and privacy documentation for the versions bundled in your build.
 
 ---
 
@@ -116,7 +130,7 @@ Because the app is **local-first** and does not operate a mandatory cloud accoun
 
 ## 6. International users
 
-If you use the app outside the country where the maintainer resides, your information may be processed in accordance with this policy and the practices of infrastructure providers you connect to (for example GitHub, Google Fonts, Google AI when you use AI Coach, or Sentry when enabled).
+If you use the app outside the country where the maintainer resides, your information may be processed in accordance with this policy and the practices of infrastructure providers you connect to (for example GitHub, Google Fonts, **Google ML Kit** or other Google components when you use screenshot import, **Moonshot AI** when you use AI Coach, or Sentry when enabled).
 
 ---
 
