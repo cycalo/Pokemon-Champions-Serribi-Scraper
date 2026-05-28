@@ -8,7 +8,7 @@ Scrapes **Pokémon Champions** data from [Serebii.net](https://www.serebii.net/p
 | --- | --- | --- |
 | `pokemon` | `pokemon.json`, `pokemon_listing.json` | Full dex (types, abilities, stats, matchups, forms, learnsets) plus a flat listing (one row per form). Failures → `pokemon_failures.json`. |
 | `moves` | `moves.json` | All moves: type, category, power, accuracy, PP, effect. |
-| `items` | `items.json` | Hold items, Mega Stones, Berries, misc. |
+| `items` | `items.json` | Hold items, Mega Stones, Berries, misc. Effects for hold items and berries come from each item’s ItemDex **In-Depth Effect** (list-page text for Mega Stones and misc.). Sprites prefer the ItemDex **Sprites** image when a detail page exists. |
 | `abilities` | `abilities.json` | Champions-only abilities and Mega ability mappings. |
 | `images` | `images/**`, `images.json` | Local sprites/icons and a manifest; adds `sprite_path` to Pokémon and item JSON when present. |
 
