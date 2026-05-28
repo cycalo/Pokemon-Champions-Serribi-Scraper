@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-28T00:47:52+00:00",
+  "scraped_at": "2026-05-28T01:41:20+00:00",
   "summary": {
     "pokemon": {
       "total": 258,
@@ -26,7 +26,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/003.png",
       "sprite_path": "images/pokemon/003.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "venusaur",
@@ -35,7 +35,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/003-m.png",
       "sprite_path": "images/pokemon/003-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charizard",
@@ -44,7 +44,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/006.png",
       "sprite_path": "images/pokemon/006.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charizard",
@@ -53,7 +53,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/006-mx.png",
       "sprite_path": "images/pokemon/006-mx.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charizard",
@@ -62,7 +62,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/006-my.png",
       "sprite_path": "images/pokemon/006-my.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "blastoise",
@@ -71,7 +71,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/009.png",
       "sprite_path": "images/pokemon/009.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "blastoise",
@@ -80,7 +80,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/009-m.png",
       "sprite_path": "images/pokemon/009-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "beedrill",
@@ -89,7 +89,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/015.png",
       "sprite_path": "images/pokemon/015.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "beedrill",
@@ -98,7 +98,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/015-m.png",
       "sprite_path": "images/pokemon/015-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pidgeot",
@@ -107,7 +107,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/018.png",
       "sprite_path": "images/pokemon/018.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pidgeot",
@@ -116,7 +116,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/018-m.png",
       "sprite_path": "images/pokemon/018-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "arbok",
@@ -125,7 +125,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/024.png",
       "sprite_path": "images/pokemon/024.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pikachu",
@@ -134,7 +134,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/025.png",
       "sprite_path": "images/pokemon/025.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "raichu",
@@ -143,7 +143,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/026.png",
       "sprite_path": "images/pokemon/026.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "raichu",
@@ -152,7 +152,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/026-a.png",
       "sprite_path": "images/pokemon/026-a.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "clefable",
@@ -161,7 +161,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/036.png",
       "sprite_path": "images/pokemon/036.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "clefable",
@@ -170,7 +170,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/036-m.png",
       "sprite_path": "images/pokemon/036-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ninetales",
@@ -179,7 +179,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/038.png",
       "sprite_path": "images/pokemon/038.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ninetales",
@@ -188,7 +188,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/038-a.png",
       "sprite_path": "images/pokemon/038-a.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "arcanine",
@@ -197,7 +197,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/059.png",
       "sprite_path": "images/pokemon/059.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "arcanine",
@@ -206,7 +206,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/059-h.png",
       "sprite_path": "images/pokemon/059-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "alakazam",
@@ -215,7 +215,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/065.png",
       "sprite_path": "images/pokemon/065.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "alakazam",
@@ -224,7 +224,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/065-m.png",
       "sprite_path": "images/pokemon/065-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "machamp",
@@ -233,7 +233,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/068.png",
       "sprite_path": "images/pokemon/068.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "victreebel",
@@ -242,7 +242,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/071.png",
       "sprite_path": "images/pokemon/071.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "victreebel",
@@ -251,7 +251,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/071-m.png",
       "sprite_path": "images/pokemon/071-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slowbro",
@@ -260,7 +260,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/080.png",
       "sprite_path": "images/pokemon/080.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slowbro",
@@ -269,7 +269,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/080-m.png",
       "sprite_path": "images/pokemon/080-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slowbro",
@@ -278,7 +278,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/080-g.png",
       "sprite_path": "images/pokemon/080-g.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gengar",
@@ -287,7 +287,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/094.png",
       "sprite_path": "images/pokemon/094.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gengar",
@@ -296,7 +296,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/094-m.png",
       "sprite_path": "images/pokemon/094-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kangaskhan",
@@ -305,7 +305,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/115.png",
       "sprite_path": "images/pokemon/115.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kangaskhan",
@@ -314,7 +314,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/115-m.png",
       "sprite_path": "images/pokemon/115-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "starmie",
@@ -323,7 +323,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/121.png",
       "sprite_path": "images/pokemon/121.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "starmie",
@@ -332,7 +332,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/121-m.png",
       "sprite_path": "images/pokemon/121-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pinsir",
@@ -341,7 +341,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/127.png",
       "sprite_path": "images/pokemon/127.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pinsir",
@@ -350,7 +350,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/127-m.png",
       "sprite_path": "images/pokemon/127-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tauros",
@@ -359,7 +359,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/128.png",
       "sprite_path": "images/pokemon/128.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tauros",
@@ -368,7 +368,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/128-p.png",
       "sprite_path": "images/pokemon/128-p.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gyarados",
@@ -377,7 +377,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/130.png",
       "sprite_path": "images/pokemon/130.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gyarados",
@@ -386,7 +386,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/130-m.png",
       "sprite_path": "images/pokemon/130-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ditto",
@@ -395,7 +395,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/132.png",
       "sprite_path": "images/pokemon/132.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "vaporeon",
@@ -404,7 +404,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/134.png",
       "sprite_path": "images/pokemon/134.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "jolteon",
@@ -413,7 +413,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/135.png",
       "sprite_path": "images/pokemon/135.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "flareon",
@@ -422,7 +422,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/136.png",
       "sprite_path": "images/pokemon/136.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aerodactyl",
@@ -431,7 +431,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/142.png",
       "sprite_path": "images/pokemon/142.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aerodactyl",
@@ -440,7 +440,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/142-m.png",
       "sprite_path": "images/pokemon/142-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "snorlax",
@@ -449,7 +449,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/143.png",
       "sprite_path": "images/pokemon/143.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragonite",
@@ -458,7 +458,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/149.png",
       "sprite_path": "images/pokemon/149.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragonite",
@@ -467,7 +467,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/149-m.png",
       "sprite_path": "images/pokemon/149-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meganium",
@@ -476,7 +476,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/154.png",
       "sprite_path": "images/pokemon/154.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meganium",
@@ -485,7 +485,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/154-m.png",
       "sprite_path": "images/pokemon/154-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "typhlosion",
@@ -494,7 +494,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/157.png",
       "sprite_path": "images/pokemon/157.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "typhlosion",
@@ -503,7 +503,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/157-h.png",
       "sprite_path": "images/pokemon/157-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "feraligatr",
@@ -512,7 +512,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/160.png",
       "sprite_path": "images/pokemon/160.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "feraligatr",
@@ -521,7 +521,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/160-m.png",
       "sprite_path": "images/pokemon/160-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ariados",
@@ -530,7 +530,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/168.png",
       "sprite_path": "images/pokemon/168.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ampharos",
@@ -539,7 +539,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/181.png",
       "sprite_path": "images/pokemon/181.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ampharos",
@@ -548,7 +548,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/181-m.png",
       "sprite_path": "images/pokemon/181-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "azumarill",
@@ -557,7 +557,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/184.png",
       "sprite_path": "images/pokemon/184.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "politoed",
@@ -566,7 +566,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/186.png",
       "sprite_path": "images/pokemon/186.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "espeon",
@@ -575,7 +575,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/196.png",
       "sprite_path": "images/pokemon/196.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "umbreon",
@@ -584,7 +584,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/197.png",
       "sprite_path": "images/pokemon/197.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slowking",
@@ -593,7 +593,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/199.png",
       "sprite_path": "images/pokemon/199.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slowking",
@@ -602,7 +602,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/199-g.png",
       "sprite_path": "images/pokemon/199-g.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "forretress",
@@ -611,7 +611,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/205.png",
       "sprite_path": "images/pokemon/205.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "steelix",
@@ -620,7 +620,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/208.png",
       "sprite_path": "images/pokemon/208.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "steelix",
@@ -629,7 +629,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/208-m.png",
       "sprite_path": "images/pokemon/208-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scizor",
@@ -638,7 +638,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/212.png",
       "sprite_path": "images/pokemon/212.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scizor",
@@ -647,7 +647,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/212-m.png",
       "sprite_path": "images/pokemon/212-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "heracross",
@@ -656,7 +656,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/214.png",
       "sprite_path": "images/pokemon/214.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "heracross",
@@ -665,7 +665,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/214-m.png",
       "sprite_path": "images/pokemon/214-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "skarmory",
@@ -674,7 +674,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/227.png",
       "sprite_path": "images/pokemon/227.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "skarmory",
@@ -683,7 +683,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/227-m.png",
       "sprite_path": "images/pokemon/227-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "houndoom",
@@ -692,7 +692,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/229.png",
       "sprite_path": "images/pokemon/229.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "houndoom",
@@ -701,7 +701,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/229-m.png",
       "sprite_path": "images/pokemon/229-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tyranitar",
@@ -710,7 +710,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/248.png",
       "sprite_path": "images/pokemon/248.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tyranitar",
@@ -719,7 +719,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/248-m.png",
       "sprite_path": "images/pokemon/248-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pelipper",
@@ -728,7 +728,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/279.png",
       "sprite_path": "images/pokemon/279.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gardevoir",
@@ -737,7 +737,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/282.png",
       "sprite_path": "images/pokemon/282.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gardevoir",
@@ -746,7 +746,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/282-m.png",
       "sprite_path": "images/pokemon/282-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sableye",
@@ -755,7 +755,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/302.png",
       "sprite_path": "images/pokemon/302.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sableye",
@@ -764,7 +764,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/302-m.png",
       "sprite_path": "images/pokemon/302-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aggron",
@@ -773,7 +773,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/306.png",
       "sprite_path": "images/pokemon/306.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aggron",
@@ -782,7 +782,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/306-m.png",
       "sprite_path": "images/pokemon/306-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "medicham",
@@ -791,7 +791,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/308.png",
       "sprite_path": "images/pokemon/308.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "medicham",
@@ -800,7 +800,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/308-m.png",
       "sprite_path": "images/pokemon/308-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "manectric",
@@ -809,7 +809,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/310.png",
       "sprite_path": "images/pokemon/310.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "manectric",
@@ -818,7 +818,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/310-m.png",
       "sprite_path": "images/pokemon/310-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sharpedo",
@@ -827,7 +827,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/319.png",
       "sprite_path": "images/pokemon/319.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sharpedo",
@@ -836,7 +836,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/319-m.png",
       "sprite_path": "images/pokemon/319-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "camerupt",
@@ -845,7 +845,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/323.png",
       "sprite_path": "images/pokemon/323.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "camerupt",
@@ -854,7 +854,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/323-m.png",
       "sprite_path": "images/pokemon/323-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "torkoal",
@@ -863,7 +863,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/324.png",
       "sprite_path": "images/pokemon/324.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "altaria",
@@ -872,7 +872,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/334.png",
       "sprite_path": "images/pokemon/334.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "altaria",
@@ -881,7 +881,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/334-m.png",
       "sprite_path": "images/pokemon/334-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "milotic",
@@ -890,7 +890,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/350.png",
       "sprite_path": "images/pokemon/350.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "castform",
@@ -899,7 +899,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/351.png",
       "sprite_path": "images/pokemon/351.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "banette",
@@ -908,7 +908,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/354.png",
       "sprite_path": "images/pokemon/354.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "banette",
@@ -917,7 +917,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/354-m.png",
       "sprite_path": "images/pokemon/354-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chimecho",
@@ -926,7 +926,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/358.png",
       "sprite_path": "images/pokemon/358.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chimecho",
@@ -935,7 +935,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/358-m.png",
       "sprite_path": "images/pokemon/358-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "absol",
@@ -944,7 +944,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/359.png",
       "sprite_path": "images/pokemon/359.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "absol",
@@ -953,7 +953,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/359-m.png",
       "sprite_path": "images/pokemon/359-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glalie",
@@ -962,7 +962,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/362.png",
       "sprite_path": "images/pokemon/362.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glalie",
@@ -971,7 +971,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/362-m.png",
       "sprite_path": "images/pokemon/362-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "torterra",
@@ -980,7 +980,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/389.png",
       "sprite_path": "images/pokemon/389.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "infernape",
@@ -989,7 +989,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/392.png",
       "sprite_path": "images/pokemon/392.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "empoleon",
@@ -998,7 +998,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/395.png",
       "sprite_path": "images/pokemon/395.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "luxray",
@@ -1007,7 +1007,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/405.png",
       "sprite_path": "images/pokemon/405.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "roserade",
@@ -1016,7 +1016,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/407.png",
       "sprite_path": "images/pokemon/407.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rampardos",
@@ -1025,7 +1025,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/409.png",
       "sprite_path": "images/pokemon/409.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "bastiodon",
@@ -1034,7 +1034,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/411.png",
       "sprite_path": "images/pokemon/411.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lopunny",
@@ -1043,7 +1043,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/428.png",
       "sprite_path": "images/pokemon/428.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lopunny",
@@ -1052,7 +1052,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/428-m.png",
       "sprite_path": "images/pokemon/428-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "spiritomb",
@@ -1061,7 +1061,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/442.png",
       "sprite_path": "images/pokemon/442.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "garchomp",
@@ -1070,7 +1070,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/445.png",
       "sprite_path": "images/pokemon/445.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "garchomp",
@@ -1079,7 +1079,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/445-m.png",
       "sprite_path": "images/pokemon/445-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lucario",
@@ -1088,7 +1088,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/448.png",
       "sprite_path": "images/pokemon/448.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lucario",
@@ -1097,7 +1097,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/448-m.png",
       "sprite_path": "images/pokemon/448-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hippowdon",
@@ -1106,7 +1106,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/450.png",
       "sprite_path": "images/pokemon/450.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "toxicroak",
@@ -1115,7 +1115,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/454.png",
       "sprite_path": "images/pokemon/454.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "abomasnow",
@@ -1124,7 +1124,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/460.png",
       "sprite_path": "images/pokemon/460.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "abomasnow",
@@ -1133,7 +1133,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/460-m.png",
       "sprite_path": "images/pokemon/460-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "weavile",
@@ -1142,7 +1142,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/461.png",
       "sprite_path": "images/pokemon/461.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rhyperior",
@@ -1151,7 +1151,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/464.png",
       "sprite_path": "images/pokemon/464.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "leafeon",
@@ -1160,7 +1160,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/470.png",
       "sprite_path": "images/pokemon/470.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glaceon",
@@ -1169,7 +1169,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/471.png",
       "sprite_path": "images/pokemon/471.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gliscor",
@@ -1178,7 +1178,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/472.png",
       "sprite_path": "images/pokemon/472.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mamoswine",
@@ -1187,7 +1187,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/473.png",
       "sprite_path": "images/pokemon/473.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gallade",
@@ -1196,7 +1196,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/475.png",
       "sprite_path": "images/pokemon/475.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gallade",
@@ -1205,7 +1205,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/475-m.png",
       "sprite_path": "images/pokemon/475-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "froslass",
@@ -1214,7 +1214,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/478.png",
       "sprite_path": "images/pokemon/478.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "froslass",
@@ -1223,7 +1223,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/478-m.png",
       "sprite_path": "images/pokemon/478-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rotom",
@@ -1232,7 +1232,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/479.png",
       "sprite_path": "images/pokemon/479.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "serperior",
@@ -1241,7 +1241,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/497.png",
       "sprite_path": "images/pokemon/497.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "emboar",
@@ -1250,7 +1250,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/500.png",
       "sprite_path": "images/pokemon/500.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "emboar",
@@ -1259,7 +1259,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/500-m.png",
       "sprite_path": "images/pokemon/500-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "samurott",
@@ -1268,7 +1268,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/503.png",
       "sprite_path": "images/pokemon/503.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "samurott",
@@ -1277,7 +1277,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/503-h.png",
       "sprite_path": "images/pokemon/503-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "watchog",
@@ -1286,7 +1286,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/505.png",
       "sprite_path": "images/pokemon/505.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "liepard",
@@ -1295,7 +1295,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/510.png",
       "sprite_path": "images/pokemon/510.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "simisage",
@@ -1304,7 +1304,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/512.png",
       "sprite_path": "images/pokemon/512.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "simisear",
@@ -1313,7 +1313,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/514.png",
       "sprite_path": "images/pokemon/514.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "simipour",
@@ -1322,7 +1322,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/516.png",
       "sprite_path": "images/pokemon/516.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "excadrill",
@@ -1331,7 +1331,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/530.png",
       "sprite_path": "images/pokemon/530.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "excadrill",
@@ -1340,7 +1340,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/530-m.png",
       "sprite_path": "images/pokemon/530-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "audino",
@@ -1349,7 +1349,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/531.png",
       "sprite_path": "images/pokemon/531.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "audino",
@@ -1358,7 +1358,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/531-m.png",
       "sprite_path": "images/pokemon/531-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "conkeldurr",
@@ -1367,7 +1367,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/534.png",
       "sprite_path": "images/pokemon/534.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "whimsicott",
@@ -1376,7 +1376,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/547.png",
       "sprite_path": "images/pokemon/547.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "krookodile",
@@ -1385,7 +1385,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/553.png",
       "sprite_path": "images/pokemon/553.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "cofagrigus",
@@ -1394,7 +1394,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/563.png",
       "sprite_path": "images/pokemon/563.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "garbodor",
@@ -1403,7 +1403,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/569.png",
       "sprite_path": "images/pokemon/569.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "zoroark",
@@ -1412,7 +1412,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/571.png",
       "sprite_path": "images/pokemon/571.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "zoroark",
@@ -1421,7 +1421,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/571-h.png",
       "sprite_path": "images/pokemon/571-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "reuniclus",
@@ -1430,7 +1430,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/579.png",
       "sprite_path": "images/pokemon/579.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "vanilluxe",
@@ -1439,7 +1439,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/584.png",
       "sprite_path": "images/pokemon/584.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "emolga",
@@ -1448,7 +1448,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/587.png",
       "sprite_path": "images/pokemon/587.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chandelure",
@@ -1457,7 +1457,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/609.png",
       "sprite_path": "images/pokemon/609.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chandelure",
@@ -1466,7 +1466,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/609-m.png",
       "sprite_path": "images/pokemon/609-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "beartic",
@@ -1475,7 +1475,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/614.png",
       "sprite_path": "images/pokemon/614.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "stunfisk",
@@ -1484,7 +1484,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/618.png",
       "sprite_path": "images/pokemon/618.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "stunfisk",
@@ -1493,7 +1493,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/618-g.png",
       "sprite_path": "images/pokemon/618-g.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "golurk",
@@ -1502,7 +1502,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/623.png",
       "sprite_path": "images/pokemon/623.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "golurk",
@@ -1511,7 +1511,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/623-m.png",
       "sprite_path": "images/pokemon/623-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hydreigon",
@@ -1520,7 +1520,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/635.png",
       "sprite_path": "images/pokemon/635.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "volcarona",
@@ -1529,7 +1529,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/637.png",
       "sprite_path": "images/pokemon/637.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chesnaught",
@@ -1538,7 +1538,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/652.png",
       "sprite_path": "images/pokemon/652.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chesnaught",
@@ -1547,7 +1547,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/652-m.png",
       "sprite_path": "images/pokemon/652-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "delphox",
@@ -1556,7 +1556,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/655.png",
       "sprite_path": "images/pokemon/655.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "delphox",
@@ -1565,7 +1565,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/655-m.png",
       "sprite_path": "images/pokemon/655-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "greninja",
@@ -1574,7 +1574,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/658.png",
       "sprite_path": "images/pokemon/658.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "greninja",
@@ -1583,7 +1583,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/658-m.png",
       "sprite_path": "images/pokemon/658-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "diggersby",
@@ -1592,7 +1592,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/660.png",
       "sprite_path": "images/pokemon/660.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "talonflame",
@@ -1601,7 +1601,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/663.png",
       "sprite_path": "images/pokemon/663.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "vivillon",
@@ -1610,7 +1610,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/666.png",
       "sprite_path": "images/pokemon/666.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "floette",
@@ -1619,7 +1619,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/670-e.png",
       "sprite_path": "images/pokemon/670-e.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "floette",
@@ -1628,7 +1628,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/670-m.png",
       "sprite_path": "images/pokemon/670-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "florges",
@@ -1637,7 +1637,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/671.png",
       "sprite_path": "images/pokemon/671.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pangoro",
@@ -1646,7 +1646,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/675.png",
       "sprite_path": "images/pokemon/675.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "furfrou",
@@ -1655,7 +1655,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/676.png",
       "sprite_path": "images/pokemon/676.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meowstic",
@@ -1664,7 +1664,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/678.png",
       "sprite_path": "images/pokemon/678.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meowstic",
@@ -1673,7 +1673,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/678-m.png",
       "sprite_path": "images/pokemon/678-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aegislash",
@@ -1682,7 +1682,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/681.png",
       "sprite_path": "images/pokemon/681.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aromatisse",
@@ -1691,7 +1691,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/683.png",
       "sprite_path": "images/pokemon/683.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slurpuff",
@@ -1700,7 +1700,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/685.png",
       "sprite_path": "images/pokemon/685.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "clawitzer",
@@ -1709,7 +1709,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/693.png",
       "sprite_path": "images/pokemon/693.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "heliolisk",
@@ -1718,7 +1718,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/695.png",
       "sprite_path": "images/pokemon/695.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tyrantrum",
@@ -1727,7 +1727,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/697.png",
       "sprite_path": "images/pokemon/697.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aurorus",
@@ -1736,7 +1736,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/699.png",
       "sprite_path": "images/pokemon/699.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sylveon",
@@ -1745,7 +1745,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/700.png",
       "sprite_path": "images/pokemon/700.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hawlucha",
@@ -1754,7 +1754,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/701.png",
       "sprite_path": "images/pokemon/701.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hawlucha",
@@ -1763,7 +1763,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/701-m.png",
       "sprite_path": "images/pokemon/701-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dedenne",
@@ -1772,7 +1772,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/702.png",
       "sprite_path": "images/pokemon/702.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "goodra",
@@ -1781,7 +1781,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/706.png",
       "sprite_path": "images/pokemon/706.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "goodra",
@@ -1790,7 +1790,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/706-h.png",
       "sprite_path": "images/pokemon/706-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "klefki",
@@ -1799,7 +1799,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/707.png",
       "sprite_path": "images/pokemon/707.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "trevenant",
@@ -1808,7 +1808,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/709.png",
       "sprite_path": "images/pokemon/709.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gourgeist",
@@ -1817,7 +1817,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/711.png",
       "sprite_path": "images/pokemon/711.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "avalugg",
@@ -1826,7 +1826,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/713.png",
       "sprite_path": "images/pokemon/713.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "avalugg",
@@ -1835,7 +1835,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/713-h.png",
       "sprite_path": "images/pokemon/713-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "noivern",
@@ -1844,7 +1844,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/715.png",
       "sprite_path": "images/pokemon/715.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "decidueye",
@@ -1853,7 +1853,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/724.png",
       "sprite_path": "images/pokemon/724.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "decidueye",
@@ -1862,7 +1862,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/724-h.png",
       "sprite_path": "images/pokemon/724-h.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "incineroar",
@@ -1871,7 +1871,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/727.png",
       "sprite_path": "images/pokemon/727.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "primarina",
@@ -1880,7 +1880,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/730.png",
       "sprite_path": "images/pokemon/730.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "toucannon",
@@ -1889,7 +1889,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/733.png",
       "sprite_path": "images/pokemon/733.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "crabominable",
@@ -1898,7 +1898,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/740.png",
       "sprite_path": "images/pokemon/740.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "crabominable",
@@ -1907,7 +1907,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/740-m.png",
       "sprite_path": "images/pokemon/740-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lycanroc",
@@ -1916,7 +1916,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/745.png",
       "sprite_path": "images/pokemon/745.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "toxapex",
@@ -1925,7 +1925,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/748.png",
       "sprite_path": "images/pokemon/748.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mudsdale",
@@ -1934,7 +1934,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/750.png",
       "sprite_path": "images/pokemon/750.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "araquanid",
@@ -1943,7 +1943,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/752.png",
       "sprite_path": "images/pokemon/752.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "salazzle",
@@ -1952,7 +1952,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/758.png",
       "sprite_path": "images/pokemon/758.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tsareena",
@@ -1961,7 +1961,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/763.png",
       "sprite_path": "images/pokemon/763.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "oranguru",
@@ -1970,7 +1970,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/765.png",
       "sprite_path": "images/pokemon/765.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "passimian",
@@ -1979,7 +1979,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/766.png",
       "sprite_path": "images/pokemon/766.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mimikyu",
@@ -1988,7 +1988,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/778.png",
       "sprite_path": "images/pokemon/778.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "drampa",
@@ -1997,7 +1997,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/780.png",
       "sprite_path": "images/pokemon/780.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "drampa",
@@ -2006,7 +2006,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/780-m.png",
       "sprite_path": "images/pokemon/780-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kommo-o",
@@ -2015,7 +2015,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/784.png",
       "sprite_path": "images/pokemon/784.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "corviknight",
@@ -2024,7 +2024,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/823.png",
       "sprite_path": "images/pokemon/823.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "flapple",
@@ -2033,7 +2033,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/841.png",
       "sprite_path": "images/pokemon/841.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "appletun",
@@ -2042,7 +2042,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/842.png",
       "sprite_path": "images/pokemon/842.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sandaconda",
@@ -2051,7 +2051,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/844.png",
       "sprite_path": "images/pokemon/844.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "polteageist",
@@ -2060,7 +2060,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/855.png",
       "sprite_path": "images/pokemon/855.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hatterene",
@@ -2069,7 +2069,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/858.png",
       "sprite_path": "images/pokemon/858.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mr.rime",
@@ -2078,7 +2078,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/866.png",
       "sprite_path": "images/pokemon/866.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "runerigus",
@@ -2087,7 +2087,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/867.png",
       "sprite_path": "images/pokemon/867.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "alcremie",
@@ -2096,7 +2096,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/869.png",
       "sprite_path": "images/pokemon/869.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "morpeko",
@@ -2105,7 +2105,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/877.png",
       "sprite_path": "images/pokemon/877.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragapult",
@@ -2114,7 +2114,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/887.png",
       "sprite_path": "images/pokemon/887.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "wyrdeer",
@@ -2123,7 +2123,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/899.png",
       "sprite_path": "images/pokemon/899.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kleavor",
@@ -2132,7 +2132,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/900.png",
       "sprite_path": "images/pokemon/900.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "basculegion",
@@ -2141,7 +2141,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/902.png",
       "sprite_path": "images/pokemon/902.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sneasler",
@@ -2150,7 +2150,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/903.png",
       "sprite_path": "images/pokemon/903.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meowscarada",
@@ -2159,7 +2159,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/908.png",
       "sprite_path": "images/pokemon/908.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "skeledirge",
@@ -2168,7 +2168,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/911.png",
       "sprite_path": "images/pokemon/911.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "quaquaval",
@@ -2177,7 +2177,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/914.png",
       "sprite_path": "images/pokemon/914.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "maushold",
@@ -2186,7 +2186,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/925.png",
       "sprite_path": "images/pokemon/925.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "garganacl",
@@ -2195,7 +2195,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/934.png",
       "sprite_path": "images/pokemon/934.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "armarouge",
@@ -2204,7 +2204,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/936.png",
       "sprite_path": "images/pokemon/936.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ceruledge",
@@ -2213,7 +2213,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/937.png",
       "sprite_path": "images/pokemon/937.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "bellibolt",
@@ -2222,7 +2222,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/939.png",
       "sprite_path": "images/pokemon/939.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scovillain",
@@ -2231,7 +2231,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/952.png",
       "sprite_path": "images/pokemon/952.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scovillain",
@@ -2240,7 +2240,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/952-m.png",
       "sprite_path": "images/pokemon/952-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "espathra",
@@ -2249,7 +2249,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/956.png",
       "sprite_path": "images/pokemon/956.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tinkaton",
@@ -2258,7 +2258,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/959.png",
       "sprite_path": "images/pokemon/959.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "palafin",
@@ -2267,7 +2267,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/964.png",
       "sprite_path": "images/pokemon/964.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "orthworm",
@@ -2276,7 +2276,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/968.png",
       "sprite_path": "images/pokemon/968.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glimmora",
@@ -2285,7 +2285,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/970.png",
       "sprite_path": "images/pokemon/970.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glimmora",
@@ -2294,7 +2294,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/970-m.png",
       "sprite_path": "images/pokemon/970-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "farigiraf",
@@ -2303,7 +2303,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/981.png",
       "sprite_path": "images/pokemon/981.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kingambit",
@@ -2312,7 +2312,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/983.png",
       "sprite_path": "images/pokemon/983.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sinistcha",
@@ -2321,7 +2321,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/1013.png",
       "sprite_path": "images/pokemon/1013.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "archaludon",
@@ -2330,7 +2330,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/1018.png",
       "sprite_path": "images/pokemon/1018.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hydrapple",
@@ -2339,7 +2339,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/1019.png",
       "sprite_path": "images/pokemon/1019.png",
-      "status": "downloaded"
+      "status": "skipped"
     }
   ],
   "types": [
@@ -2454,966 +2454,966 @@
       "name": "Abomasite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/abomasite.png",
       "sprite_path": "images/items/abomasite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "absolite",
       "name": "Absolite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/absolite.png",
       "sprite_path": "images/items/absolite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aerodactylite",
       "name": "Aerodactylite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/aerodactylite.png",
       "sprite_path": "images/items/aerodactylite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aggronite",
       "name": "Aggronite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/aggronite.png",
       "sprite_path": "images/items/aggronite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "alakazite",
       "name": "Alakazite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/alakazite.png",
       "sprite_path": "images/items/alakazite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "altarianite",
       "name": "Altarianite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/altarianite.png",
       "sprite_path": "images/items/altarianite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ampharosite",
       "name": "Ampharosite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/ampharosite.png",
       "sprite_path": "images/items/ampharosite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aspear-berry",
       "name": "Aspear Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/aspearberry.png",
       "sprite_path": "images/items/aspear-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "audinite",
       "name": "Audinite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/audinite.png",
       "sprite_path": "images/items/audinite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "babiri-berry",
       "name": "Babiri Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/babiriberry.png",
       "sprite_path": "images/items/babiri-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "banettite",
       "name": "Banettite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/banettite.png",
       "sprite_path": "images/items/banettite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "beedrillite",
       "name": "Beedrillite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/beedrillite.png",
       "sprite_path": "images/items/beedrillite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "black-belt",
       "name": "Black Belt",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/blackbelt.png",
       "sprite_path": "images/items/black-belt.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "black-glasses",
       "name": "Black Glasses",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/blackglasses.png",
       "sprite_path": "images/items/black-glasses.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "blastoisinite",
       "name": "Blastoisinite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/blastoisinite.png",
       "sprite_path": "images/items/blastoisinite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "bright-powder",
       "name": "Bright Powder",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/brightpowder.png",
       "sprite_path": "images/items/bright-powder.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "bug-type-affinity-ticket",
       "name": "Bug-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/bug-typeaffinityticket.png",
       "sprite_path": "images/items/bug-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "cameruptite",
       "name": "Cameruptite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/cameruptite.png",
       "sprite_path": "images/items/cameruptite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chandelurite",
       "name": "Chandelurite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/chandelurite.png",
       "sprite_path": "images/items/chandelurite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charcoal",
       "name": "Charcoal",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/charcoal.png",
       "sprite_path": "images/items/charcoal.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charizardite-x",
       "name": "Charizardite X",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/charizarditex.png",
       "sprite_path": "images/items/charizardite-x.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charizardite-y",
       "name": "Charizardite Y",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/charizarditey.png",
       "sprite_path": "images/items/charizardite-y.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "charti-berry",
       "name": "Charti Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/chartiberry.png",
       "sprite_path": "images/items/charti-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "cheri-berry",
       "name": "Cheri Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/cheriberry.png",
       "sprite_path": "images/items/cheri-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chesnaughtite",
       "name": "Chesnaughtite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/chesnaughtite.png",
       "sprite_path": "images/items/chesnaughtite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chesto-berry",
       "name": "Chesto Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/chestoberry.png",
       "sprite_path": "images/items/chesto-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chilan-berry",
       "name": "Chilan Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/chilanberry.png",
       "sprite_path": "images/items/chilan-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chimechite",
       "name": "Chimechite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/chimechite.png",
       "sprite_path": "images/items/chimechite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "choice-scarf",
       "name": "Choice Scarf",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/choicescarf.png",
       "sprite_path": "images/items/choice-scarf.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "chople-berry",
       "name": "Chople Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/chopleberry.png",
       "sprite_path": "images/items/chople-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "clefablite",
       "name": "Clefablite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/clefablite.png",
       "sprite_path": "images/items/clefablite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "coba-berry",
       "name": "Coba Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/cobaberry.png",
       "sprite_path": "images/items/coba-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "colbur-berry",
       "name": "Colbur Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/colburberry.png",
       "sprite_path": "images/items/colbur-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "crabominite",
       "name": "Crabominite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/crabominite.png",
       "sprite_path": "images/items/crabominite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dark-type-affinity-ticket",
       "name": "Dark-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/dark-typeaffinityticket.png",
       "sprite_path": "images/items/dark-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "delphoxite",
       "name": "Delphoxite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/delphoxite.png",
       "sprite_path": "images/items/delphoxite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragon-fang",
       "name": "Dragon Fang",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/dragonfang.png",
       "sprite_path": "images/items/dragon-fang.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragon-type-affinity-ticket",
       "name": "Dragon-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/dragon-typeaffinityticket.png",
       "sprite_path": "images/items/dragon-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragoninite",
       "name": "Dragoninite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/dragoninite.png",
       "sprite_path": "images/items/dragoninite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "drampanite",
       "name": "Drampanite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/drampanite.png",
       "sprite_path": "images/items/drampanite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "electric-type-affinity-ticket",
       "name": "Electric-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/electric-typeaffinityticket.png",
       "sprite_path": "images/items/electric-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "emboarite",
       "name": "Emboarite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/emboarite.png",
       "sprite_path": "images/items/emboarite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "excadrite",
       "name": "Excadrite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/excadrite.png",
       "sprite_path": "images/items/excadrite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "fairy-feather",
       "name": "Fairy Feather",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/fairyfeather.png",
       "sprite_path": "images/items/fairy-feather.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "fairy-type-affinity-ticket",
       "name": "Fairy-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/fairy-typeaffinityticket.png",
       "sprite_path": "images/items/fairy-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "feraligite",
       "name": "Feraligite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/feraligite.png",
       "sprite_path": "images/items/feraligite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "fighting-type-affinity-ticket",
       "name": "Fighting-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/fighting-typeaffinityticket.png",
       "sprite_path": "images/items/fighting-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "fire-type-affinity-ticket",
       "name": "Fire-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/fire-typeaffinityticket.png",
       "sprite_path": "images/items/fire-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "floettite",
       "name": "Floettite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/floettite.png",
       "sprite_path": "images/items/floettite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "flying-type-affinity-ticket",
       "name": "Flying-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/flying-typeaffinityticket.png",
       "sprite_path": "images/items/flying-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "focus-band",
       "name": "Focus Band",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/focusband.png",
       "sprite_path": "images/items/focus-band.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "focus-sash",
       "name": "Focus Sash",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/focussash.png",
       "sprite_path": "images/items/focus-sash.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "froslassite",
       "name": "Froslassite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/froslassite.png",
       "sprite_path": "images/items/froslassite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "galladite",
       "name": "Galladite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/galladite.png",
       "sprite_path": "images/items/galladite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "garchompite",
       "name": "Garchompite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/garchompite.png",
       "sprite_path": "images/items/garchompite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gardevoirite",
       "name": "Gardevoirite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/gardevoirite.png",
       "sprite_path": "images/items/gardevoirite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gengarite",
       "name": "Gengarite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/gengarite.png",
       "sprite_path": "images/items/gengarite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ghost-type-affinity-ticket",
       "name": "Ghost-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/ghost-typeaffinityticket.png",
       "sprite_path": "images/items/ghost-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glalitite",
       "name": "Glalitite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/glalitite.png",
       "sprite_path": "images/items/glalitite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "glimmoranite",
       "name": "Glimmoranite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/glimmoranite.png",
       "sprite_path": "images/items/glimmoranite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "golurkite",
       "name": "Golurkite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/golurkite.png",
       "sprite_path": "images/items/golurkite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "grass-type-affinity-ticket",
       "name": "Grass-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/grass-typeaffinityticket.png",
       "sprite_path": "images/items/grass-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "greninjite",
       "name": "Greninjite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/greninjite.png",
       "sprite_path": "images/items/greninjite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ground-type-affinity-ticket",
       "name": "Ground-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/ground-typeaffinityticket.png",
       "sprite_path": "images/items/ground-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gyaradosite",
       "name": "Gyaradosite",
       "source_url": "https://www.serebii.net/itemdex/sprites/gyaradosite.png",
       "sprite_path": "images/items/gyaradosite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "haban-berry",
       "name": "Haban Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/habanberry.png",
       "sprite_path": "images/items/haban-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hard-stone",
       "name": "Hard Stone",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/hardstone.png",
       "sprite_path": "images/items/hard-stone.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "hawluchanite",
       "name": "Hawluchanite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/hawluchanite.png",
       "sprite_path": "images/items/hawluchanite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "heracronite",
       "name": "Heracronite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/heracronite.png",
       "sprite_path": "images/items/heracronite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "houndoominite",
       "name": "Houndoominite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/houndoominite.png",
       "sprite_path": "images/items/houndoominite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "ice-type-affinity-ticket",
       "name": "Ice-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/ice-typeaffinityticket.png",
       "sprite_path": "images/items/ice-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kangaskhanite",
       "name": "Kangaskhanite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/kangaskhanite.png",
       "sprite_path": "images/items/kangaskhanite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kasib-berry",
       "name": "Kasib Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/kasibberry.png",
       "sprite_path": "images/items/kasib-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "kebia-berry",
       "name": "Kebia Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/kebiaberry.png",
       "sprite_path": "images/items/kebia-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "king-s-rock",
       "name": "King's Rock",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/king'srock.png",
       "sprite_path": "images/items/king-s-rock.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "leftovers",
       "name": "Leftovers",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/leftovers.png",
       "sprite_path": "images/items/leftovers.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "leppa-berry",
       "name": "Leppa Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/leppaberry.png",
       "sprite_path": "images/items/leppa-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "light-ball",
       "name": "Light Ball",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/lightball.png",
       "sprite_path": "images/items/light-ball.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lopunnite",
       "name": "Lopunnite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/lopunnite.png",
       "sprite_path": "images/items/lopunnite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lucarionite",
       "name": "Lucarionite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/lucarionite.png",
       "sprite_path": "images/items/lucarionite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lum-berry",
       "name": "Lum Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/lumberry.png",
       "sprite_path": "images/items/lum-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "magnet",
       "name": "Magnet",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/magnet.png",
       "sprite_path": "images/items/magnet.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "manectite",
       "name": "Manectite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/manectite.png",
       "sprite_path": "images/items/manectite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "medichamite",
       "name": "Medichamite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/medichamite.png",
       "sprite_path": "images/items/medichamite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meganiumite",
       "name": "Meganiumite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/meganiumite.png",
       "sprite_path": "images/items/meganiumite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mental-herb",
       "name": "Mental Herb",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/mentalherb.png",
       "sprite_path": "images/items/mental-herb.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "meowsticite",
       "name": "Meowsticite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/meowsticite.png",
       "sprite_path": "images/items/meowsticite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "metal-coat",
       "name": "Metal Coat",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/metalcoat.png",
       "sprite_path": "images/items/metal-coat.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "miracle-seed",
       "name": "Miracle Seed",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/miracleseed.png",
       "sprite_path": "images/items/miracle-seed.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mystic-water",
       "name": "Mystic Water",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/mysticwater.png",
       "sprite_path": "images/items/mystic-water.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "never-melt-ice",
       "name": "Never-Melt Ice",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/never-meltice.png",
       "sprite_path": "images/items/never-melt-ice.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "normal-type-affinity-ticket",
       "name": "Normal-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/normal-typeaffinityticket.png",
       "sprite_path": "images/items/normal-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "occa-berry",
       "name": "Occa Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/occaberry.png",
       "sprite_path": "images/items/occa-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "oran-berry",
       "name": "Oran Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/oranberry.png",
       "sprite_path": "images/items/oran-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "passho-berry",
       "name": "Passho Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/passhoberry.png",
       "sprite_path": "images/items/passho-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "payapa-berry",
       "name": "Payapa Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/payapaberry.png",
       "sprite_path": "images/items/payapa-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pecha-berry",
       "name": "Pecha Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/pechaberry.png",
       "sprite_path": "images/items/pecha-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "persim-berry",
       "name": "Persim Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/persimberry.png",
       "sprite_path": "images/items/persim-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pidgeotite",
       "name": "Pidgeotite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/pidgeotite.png",
       "sprite_path": "images/items/pidgeotite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pinsirite",
       "name": "Pinsirite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/pinsirite.png",
       "sprite_path": "images/items/pinsirite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "poison-barb",
       "name": "Poison Barb",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/poisonbarb.png",
       "sprite_path": "images/items/poison-barb.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "poison-type-affinity-ticket",
       "name": "Poison-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/poison-typeaffinityticket.png",
       "sprite_path": "images/items/poison-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "psychic-type-affinity-ticket",
       "name": "Psychic-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/psychic-typeaffinityticket.png",
       "sprite_path": "images/items/psychic-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "quick-claw",
       "name": "Quick Claw",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/quickclaw.png",
       "sprite_path": "images/items/quick-claw.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "quick-coupon",
       "name": "Quick Coupon",
       "source_url": "https://www.serebii.net/itemdex/sprites/quickcoupon.png",
       "sprite_path": "images/items/quick-coupon.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rawst-berry",
       "name": "Rawst Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/rawstberry.png",
       "sprite_path": "images/items/rawst-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rindo-berry",
       "name": "Rindo Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/rindoberry.png",
       "sprite_path": "images/items/rindo-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rock-type-affinity-ticket",
       "name": "Rock-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/rock-typeaffinityticket.png",
       "sprite_path": "images/items/rock-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "roseli-berry",
       "name": "Roseli Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/roseliberry.png",
       "sprite_path": "images/items/roseli-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sablenite",
       "name": "Sablenite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/sablenite.png",
       "sprite_path": "images/items/sablenite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scizorite",
       "name": "Scizorite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/scizorite.png",
       "sprite_path": "images/items/scizorite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scope-lens",
       "name": "Scope Lens",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/scopelens.png",
       "sprite_path": "images/items/scope-lens.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scovillainite",
       "name": "Scovillainite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/scovillainite.png",
       "sprite_path": "images/items/scovillainite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sharp-beak",
       "name": "Sharp Beak",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/sharpbeak.png",
       "sprite_path": "images/items/sharp-beak.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sharpedonite",
       "name": "Sharpedonite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/sharpedonite.png",
       "sprite_path": "images/items/sharpedonite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "shell-bell",
       "name": "Shell Bell",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/shellbell.png",
       "sprite_path": "images/items/shell-bell.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "shuca-berry",
       "name": "Shuca Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/shucaberry.png",
       "sprite_path": "images/items/shuca-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "silk-scarf",
       "name": "Silk Scarf",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/silkscarf.png",
       "sprite_path": "images/items/silk-scarf.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "silver-powder",
       "name": "Silver Powder",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/silverpowder.png",
       "sprite_path": "images/items/silver-powder.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sitrus-berry",
       "name": "Sitrus Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/sitrusberry.png",
       "sprite_path": "images/items/sitrus-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "skarmorite",
       "name": "Skarmorite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/skarmorite.png",
       "sprite_path": "images/items/skarmorite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "slowbronite",
       "name": "Slowbronite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/slowbronite.png",
       "sprite_path": "images/items/slowbronite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "soft-sand",
       "name": "Soft Sand",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/softsand.png",
       "sprite_path": "images/items/soft-sand.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "spell-tag",
       "name": "Spell Tag",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/spelltag.png",
       "sprite_path": "images/items/spell-tag.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "starminite",
       "name": "Starminite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/starminite.png",
       "sprite_path": "images/items/starminite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "steel-type-affinity-ticket",
       "name": "Steel-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/steel-typeaffinityticket.png",
       "sprite_path": "images/items/steel-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "steelixite",
       "name": "Steelixite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/steelixite.png",
       "sprite_path": "images/items/steelixite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tanga-berry",
       "name": "Tanga Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/tangaberry.png",
       "sprite_path": "images/items/tanga-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "teammate-ticket",
       "name": "Teammate Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/teammateticket.png",
       "sprite_path": "images/items/teammate-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "training-ticket",
       "name": "Training Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/trainingticket.png",
       "sprite_path": "images/items/training-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "twisted-spoon",
       "name": "Twisted Spoon",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/twistedspoon.png",
       "sprite_path": "images/items/twisted-spoon.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "tyranitarite",
       "name": "Tyranitarite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/tyranitarite.png",
       "sprite_path": "images/items/tyranitarite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "venusaurite",
       "name": "Venusaurite",
       "source_url": "https://www.serebii.net/itemdex/sprites/pgl/venusaurite.png",
       "sprite_path": "images/items/venusaurite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "victreebelite",
       "name": "Victreebelite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/victreebelite.png",
       "sprite_path": "images/items/victreebelite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "wacan-berry",
       "name": "Wacan Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/wacanberry.png",
       "sprite_path": "images/items/wacan-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "water-type-affinity-ticket",
       "name": "Water-Type Affinity Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/water-typeaffinityticket.png",
       "sprite_path": "images/items/water-type-affinity-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "white-herb",
       "name": "White Herb",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/whiteherb.png",
       "sprite_path": "images/items/white-herb.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "yache-berry",
       "name": "Yache Berry",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/yacheberry.png",
       "sprite_path": "images/items/yache-berry.png",
-      "status": "downloaded"
+      "status": "skipped"
     }
   ]
 }
