@@ -42,6 +42,7 @@ def run(
     pokemon_limit: int | None = None,
     pokemon_sleep: float = 1.5,
     move_detail_sleep: float = 1.5,
+    item_detail_sleep: float = 1.5,
     image_sleep: float = 0.25,
     force_images: bool = False,
 ) -> None:
@@ -62,7 +63,7 @@ def run(
 
     if should_run("items"):
         print("=> Scraping items...", flush=True)
-        items = scrape_items()
+        items = scrape_items(detail_sleep=item_detail_sleep)
         write_json(
             DATA_DIR / "items.json",
             {
@@ -209,6 +210,15 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--item-detail-sleep",
+        type=float,
+        default=1.5,
+        help=(
+            "Base seconds between each ItemDex detail page fetch when scraping "
+            "in-depth effects and sprites (default 1.5; jitter matches pokemon scraper)."
+        ),
+    )
+    parser.add_argument(
         "--image-sleep",
         type=float,
         default=0.25,
@@ -231,6 +241,7 @@ def main() -> None:
         pokemon_limit=args.pokemon_limit,
         pokemon_sleep=args.pokemon_sleep,
         move_detail_sleep=args.move_detail_sleep,
+        item_detail_sleep=args.item_detail_sleep,
         image_sleep=args.image_sleep,
         force_images=args.force_images,
     )
