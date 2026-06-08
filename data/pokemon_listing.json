@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-01T11:59:39+00:00",
-  "count": 258,
+  "scraped_at": "2026-06-08T11:19:54+00:00",
+  "count": 260,
   "entries": [
     {
       "national_dex": 3,
@@ -178,6 +178,30 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/026.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/026.png"
+    },
+    {
+      "national_dex": 26,
+      "name": "Mega Raichu",
+      "slug": "raichu",
+      "page_url": "https://www.serebii.net/pokedex-champions/raichu/",
+      "types": [
+        "electric"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/026-mx.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/026-mx.png"
+    },
+    {
+      "national_dex": 26,
+      "name": "Mega Raichu",
+      "slug": "raichu",
+      "page_url": "https://www.serebii.net/pokedex-champions/raichu/",
+      "types": [
+        "electric"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/026-my.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/026-my.png"
     },
     {
       "national_dex": 26,

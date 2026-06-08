@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-01T11:59:39+00:00",
+  "scraped_at": "2026-06-08T11:19:54+00:00",
   "count": 186,
   "pokemon": [
     {
@@ -6629,6 +6629,68 @@
               "url": "https://www.serebii.net/attackdex-champions/zapcannon.shtml"
             }
           ],
+          "sprite_path": "images/pokemon/026-mx.png"
+        },
+        {
+          "name": "Mega Raichu X",
+          "types": [
+            "electric"
+          ],
+          "abilities": [
+            {
+              "slug": "electricsurge",
+              "name": "Electric Surge",
+              "url": "https://www.serebii.net/abilitydex/electricsurge.shtml",
+              "description": "Activates Electric Terrain for 5 turns when the Pokémon enters a battle."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 135,
+              "attack": 155,
+              "defense": 115,
+              "sp_attack": 110,
+              "sp_defense": 115,
+              "speed": 130
+            },
+            "total": 760
+          },
+          "type_effectiveness": null,
+          "classification": "Mouse Pokémon",
+          "height": "3'11\" 1.2m",
+          "weight": "83.8lbs 38kg",
+          "is_mega": true,
+          "sprite_path": "images/pokemon/026-my.png"
+        },
+        {
+          "name": "Mega Raichu Y",
+          "types": [
+            "electric"
+          ],
+          "abilities": [
+            {
+              "slug": "noguard",
+              "name": "No Guard",
+              "url": "https://www.serebii.net/abilitydex/noguard.shtml",
+              "description": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%"
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 135,
+              "attack": 120,
+              "defense": 75,
+              "sp_attack": 180,
+              "sp_defense": 100,
+              "speed": 150
+            },
+            "total": 760
+          },
+          "type_effectiveness": null,
+          "classification": "Mouse Pokémon",
+          "height": "3'03\" 1m",
+          "weight": "57.3lbs 26kg",
+          "is_mega": true,
           "sprite_path": "images/pokemon/026-a.png"
         }
       ],
@@ -33064,16 +33126,16 @@
           "url": "https://www.serebii.net/attackdex-champions/protect.shtml"
         },
         {
-          "slug": "psychicfangs",
-          "name": "Psychic Fangs",
+          "slug": "psychic",
+          "name": "Psychic",
           "type": "psychic",
-          "category": "physical",
-          "power": 85,
+          "category": "special",
+          "power": 90,
           "accuracy": 100,
           "pp": 12,
-          "effect_chance": null,
-          "description": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side.",
-          "url": "https://www.serebii.net/attackdex-champions/psychicfangs.shtml"
+          "effect_chance": 10,
+          "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+          "url": "https://www.serebii.net/attackdex-champions/psychic.shtml"
         },
         {
           "slug": "ragepowder",

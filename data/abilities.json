@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-01T11:53:55+00:00",
+  "scraped_at": "2026-06-08T11:14:13+00:00",
   "new_abilities": [
     {
       "slug": "piercingdrill",
@@ -31,6 +31,36 @@
     }
   ],
   "mega_abilities": [
+    {
+      "national_dex": 26,
+      "pokemon": "Mega Raichu X",
+      "pokemon_slug": "raichu",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        {
+          "slug": "electricsurge",
+          "name": "Electric Surge",
+          "url": "https://www.serebii.net/abilitydex/electricsurge.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 26,
+      "pokemon": "Mega Raichu Y",
+      "pokemon_slug": "raichu",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        {
+          "slug": "noguard",
+          "name": "No Guard",
+          "url": "https://www.serebii.net/abilitydex/noguard.shtml"
+        }
+      ]
+    },
     {
       "national_dex": 36,
       "pokemon": "Mega Clefable",

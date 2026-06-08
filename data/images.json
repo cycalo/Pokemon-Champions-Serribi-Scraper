@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-06-01T11:59:39+00:00",
+  "scraped_at": "2026-06-08T11:19:55+00:00",
   "summary": {
     "pokemon": {
-      "total": 258,
-      "with_local_path": 258
+      "total": 260,
+      "with_local_path": 260
     },
     "types": {
       "total": 18,
@@ -144,6 +144,24 @@
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/026.png",
       "sprite_path": "images/pokemon/026.png",
       "status": "skipped"
+    },
+    {
+      "slug": "raichu",
+      "name": "Mega Raichu",
+      "national_dex": 26,
+      "is_mega": true,
+      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/026-mx.png",
+      "sprite_path": "images/pokemon/026-mx.png",
+      "status": "downloaded"
+    },
+    {
+      "slug": "raichu",
+      "name": "Mega Raichu",
+      "national_dex": 26,
+      "is_mega": true,
+      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/026-my.png",
+      "sprite_path": "images/pokemon/026-my.png",
+      "status": "downloaded"
     },
     {
       "slug": "raichu",
