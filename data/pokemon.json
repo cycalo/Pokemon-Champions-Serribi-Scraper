@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-08T11:19:54+00:00",
+  "scraped_at": "2026-06-15T12:40:50+00:00",
   "count": 186,
   "pokemon": [
     {
@@ -35786,18 +35786,6 @@
           "effect_chance": null,
           "description": "Gives all Pokémon on the field the Perishing status.",
           "url": "https://www.serebii.net/attackdex-champions/perishsong.shtml"
-        },
-        {
-          "slug": "pound",
-          "name": "Pound",
-          "type": "normal",
-          "category": "physical",
-          "power": 40,
-          "accuracy": 100,
-          "pp": 20,
-          "effect_chance": null,
-          "description": null,
-          "url": "https://www.serebii.net/attackdex-champions/pound.shtml"
         },
         {
           "slug": "protect",
