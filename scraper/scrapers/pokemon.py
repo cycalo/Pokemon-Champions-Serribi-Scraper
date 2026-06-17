@@ -116,6 +116,116 @@ def scrape_pokemon_list(url: str = LIST_URL) -> list[dict[str, Any]]:
     return entries
 
 
+def _parse_nested_multiform_types(type_cell: Tag) -> dict[str, list[str]]:
+    """Parse per-form typings from a nested table inside the Name dextable Type cell.
+
+    Serebii stacks rows like ``Normal | Fire`` and ``Alolan | Ice Fairy`` in one cell.
+    """
+    inner = type_cell.find("table")
+    if inner is None:
+        return {}
+
+    mapping: dict[str, list[str]] = {}
+    for tr in inner.find_all("tr", recursive=False):
+        tds = tr.find_all(["td", "th"], recursive=False)
+        if len(tds) < 2:
+            continue
+        label = clean_text(tds[0]).lower()
+        types = _extract_types_from_cell(tds[1])
+        if label and types:
+            mapping[label] = types
+    return mapping
+
+
+def _parse_multiform_types_from_name_table(table: Tag) -> dict[str, list[str]]:
+    """Return nested per-form type rows from a Name dextable, if present."""
+    rows = table.find_all("tr", recursive=False)
+    if len(rows) < 2:
+        return {}
+
+    labels = [clean_text(c).lower() for c in rows[0].find_all(["td", "th"], recursive=False)]
+    if "type" not in labels:
+        return {}
+
+    value_cells = rows[1].find_all(["td", "th"], recursive=False)
+    type_idx = labels.index("type")
+    if type_idx >= len(value_cells):
+        return {}
+
+    return _parse_nested_multiform_types(value_cells[type_idx])
+
+
+def _resolve_multiform_types_for_form_name(
+    form_name: Optional[str],
+    multiform_types: dict[str, list[str]],
+    *,
+    is_base: bool = False,
+) -> Optional[list[str]]:
+    """Map a parsed form title onto the correct nested Type row."""
+    if not multiform_types:
+        return None
+
+    fn = (form_name or "").lower()
+    keyword_labels = (
+        ("alolan", "alolan"),
+        ("galarian", "galarian"),
+        ("hisuian", "hisuian"),
+        ("paldean", "paldean"),
+        ("sunny form", "sunny form"),
+        ("rainy form", "rainy form"),
+        ("snowy form", "snowy form"),
+    )
+    for keyword, label in keyword_labels:
+        if keyword in fn and label in multiform_types:
+            return list(multiform_types[label])
+
+    if is_base and "normal" in multiform_types:
+        return list(multiform_types["normal"])
+
+    if is_base:
+        for label, types in multiform_types.items():
+            if label in {"alolan", "galarian", "hisuian", "paldean"}:
+                continue
+            if " form" in label:
+                continue
+            return list(types)
+
+    return None
+
+
+def _apply_multiform_types_to_species(
+    species: dict[str, Any],
+    multiform_types: dict[str, list[str]],
+) -> None:
+    """Correct base and alternate-form typings when Serebii nests them in one table."""
+    if not multiform_types:
+        return
+
+    base_types = _resolve_multiform_types_for_form_name(
+        species.get("name"),
+        multiform_types,
+        is_base=True,
+    )
+    if base_types:
+        species["types"] = base_types
+
+    for entry in species.get("forms") or []:
+        if entry.get("types"):
+            continue
+        resolved = _resolve_multiform_types_for_form_name(entry.get("name"), multiform_types)
+        if resolved:
+            entry["types"] = resolved
+
+
+def _find_primary_name_table(groups: list[tuple[Optional[str], list[Tag]]]) -> Optional[Tag]:
+    """Return the first Name dextable on a species page (usually the default form)."""
+    for _, tables in groups:
+        for table in tables:
+            if _classify_dextable(table) == "name":
+                return table
+    return None
+
+
 def _parse_name_table(table: Tag) -> dict[str, Any]:
     """Parse the 'Name / Other Names / No. / Gender Ratio / Type' info block."""
     info: dict[str, Any] = {}
@@ -138,7 +248,16 @@ def _parse_name_table(table: Tag) -> dict[str, Any]:
                 m = re.search(r"#(\d+)", txt)
                 info["national_dex"] = int(m.group(1)) if m else None
             elif label == "type":
-                info["types"] = _extract_types_from_cell(cell)
+                multiform_types = _parse_nested_multiform_types(cell)
+                if multiform_types:
+                    info["multiform_types"] = multiform_types
+                    info["types"] = _resolve_multiform_types_for_form_name(
+                        info.get("name"),
+                        multiform_types,
+                        is_base=True,
+                    ) or _extract_types_from_cell(cell)
+                else:
+                    info["types"] = _extract_types_from_cell(cell)
             elif label == "gender ratio":
                 info["gender_ratio"] = clean_text(cell) or None
             elif label == "other names":
@@ -1149,6 +1268,11 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
 
     if slug == "rotom":
         _normalize_rotom_detail(soup, result)
+    else:
+        name_table = _find_primary_name_table(groups)
+        if name_table is not None:
+            multiform_types = _parse_multiform_types_from_name_table(name_table)
+            _apply_multiform_types_to_species(result, multiform_types)
 
     return result
 

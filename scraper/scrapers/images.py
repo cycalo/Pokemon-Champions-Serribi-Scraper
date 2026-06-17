@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 import time
 from pathlib import Path
 from typing import Any, Iterable, Optional
@@ -192,6 +193,106 @@ def _item_targets(
     return targets
 
 
+def _sprite_suffix_from_url(sprite_url: str) -> Optional[str]:
+    """Return the variant suffix from a Serebii sprite URL (``026-mx.png`` -> ``mx``)."""
+    stem = Path(urlparse(sprite_url).path).stem
+    if "-" not in stem:
+        return None
+    return stem.rsplit("-", 1)[-1].lower()
+
+
+def _form_sprite_suffix_hint(form_name: Optional[str], *, is_mega: bool) -> Optional[str]:
+    """Guess the Serebii sprite suffix for a parsed form title."""
+    fn = (form_name or "").lower().strip()
+    if not fn:
+        return None
+
+    if re.search(r"mega\s+\S+\s+x\b", fn) or fn.endswith(" x"):
+        return "mx"
+    if re.search(r"mega\s+\S+\s+y\b", fn) or fn.endswith(" y"):
+        return "my"
+    if is_mega or fn.startswith("mega "):
+        return "m"
+    if "alolan" in fn:
+        return "a"
+    if "galarian" in fn:
+        return "g"
+    if "hisuian" in fn:
+        return "h"
+    if "paldean" in fn and "combat" in fn:
+        return "p"
+    return None
+
+
+def _build_sprite_paths_for_slug(
+    entries: list[dict[str, Any]],
+) -> tuple[Optional[str], dict[str, str], dict[str, str]]:
+    """Map parsed form names to local sprite paths for one species slug.
+
+    Listing order and detail-page form order can diverge when a species mixes
+    Megas with regional forms (e.g. Raichu: base, Mega X, Mega Y, Alolan).
+    Match by exact listing name first, then by sprite suffix hints.
+    """
+    base_path: Optional[str] = None
+    exact_by_name: dict[str, str] = {}
+    suffix_paths: dict[str, str] = {}
+
+    for entry in entries:
+        local = entry.get("sprite_path")
+        if not local:
+            continue
+
+        name = (entry.get("name") or "").strip()
+        is_mega = bool(entry.get("is_mega"))
+        source_url = entry.get("source_url") or ""
+
+        if not is_mega and base_path is None:
+            base_path = local
+            continue
+
+        if name:
+            exact_by_name[name.lower()] = local
+
+        suffix = _sprite_suffix_from_url(source_url)
+        if suffix:
+            suffix_paths[suffix] = local
+
+    if base_path is None:
+        for entry in entries:
+            local = entry.get("sprite_path")
+            if local:
+                base_path = local
+                break
+
+    return base_path, exact_by_name, suffix_paths
+
+
+def _resolve_form_sprite_path(
+    form: dict[str, Any],
+    *,
+    exact_by_name: dict[str, str],
+    suffix_paths: dict[str, str],
+    fallback_paths: list[str],
+    fallback_index: int,
+) -> tuple[Optional[str], int]:
+    """Pick the best sprite path for one ``forms[]`` entry."""
+    form_name = (form.get("name") or "").strip()
+    if form_name:
+        exact = exact_by_name.get(form_name.lower())
+        if exact:
+            return exact, fallback_index
+
+    hint = _form_sprite_suffix_hint(form_name, is_mega=bool(form.get("is_mega")))
+    if hint and hint in suffix_paths:
+        return suffix_paths[hint], fallback_index
+
+    if fallback_index < len(fallback_paths):
+        path = fallback_paths[fallback_index]
+        return path, fallback_index + 1
+
+    return None, fallback_index
+
+
 def _relpath(target: Path, repo_root: Path) -> str:
     """Stable POSIX-style path relative to the repo root (for Flutter asset paths)."""
     return target.resolve().relative_to(repo_root.resolve()).as_posix()
@@ -327,10 +428,9 @@ def attach_sprite_paths(
     Matching rules:
     - ``pokemon_listing.json`` entries are keyed on the remote sprite URL (always
       unique, so X/Y Mega Charizard rows stay distinct).
-    - ``pokemon.json`` entries have their base sprite picked from the first
-      non-Mega listing row for that slug; each ``forms[]`` entry is assigned the
-      next Mega/alt-form sprite in listing order. This matches Serebii's own
-      rendering order on both the listing and the detail page (Charizard → X → Y).
+    - ``pokemon.json`` entries use the first non-Mega listing sprite for the base
+      form; alternate forms are matched by exact listing name, sprite suffix
+      (``-mx``, ``-a``, …), then listing-order fallback.
     - ``items.json`` entries are matched by slug.
     """
 
@@ -342,8 +442,6 @@ def attach_sprite_paths(
         if src and local:
             url_to_local[src] = local
 
-    # Group manifest entries by slug, preserving insertion order so "first
-    # non-mega" and "mega in order" semantics hold.
     by_slug: dict[str, list[dict[str, Any]]] = {}
     for entry in manifest.get("pokemon", []):
         slug = entry.get("slug")
@@ -352,23 +450,20 @@ def attach_sprite_paths(
         by_slug.setdefault(slug, []).append(entry)
 
     base_for_slug: dict[str, Optional[str]] = {}
-    forms_for_slug: dict[str, list[str]] = {}
+    exact_names_for_slug: dict[str, dict[str, str]] = {}
+    suffix_paths_for_slug: dict[str, dict[str, str]] = {}
+    fallback_paths_for_slug: dict[str, list[str]] = {}
     for slug, entries in by_slug.items():
-        base_path: Optional[str] = None
-        form_paths: list[str] = []
-        for entry in entries:
-            local = entry.get("sprite_path")
-            if not local:
-                continue
-            if not entry.get("is_mega") and base_path is None:
-                base_path = local
-            else:
-                form_paths.append(local)
-        # Some Pokémon only have a Mega row (rare, but possible for future data).
-        if base_path is None and form_paths:
-            base_path = form_paths.pop(0)
+        base_path, exact_by_name, suffix_paths = _build_sprite_paths_for_slug(entries)
+        fallback_paths = [
+            entry["sprite_path"]
+            for entry in entries
+            if entry.get("sprite_path") and entry.get("sprite_path") != base_path
+        ]
         base_for_slug[slug] = base_path
-        forms_for_slug[slug] = form_paths
+        exact_names_for_slug[slug] = exact_by_name
+        suffix_paths_for_slug[slug] = suffix_paths
+        fallback_paths_for_slug[slug] = fallback_paths
 
     item_paths_by_slug: dict[str, str] = {
         entry["slug"]: entry["sprite_path"]
@@ -397,8 +492,20 @@ def attach_sprite_paths(
                 base = base_for_slug.get(slug)
                 if base:
                     poke["sprite_path"] = base
-                for form, form_path in zip(poke.get("forms", []), forms_for_slug.get(slug, [])):
-                    form["sprite_path"] = form_path
+                fallback_index = 0
+                fallback_paths = fallback_paths_for_slug.get(slug, [])
+                exact_by_name = exact_names_for_slug.get(slug, {})
+                suffix_paths = suffix_paths_for_slug.get(slug, {})
+                for form in poke.get("forms", []):
+                    form_path, fallback_index = _resolve_form_sprite_path(
+                        form,
+                        exact_by_name=exact_by_name,
+                        suffix_paths=suffix_paths,
+                        fallback_paths=fallback_paths,
+                        fallback_index=fallback_index,
+                    )
+                    if form_path:
+                        form["sprite_path"] = form_path
         pokemon_file.write_text(
             json.dumps(pokemon_blob, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
