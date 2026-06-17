@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-15T12:24:48+00:00",
-  "count": 494,
+  "scraped_at": "2026-06-17T12:52:36+00:00",
+  "count": 502,
   "moves": [
     {
       "slug": "accelerock",
@@ -404,6 +404,19 @@
       "url": "https://www.serebii.net/attackdex-champions/banefulbunker.shtml",
       "speed_priority": 4,
       "pokemon_hit_in_battle": "Self"
+    },
+    {
+      "slug": "barbbarrage",
+      "name": "Barb Barrage",
+      "type": "poison",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": "Has a 50% chance of poisoning the target. This move's power is doubled if the target is poisoned or badly poisoned.",
+      "url": "https://www.serebii.net/attackdex-champions/barbbarrage.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
     },
     {
       "slug": "batonpass",
@@ -1338,6 +1351,19 @@
       "pp": 12,
       "effect": "The user attacks twice in a row.",
       "url": "https://www.serebii.net/attackdex-champions/doublehit.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "doubleshock",
+      "name": "Double Shock",
+      "type": "electric",
+      "category": "physical",
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "effect": "The user loses the Electric type. This move fails unless it is used by an Electric type.",
+      "url": "https://www.serebii.net/attackdex-champions/doubleshock.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
     },
@@ -3383,6 +3409,19 @@
       "pokemon_hit_in_battle": "Team"
     },
     {
+      "slug": "makeitrain",
+      "name": "Make It Rain",
+      "type": "steel",
+      "category": "special",
+      "power": 120,
+      "accuracy": 95,
+      "pp": 8,
+      "effect": "Lowers the user's Sp. Atk stat by 2 stages.",
+      "url": "https://www.serebii.net/attackdex-champions/makeitrain.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "All Adjacent Foes"
+    },
+    {
       "slug": "matchagotcha",
       "name": "Matcha Gotcha",
       "type": "grass",
@@ -3732,6 +3771,19 @@
       "url": "https://www.serebii.net/attackdex-champions/nightslash.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "noretreat",
+      "name": "No Retreat",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 8,
+      "effect": "Boosts the user's Attack, Defense, Sp. Atk, Sp. Def, and Speed stats by 1 stage. The user gains the Can't Escape status. This move can only be used once per time the user enters battleâ otherwise it will fail.",
+      "url": "https://www.serebii.net/attackdex-champions/noretreat.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "nobleroar",
@@ -4280,6 +4332,19 @@
       "pokemon_hit_in_battle": "Self"
     },
     {
+      "slug": "ragefist",
+      "name": "Rage Fist",
+      "type": "ghost",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": "This move's power is increased by 50 each time the user takes damage from a move, up to a maximum power of 350. If the user switches out of battle, the move's power returns to its usual value.",
+      "url": "https://www.serebii.net/attackdex-champions/ragefist.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "ragepowder",
       "name": "Rage Powder",
       "type": "bug",
@@ -4434,6 +4499,19 @@
       "url": "https://www.serebii.net/attackdex-champions/reversal.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "revivalblessing",
+      "name": "Revival Blessing",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "effect": "Revives a Pokémon in the user's party that has fainted and restores 1/2 of that Pokémon's max HP.",
+      "url": "https://www.serebii.net/attackdex-champions/revivalblessing.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "risingvoltage",
@@ -5177,6 +5255,19 @@
       "pokemon_hit_in_battle": "Self"
     },
     {
+      "slug": "spiritbreak",
+      "name": "Spirit Break",
+      "type": "fairy",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 16,
+      "effect": "Lowers the target's Sp. Atk stat by 1 stage.",
+      "url": "https://www.serebii.net/attackdex-champions/spiritbreak.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "spiritshackle",
       "name": "Spirit Shackle",
       "type": "ghost",
@@ -5879,6 +5970,19 @@
       "pokemon_hit_in_battle": "Self"
     },
     {
+      "slug": "topsy-turvy",
+      "name": "Topsy-Turvy",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "effect": "Inverts all stat changes affecting the target.",
+      "url": "https://www.serebii.net/attackdex-champions/topsy-turvy.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "torchsong",
       "name": "Torch Song",
       "type": "fire",
@@ -6042,7 +6146,7 @@
       "power": 20,
       "accuracy": 90,
       "pp": 12,
-      "effect": "The user attacks 3 times in a row-first with a power of 20 then with a power of 40 then with a power of 60. The attack ends if the user misses.",
+      "effect": "The user attacks 3 times in a rowÃ¢â¬âfirst with a power of 20 then with a power of 40 then with a power of 60. The attack ends if the user misses.",
       "url": "https://www.serebii.net/attackdex-champions/tripleaxel.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"

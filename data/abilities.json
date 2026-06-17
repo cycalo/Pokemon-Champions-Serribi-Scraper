@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-15T12:34:47+00:00",
+  "scraped_at": "2026-06-17T13:03:07+00:00",
   "new_abilities": [
     {
       "slug": "piercingdrill",
@@ -16,11 +16,25 @@
       "url": "https://www.serebii.net/abilitydex/dragonize.shtml"
     },
     {
+      "slug": "eelevate",
+      "name": "Eelevate",
+      "effect": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage.",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/eelevate.shtml"
+    },
+    {
       "slug": "megasol",
       "name": "Mega Sol",
       "effect": "Even when the sunlight has not turned harsh, the Pokémon can use its moves as if the weather were harsh sunlight.",
       "new_in_champions": true,
       "url": "https://www.serebii.net/abilitydex/megasol.shtml"
+    },
+    {
+      "slug": "firemane",
+      "name": "Fire Mane",
+      "effect": "Boosts the power of the Pokémonâs Fire-type moves by 50%.",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/firemane.shtml"
     },
     {
       "slug": "spicyspray",
@@ -190,6 +204,22 @@
       ]
     },
     {
+      "national_dex": 398,
+      "pokemon": "Mega Staraptor",
+      "pokemon_slug": "staraptor",
+      "types": [
+        "fighting",
+        "flying"
+      ],
+      "abilities": [
+        {
+          "slug": "contrary",
+          "name": "Contrary",
+          "url": "https://www.serebii.net/abilitydex/contrary.shtml"
+        }
+      ]
+    },
+    {
       "national_dex": 478,
       "pokemon": "Mega Froslass",
       "pokemon_slug": "froslass",
@@ -234,6 +264,53 @@
           "slug": "piercingdrill",
           "name": "Piercing Drill",
           "url": "https://www.serebii.net/abilitydex/piercingdrill.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 545,
+      "pokemon": "Mega Scolipede",
+      "pokemon_slug": "scolipede",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        {
+          "slug": "shellarmor",
+          "name": "Shell Armor",
+          "url": "https://www.serebii.net/abilitydex/shellarmor.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 560,
+      "pokemon": "Mega Scrafty",
+      "pokemon_slug": "scrafty",
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "abilities": [
+        {
+          "slug": "intimidate",
+          "name": "Intimidate",
+          "url": "https://www.serebii.net/abilitydex/intimidate.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 604,
+      "pokemon": "Mega Eelektross",
+      "pokemon_slug": "eelektross",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        {
+          "slug": "eelevate",
+          "name": "Eelevate",
+          "url": "https://www.serebii.net/abilitydex/eelevate.shtml"
         }
       ]
     },
@@ -318,6 +395,22 @@
       ]
     },
     {
+      "national_dex": 668,
+      "pokemon": "Mega Pyroar",
+      "pokemon_slug": "pyroar",
+      "types": [
+        "fire",
+        "normal"
+      ],
+      "abilities": [
+        {
+          "slug": "firemane",
+          "name": "Fire Mane",
+          "url": "https://www.serebii.net/abilitydex/firemane.shtml"
+        }
+      ]
+    },
+    {
       "national_dex": 670,
       "pokemon": "Mega Floette",
       "pokemon_slug": "floette",
@@ -344,6 +437,54 @@
           "slug": "trace",
           "name": "Trace",
           "url": "https://www.serebii.net/abilitydex/trace.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 687,
+      "pokemon": "Mega Malamar",
+      "pokemon_slug": "malamar",
+      "types": [
+        "dark",
+        "psychic"
+      ],
+      "abilities": [
+        {
+          "slug": "contrary",
+          "name": "Contrary",
+          "url": "https://www.serebii.net/abilitydex/contrary.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 689,
+      "pokemon": "Mega Barbaracle",
+      "pokemon_slug": "barbaracle",
+      "types": [
+        "rock",
+        "fighting"
+      ],
+      "abilities": [
+        {
+          "slug": "toughclaws",
+          "name": "Tough Claws",
+          "url": "https://www.serebii.net/abilitydex/toughclaws.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 691,
+      "pokemon": "Mega Dragalge",
+      "pokemon_slug": "dragalge",
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "abilities": [
+        {
+          "slug": "regenerator",
+          "name": "Regenerator",
+          "url": "https://www.serebii.net/abilitydex/regenerator.shtml"
         }
       ]
     },
@@ -392,6 +533,21 @@
           "slug": "berserk",
           "name": "Berserk",
           "url": "https://www.serebii.net/abilitydex/berserk.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 870,
+      "pokemon": "Mega Falinks",
+      "pokemon_slug": "falinks",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        {
+          "slug": "defiant",
+          "name": "Defiant",
+          "url": "https://www.serebii.net/abilitydex/defiant.shtml"
         }
       ]
     },
