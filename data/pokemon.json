@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-17T13:09:34+00:00",
+  "scraped_at": "2026-06-20T13:59:23+00:00",
   "count": 208,
   "pokemon": [
     {
@@ -119160,7 +119160,7 @@
               "slug": "firemane",
               "name": "Fire Mane",
               "url": "https://www.serebii.net/abilitydex/firemane.shtml",
-              "description": "Boosts the power of the Pokémonâs Fire-type moves by 50%."
+              "description": "Boosts the power of the Pokémon's Fire-type moves by 50%."
             }
           ],
           "stats": {

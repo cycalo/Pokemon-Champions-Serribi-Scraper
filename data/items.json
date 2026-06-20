@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-17T13:03:07+00:00",
-  "count": 169,
+  "scraped_at": "2026-06-20T13:52:21+00:00",
+  "count": 181,
   "categories": [
     "Berries",
     "Hold Items",
@@ -369,6 +369,15 @@
       "sprite_path": "images/items/delphoxite.png"
     },
     {
+      "slug": "dive-ball-guaranteed-ticket",
+      "name": "Dive Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Dive Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/diveballguaranteedticket.png",
+      "sprite_path": "images/items/dive-ball-guaranteed-ticket.png"
+    },
+    {
       "slug": "dragalgite",
       "name": "Dragalgite",
       "category": "Mega Stone",
@@ -412,6 +421,15 @@
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/za/drampanite.png",
       "sprite_path": "images/items/drampanite.png"
+    },
+    {
+      "slug": "dusk-ball-guaranteed-ticket",
+      "name": "Dusk Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Dusk Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/duskballguaranteedticket.png",
+      "sprite_path": "images/items/dusk-ball-guaranteed-ticket.png"
     },
     {
       "slug": "eelektrossite",
@@ -693,6 +711,15 @@
       "sprite_path": "images/items/hawluchanite.png"
     },
     {
+      "slug": "heal-ball-guaranteed-ticket",
+      "name": "Heal Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Heal Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/healballguaranteedticket.png",
+      "sprite_path": "images/items/heal-ball-guaranteed-ticket.png"
+    },
+    {
       "slug": "heat-rock",
       "name": "Heat Rock",
       "category": "Hold Items",
@@ -855,6 +882,15 @@
       "sprite_path": "images/items/lum-berry.png"
     },
     {
+      "slug": "luxury-ball-guaranteed-ticket",
+      "name": "Luxury Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Luxury Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/luxuryballguaranteedticket.png",
+      "sprite_path": "images/items/luxury-ball-guaranteed-ticket.png"
+    },
+    {
       "slug": "magnet",
       "name": "Magnet",
       "category": "Hold Items",
@@ -981,6 +1017,24 @@
       "sprite_path": "images/items/mystic-water.png"
     },
     {
+      "slug": "nest-ball-guaranteed-ticket",
+      "name": "Nest Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Nest Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/nestballguaranteedticket.png",
+      "sprite_path": "images/items/nest-ball-guaranteed-ticket.png"
+    },
+    {
+      "slug": "net-ball-guaranteed-ticket",
+      "name": "Net Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Net Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/netballguaranteedticket.png",
+      "sprite_path": "images/items/net-ball-guaranteed-ticket.png"
+    },
+    {
       "slug": "never-melt-ice",
       "name": "Never-Melt Ice",
       "category": "Hold Items",
@@ -1089,6 +1143,24 @@
       "sprite_path": "images/items/poison-type-affinity-ticket.png"
     },
     {
+      "slug": "poke-ball-guaranteed-ticket",
+      "name": "Poke Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside regular Poké Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/pokeballguaranteedticket.png",
+      "sprite_path": "images/items/poke-ball-guaranteed-ticket.png"
+    },
+    {
+      "slug": "premier-ball-guaranteed-ticket",
+      "name": "Premier Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Premier Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/premierballguaranteedticket.png",
+      "sprite_path": "images/items/premier-ball-guaranteed-ticket.png"
+    },
+    {
       "slug": "psychic-type-affinity-ticket",
       "name": "Psychic-Type Affinity Ticket",
       "category": "Miscellaneous Items",
@@ -1105,6 +1177,15 @@
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/za/pyroarite.png",
       "sprite_path": "images/items/pyroarite.png"
+    },
+    {
+      "slug": "quick-ball-guaranteed-ticket",
+      "name": "Quick Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Quick Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/quickballguaranteedticket.png",
+      "sprite_path": "images/items/quick-ball-guaranteed-ticket.png"
     },
     {
       "slug": "quick-claw",
@@ -1143,6 +1224,15 @@
       "sprite_path": "images/items/raichunite-y.png"
     },
     {
+      "slug": "rare-poke-ball-guaranteed-ticket",
+      "name": "Rare Poke Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside rare Poké Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/rarepokeballguaranteedticket.png",
+      "sprite_path": "images/items/rare-poke-ball-guaranteed-ticket.png"
+    },
+    {
       "slug": "rawst-berry",
       "name": "Rawst Berry",
       "category": "Berries",
@@ -1150,6 +1240,15 @@
       "location": "Shop 400 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/sv/rawstberry.png",
       "sprite_path": "images/items/rawst-berry.png"
+    },
+    {
+      "slug": "repeat-ball-guaranteed-ticket",
+      "name": "Repeat Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Repeat Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/repeatballguaranteedticket.png",
+      "sprite_path": "images/items/repeat-ball-guaranteed-ticket.png"
     },
     {
       "slug": "rindo-berry",
@@ -1420,6 +1519,15 @@
       "location": "Missions Battle Pass Achievements",
       "sprite": "https://www.serebii.net/itemdex/sprites/teammateticket.png",
       "sprite_path": "images/items/teammate-ticket.png"
+    },
+    {
+      "slug": "timer-ball-guaranteed-ticket",
+      "name": "Timer Ball Guaranteed Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "A ticket that will let you meet a lineup of Pokémon that are inside Timer Balls.",
+      "location": "-",
+      "sprite": "https://www.serebii.net/itemdex/sprites/timerballguaranteedticket.png",
+      "sprite_path": "images/items/timer-ball-guaranteed-ticket.png"
     },
     {
       "slug": "training-ticket",
