@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-20T13:46:12+00:00",
-  "count": 500,
+  "scraped_at": "2026-06-22T12:06:21+00:00",
+  "count": 499,
   "moves": [
     {
       "slug": "accelerock",
@@ -3524,19 +3524,6 @@
       "url": "https://www.serebii.net/attackdex-champions/meteormash.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
-    },
-    {
-      "slug": "milkdrink",
-      "name": "Milk Drink",
-      "type": "normal",
-      "category": "status",
-      "power": null,
-      "accuracy": null,
-      "pp": 8,
-      "effect": "Restores 1/2 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/milkdrink.shtml",
-      "speed_priority": 0,
-      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "minimize",

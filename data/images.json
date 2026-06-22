@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T13:59:28+00:00",
+  "scraped_at": "2026-06-22T12:19:37+00:00",
   "summary": {
     "pokemon": {
       "total": 296,
@@ -3076,7 +3076,7 @@
       "name": "Dive Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/diveballguaranteedticket.png",
       "sprite_path": "images/items/dive-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "dragalgite",
@@ -3118,7 +3118,7 @@
       "name": "Dusk Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/duskballguaranteedticket.png",
       "sprite_path": "images/items/dusk-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "eelektrossite",
@@ -3342,7 +3342,7 @@
       "name": "Heal Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/healballguaranteedticket.png",
       "sprite_path": "images/items/heal-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "heat-rock",
@@ -3475,7 +3475,7 @@
       "name": "Luxury Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/luxuryballguaranteedticket.png",
       "sprite_path": "images/items/luxury-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "magnet",
@@ -3580,14 +3580,14 @@
       "name": "Nest Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/nestballguaranteedticket.png",
       "sprite_path": "images/items/nest-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "net-ball-guaranteed-ticket",
       "name": "Net Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/netballguaranteedticket.png",
       "sprite_path": "images/items/net-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "never-melt-ice",
@@ -3678,14 +3678,14 @@
       "name": "Poke Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/pokeballguaranteedticket.png",
       "sprite_path": "images/items/poke-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "premier-ball-guaranteed-ticket",
       "name": "Premier Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/premierballguaranteedticket.png",
       "sprite_path": "images/items/premier-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "psychic-type-affinity-ticket",
@@ -3706,7 +3706,7 @@
       "name": "Quick Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/quickballguaranteedticket.png",
       "sprite_path": "images/items/quick-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "quick-claw",
@@ -3741,7 +3741,7 @@
       "name": "Rare Poke Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/rarepokeballguaranteedticket.png",
       "sprite_path": "images/items/rare-poke-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rawst-berry",
@@ -3755,7 +3755,7 @@
       "name": "Repeat Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/repeatballguaranteedticket.png",
       "sprite_path": "images/items/repeat-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "rindo-berry",
@@ -3972,7 +3972,7 @@
       "name": "Timer Ball Guaranteed Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/timerballguaranteedticket.png",
       "sprite_path": "images/items/timer-ball-guaranteed-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "training-ticket",
