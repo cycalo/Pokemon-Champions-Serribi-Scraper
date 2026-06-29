@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-22T12:06:21+00:00",
+  "scraped_at": "2026-06-29T11:09:22+00:00",
   "count": 499,
   "moves": [
     {
@@ -6302,7 +6302,7 @@
       "power": 50,
       "accuracy": 100,
       "pp": 12,
-      "effect": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+      "effect": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
       "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"

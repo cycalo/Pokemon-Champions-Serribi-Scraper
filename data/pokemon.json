@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-22T12:19:37+00:00",
+  "scraped_at": "2026-06-29T11:21:23+00:00",
   "count": 208,
   "pokemon": [
     {
@@ -764,7 +764,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -1758,7 +1758,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -2706,7 +2706,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -9524,7 +9524,7 @@
               "accuracy": 100,
               "pp": 12,
               "effect_chance": null,
-              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
               "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
             },
             {
@@ -10333,7 +10333,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -11070,7 +11070,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -15104,7 +15104,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -16296,7 +16296,7 @@
               "accuracy": 100,
               "pp": 12,
               "effect_chance": null,
-              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
               "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
             },
             {
@@ -17269,7 +17269,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -25312,7 +25312,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -26084,7 +26084,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -26832,7 +26832,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -29804,7 +29804,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -30645,7 +30645,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -36723,7 +36723,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -37567,7 +37567,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -38447,7 +38447,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -39675,7 +39675,7 @@
               "accuracy": 100,
               "pp": 12,
               "effect_chance": null,
-              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
               "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
             },
             {
@@ -40700,7 +40700,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -51011,7 +51011,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -51730,7 +51730,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -60153,7 +60153,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -61043,7 +61043,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -61845,7 +61845,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -62371,7 +62371,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -65840,7 +65840,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -69733,7 +69733,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -71748,7 +71748,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -79800,7 +79800,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -82628,7 +82628,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -83400,7 +83400,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -87476,7 +87476,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -106663,7 +106663,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -117057,7 +117057,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -119064,7 +119064,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -128448,7 +128448,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -129263,7 +129263,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -130833,7 +130833,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -131545,7 +131545,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -134099,7 +134099,7 @@
               "accuracy": 100,
               "pp": 12,
               "effect_chance": null,
-              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+              "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
               "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
             }
           ],
@@ -134884,7 +134884,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         }
       ],
@@ -142885,7 +142885,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -172391,7 +172391,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
@@ -173654,7 +173654,7 @@
           "accuracy": 100,
           "pp": 12,
           "effect_chance": null,
-          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
+          "description": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
           "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml"
         },
         {
