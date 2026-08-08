@@ -14,7 +14,14 @@ Scrapes **Pokémon Champions** data from [Serebii.net](https://www.serebii.net/p
 
 Sources are the Champions section on Serebii (dex listing, per-species pages, moves/items/abilities pages, and asset URLs referenced from those pages).
 
-**Conventions:** N/A numeric fields (e.g. status move power, never-miss accuracy) are `null`, not `0` or `100`. Most top-level JSON includes `scraped_at` (ISO-8601) and `count` where it helps consumers check freshness. In `pokemon.json`, each `stats` object has **`base`** (six integers) and **`total`** (their sum). Those six values are the **low** end of each range on Serebii’s **Max Stats — Neutral Nature** row (what Champions uses as combat stats), not the small “Base Stats” BST row on the page.
+**Conventions:** N/A numeric fields (e.g. status move power, never-miss accuracy) are `null`, not `0` or `100`. Most top-level JSON includes `scraped_at` (ISO-8601) and `count` where it helps consumers check freshness. In `pokemon.json`, each `stats` object has:
+
+| Key | Meaning |
+| --- | --- |
+| **`base`** / **`total`** | Champions combat stats: the **low** end of each range on Serebii’s **Max Stats — Neutral Nature** row. Existing app clients should keep reading these. |
+| **`mainline`** (optional) | Mainline BST from Serebii’s **Base Stats** row, same shape `{ "base": { hp, attack, … }, "total": N }`. Added so apps can toggle Champions vs classic base stats without breaking older builds that ignore unknown keys. |
+
+Example (Charizard): Champions `base` stays the in-game values; `mainline` is `{ total: 534, base: { hp: 78, attack: 84, defense: 78, sp_attack: 109, sp_defense: 85, speed: 100 } }`.
 
 **Images:** Layout under `images/` is `pokemon/`, `types/` (+ `types/icons/`), `move-categories/`, `items/`. Downloads are **idempotent** (existing files skipped); use `--force-images` to re-fetch all. The `images` step needs existing `pokemon_listing.json` and `items.json` (run `pokemon` and `items` first, or a full run).
 

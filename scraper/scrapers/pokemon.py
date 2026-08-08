@@ -576,12 +576,53 @@ def _normalize_rotom_detail(soup: BeautifulSoup, detail: dict[str, Any]) -> None
     detail["forms"] = form_entries
 
 
+def _parse_mainline_bst_row(
+    label_row: Tag,
+    bst_row: Tag,
+) -> Optional[dict[str, Any]]:
+    """Parse Serebii's classic ``Base Stats - Total: N`` row into ``{base, total}``.
+
+    This is mainline BST (e.g. Charizard 78/84/78/109/85/100), distinct from the
+    Champions combat values taken from Max Stats — Neutral Nature.
+    """
+    label_to_key = {
+        "hp": "hp",
+        "attack": "attack",
+        "defense": "defense",
+        "sp. attack": "sp_attack",
+        "sp. defense": "sp_defense",
+        "speed": "speed",
+    }
+    label_cells = [clean_text(c).lower() for c in label_row.find_all(["td", "th"], recursive=False)]
+    bst_cells = [clean_text(c) for c in bst_row.find_all(["td", "th"], recursive=False)]
+    mainline: dict[str, Optional[int]] = {k: None for k in STAT_KEYS}
+    for label, value in zip(label_cells, bst_cells):
+        key = label_to_key.get(label)
+        if key is not None:
+            mainline[key] = parse_number(value)
+    if all(v is None for v in mainline.values()):
+        return None
+    total = sum(v for v in mainline.values() if v is not None) or None
+    # Prefer the Total printed in the first cell when present and consistent.
+    if bst_cells:
+        m = re.search(r"total:\s*(\d+)", bst_cells[0].lower())
+        if m:
+            printed = int(m.group(1))
+            if total is None or printed == total:
+                total = printed
+    return {"base": mainline, "total": total}
+
+
 def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
     """Parse the Stats dextable for Pokémon Champions.
 
-    In-game stats match the **low** end of each range on the **Max Stats /
-    Neutral Nature** row (not the classic BST row). If that row is missing,
-    fall back to the traditional Base Stats row.
+    In-game Champions stats match the **low** end of each range on the **Max
+    Stats / Neutral Nature** row. Those remain under ``base`` / ``total`` so
+    existing app clients keep working.
+
+    The classic mainline **Base Stats** BST row is also scraped when present and
+    exposed additively as ``mainline`` (same ``{base, total}`` shape). Older
+    clients that only read ``base`` / ``total`` ignore the new key.
     """
     rows = table.find_all("tr", recursive=False)
     if len(rows) < 3:
@@ -609,15 +650,6 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
     if label_row is None:
         return None
 
-    label_to_key = {
-        "hp": "hp",
-        "attack": "attack",
-        "defense": "defense",
-        "sp. attack": "sp_attack",
-        "sp. defense": "sp_defense",
-        "speed": "speed",
-    }
-
     base_stats: dict[str, Optional[int]] = {k: None for k in STAT_KEYS}
 
     if neutral_max_row is not None:
@@ -627,21 +659,28 @@ def _parse_stats_table(table: Tag) -> Optional[dict[str, Any]]:
             if offset + i < len(cells):
                 base_stats[key] = parse_stat_range_low(cells[offset + i])
     elif serebii_bst_row is not None:
-        label_cells = [clean_text(c).lower() for c in label_row.find_all(["td", "th"], recursive=False)]
-        bst_cells = [clean_text(c) for c in serebii_bst_row.find_all(["td", "th"], recursive=False)]
-        for label, value in zip(label_cells, bst_cells):
-            key = label_to_key.get(label)
-            if key is not None:
-                base_stats[key] = parse_number(value)
+        # Rare fallback: no Max Stats row — keep Champions ``base`` filled from BST
+        # so older clients still receive six integers under the existing keys.
+        fallback = _parse_mainline_bst_row(label_row, serebii_bst_row)
+        if fallback is None:
+            return None
+        base_stats = fallback["base"]
     else:
         return None
 
     total = sum(v for v in base_stats.values() if v is not None) or None
 
-    return {
+    result: dict[str, Any] = {
         "base": base_stats,
         "total": total,
     }
+
+    if serebii_bst_row is not None:
+        mainline = _parse_mainline_bst_row(label_row, serebii_bst_row)
+        if mainline is not None:
+            result["mainline"] = mainline
+
+    return result
 
 
 def _recalculate_champions_stat_total(stats: dict[str, Any]) -> None:
