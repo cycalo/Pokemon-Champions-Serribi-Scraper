@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-31T13:04:19+00:00",
+  "scraped_at": "2026-09-07T11:56:40+00:00",
   "new_abilities": [
     {
       "slug": "piercingdrill",
@@ -35,6 +35,13 @@
       "effect": "Boosts the power of the Pokémon's Fire-type moves by 50%.",
       "new_in_champions": true,
       "url": "https://www.serebii.net/abilitydex/firemane.shtml"
+    },
+    {
+      "slug": "auraguard",
+      "name": "Aura Guard",
+      "effect": "Reduces the amount of damage received by moves that make physical content by 50%",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/auraguard.shtml"
     },
     {
       "slug": "spicyspray",
@@ -204,6 +211,22 @@
       ]
     },
     {
+      "national_dex": 359,
+      "pokemon": "Mega Absol Z",
+      "pokemon_slug": "absol",
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "abilities": [
+        {
+          "slug": "sharpness",
+          "name": "Sharpness",
+          "url": "https://www.serebii.net/abilitydex/sharpness.shtml"
+        }
+      ]
+    },
+    {
       "national_dex": 398,
       "pokemon": "Mega Staraptor",
       "pokemon_slug": "staraptor",
@@ -216,6 +239,37 @@
           "slug": "contrary",
           "name": "Contrary",
           "url": "https://www.serebii.net/abilitydex/contrary.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 445,
+      "pokemon": "Mega Garchomp Z",
+      "pokemon_slug": "garchomp",
+      "types": [
+        "dragon"
+      ],
+      "abilities": [
+        {
+          "slug": "levitate",
+          "name": "Levitate",
+          "url": "https://www.serebii.net/abilitydex/levitate.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 448,
+      "pokemon": "Mega Lucario Z",
+      "pokemon_slug": "lucario",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "abilities": [
+        {
+          "slug": "auraguard",
+          "name": "Aura Guard",
+          "url": "https://www.serebii.net/abilitydex/auraguard.shtml"
         }
       ]
     },

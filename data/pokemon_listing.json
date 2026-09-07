@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-08-31T13:11:24+00:00",
-  "count": 296,
+  "scraped_at": "2026-09-07T12:03:30+00:00",
+  "count": 299,
   "entries": [
     {
       "national_dex": 3,
@@ -1469,6 +1469,19 @@
       "sprite_path": "images/pokemon/359-m.png"
     },
     {
+      "national_dex": 359,
+      "name": "Mega Absol Z",
+      "slug": "absol",
+      "page_url": "https://www.serebii.net/pokedex-champions/absol/",
+      "types": [
+        "dark",
+        "ghost"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/359-mz.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/359-mz.png"
+    },
+    {
       "national_dex": 362,
       "name": "Glalie",
       "slug": "glalie",
@@ -1698,6 +1711,18 @@
       "sprite_path": "images/pokemon/445-m.png"
     },
     {
+      "national_dex": 445,
+      "name": "Mega Garchomp Z",
+      "slug": "garchomp",
+      "page_url": "https://www.serebii.net/pokedex-champions/garchomp/",
+      "types": [
+        "dragon"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/445-mz.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/445-mz.png"
+    },
+    {
       "national_dex": 448,
       "name": "Lucario",
       "slug": "lucario",
@@ -1722,6 +1747,19 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/448-m.png",
       "is_mega": true,
       "sprite_path": "images/pokemon/448-m.png"
+    },
+    {
+      "national_dex": 448,
+      "name": "Mega Lucario Z",
+      "slug": "lucario",
+      "page_url": "https://www.serebii.net/pokedex-champions/lucario/",
+      "types": [
+        "fighting",
+        "steel"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/448-mz.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/448-mz.png"
     },
     {
       "national_dex": 450,

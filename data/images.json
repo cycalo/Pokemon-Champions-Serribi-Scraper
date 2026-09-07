@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-08-31T13:11:24+00:00",
+  "scraped_at": "2026-09-07T12:03:31+00:00",
   "summary": {
     "pokemon": {
-      "total": 296,
-      "with_local_path": 296
+      "total": 299,
+      "with_local_path": 299
     },
     "types": {
       "total": 18,
@@ -1064,6 +1064,15 @@
       "status": "skipped"
     },
     {
+      "slug": "absol",
+      "name": "Mega Absol Z",
+      "national_dex": 359,
+      "is_mega": true,
+      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/359-mz.png",
+      "sprite_path": "images/pokemon/359-mz.png",
+      "status": "downloaded"
+    },
+    {
       "slug": "glalie",
       "name": "Glalie",
       "national_dex": 362,
@@ -1226,6 +1235,15 @@
       "status": "skipped"
     },
     {
+      "slug": "garchomp",
+      "name": "Mega Garchomp Z",
+      "national_dex": 445,
+      "is_mega": true,
+      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/445-mz.png",
+      "sprite_path": "images/pokemon/445-mz.png",
+      "status": "downloaded"
+    },
+    {
       "slug": "lucario",
       "name": "Lucario",
       "national_dex": 448,
@@ -1242,6 +1260,15 @@
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/448-m.png",
       "sprite_path": "images/pokemon/448-m.png",
       "status": "skipped"
+    },
+    {
+      "slug": "lucario",
+      "name": "Mega Lucario Z",
+      "national_dex": 448,
+      "is_mega": true,
+      "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/448-mz.png",
+      "sprite_path": "images/pokemon/448-mz.png",
+      "status": "downloaded"
     },
     {
       "slug": "hippowdon",

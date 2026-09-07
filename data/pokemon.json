@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-31T13:11:24+00:00",
+  "scraped_at": "2026-09-07T12:03:30+00:00",
   "count": 208,
   "pokemon": [
     {
@@ -65536,6 +65536,49 @@
           "weight": "108.0lbs 49kg",
           "is_mega": true,
           "sprite_path": "images/pokemon/359-m.png"
+        },
+        {
+          "name": "Mega Absol Z",
+          "types": [
+            "dark",
+            "ghost"
+          ],
+          "abilities": [
+            {
+              "slug": "sharpness",
+              "name": "Sharpness",
+              "url": "https://www.serebii.net/abilitydex/sharpness.shtml",
+              "description": "Increases the power of Slicing moves used by this Pokémon by 50%"
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 140,
+              "attack": 174,
+              "defense": 80,
+              "sp_attack": 95,
+              "sp_defense": 80,
+              "speed": 171
+            },
+            "total": 740,
+            "mainline": {
+              "base": {
+                "hp": 65,
+                "attack": 154,
+                "defense": 60,
+                "sp_attack": 75,
+                "sp_defense": 60,
+                "speed": 151
+              },
+              "total": 565
+            }
+          },
+          "type_effectiveness": null,
+          "classification": "Disaster Pokémon",
+          "height": "3'11\" 1.2m",
+          "weight": "108.0lbs 49kg",
+          "is_mega": true,
+          "sprite_path": "images/pokemon/359-mz.png"
         }
       ],
       "moves": [
@@ -76915,6 +76958,48 @@
           "weight": "209.4lbs 95kg",
           "is_mega": true,
           "sprite_path": "images/pokemon/445-m.png"
+        },
+        {
+          "name": "Mega Garchomp Z",
+          "types": [
+            "dragon"
+          ],
+          "abilities": [
+            {
+              "slug": "levitate",
+              "name": "Levitate",
+              "url": "https://www.serebii.net/abilitydex/levitate.shtml",
+              "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes."
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 183,
+              "attack": 150,
+              "defense": 105,
+              "sp_attack": 161,
+              "sp_defense": 105,
+              "speed": 171
+            },
+            "total": 875,
+            "mainline": {
+              "base": {
+                "hp": 108,
+                "attack": 130,
+                "defense": 85,
+                "sp_attack": 141,
+                "sp_defense": 85,
+                "speed": 151
+              },
+              "total": 700
+            }
+          },
+          "type_effectiveness": null,
+          "classification": "Mach Pokémon",
+          "height": "6'03\" 1.9m",
+          "weight": "218.3lbs 99kg",
+          "is_mega": true,
+          "sprite_path": "images/pokemon/445-mz.png"
         }
       ],
       "moves": [
@@ -77737,6 +77822,49 @@
           "weight": "126.8lbs 57.5kg",
           "is_mega": true,
           "sprite_path": "images/pokemon/448-m.png"
+        },
+        {
+          "name": "Mega Lucario Z",
+          "types": [
+            "fighting",
+            "steel"
+          ],
+          "abilities": [
+            {
+              "slug": "auraguard",
+              "name": "Aura Guard",
+              "url": "https://www.serebii.net/abilitydex/auraguard.shtml",
+              "description": "Reduces the amount of damage received by moves that make physical contact by 50%"
+            }
+          ],
+          "stats": {
+            "base": {
+              "hp": 145,
+              "attack": 120,
+              "defense": 90,
+              "sp_attack": 184,
+              "sp_defense": 90,
+              "speed": 171
+            },
+            "total": 800,
+            "mainline": {
+              "base": {
+                "hp": 70,
+                "attack": 100,
+                "defense": 70,
+                "sp_attack": 164,
+                "sp_defense": 70,
+                "speed": 151
+              },
+              "total": 625
+            }
+          },
+          "type_effectiveness": null,
+          "classification": "Aura Pokémon",
+          "height": "4'03\" 1.3m",
+          "weight": "108.9lbs 49.4kg",
+          "is_mega": true,
+          "sprite_path": "images/pokemon/448-mz.png"
         }
       ],
       "moves": [
