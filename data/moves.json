@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-07T11:50:45+00:00",
-  "count": 499,
+  "scraped_at": "2026-09-09T13:05:09+00:00",
+  "count": 512,
   "moves": [
     {
       "slug": "accelerock",
@@ -1095,6 +1095,19 @@
       "pokemon_hit_in_battle": "Special"
     },
     {
+      "slug": "courtchange",
+      "name": "Court Change",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": "Swaps the statuses affecting the user's side of the field with the statuses affecting the opponent's side of the field.",
+      "url": "https://www.serebii.net/attackdex-champions/courtchange.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Field"
+    },
+    {
       "slug": "covet",
       "name": "Covet",
       "type": "normal",
@@ -1355,6 +1368,19 @@
       "pokemon_hit_in_battle": "Selected Target"
     },
     {
+      "slug": "doubleshock",
+      "name": "Double Shock",
+      "type": "electric",
+      "category": "physical",
+      "power": 120,
+      "accuracy": null,
+      "pp": 8,
+      "effect": "The user loses the Electric type. This move fails unless it is used by an Electric type.",
+      "url": "https://www.serebii.net/attackdex-champions/doubleshock.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "doubleteam",
       "name": "Double Team",
       "type": "normal",
@@ -1533,6 +1559,19 @@
       "pp": 12,
       "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
       "url": "https://www.serebii.net/attackdex-champions/drillrun.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "drumbeating",
+      "name": "Drum Beating",
+      "type": "grass",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": "Lowers the target's Speed stat by 1 stage.",
+      "url": "https://www.serebii.net/attackdex-champions/drumbeating.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
     },
@@ -2356,6 +2395,19 @@
       "pokemon_hit_in_battle": "Selected Target"
     },
     {
+      "slug": "glaiverush",
+      "name": "Glaive Rush",
+      "type": "dragon",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 8,
+      "effect": "The user gains the Wide Open status until the next time it takes an action.",
+      "url": "https://www.serebii.net/attackdex-champions/glaiverush.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "glare",
       "name": "Glare",
       "type": "normal",
@@ -3058,6 +3110,19 @@
       "pokemon_hit_in_battle": "Selected Target"
     },
     {
+      "slug": "jawlock",
+      "name": "Jaw Lock",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": "The user and target gain the Jaw Locked status.",
+      "url": "https://www.serebii.net/attackdex-champions/jawlock.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "jetpunch",
       "name": "Jet Punch",
       "type": "water",
@@ -3500,6 +3565,19 @@
       "pokemon_hit_in_battle": "Selected Target"
     },
     {
+      "slug": "meteorassault",
+      "name": "Meteor Assault",
+      "type": "fighting",
+      "category": "physical",
+      "power": 170,
+      "accuracy": 100,
+      "pp": 8,
+      "effect": "The user gains the Recharging status on the turn after this move is used.",
+      "url": "https://www.serebii.net/attackdex-champions/meteorassault.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "meteorbeam",
       "name": "Meteor Beam",
       "type": "rock",
@@ -3524,6 +3602,19 @@
       "url": "https://www.serebii.net/attackdex-champions/meteormash.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "milkdrink",
+      "name": "Milk Drink",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 8,
+      "effect": "Restores 1/2 of the max HP of the user or an ally.",
+      "url": "https://www.serebii.net/attackdex-champions/milkdrink.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "minimize",
@@ -3786,6 +3877,19 @@
       "pokemon_hit_in_battle": "Selected Target"
     },
     {
+      "slug": "octolock",
+      "name": "Octolock",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 16,
+      "effect": "Gives the target the Octolocked and Can't Escape statuses.",
+      "url": "https://www.serebii.net/attackdex-champions/octolock.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "outrage",
       "name": "Outrage",
       "type": "dragon",
@@ -3797,6 +3901,19 @@
       "url": "https://www.serebii.net/attackdex-champions/outrage.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Random Target"
+    },
+    {
+      "slug": "overdrive",
+      "name": "Overdrive",
+      "type": "electric",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": null,
+      "url": "https://www.serebii.net/attackdex-champions/overdrive.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "All Adjacent Foes"
     },
     {
       "slug": "overheat",
@@ -4046,6 +4163,19 @@
       "pokemon_hit_in_battle": "Selected Target"
     },
     {
+      "slug": "pound",
+      "name": "Pound",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": null,
+      "url": "https://www.serebii.net/attackdex-champions/pound.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "powergem",
       "name": "Power Gem",
       "type": "rock",
@@ -4057,19 +4187,6 @@
       "url": "https://www.serebii.net/attackdex-champions/powergem.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
-    },
-    {
-      "slug": "powershift",
-      "name": "Power Shift",
-      "type": "normal",
-      "category": "status",
-      "power": null,
-      "accuracy": null,
-      "pp": 12,
-      "effect": "The user gains the Atk/Def Swapped status.",
-      "url": "https://www.serebii.net/attackdex-champions/powershift.shtml",
-      "speed_priority": 0,
-      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "powersplit",
@@ -4250,6 +4367,19 @@
       "pp": 12,
       "effect": "This is a special move but the damage it deals is calculated using the target's Defense stat.",
       "url": "https://www.serebii.net/attackdex-champions/psyshock.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "pyroball",
+      "name": "Pyro Ball",
+      "type": "fire",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 90,
+      "pp": 8,
+      "effect": "Has a 10% chance of burning the target. Cures the user of being frozen.",
+      "url": "https://www.serebii.net/attackdex-champions/pyroball.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
     },
@@ -4473,6 +4603,19 @@
       "url": "https://www.serebii.net/attackdex-champions/reversal.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "revivalblessing",
+      "name": "Revival Blessing",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 1,
+      "effect": "Revives a Pokémon in the user's party that has fainted and restores 1/2 of that Pokémon's max HP.",
+      "url": "https://www.serebii.net/attackdex-champions/revivalblessing.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "risingvoltage",
@@ -4891,6 +5034,19 @@
       "pokemon_hit_in_battle": "Self"
     },
     {
+      "slug": "shiftgear",
+      "name": "Shift Gear",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": null,
+      "pp": 12,
+      "effect": "Boosts the user's Attack stat by 1 stage and Speed stat by 2 stages.",
+      "url": "https://www.serebii.net/attackdex-champions/shiftgear.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Self"
+    },
+    {
       "slug": "simplebeam",
       "name": "Simple Beam",
       "type": "normal",
@@ -4967,6 +5123,19 @@
       "url": "https://www.serebii.net/attackdex-champions/slackoff.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Self"
+    },
+    {
+      "slug": "slash",
+      "name": "Slash",
+      "type": "normal",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "effect": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "url": "https://www.serebii.net/attackdex-champions/slash.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
     },
     {
       "slug": "sleeppowder",
@@ -5073,6 +5242,19 @@
       "pokemon_hit_in_battle": "All Adjacent Foes"
     },
     {
+      "slug": "snipeshot",
+      "name": "Snipe Shot",
+      "type": "water",
+      "category": "special",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "effect": "This move ignores the effects of Abilities and moves that draw in moves. It has a 1-stage Critical-Hit Ratio Boost.",
+      "url": "https://www.serebii.net/attackdex-champions/snipeshot.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
       "slug": "snore",
       "name": "Snore",
       "type": "normal",
@@ -5110,19 +5292,6 @@
       "url": "https://www.serebii.net/attackdex-champions/soak.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
-    },
-    {
-      "slug": "soft-boiled",
-      "name": "Soft-Boiled",
-      "type": "normal",
-      "category": "status",
-      "power": null,
-      "accuracy": null,
-      "pp": 8,
-      "effect": "Restores 1/2 of the user's max HP.",
-      "url": "https://www.serebii.net/attackdex-champions/soft-boiled.shtml",
-      "speed_priority": 0,
-      "pokemon_hit_in_battle": "Self"
     },
     {
       "slug": "solarbeam",
@@ -5264,19 +5433,6 @@
       "pp": 12,
       "effect": "Removes 4 PP from the move last used by the target.",
       "url": "https://www.serebii.net/attackdex-champions/spite.shtml",
-      "speed_priority": 0,
-      "pokemon_hit_in_battle": "Selected Target"
-    },
-    {
-      "slug": "spore",
-      "name": "Spore",
-      "type": "grass",
-      "category": "status",
-      "power": null,
-      "accuracy": 100,
-      "pp": 16,
-      "effect": "Puts the target to sleep.",
-      "url": "https://www.serebii.net/attackdex-champions/spore.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
     },
@@ -5430,7 +5586,7 @@
       "category": "status",
       "power": null,
       "accuracy": 100,
-      "pp": 12,
+      "pp": 8,
       "effect": "Restores the user's HP by an amount equal to the target's Attack stat. Lowers the target's Attack stat by 1 stage.",
       "url": "https://www.serebii.net/attackdex-champions/strengthsap.shtml",
       "speed_priority": 0,
@@ -6302,7 +6458,7 @@
       "power": 50,
       "accuracy": 100,
       "pp": 12,
-      "effect": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight: Fire type Rain: Water type Snow: Ice type. Sandstorm: Rock type.",
+      "effect": "When a weather condition is present this move's power is doubled and its type changes. Harsh sunlight Fire type. Rain Water type. Snow Ice type. Sandstorm Rock type.",
       "url": "https://www.serebii.net/attackdex-champions/weatherball.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
@@ -6379,7 +6535,7 @@
       "category": "status",
       "power": null,
       "accuracy": null,
-      "pp": 12,
+      "pp": 8,
       "effect": "Gives the user's spot the Wish status.",
       "url": "https://www.serebii.net/attackdex-champions/wish.shtml",
       "speed_priority": 0,
@@ -6486,6 +6642,19 @@
       "pp": 16,
       "effect": "Has a 20% chance of making the target flinch.",
       "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml",
+      "speed_priority": 0,
+      "pokemon_hit_in_battle": "Selected Target"
+    },
+    {
+      "slug": "zingzap",
+      "name": "Zing Zap",
+      "type": "electric",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "effect": "Has a 30% chance of making the target flinch.",
+      "url": "https://www.serebii.net/attackdex-champions/zingzap.shtml",
       "speed_priority": 0,
       "pokemon_hit_in_battle": "Selected Target"
     }

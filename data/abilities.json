@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-07T11:56:40+00:00",
+  "scraped_at": "2026-09-09T13:11:33+00:00",
   "new_abilities": [
     {
       "slug": "piercingdrill",
@@ -37,18 +37,18 @@
       "url": "https://www.serebii.net/abilitydex/firemane.shtml"
     },
     {
-      "slug": "auraguard",
-      "name": "Aura Guard",
-      "effect": "Reduces the amount of damage received by moves that make physical content by 50%",
-      "new_in_champions": true,
-      "url": "https://www.serebii.net/abilitydex/auraguard.shtml"
-    },
-    {
       "slug": "spicyspray",
       "name": "Spicy Spray",
       "effect": "When the Pokémon takes damage from a move, it burns the attacker.",
       "new_in_champions": true,
       "url": "https://www.serebii.net/abilitydex/spicyspray.shtml"
+    },
+    {
+      "slug": "auraguard",
+      "name": "Aura Guard",
+      "effect": "Reduces the amount of damage received by moves that make physical contact by 50%",
+      "new_in_champions": true,
+      "url": "https://www.serebii.net/abilitydex/auraguard.shtml"
     }
   ],
   "mega_abilities": [
@@ -575,6 +575,22 @@
       ]
     },
     {
+      "national_dex": 768,
+      "pokemon": "Mega Golisopod",
+      "pokemon_slug": "golisopod",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "abilities": [
+        {
+          "slug": "toughclaws",
+          "name": "Tough Claws",
+          "url": "https://www.serebii.net/abilitydex/toughclaws.shtml"
+        }
+      ]
+    },
+    {
       "national_dex": 780,
       "pokemon": "Mega Drampa",
       "pokemon_slug": "drampa",
@@ -634,6 +650,22 @@
           "slug": "adaptability",
           "name": "Adaptability",
           "url": "https://www.serebii.net/abilitydex/adaptability.shtml"
+        }
+      ]
+    },
+    {
+      "national_dex": 998,
+      "pokemon": "Mega Baxcalibur",
+      "pokemon_slug": "baxcalibur",
+      "types": [
+        "dragon",
+        "ice"
+      ],
+      "abilities": [
+        {
+          "slug": "thermalexchange",
+          "name": "Thermal Exchange",
+          "url": "https://www.serebii.net/abilitydex/thermalexchange.shtml"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-07T12:03:30+00:00",
-  "count": 299,
+  "scraped_at": "2026-09-09T13:18:47+00:00",
+  "count": 326,
   "entries": [
     {
       "national_dex": 3,
@@ -267,6 +267,19 @@
       "sprite_path": "images/pokemon/038-a.png"
     },
     {
+      "national_dex": 40,
+      "name": "Wigglytuff",
+      "slug": "wigglytuff",
+      "page_url": "https://www.serebii.net/pokedex-champions/wigglytuff/",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/040.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/040.png"
+    },
+    {
       "national_dex": 45,
       "name": "Vileplume",
       "slug": "vileplume",
@@ -278,6 +291,30 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/045.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/045.png"
+    },
+    {
+      "national_dex": 53,
+      "name": "Persian",
+      "slug": "persian",
+      "page_url": "https://www.serebii.net/pokedex-champions/persian/",
+      "types": [
+        "normal"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/053.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/053.png"
+    },
+    {
+      "national_dex": 53,
+      "name": "Persian",
+      "slug": "persian",
+      "page_url": "https://www.serebii.net/pokedex-champions/persian/",
+      "types": [
+        "dark"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/053-a.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/053-a.png"
     },
     {
       "national_dex": 59,
@@ -406,6 +443,19 @@
       "sprite_path": "images/pokemon/080-g.png"
     },
     {
+      "national_dex": 83,
+      "name": "Farfetch'd",
+      "slug": "farfetch'd",
+      "page_url": "https://www.serebii.net/pokedex-champions/farfetch'd/",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/083.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/083.png"
+    },
+    {
       "national_dex": 94,
       "name": "Gengar",
       "slug": "gengar",
@@ -480,6 +530,19 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/121-m.png",
       "is_mega": true,
       "sprite_path": "images/pokemon/121-m.png"
+    },
+    {
+      "national_dex": 122,
+      "name": "Mr. Mime",
+      "slug": "mr.mime",
+      "page_url": "https://www.serebii.net/pokedex-champions/mr.mime/",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/122.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/122.png"
     },
     {
       "national_dex": 127,
@@ -1282,6 +1345,18 @@
       "sprite_path": "images/pokemon/310-m.png"
     },
     {
+      "national_dex": 317,
+      "name": "Swalot",
+      "slug": "swalot",
+      "page_url": "https://www.serebii.net/pokedex-champions/swalot/",
+      "types": [
+        "poison"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/317.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/317.png"
+    },
+    {
       "national_dex": 319,
       "name": "Sharpedo",
       "slug": "sharpedo",
@@ -1504,6 +1579,32 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/362-m.png",
       "is_mega": true,
       "sprite_path": "images/pokemon/362-m.png"
+    },
+    {
+      "national_dex": 373,
+      "name": "Salamence",
+      "slug": "salamence",
+      "page_url": "https://www.serebii.net/pokedex-champions/salamence/",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/373.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/373.png"
+    },
+    {
+      "national_dex": 373,
+      "name": "Mega Salamence",
+      "slug": "salamence",
+      "page_url": "https://www.serebii.net/pokedex-champions/salamence/",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/373-m.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/373-m.png"
     },
     {
       "national_dex": 376,
@@ -2635,6 +2736,18 @@
       "sprite_path": "images/pokemon/671.png"
     },
     {
+      "national_dex": 673,
+      "name": "Gogoat",
+      "slug": "gogoat",
+      "page_url": "https://www.serebii.net/pokedex-champions/gogoat/",
+      "types": [
+        "grass"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/673.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/673.png"
+    },
+    {
       "national_dex": 675,
       "name": "Pangoro",
       "slug": "pangoro",
@@ -3194,6 +3307,32 @@
       "sprite_path": "images/pokemon/766.png"
     },
     {
+      "national_dex": 768,
+      "name": "Golisopod",
+      "slug": "golisopod",
+      "page_url": "https://www.serebii.net/pokedex-champions/golisopod/",
+      "types": [
+        "bug",
+        "water"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/768.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/768.png"
+    },
+    {
+      "national_dex": 768,
+      "name": "Mega Golisopod",
+      "slug": "golisopod",
+      "page_url": "https://www.serebii.net/pokedex-champions/golisopod/",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/768-m.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/768-m.png"
+    },
+    {
       "national_dex": 778,
       "name": "Mimikyu",
       "slug": "mimikyu",
@@ -3246,6 +3385,42 @@
       "sprite_path": "images/pokemon/784.png"
     },
     {
+      "national_dex": 812,
+      "name": "Rillaboom",
+      "slug": "rillaboom",
+      "page_url": "https://www.serebii.net/pokedex-champions/rillaboom/",
+      "types": [
+        "grass"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/812.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/812.png"
+    },
+    {
+      "national_dex": 815,
+      "name": "Cinderace",
+      "slug": "cinderace",
+      "page_url": "https://www.serebii.net/pokedex-champions/cinderace/",
+      "types": [
+        "fire"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/815.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/815.png"
+    },
+    {
+      "national_dex": 818,
+      "name": "Inteleon",
+      "slug": "inteleon",
+      "page_url": "https://www.serebii.net/pokedex-champions/inteleon/",
+      "types": [
+        "water"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/818.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/818.png"
+    },
+    {
       "national_dex": 823,
       "name": "Corviknight",
       "slug": "corviknight",
@@ -3257,6 +3432,18 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/823.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/823.png"
+    },
+    {
+      "national_dex": 828,
+      "name": "Thievul",
+      "slug": "thievul",
+      "page_url": "https://www.serebii.net/pokedex-champions/thievul/",
+      "types": [
+        "dark"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/828.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/828.png"
     },
     {
       "national_dex": 841,
@@ -3297,6 +3484,31 @@
       "sprite_path": "images/pokemon/844.png"
     },
     {
+      "national_dex": 849,
+      "name": "Toxtricity",
+      "slug": "toxtricity",
+      "page_url": "https://www.serebii.net/pokedex-champions/toxtricity/",
+      "types": [
+        "electric",
+        "poison"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/849.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/849.png"
+    },
+    {
+      "national_dex": 853,
+      "name": "Grapploct",
+      "slug": "grapploct",
+      "page_url": "https://www.serebii.net/pokedex-champions/grapploct/",
+      "types": [
+        "fighting"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/853.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/853.png"
+    },
+    {
       "national_dex": 855,
       "name": "Polteageist",
       "slug": "polteageist",
@@ -3333,6 +3545,30 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/861.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/861.png"
+    },
+    {
+      "national_dex": 863,
+      "name": "Perrserker",
+      "slug": "perrserker",
+      "page_url": "https://www.serebii.net/pokedex-champions/perrserker/",
+      "types": [
+        "steel"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/863.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/863.png"
+    },
+    {
+      "national_dex": 865,
+      "name": "Sirfetch'd",
+      "slug": "sirfetch'd",
+      "page_url": "https://www.serebii.net/pokedex-champions/sirfetch'd/",
+      "types": [
+        "fighting"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/865.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/865.png"
     },
     {
       "national_dex": 866,
@@ -3395,6 +3631,31 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/870-m.png",
       "is_mega": true,
       "sprite_path": "images/pokemon/870-m.png"
+    },
+    {
+      "national_dex": 871,
+      "name": "Pincurchin",
+      "slug": "pincurchin",
+      "page_url": "https://www.serebii.net/pokedex-champions/pincurchin/",
+      "types": [
+        "electric"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/871.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/871.png"
+    },
+    {
+      "national_dex": 876,
+      "name": "Indeedee",
+      "slug": "indeedee",
+      "page_url": "https://www.serebii.net/pokedex-champions/indeedee/",
+      "types": [
+        "psychic",
+        "normal"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/876.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/876.png"
     },
     {
       "national_dex": 877,
@@ -3527,6 +3788,19 @@
       "sprite_path": "images/pokemon/914.png"
     },
     {
+      "national_dex": 923,
+      "name": "Pawmot",
+      "slug": "pawmot",
+      "page_url": "https://www.serebii.net/pokedex-champions/pawmot/",
+      "types": [
+        "electric",
+        "fighting"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/923.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/923.png"
+    },
+    {
       "national_dex": 925,
       "name": "Maushold",
       "slug": "maushold",
@@ -3537,6 +3811,32 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/925.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/925.png"
+    },
+    {
+      "national_dex": 930,
+      "name": "Arboliva",
+      "slug": "arboliva",
+      "page_url": "https://www.serebii.net/pokedex-champions/arboliva/",
+      "types": [
+        "grass",
+        "normal"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/930.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/930.png"
+    },
+    {
+      "national_dex": 931,
+      "name": "Squawkabilly",
+      "slug": "squawkabilly",
+      "page_url": "https://www.serebii.net/pokedex-champions/squawkabilly/",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/931.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/931.png"
     },
     {
       "national_dex": 934,
@@ -3587,6 +3887,18 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/939.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/939.png"
+    },
+    {
+      "national_dex": 943,
+      "name": "Mabosstiff",
+      "slug": "mabosstiff",
+      "page_url": "https://www.serebii.net/pokedex-champions/mabosstiff/",
+      "types": [
+        "dark"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/943.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/943.png"
     },
     {
       "national_dex": 952,
@@ -3739,6 +4051,32 @@
       "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/983.png",
       "is_mega": false,
       "sprite_path": "images/pokemon/983.png"
+    },
+    {
+      "national_dex": 998,
+      "name": "Baxcalibur",
+      "slug": "baxcalibur",
+      "page_url": "https://www.serebii.net/pokedex-champions/baxcalibur/",
+      "types": [
+        "dragon",
+        "ice"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/998.png",
+      "is_mega": false,
+      "sprite_path": "images/pokemon/998.png"
+    },
+    {
+      "national_dex": 998,
+      "name": "Mega Baxcalibur",
+      "slug": "baxcalibur",
+      "page_url": "https://www.serebii.net/pokedex-champions/baxcalibur/",
+      "types": [
+        "dragon",
+        "ice"
+      ],
+      "sprite": "https://www.serebii.net/pokemonhome/pokemon/small/998-m.png",
+      "is_mega": true,
+      "sprite_path": "images/pokemon/998-m.png"
     },
     {
       "national_dex": 1000,

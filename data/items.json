@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-07T11:56:40+00:00",
-  "count": 181,
+  "scraped_at": "2026-09-09T13:11:33+00:00",
+  "count": 200,
   "categories": [
     "Berries",
     "Hold Items",
@@ -8,6 +8,14 @@
     "Miscellaneous Items"
   ],
   "items": [
+    {
+      "slug": "2026-worlds-commemorative-roster-ticket",
+      "name": "2026 Worlds Commemorative Roster Ticket",
+      "category": "Miscellaneous Items",
+      "effect": "-",
+      "location": null,
+      "sprite": "https://www.serebii.net/itemdex/sprites/2026worldscommemorativerosterticket.png"
+    },
     {
       "slug": "abomasite",
       "name": "Abomasite",
@@ -27,6 +35,15 @@
       "sprite_path": "images/items/absolite.png"
     },
     {
+      "slug": "absolite-z",
+      "name": "Absolite Z",
+      "category": "Mega Stone",
+      "effect": "An Absol holding this stone will be able to Mega Evolve during battle.",
+      "location": "Shop 2000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/za/absolitez.png",
+      "sprite_path": "images/items/absolite-z.png"
+    },
+    {
       "slug": "aerodactylite",
       "name": "Aerodactylite",
       "category": "Mega Stone",
@@ -43,6 +60,15 @@
       "location": "Mega Evolution Tutorial",
       "sprite": "https://www.serebii.net/itemdex/sprites/pgl/aggronite.png",
       "sprite_path": "images/items/aggronite.png"
+    },
+    {
+      "slug": "air-balloon",
+      "name": "Air Balloon",
+      "category": "Hold Items",
+      "effect": "This item, when attached to a Pokémon, causes it to be immune from Ground-type attacks and entry hazards.",
+      "location": "Shop 1000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/airballoon.png",
+      "sprite_path": "images/items/air-balloon.png"
     },
     {
       "slug": "alakazite",
@@ -117,6 +143,15 @@
       "sprite_path": "images/items/barbaracite.png"
     },
     {
+      "slug": "baxcalibrite",
+      "name": "Baxcalibrite",
+      "category": "Mega Stone",
+      "effect": "A Baxcalibur holding this stone will be able to Mega Evolve during battle.",
+      "location": "Shop 2000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/za/baxcalibrite.png",
+      "sprite_path": "images/items/baxcalibrite.png"
+    },
+    {
       "slug": "beedrillite",
       "name": "Beedrillite",
       "category": "Mega Stone",
@@ -133,6 +168,15 @@
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/sv/bigroot.png",
       "sprite_path": "images/items/big-root.png"
+    },
+    {
+      "slug": "binding-band",
+      "name": "Binding Band",
+      "category": "Hold Items",
+      "effect": "This item, when attached to a Pokémon, increases damage caused by moves that constrict the opponent.",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/bindingband.png",
+      "sprite_path": "images/items/binding-band.png"
     },
     {
       "slug": "black-belt",
@@ -441,6 +485,24 @@
       "sprite_path": "images/items/eelektrossite.png"
     },
     {
+      "slug": "eject-button",
+      "name": "Eject Button",
+      "category": "Hold Items",
+      "effect": "This item, when attached to a Pokémon, allows the holder to escape from battle should they get hit by an attack that makes physical contact.",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/ejectbutton.png",
+      "sprite_path": "images/items/eject-button.png"
+    },
+    {
+      "slug": "electric-seed",
+      "name": "Electric Seed",
+      "category": "Hold Items",
+      "effect": "This item will boost the user's Defense by 1 stage when Electric Terrain is activated",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/electricseed.png",
+      "sprite_path": "images/items/electric-seed.png"
+    },
+    {
       "slug": "electric-type-affinity-ticket",
       "name": "Electric-Type Affinity Ticket",
       "category": "Miscellaneous Items",
@@ -594,6 +656,15 @@
       "sprite_path": "images/items/garchompite.png"
     },
     {
+      "slug": "garchompite-z",
+      "name": "Garchompite Z",
+      "category": "Mega Stone",
+      "effect": "A Garchomp holding this stone will be able to Mega Evolve during battle.",
+      "location": "Shop 2000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/za/garchompitez.png",
+      "sprite_path": "images/items/garchompite-z.png"
+    },
+    {
       "slug": "gardevoirite",
       "name": "Gardevoirite",
       "category": "Mega Stone",
@@ -639,6 +710,15 @@
       "sprite_path": "images/items/glimmoranite.png"
     },
     {
+      "slug": "golisopite",
+      "name": "Golisopite",
+      "category": "Mega Stone",
+      "effect": "A Golisopod holding this stone will be able to Mega Evolve during battle.",
+      "location": "Shop 2000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/za/golisopite.png",
+      "sprite_path": "images/items/golisopite.png"
+    },
+    {
       "slug": "golurkite",
       "name": "Golurkite",
       "category": "Mega Stone",
@@ -655,6 +735,15 @@
       "location": "Achievements",
       "sprite": "https://www.serebii.net/itemdex/sprites/grass-typeaffinityticket.png",
       "sprite_path": "images/items/grass-type-affinity-ticket.png"
+    },
+    {
+      "slug": "grassy-seed",
+      "name": "Grassy Seed",
+      "category": "Hold Items",
+      "effect": "This item will boost the user's Defense by 1 stage when Grassy Terrain is activated",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/grassyseed.png",
+      "sprite_path": "images/items/grassy-seed.png"
     },
     {
       "slug": "greninjite",
@@ -810,6 +899,14 @@
       "sprite_path": "images/items/king-s-rock.png"
     },
     {
+      "slug": "leek",
+      "name": "Leek",
+      "category": "Hold Items",
+      "effect": "When this item is held by Farfetch'd, the holder's Critical Hit ratio is raised by 2 stages.In Pokémon Sword & Shield, this item's name was changed from Stick to Leek",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/pgl/leek.png"
+    },
+    {
       "slug": "leftovers",
       "name": "Leftovers",
       "category": "Hold Items",
@@ -871,6 +968,15 @@
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/pgl/lucarionite.png",
       "sprite_path": "images/items/lucarionite.png"
+    },
+    {
+      "slug": "lucarionite-z",
+      "name": "Lucarionite Z",
+      "category": "Mega Stone",
+      "effect": "A Lucario holding this stone will be able to Mega Evolve during battle.",
+      "location": "Shop 2000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/za/lucarionitez.png",
+      "sprite_path": "images/items/lucarionite-z.png"
     },
     {
       "slug": "lum-berry",
@@ -999,6 +1105,15 @@
       "sprite_path": "images/items/miracle-seed.png"
     },
     {
+      "slug": "misty-seed",
+      "name": "Misty Seed",
+      "category": "Hold Items",
+      "effect": "This item will boost the user's Special Defense by 1 stage when Misty Terrain is activated",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/mistyseed.png",
+      "sprite_path": "images/items/misty-seed.png"
+    },
+    {
       "slug": "muscle-band",
       "name": "Muscle Band",
       "category": "Hold Items",
@@ -1042,6 +1157,15 @@
       "location": "Shop 700 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/sv/never-meltice.png",
       "sprite_path": "images/items/never-melt-ice.png"
+    },
+    {
+      "slug": "normal-gem",
+      "name": "Normal Gem",
+      "category": "Hold Items",
+      "effect": "This item, when attached to a Pokémon, raises the power of Normal-type moves by 50% when a move of that type is used. It's a one-use item.",
+      "location": "Shop 1000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/normalgem.png",
+      "sprite_path": "images/items/normal-gem.png"
     },
     {
       "slug": "normal-type-affinity-ticket",
@@ -1161,6 +1285,15 @@
       "sprite_path": "images/items/premier-ball-guaranteed-ticket.png"
     },
     {
+      "slug": "psychic-seed",
+      "name": "Psychic Seed",
+      "category": "Hold Items",
+      "effect": "This item will boost the user's Special Defense by 1 stage when Psychic Terrain is activated",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/psychicseed.png",
+      "sprite_path": "images/items/psychic-seed.png"
+    },
+    {
       "slug": "psychic-type-affinity-ticket",
       "name": "Psychic-Type Affinity Ticket",
       "category": "Miscellaneous Items",
@@ -1242,6 +1375,15 @@
       "sprite_path": "images/items/rawst-berry.png"
     },
     {
+      "slug": "red-card",
+      "name": "Red Card",
+      "category": "Hold Items",
+      "effect": "This item, when attached to a Pokémon, causes any Pokémon that makes physical contact to be removed from battle",
+      "location": "Shop 1000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/redcard.png",
+      "sprite_path": "images/items/red-card.png"
+    },
+    {
       "slug": "repeat-ball-guaranteed-ticket",
       "name": "Repeat Ball Guaranteed Ticket",
       "category": "Miscellaneous Items",
@@ -1269,6 +1411,15 @@
       "sprite_path": "images/items/rock-type-affinity-ticket.png"
     },
     {
+      "slug": "rocky-helmet",
+      "name": "Rocky Helmet",
+      "category": "Hold Items",
+      "effect": "This item, when attached to a Pokémon, causes the attacker to receive recoil of 1/6th of maximum Hit Points should they make Physical Contact.",
+      "location": "Shop 1000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/rockyhelmet.png",
+      "sprite_path": "images/items/rocky-helmet.png"
+    },
+    {
       "slug": "roseli-berry",
       "name": "Roseli Berry",
       "category": "Berries",
@@ -1285,6 +1436,15 @@
       "location": "Shop 2000 VP",
       "sprite": "https://www.serebii.net/itemdex/sprites/pgl/sablenite.png",
       "sprite_path": "images/items/sablenite.png"
+    },
+    {
+      "slug": "salamencite",
+      "name": "Salamencite",
+      "category": "Mega Stone",
+      "effect": "A Salamence holding this stone will be able to Mega Evolve during battle.",
+      "location": "Shop 2000 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/pgl/salamencite.png",
+      "sprite_path": "images/items/salamencite.png"
     },
     {
       "slug": "sceptilite",
@@ -1519,6 +1679,15 @@
       "location": "Missions Battle Pass Achievements",
       "sprite": "https://www.serebii.net/itemdex/sprites/teammateticket.png",
       "sprite_path": "images/items/teammate-ticket.png"
+    },
+    {
+      "slug": "terrain-extender",
+      "name": "Terrain Extender",
+      "category": "Hold Items",
+      "effect": "This hold item will extend Grassy Terrain, Misty Terrain, Electric Terrain & Psychic Terrain by a further 3 turns when activated either by the move or by the abilities that activate them.",
+      "location": "Shop 700 VP",
+      "sprite": "https://www.serebii.net/itemdex/sprites/sv/terrainextender.png",
+      "sprite_path": "images/items/terrain-extender.png"
     },
     {
       "slug": "timer-ball-guaranteed-ticket",
