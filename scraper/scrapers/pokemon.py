@@ -171,6 +171,8 @@ def _resolve_multiform_types_for_form_name(
         ("galarian", "galarian"),
         ("hisuian", "hisuian"),
         ("paldean", "paldean"),
+        ("male", "male"),
+        ("female", "female"),
         ("sunny form", "sunny form"),
         ("rainy form", "rainy form"),
         ("snowy form", "snowy form"),
@@ -809,6 +811,85 @@ def _is_plain_base_stats_dextable(table: Tag) -> bool:
     return False
 
 
+def _moves_table_header(table: Tag) -> str:
+    heads = [clean_text(h) for h in table.find_all("td", class_="fooevo", recursive=True)]
+    return (heads[0] or "").strip()
+
+
+def _secondary_moves_form_title(table: Tag) -> Optional[str]:
+    """Form title from headers like ``Standard Moves - Female`` (not regional learnsets)."""
+    hl = _moves_table_header(table).lower()
+    if hl == "standard moves":
+        return None
+    if hl.startswith("standard moves - "):
+        title = _moves_table_header(table).split(" - ", 1)[1].strip()
+        if title.lower() == "male":
+            return None
+        return title
+    return None
+
+
+def _find_secondary_learnset_split(
+    dextables: list[Tag],
+) -> Optional[list[tuple[Optional[str], int, Optional[int]]]]:
+    """Split pages with multiple non-regional learnsets (Toxtricity, Indeedee, …)."""
+    move_blocks: list[tuple[int, Optional[str]]] = []
+    stats_blocks: list[tuple[int, Optional[str]]] = []
+    for i, table in enumerate(dextables):
+        kind = _classify_dextable(table)
+        if kind == "moves" and not _is_regional_form_standard_moves_table(table):
+            move_blocks.append((i, _secondary_moves_form_title(table)))
+        elif kind == "stats":
+            stats_blocks.append((i, _stats_variant_form_title(table)))
+
+    if len(move_blocks) < 2:
+        return None
+
+    relevant_stats = [
+        (index, title)
+        for index, title in stats_blocks
+        if index > move_blocks[0][0]
+    ]
+    plain_stats = next((index for index, title in relevant_stats if title is None), None)
+
+    blocks: list[tuple[Optional[str], int, Optional[int]]] = []
+    for move_index, form_title in move_blocks:
+        stats_index = plain_stats
+        if form_title:
+            form_low = form_title.lower()
+            for stat_index, stat_title in relevant_stats:
+                if stat_title and (
+                    form_low in stat_title.lower() or stat_title.lower() in form_low
+                ):
+                    stats_index = stat_index
+                    break
+        blocks.append((form_title, move_index, stats_index))
+
+    return blocks
+
+
+def _groups_from_learnset_blocks(
+    dextables: list[Tag],
+    blocks: list[tuple[Optional[str], int, Optional[int]]],
+) -> list[tuple[Optional[str], list[Tag]]]:
+    prefix = dextables[: blocks[0][1]]
+    groups: list[tuple[Optional[str], list[Tag]]] = []
+    last_stats = max(
+        (stats_index for _, _, stats_index in blocks if stats_index is not None),
+        default=blocks[-1][1],
+    )
+    tail_start = last_stats + 1
+
+    for form_title, move_index, stats_index in blocks:
+        tables = list(prefix) + [dextables[move_index]]
+        if stats_index is not None:
+            tables.append(dextables[stats_index])
+        groups.append((form_title, tables))
+
+    groups.extend(_split_into_forms(dextables[tail_start:]))
+    return [group for group in groups if group[1]]
+
+
 def _find_regional_learnset_split(
     dextables: list[Tag],
 ) -> Optional[tuple[int, int, int]]:
@@ -832,21 +913,26 @@ def _find_regional_learnset_split(
 def _resplit_forms_for_regional_learnsets(
     dextables: list[Tag],
 ) -> list[tuple[Optional[str], list[Tag]]]:
-    """Split the default form group when Serebii gives a second learnset (Alola / Galar, etc.) on the same page."""
+    """Split the default form group when Serebii gives a second learnset on the same page."""
     tri = _find_regional_learnset_split(dextables)
-    if not tri:
-        return _split_into_forms(dextables)
-    r, b, a = tri
-    variant_title = _stats_variant_form_title(dextables[a])
-    kanto_tables = dextables[0:r] + [dextables[b]]
-    regional_tables = [dextables[r], dextables[a]]
-    tail = dextables[a + 1 :]
-    groups: list[tuple[Optional[str], list[Tag]]] = [
-        (None, kanto_tables),
-        (variant_title, regional_tables),
-    ]
-    groups.extend(_split_into_forms(tail))
-    return [g for g in groups if g[1]]
+    if tri:
+        r, b, a = tri
+        variant_title = _stats_variant_form_title(dextables[a])
+        kanto_tables = dextables[0:r] + [dextables[b]]
+        regional_tables = [dextables[r], dextables[a]]
+        tail = dextables[a + 1 :]
+        groups: list[tuple[Optional[str], list[Tag]]] = [
+            (None, kanto_tables),
+            (variant_title, regional_tables),
+        ]
+        groups.extend(_split_into_forms(tail))
+        return [group for group in groups if group[1]]
+
+    secondary = _find_secondary_learnset_split(dextables)
+    if secondary:
+        return _groups_from_learnset_blocks(dextables, secondary)
+
+    return _split_into_forms(dextables)
 
 
 def _weakness_types_order_from_icon_row(icon_row: Tag) -> list[str]:
@@ -1188,6 +1274,149 @@ def _is_mega_form_name(name: Optional[str]) -> bool:
     return n.startswith("mega ")
 
 
+def _pick_abilities_by_name(
+    template: list[dict[str, Any]], names: list[str]
+) -> list[dict[str, Any]]:
+    picked: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for name in names:
+        for ability in template:
+            if ability.get("name") == name and name not in seen:
+                picked.append(ability)
+                seen.add(name)
+                break
+    return picked
+
+
+def _fill_missing_form_types_from_base(result: dict[str, Any]) -> None:
+    base_types = result.get("types") or []
+    if not base_types:
+        return
+    for entry in result.get("forms") or []:
+        if entry.get("is_mega"):
+            continue
+        if not entry.get("types"):
+            entry["types"] = list(base_types)
+
+
+def _split_default_and_alternate_abilities(result: dict[str, Any]) -> None:
+    """When Serebii lists abilities for every form in one block, split them evenly."""
+    abilities = result.get("abilities") or []
+    alt_forms = [entry for entry in result.get("forms") or [] if not entry.get("is_mega")]
+    groups = len(alt_forms) + 1
+    if groups < 2 or not abilities or len(abilities) % groups != 0:
+        return
+    chunk = len(abilities) // groups
+    if chunk == 0:
+        return
+    chunks = [abilities[i * chunk : (i + 1) * chunk] for i in range(groups)]
+    result["abilities"] = chunks[0]
+    for form, group in zip(alt_forms, chunks[1:]):
+        if not form.get("abilities"):
+            form["abilities"] = group
+
+
+def _normalize_toxtricity_detail(result: dict[str, Any]) -> None:
+    abilities = result.get("abilities") or []
+    if len(abilities) != 6:
+        return
+
+    result["abilities"] = abilities[:3]
+    low_key = next(
+        (
+            entry
+            for entry in result.get("forms") or []
+            if "low key" in (entry.get("name") or "").lower()
+        ),
+        None,
+    )
+    if low_key is None:
+        low_key = {
+            "name": "Low Key Form",
+            "types": list(result.get("types") or []),
+            "abilities": abilities[3:],
+            "stats": result.get("stats"),
+            "type_effectiveness": result.get("type_effectiveness"),
+            "classification": result.get("classification"),
+            "height": result.get("height"),
+            "weight": result.get("weight"),
+            "is_mega": False,
+        }
+        result.setdefault("forms", []).append(low_key)
+    else:
+        low_key["abilities"] = _pick_abilities_by_name(
+            abilities,
+            [a.get("name") or "" for a in abilities[3:]],
+        ) or abilities[3:]
+        if not low_key.get("types"):
+            low_key["types"] = list(result.get("types") or [])
+
+
+def _normalize_indeedee_detail(result: dict[str, Any]) -> None:
+    abilities = result.get("abilities") or []
+    if len(abilities) != 6:
+        return
+
+    result["abilities"] = abilities[:3]
+    female = next(
+        (
+            entry
+            for entry in result.get("forms") or []
+            if (entry.get("name") or "").lower() in {"female", "indeedee (female)"}
+        ),
+        None,
+    )
+    if female is None:
+        female = {
+            "name": "Indeedee (Female)",
+            "types": list(result.get("types") or []),
+            "abilities": abilities[3:],
+            "stats": None,
+            "type_effectiveness": result.get("type_effectiveness"),
+            "classification": result.get("classification"),
+            "height": result.get("height"),
+            "weight": result.get("weight"),
+            "is_mega": False,
+        }
+        result.setdefault("forms", []).append(female)
+    else:
+        female["name"] = "Indeedee (Female)"
+        female["abilities"] = abilities[3:]
+        if not female.get("types"):
+            female["types"] = list(result.get("types") or [])
+
+
+def _normalize_squawkabilly_detail(result: dict[str, Any]) -> None:
+    template = result.get("abilities") or []
+    if len(template) < 6:
+        return
+
+    plumage_specs: tuple[tuple[str, list[str]], ...] = (
+        ("Green Plumage", ["Intimidate", "Hustle", "Guts"]),
+        ("Blue Plumage", ["Intimidate", "Hustle", "Guts"]),
+        ("Yellow Plumage", ["Intimidate", "Hustle", "Sheer Force"]),
+        ("White Plumage", ["Intimidate", "Hustle", "Sheer Force"]),
+    )
+
+    result["abilities"] = _pick_abilities_by_name(template, plumage_specs[0][1])
+    form_entries: list[dict[str, Any]] = []
+    for display_name, ability_names in plumage_specs[1:]:
+        form_entries.append(
+            {
+                "name": display_name,
+                "types": list(result.get("types") or []),
+                "abilities": _pick_abilities_by_name(template, ability_names),
+                "stats": result.get("stats"),
+                "type_effectiveness": result.get("type_effectiveness"),
+                "classification": result.get("classification"),
+                "height": result.get("height"),
+                "weight": result.get("weight"),
+                "is_mega": False,
+            }
+        )
+    result["forms"] = form_entries
+
+
 def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]:
     """Scrape a single Pokémon page: base info + every form + full learnset."""
     html = fetch_html(page_url)
@@ -1273,6 +1502,16 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         if name_table is not None:
             multiform_types = _parse_multiform_types_from_name_table(name_table)
             _apply_multiform_types_to_species(result, multiform_types)
+
+    _fill_missing_form_types_from_base(result)
+    _split_default_and_alternate_abilities(result)
+
+    if slug == "toxtricity":
+        _normalize_toxtricity_detail(result)
+    elif slug == "indeedee":
+        _normalize_indeedee_detail(result)
+    elif slug == "squawkabilly":
+        _normalize_squawkabilly_detail(result)
 
     return result
 

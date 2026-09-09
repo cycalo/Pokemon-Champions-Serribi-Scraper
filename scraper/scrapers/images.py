@@ -211,6 +211,8 @@ def _form_sprite_suffix_hint(form_name: Optional[str], *, is_mega: bool) -> Opti
         return "mx"
     if re.search(r"mega\s+\S+\s+y\b", fn) or fn.endswith(" y"):
         return "my"
+    if re.search(r"mega\s+\S+\s+z\b", fn) or fn.endswith(" z"):
+        return "mz"
     if is_mega or fn.startswith("mega "):
         return "m"
     if "alolan" in fn:
