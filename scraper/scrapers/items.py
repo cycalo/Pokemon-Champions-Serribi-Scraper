@@ -72,6 +72,30 @@ def _first_paragraph_text(cell: Tag) -> str:
     return " ".join("".join(parts).split())
 
 
+def _fallback_item_sprite_url(item: dict[str, Any]) -> Optional[str]:
+    """Build the standard ItemDex sprite URL from the scraped slug."""
+    slug = item.get("slug")
+    if not slug:
+        return None
+    return absolute_url(f"/itemdex/sprites/{slug}.png")
+
+
+def _pick_best_item_sprite(candidates: list[str]) -> Optional[str]:
+    """Prefer standard ItemDex sprites; Serebii's ``/sprites/pgl/`` copies are often 404."""
+    if not candidates:
+        return None
+
+    def sort_key(url: str) -> tuple[int, str]:
+        low = url.lower()
+        if "/sprites/pgl/" in low:
+            return (2, url)
+        if "/itemdex/sprites/" in low:
+            return (0, url)
+        return (1, url)
+
+    return min(candidates, key=sort_key)
+
+
 def _parse_item_detail(soup: BeautifulSoup) -> tuple[Optional[str], Optional[str]]:
     """Return (sprite_url, in_depth_effect) from an ItemDex detail page."""
     sprite: Optional[str] = None
@@ -87,9 +111,12 @@ def _parse_item_detail(soup: BeautifulSoup) -> tuple[Optional[str], Optional[str
         header = clean_text(header_cells[0])
 
         if header == "Sprites":
-            img = table.find("img")
-            if img and img.get("src"):
-                sprite = absolute_url(img["src"])
+            candidates = [
+                absolute_url(img["src"])
+                for img in table.find_all("img")
+                if img.get("src")
+            ]
+            sprite = _pick_best_item_sprite(candidates)
         elif header == "In-Depth Effect" and len(rows) > 1:
             effect_cells = rows[1].find_all("td", recursive=False)
             if effect_cells:
@@ -180,6 +207,10 @@ def scrape_items(
     def _apply_detail(item: dict[str, Any], detail_url: str) -> bool:
         detail_html = fetch_html(detail_url)
         detail_sprite, in_depth = _parse_item_detail(make_soup(detail_html))
+        if detail_sprite and "/sprites/pgl/" in detail_sprite.lower():
+            fallback = _fallback_item_sprite_url(item)
+            if fallback:
+                detail_sprite = fallback
         if detail_sprite:
             item["sprite"] = detail_sprite
         if item["category"] not in _SKIP_IN_DEPTH_CATEGORIES and in_depth:

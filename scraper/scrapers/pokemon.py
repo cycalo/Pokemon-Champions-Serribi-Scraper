@@ -1392,11 +1392,6 @@ def _normalize_toxtricity_detail(result: dict[str, Any]) -> None:
 
 
 def _normalize_indeedee_detail(result: dict[str, Any]) -> None:
-    abilities = result.get("abilities") or []
-    if len(abilities) != 6:
-        return
-
-    result["abilities"] = abilities[:3]
     female = next(
         (
             entry
@@ -1405,6 +1400,15 @@ def _normalize_indeedee_detail(result: dict[str, Any]) -> None:
         ),
         None,
     )
+
+    abilities = result.get("abilities") or []
+    if len(abilities) != 6 and female and len(female.get("abilities") or []) >= 6:
+        abilities = female["abilities"]
+
+    if len(abilities) != 6:
+        return
+
+    result["abilities"] = abilities[:3]
     if female is None:
         female = {
             "name": "Indeedee (Female)",
@@ -1543,7 +1547,6 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
             _apply_multiform_types_to_species(result, multiform_types)
 
     _fill_missing_form_types_from_base(result)
-    _split_default_and_alternate_abilities(result)
 
     if slug == "toxtricity":
         _normalize_toxtricity_detail(result)
@@ -1551,6 +1554,8 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
         _normalize_indeedee_detail(result)
     elif slug == "squawkabilly":
         _normalize_squawkabilly_detail(result)
+
+    _split_default_and_alternate_abilities(result)
 
     return result
 

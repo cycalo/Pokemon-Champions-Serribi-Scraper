@@ -508,6 +508,8 @@ def attach_sprite_paths(
                     )
                     if form_path:
                         form["sprite_path"] = form_path
+                    elif base:
+                        form["sprite_path"] = base
         pokemon_file.write_text(
             json.dumps(pokemon_blob, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
