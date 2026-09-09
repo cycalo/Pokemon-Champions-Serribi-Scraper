@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T13:18:47+00:00",
+  "scraped_at": "2026-09-09T14:05:31+00:00",
   "count": 231,
   "pokemon": [
     {
@@ -28176,7 +28176,8 @@
               "description": "Has a 20% chance of making the target flinch.",
               "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml"
             }
-          ]
+          ],
+          "sprite_path": "images/pokemon/128.png"
         }
       ],
       "moves": [
@@ -96035,7 +96036,8 @@
           "classification": "Plasma Pokémon",
           "height": "1'00\" 0.3m",
           "weight": "0.7lbs 0.3kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/479.png"
         },
         {
           "name": "Heat Rotom",
@@ -96098,7 +96100,8 @@
           "classification": "Plasma Pokémon",
           "height": "1'00\" 0.3m",
           "weight": "0.7lbs 0.3kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/479.png"
         },
         {
           "name": "Wash Rotom",
@@ -96161,7 +96164,8 @@
           "classification": "Plasma Pokémon",
           "height": "1'00\" 0.3m",
           "weight": "0.7lbs 0.3kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/479.png"
         },
         {
           "name": "Frost Rotom",
@@ -96224,7 +96228,8 @@
           "classification": "Plasma Pokémon",
           "height": "1'00\" 0.3m",
           "weight": "0.7lbs 0.3kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/479.png"
         },
         {
           "name": "Fan Rotom",
@@ -96287,7 +96292,8 @@
           "classification": "Plasma Pokémon",
           "height": "1'00\" 0.3m",
           "weight": "0.7lbs 0.3kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/479.png"
         },
         {
           "name": "Mow Rotom",
@@ -96350,7 +96356,8 @@
           "classification": "Plasma Pokémon",
           "height": "1'00\" 0.3m",
           "weight": "0.7lbs 0.3kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/479.png"
         }
       ],
       "moves": [
@@ -134145,7 +134152,8 @@
           "classification": null,
           "height": null,
           "weight": null,
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/681.png"
         }
       ],
       "moves": [
@@ -147530,7 +147538,8 @@
           "classification": null,
           "height": null,
           "weight": null,
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/711.png"
         },
         {
           "name": "Large Variety",
@@ -147565,7 +147574,8 @@
           "classification": null,
           "height": null,
           "weight": null,
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/711.png"
         },
         {
           "name": "Jumbo Variety",
@@ -147600,7 +147610,8 @@
           "classification": null,
           "height": null,
           "weight": null,
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/711.png"
         }
       ],
       "moves": [
@@ -156503,7 +156514,8 @@
               "description": "Has a 20% chance of making the target flinch.",
               "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml"
             }
-          ]
+          ],
+          "sprite_path": "images/pokemon/745.png"
         },
         {
           "name": "Dusk Form",
@@ -156537,7 +156549,8 @@
           "classification": null,
           "height": null,
           "weight": null,
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/745.png"
         }
       ],
       "moves": [
@@ -172467,7 +172480,8 @@
           "classification": "Punk Pokémon",
           "height": "5'03\" 1.6m",
           "weight": "88.2lbs 40kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/849.png"
         }
       ],
       "moves": [
@@ -182071,30 +182085,12 @@
       "other_names": "Japan : Iessan イエッサン French : Wimessir German : Servol Korean : 에써르",
       "forms": [
         {
-          "name": "Female",
+          "name": "Indeedee (Female)",
           "types": [
             "psychic",
             "normal"
           ],
           "abilities": [
-            {
-              "slug": "innerfocus",
-              "name": "Inner Focus",
-              "url": "https://www.serebii.net/abilitydex/innerfocus.shtml",
-              "description": "This Pokémon will not flinch. Does not prevent flinching with Focus Punch. Also prevents stats from being lowered by the ability Intimidate"
-            },
-            {
-              "slug": "synchronize",
-              "name": "Synchronize",
-              "url": "https://www.serebii.net/abilitydex/synchronize.shtml",
-              "description": "When this Pokémon becomes Poisoned, Paralyzed, or Burned, so does the opponent. However, Fire-type and Water Veil ability Pokémon cannot be Burned, Poison-type and Steel-type and Immunity ability Pokémon cannot be Poisoned, and Limber ability Pokémon cannot be Paralyzed. :"
-            },
-            {
-              "slug": "psychicsurge",
-              "name": "Psychic Surge",
-              "url": "https://www.serebii.net/abilitydex/psychicsurge.shtml",
-              "description": "Activates Psychic Terrain for 5 turns when the Pokémon enters a battle."
-            },
             {
               "slug": "owntempo",
               "name": "Own Tempo",
@@ -182701,7 +182697,8 @@
               "description": "Has a 20% chance of making the target flinch.",
               "url": "https://www.serebii.net/attackdex-champions/zenheadbutt.shtml"
             }
-          ]
+          ],
+          "sprite_path": "images/pokemon/876.png"
         }
       ],
       "moves": [
@@ -186677,7 +186674,8 @@
           "classification": "Big Fish Pokémon",
           "height": "9'10\" 3m",
           "weight": "242.5lbs 110kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/902.png"
         }
       ],
       "moves": [
@@ -193584,7 +193582,8 @@
           "classification": "Parrot Pokémon",
           "height": "2'00\" 0.6m",
           "weight": "5.3lbs 2.4kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/931.png"
         },
         {
           "name": "Yellow Plumage",
@@ -193657,7 +193656,8 @@
           "classification": "Parrot Pokémon",
           "height": "2'00\" 0.6m",
           "weight": "5.3lbs 2.4kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/931.png"
         },
         {
           "name": "White Plumage",
@@ -193730,7 +193730,8 @@
           "classification": "Parrot Pokémon",
           "height": "2'00\" 0.6m",
           "weight": "5.3lbs 2.4kg",
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/931.png"
         }
       ],
       "moves": [
@@ -199822,7 +199823,8 @@
           "classification": null,
           "height": null,
           "weight": null,
-          "is_mega": false
+          "is_mega": false,
+          "sprite_path": "images/pokemon/964.png"
         }
       ],
       "moves": [

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T13:19:03+00:00",
+  "scraped_at": "2026-09-09T14:05:32+00:00",
   "summary": {
     "pokemon": {
       "total": 326,
@@ -15,7 +15,7 @@
     },
     "items": {
       "total": 200,
-      "with_local_path": 198
+      "with_local_path": 199
     }
   },
   "pokemon": [
@@ -215,7 +215,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/040.png",
       "sprite_path": "images/pokemon/040.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "vileplume",
@@ -233,7 +233,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/053.png",
       "sprite_path": "images/pokemon/053.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "persian",
@@ -242,7 +242,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/053-a.png",
       "sprite_path": "images/pokemon/053-a.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "arcanine",
@@ -341,7 +341,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/083.png",
       "sprite_path": "images/pokemon/083.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gengar",
@@ -404,7 +404,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/122.png",
       "sprite_path": "images/pokemon/122.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pinsir",
@@ -980,7 +980,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/317.png",
       "sprite_path": "images/pokemon/317.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sharpedo",
@@ -1151,7 +1151,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/373.png",
       "sprite_path": "images/pokemon/373.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "salamence",
@@ -1160,7 +1160,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/373-m.png",
       "sprite_path": "images/pokemon/373-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "metagross",
@@ -1970,7 +1970,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/673.png",
       "sprite_path": "images/pokemon/673.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "pangoro",
@@ -2375,7 +2375,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/768.png",
       "sprite_path": "images/pokemon/768.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "golisopod",
@@ -2384,7 +2384,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/768-m.png",
       "sprite_path": "images/pokemon/768-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mimikyu",
@@ -2429,7 +2429,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/812.png",
       "sprite_path": "images/pokemon/812.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "cinderace",
@@ -2438,7 +2438,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/815.png",
       "sprite_path": "images/pokemon/815.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "inteleon",
@@ -2447,7 +2447,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/818.png",
       "sprite_path": "images/pokemon/818.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "corviknight",
@@ -2465,7 +2465,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/828.png",
       "sprite_path": "images/pokemon/828.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "flapple",
@@ -2501,7 +2501,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/849.png",
       "sprite_path": "images/pokemon/849.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "grapploct",
@@ -2510,7 +2510,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/853.png",
       "sprite_path": "images/pokemon/853.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "polteageist",
@@ -2546,7 +2546,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/863.png",
       "sprite_path": "images/pokemon/863.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sirfetch'd",
@@ -2555,7 +2555,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/865.png",
       "sprite_path": "images/pokemon/865.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "mr.rime",
@@ -2609,7 +2609,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/871.png",
       "sprite_path": "images/pokemon/871.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "indeedee",
@@ -2618,7 +2618,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/876.png",
       "sprite_path": "images/pokemon/876.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "morpeko",
@@ -2717,7 +2717,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/923.png",
       "sprite_path": "images/pokemon/923.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "maushold",
@@ -2735,7 +2735,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/930.png",
       "sprite_path": "images/pokemon/930.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "squawkabilly",
@@ -2744,7 +2744,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/931.png",
       "sprite_path": "images/pokemon/931.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "garganacl",
@@ -2789,7 +2789,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/943.png",
       "sprite_path": "images/pokemon/943.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "scovillain",
@@ -2906,7 +2906,7 @@
       "is_mega": false,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/998.png",
       "sprite_path": "images/pokemon/998.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "baxcalibur",
@@ -2915,7 +2915,7 @@
       "is_mega": true,
       "source_url": "https://www.serebii.net/pokemonhome/pokemon/small/998-m.png",
       "sprite_path": "images/pokemon/998-m.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gholdengo",
@@ -3071,14 +3071,14 @@
     {
       "slug": "abomasite",
       "name": "Abomasite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/abomasite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/abomasite.png",
       "sprite_path": "images/items/abomasite.png",
       "status": "skipped"
     },
     {
       "slug": "absolite",
       "name": "Absolite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/absolite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/absolite.png",
       "sprite_path": "images/items/absolite.png",
       "status": "skipped"
     },
@@ -3087,19 +3087,19 @@
       "name": "Absolite Z",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/absolitez.png",
       "sprite_path": "images/items/absolite-z.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "aerodactylite",
       "name": "Aerodactylite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/aerodactylite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/aerodactylite.png",
       "sprite_path": "images/items/aerodactylite.png",
       "status": "skipped"
     },
     {
       "slug": "aggronite",
       "name": "Aggronite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/aggronite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/aggronite.png",
       "sprite_path": "images/items/aggronite.png",
       "status": "skipped"
     },
@@ -3108,26 +3108,26 @@
       "name": "Air Balloon",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/airballoon.png",
       "sprite_path": "images/items/air-balloon.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "alakazite",
       "name": "Alakazite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/alakazite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/alakazite.png",
       "sprite_path": "images/items/alakazite.png",
       "status": "skipped"
     },
     {
       "slug": "altarianite",
       "name": "Altarianite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/altarianite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/altarianite.png",
       "sprite_path": "images/items/altarianite.png",
       "status": "skipped"
     },
     {
       "slug": "ampharosite",
       "name": "Ampharosite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/ampharosite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/ampharosite.png",
       "sprite_path": "images/items/ampharosite.png",
       "status": "skipped"
     },
@@ -3141,7 +3141,7 @@
     {
       "slug": "audinite",
       "name": "Audinite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/audinite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/audinite.png",
       "sprite_path": "images/items/audinite.png",
       "status": "skipped"
     },
@@ -3155,7 +3155,7 @@
     {
       "slug": "banettite",
       "name": "Banettite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/banettite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/banettite.png",
       "sprite_path": "images/items/banettite.png",
       "status": "skipped"
     },
@@ -3171,12 +3171,12 @@
       "name": "Baxcalibrite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/baxcalibrite.png",
       "sprite_path": "images/items/baxcalibrite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "beedrillite",
       "name": "Beedrillite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/beedrillite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/beedrillite.png",
       "sprite_path": "images/items/beedrillite.png",
       "status": "skipped"
     },
@@ -3192,7 +3192,7 @@
       "name": "Binding Band",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/bindingband.png",
       "sprite_path": "images/items/binding-band.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "black-belt",
@@ -3211,14 +3211,14 @@
     {
       "slug": "blastoisinite",
       "name": "Blastoisinite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/blastoisinite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/blastoisinite.png",
       "sprite_path": "images/items/blastoisinite.png",
       "status": "skipped"
     },
     {
       "slug": "blazikenite",
       "name": "Blazikenite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/blazikenite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/blazikenite.png",
       "sprite_path": "images/items/blazikenite.png",
       "status": "skipped"
     },
@@ -3239,7 +3239,7 @@
     {
       "slug": "cameruptite",
       "name": "Cameruptite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/cameruptite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/cameruptite.png",
       "sprite_path": "images/items/cameruptite.png",
       "status": "skipped"
     },
@@ -3260,14 +3260,14 @@
     {
       "slug": "charizardite-x",
       "name": "Charizardite X",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/charizarditex.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/charizardite-x.png",
       "sprite_path": "images/items/charizardite-x.png",
       "status": "skipped"
     },
     {
       "slug": "charizardite-y",
       "name": "Charizardite Y",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/charizarditey.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/charizardite-y.png",
       "sprite_path": "images/items/charizardite-y.png",
       "status": "skipped"
     },
@@ -3437,14 +3437,14 @@
       "name": "Eject Button",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/ejectbutton.png",
       "sprite_path": "images/items/eject-button.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "electric-seed",
       "name": "Electric Seed",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/electricseed.png",
       "sprite_path": "images/items/electric-seed.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "electric-type-affinity-ticket",
@@ -3554,14 +3554,14 @@
     {
       "slug": "galladite",
       "name": "Galladite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/galladite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/galladite.png",
       "sprite_path": "images/items/galladite.png",
       "status": "skipped"
     },
     {
       "slug": "garchompite",
       "name": "Garchompite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/garchompite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/garchompite.png",
       "sprite_path": "images/items/garchompite.png",
       "status": "skipped"
     },
@@ -3570,19 +3570,19 @@
       "name": "Garchompite Z",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/garchompitez.png",
       "sprite_path": "images/items/garchompite-z.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "gardevoirite",
       "name": "Gardevoirite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/gardevoirite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/gardevoirite.png",
       "sprite_path": "images/items/gardevoirite.png",
       "status": "skipped"
     },
     {
       "slug": "gengarite",
       "name": "Gengarite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/gengarite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/gengarite.png",
       "sprite_path": "images/items/gengarite.png",
       "status": "skipped"
     },
@@ -3596,7 +3596,7 @@
     {
       "slug": "glalitite",
       "name": "Glalitite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/glalitite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/glalitite.png",
       "sprite_path": "images/items/glalitite.png",
       "status": "skipped"
     },
@@ -3612,7 +3612,7 @@
       "name": "Golisopite",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/golisopite.png",
       "sprite_path": "images/items/golisopite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "golurkite",
@@ -3633,7 +3633,7 @@
       "name": "Grassy Seed",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/grassyseed.png",
       "sprite_path": "images/items/grassy-seed.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "greninjite",
@@ -3694,14 +3694,14 @@
     {
       "slug": "heracronite",
       "name": "Heracronite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/heracronite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/heracronite.png",
       "sprite_path": "images/items/heracronite.png",
       "status": "skipped"
     },
     {
       "slug": "houndoominite",
       "name": "Houndoominite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/houndoominite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/houndoominite.png",
       "sprite_path": "images/items/houndoominite.png",
       "status": "skipped"
     },
@@ -3729,7 +3729,7 @@
     {
       "slug": "kangaskhanite",
       "name": "Kangaskhanite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/kangaskhanite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/kangaskhanite.png",
       "sprite_path": "images/items/kangaskhanite.png",
       "status": "skipped"
     },
@@ -3757,9 +3757,9 @@
     {
       "slug": "leek",
       "name": "Leek",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/leek.png",
-      "sprite_path": null,
-      "status": "missing"
+      "source_url": "https://www.serebii.net/itemdex/sprites/leek.png",
+      "sprite_path": "images/items/leek.png",
+      "status": "downloaded"
     },
     {
       "slug": "leftovers",
@@ -3785,7 +3785,7 @@
     {
       "slug": "light-ball",
       "name": "Light Ball",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/lightball.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/light-ball.png",
       "sprite_path": "images/items/light-ball.png",
       "status": "skipped"
     },
@@ -3799,14 +3799,14 @@
     {
       "slug": "lopunnite",
       "name": "Lopunnite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/lopunnite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/lopunnite.png",
       "sprite_path": "images/items/lopunnite.png",
       "status": "skipped"
     },
     {
       "slug": "lucarionite",
       "name": "Lucarionite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/lucarionite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/lucarionite.png",
       "sprite_path": "images/items/lucarionite.png",
       "status": "skipped"
     },
@@ -3815,7 +3815,7 @@
       "name": "Lucarionite Z",
       "source_url": "https://www.serebii.net/itemdex/sprites/za/lucarionitez.png",
       "sprite_path": "images/items/lucarionite-z.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "lum-berry",
@@ -3848,21 +3848,21 @@
     {
       "slug": "manectite",
       "name": "Manectite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/manectite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/manectite.png",
       "sprite_path": "images/items/manectite.png",
       "status": "skipped"
     },
     {
       "slug": "mawilite",
       "name": "Mawilite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/mawilite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/mawilite.png",
       "sprite_path": "images/items/mawilite.png",
       "status": "skipped"
     },
     {
       "slug": "medichamite",
       "name": "Medichamite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/medichamite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/medichamite.png",
       "sprite_path": "images/items/medichamite.png",
       "status": "skipped"
     },
@@ -3890,7 +3890,7 @@
     {
       "slug": "metagrossite",
       "name": "Metagrossite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/metagrossite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/metagrossite.png",
       "sprite_path": "images/items/metagrossite.png",
       "status": "skipped"
     },
@@ -3920,7 +3920,7 @@
       "name": "Misty Seed",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/mistyseed.png",
       "sprite_path": "images/items/misty-seed.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "muscle-band",
@@ -3962,7 +3962,7 @@
       "name": "Normal Gem",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/normalgem.png",
       "sprite_path": "images/items/normal-gem.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "normal-type-affinity-ticket",
@@ -4016,14 +4016,14 @@
     {
       "slug": "pidgeotite",
       "name": "Pidgeotite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/pidgeotite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/pidgeotite.png",
       "sprite_path": "images/items/pidgeotite.png",
       "status": "skipped"
     },
     {
       "slug": "pinsirite",
       "name": "Pinsirite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/pinsirite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/pinsirite.png",
       "sprite_path": "images/items/pinsirite.png",
       "status": "skipped"
     },
@@ -4060,7 +4060,7 @@
       "name": "Psychic Seed",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/psychicseed.png",
       "sprite_path": "images/items/psychic-seed.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "psychic-type-affinity-ticket",
@@ -4130,7 +4130,7 @@
       "name": "Red Card",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/redcard.png",
       "sprite_path": "images/items/red-card.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "repeat-ball-guaranteed-ticket",
@@ -4158,7 +4158,7 @@
       "name": "Rocky Helmet",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/rockyhelmet.png",
       "sprite_path": "images/items/rocky-helmet.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "roseli-berry",
@@ -4170,28 +4170,28 @@
     {
       "slug": "sablenite",
       "name": "Sablenite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/sablenite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/sablenite.png",
       "sprite_path": "images/items/sablenite.png",
       "status": "skipped"
     },
     {
       "slug": "salamencite",
       "name": "Salamencite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/salamencite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/salamencite.png",
       "sprite_path": "images/items/salamencite.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "sceptilite",
       "name": "Sceptilite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/sceptilite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/sceptilite.png",
       "sprite_path": "images/items/sceptilite.png",
       "status": "skipped"
     },
     {
       "slug": "scizorite",
       "name": "Scizorite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/scizorite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/scizorite.png",
       "sprite_path": "images/items/scizorite.png",
       "status": "skipped"
     },
@@ -4233,7 +4233,7 @@
     {
       "slug": "sharpedonite",
       "name": "Sharpedonite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/sharpedonite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/sharpedonite.png",
       "sprite_path": "images/items/sharpedonite.png",
       "status": "skipped"
     },
@@ -4289,7 +4289,7 @@
     {
       "slug": "slowbronite",
       "name": "Slowbronite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/slowbronite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/slowbronite.png",
       "sprite_path": "images/items/slowbronite.png",
       "status": "skipped"
     },
@@ -4338,14 +4338,14 @@
     {
       "slug": "steelixite",
       "name": "Steelixite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/steelixite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/steelixite.png",
       "sprite_path": "images/items/steelixite.png",
       "status": "skipped"
     },
     {
       "slug": "swampertite",
       "name": "Swampertite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/swampertite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/swampertite.png",
       "sprite_path": "images/items/swampertite.png",
       "status": "skipped"
     },
@@ -4368,7 +4368,7 @@
       "name": "Terrain Extender",
       "source_url": "https://www.serebii.net/itemdex/sprites/sv/terrainextender.png",
       "sprite_path": "images/items/terrain-extender.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "timer-ball-guaranteed-ticket",
@@ -4394,14 +4394,14 @@
     {
       "slug": "tyranitarite",
       "name": "Tyranitarite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/tyranitarite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/tyranitarite.png",
       "sprite_path": "images/items/tyranitarite.png",
       "status": "skipped"
     },
     {
       "slug": "venusaurite",
       "name": "Venusaurite",
-      "source_url": "https://www.serebii.net/itemdex/sprites/pgl/venusaurite.png",
+      "source_url": "https://www.serebii.net/itemdex/sprites/venusaurite.png",
       "sprite_path": "images/items/venusaurite.png",
       "status": "skipped"
     },
