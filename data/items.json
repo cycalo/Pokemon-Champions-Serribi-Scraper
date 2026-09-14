@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T13:58:06+00:00",
+  "scraped_at": "2026-09-14T12:10:35+00:00",
   "count": 200,
   "categories": [
     "Berries",
@@ -14,7 +14,8 @@
       "category": "Miscellaneous Items",
       "effect": "-",
       "location": null,
-      "sprite": "https://www.serebii.net/itemdex/sprites/2026worldscommemorativerosterticket.png"
+      "sprite": "https://www.serebii.net/itemdex/sprites/2026worldscommemorativerosterticket.png",
+      "sprite_path": "images/items/2026-worlds-commemorative-roster-ticket.png"
     },
     {
       "slug": "abomasite",

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T14:05:32+00:00",
+  "scraped_at": "2026-09-14T12:18:11+00:00",
   "summary": {
     "pokemon": {
       "total": 326,
@@ -15,7 +15,7 @@
     },
     "items": {
       "total": 200,
-      "with_local_path": 199
+      "with_local_path": 200
     }
   },
   "pokemon": [
@@ -3065,8 +3065,8 @@
       "slug": "2026-worlds-commemorative-roster-ticket",
       "name": "2026 Worlds Commemorative Roster Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/2026worldscommemorativerosterticket.png",
-      "sprite_path": null,
-      "status": "missing"
+      "sprite_path": "images/items/2026-worlds-commemorative-roster-ticket.png",
+      "status": "downloaded"
     },
     {
       "slug": "abomasite",
@@ -3759,7 +3759,7 @@
       "name": "Leek",
       "source_url": "https://www.serebii.net/itemdex/sprites/leek.png",
       "sprite_path": "images/items/leek.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "leftovers",
