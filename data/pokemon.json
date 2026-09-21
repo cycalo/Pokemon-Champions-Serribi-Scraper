@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-14T12:18:10+00:00",
+  "scraped_at": "2026-09-21T12:29:36+00:00",
   "count": 231,
   "pokemon": [
     {
@@ -125258,12 +125258,6 @@
           "name": "Protean",
           "url": "https://www.serebii.net/abilitydex/protean.shtml",
           "description": "Before the Pokémon uses a move, it becomes a pure Pokémon of that type. This only works once per switch in."
-        },
-        {
-          "slug": "",
-          "name": "Battle Bond",
-          "url": "https://www.serebii.net/abilitydex/.shtml",
-          "description": null
         }
       ],
       "stats": {

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-14T12:18:11+00:00",
+  "scraped_at": "2026-09-21T12:29:36+00:00",
   "summary": {
     "pokemon": {
       "total": 326,
@@ -3066,7 +3066,7 @@
       "name": "2026 Worlds Commemorative Roster Ticket",
       "source_url": "https://www.serebii.net/itemdex/sprites/2026worldscommemorativerosterticket.png",
       "sprite_path": "images/items/2026-worlds-commemorative-roster-ticket.png",
-      "status": "downloaded"
+      "status": "skipped"
     },
     {
       "slug": "abomasite",
