@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from bs4 import BeautifulSoup
 
-from scrapers.pokemon import _split_default_and_alternate_abilities
+from scrapers.pokemon import _parse_abilities_table, _split_default_and_alternate_abilities
 
 
 def _abilities(*names: str) -> list[dict]:
@@ -271,7 +271,7 @@ def test_description_heading_alone_assigns_following_links():
     assert _names(result["forms"][0]["abilities"]) == ["Mimicry"]
 
 
-def test_no_signals_keeps_even_split_and_ignores_megas():
+def test_unlabeled_abilities_stay_on_the_species():
     html = """
     <table>
     <tr><td><b>Abilities</b>:
@@ -291,12 +291,12 @@ def test_no_signals_keeps_even_split_and_ignores_megas():
     )
     mega = result["forms"][1]["abilities"]
     _apply(result, html)
-    assert _names(result["abilities"]) == ["Flower Veil"]
-    assert _names(result["forms"][0]["abilities"]) == ["Symbiosis"]
+    assert _names(result["abilities"]) == ["Flower Veil", "Symbiosis"]
+    assert result["forms"][0]["abilities"] == []
     assert result["forms"][1]["abilities"] == mega
 
 
-def test_italic_hidden_ability_notes_are_not_form_owners():
+def test_gender_notes_share_unmarked_abilities_and_keep_hidden_abilities_separate():
     html = """
     <table>
     <tr><td><b>Abilities</b>:
@@ -308,19 +308,59 @@ def test_italic_hidden_ability_notes_are_not_form_owners():
     <tr><td>
     <a href="/abilitydex/keeneye.shtml"><b>Keen Eye</b></a>: accuracy<br/>
     <a href="/abilitydex/infiltrator.shtml"><b>Infiltrator</b></a>: screens<br/>
-    <a href="/abilitydex/prankster.shtml"><b>Prankster (Male)</b></a>: priority<br/>
-    <a href="/abilitydex/competitive.shtml"><b>Competitive (Female)</b></a>: special attack
+    <a href="/abilitydex/prankster.shtml"><b>Prankster</b> (Male)</a>: priority<br/>
+    <a href="/abilitydex/competitive.shtml"><b>Competitive</b> (Female)</a>: special attack
     </td></tr>
     </table>
     """
     result = _result(
         "Meowstic",
         ["Keen Eye", "Infiltrator", "Prankster", "Competitive"],
-        [("Female", [], False)],
+        [("Female", ["Keen Eye", "Infiltrator", "Prankster", "Competitive"], False)],
     )
     _apply(result, html)
-    assert _names(result["abilities"]) == ["Keen Eye", "Infiltrator"]
-    assert _names(result["forms"][0]["abilities"]) == ["Prankster", "Competitive"]
+    assert _names(result["abilities"]) == ["Keen Eye", "Infiltrator", "Prankster"]
+    assert _names(result["forms"][0]["abilities"]) == ["Keen Eye", "Infiltrator", "Competitive"]
+
+
+def test_descriptions_stop_at_the_next_ability_link():
+    html = """
+    <table>
+    <tr><td>
+    <a href="/abilitydex/waterabsorb.shtml">Water Absorb</a> -
+    <a href="/abilitydex/hydration.shtml">Hydration</a>
+    </td></tr>
+    <tr><td>
+    <a href="/abilitydex/waterabsorb.shtml"><b>Water Absorb</b></a>: Heals from Water-type moves.<br/>
+    <a href="/abilitydex/hydration.shtml"><b>Hydration</b></a>: All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.
+    </td></tr>
+    </table>
+    """
+    abilities = _parse_abilities_table(_table(html))
+    assert abilities[0]["description"] == "Heals from Water-type moves."
+    assert abilities[1]["description"] == (
+        "All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining."
+    )
+
+    gendered = """
+    <table>
+    <tr><td>
+    <a href="/abilitydex/infiltrator.shtml">Infiltrator</a> -
+    <a href="/abilitydex/prankster.shtml">Prankster</a> -
+    <a href="/abilitydex/competitive.shtml">Competitive</a>
+    </td></tr>
+    <tr><td>
+    <a href="/abilitydex/infiltrator.shtml"><b>Infiltrator</b></a>: Ignores screens.<br/>
+    <a href="/abilitydex/prankster.shtml"><b>Prankster</b> (Male)</a>: Raises priority of status moves.<br/>
+    <a href="/abilitydex/competitive.shtml"><b>Competitive</b> (Female)</a>: Raises Special Attack when a stat is lowered.
+    </td></tr>
+    </table>
+    """
+    abilities = _parse_abilities_table(_table(gendered))
+    assert [a["name"] for a in abilities] == ["Infiltrator", "Prankster", "Competitive"]
+    assert abilities[0]["description"] == "Ignores screens."
+    assert abilities[1]["description"] == "Raises priority of status moves."
+    assert abilities[2]["description"] == "Raises Special Attack when a stat is lowered."
 
 
 def test_already_normalized_list_is_left_alone_when_the_table_is_longer():
