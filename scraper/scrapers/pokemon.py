@@ -5,7 +5,7 @@ import re
 from typing import Any, Optional
 from urllib.parse import urljoin
 
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 from ._utils import (
     BASE_URL,
@@ -281,6 +281,37 @@ def _parse_name_table(table: Tag) -> dict[str, Any]:
     return info
 
 
+_ABILITY_SECTION_HEADING = re.compile(r"(?i).+\babilities\s*$")
+
+
+def _description_after_ability_link(anchor: Tag) -> Optional[str]:
+    """Text after an ability link, stopping at the next ability link or form heading.
+
+    A colon inside the sentence (``All status problems: Burn...``) stays in the
+    description. A parenthetical such as ``(Male)`` lives on the link, so it
+    does not glue the next ability onto this one. HTML comments are ignored.
+    """
+    parts: list[str] = []
+    for sibling in anchor.next_siblings:
+        if isinstance(sibling, Comment):
+            continue
+        if isinstance(sibling, Tag) and sibling.name == "a" and "abilitydex" in (sibling.get("href") or ""):
+            break
+        if isinstance(sibling, Tag) and sibling.name == "b" and sibling.find_parent("a") is None:
+            heading = " ".join(sibling.get_text(" ", strip=True).split())
+            if _ABILITY_SECTION_HEADING.search(heading):
+                break
+        if isinstance(sibling, Tag) and sibling.find("a", href=re.compile(r"abilitydex")):
+            break
+        if isinstance(sibling, Tag):
+            parts.append(sibling.get_text(" ", strip=True))
+        else:
+            parts.append(str(sibling))
+    text = " ".join(" ".join(parts).split())
+    text = re.sub(r"^:\s*", "", text).strip()
+    return text or None
+
+
 def _parse_abilities_table(table: Tag) -> list[dict[str, Any]]:
     """Parse the abilities dextable. Returns list of {slug, name, description}."""
     abilities: list[dict[str, Any]] = []
@@ -304,19 +335,18 @@ def _parse_abilities_table(table: Tag) -> list[dict[str, Any]]:
             }
         )
 
-    # Row 2 has: "<b>Ability</b> : description" for each one.
+    # Row 2 repeats each ability link, then its description.
     if len(rows) >= 2:
         info_cells = rows[1].find_all(["td", "th"], recursive=False)
         if info_cells:
-            descriptions_text = info_cells[0].get_text("\n", strip=False)
-            # Split by ability name occurrences to capture each description.
-            for ab in abilities:
-                name = ab["name"]
-                pattern = rf"{re.escape(name)}\s*:\s*(.*?)(?=(?:\n{{0,2}}[A-Z][A-Za-z \-']*\s*:\s)|\Z)"
-                m = re.search(pattern, descriptions_text, flags=re.DOTALL)
-                if m:
-                    desc = " ".join(m.group(1).split())
-                    ab["description"] = desc or None
+            anchors = [
+                anchor
+                for anchor in info_cells[0].find_all("a")
+                if "abilitydex" in (anchor.get("href") or "")
+            ]
+            if len(anchors) == len(abilities):
+                for ability, anchor in zip(abilities, anchors):
+                    ability["description"] = _description_after_ability_link(anchor)
     return abilities
 
 
@@ -1338,21 +1368,429 @@ def _fill_missing_form_types_from_base(result: dict[str, Any]) -> None:
             entry["types"] = list(base_types)
 
 
-def _split_default_and_alternate_abilities(result: dict[str, Any]) -> None:
-    """When Serebii lists abilities for every form in one block, split them evenly."""
+# Sentinel for "this ability belongs to the base species", distinct from any form name.
+_BASE_FORM_OWNER = object()
+
+_ABILITY_OWNER_GENERIC_TOKENS = {
+    "form",
+    "forme",
+    "forms",
+    "abilities",
+    "ability",
+    "pokemon",
+    "the",
+    "and",
+    "hidden",
+}
+
+# Serebii writes "Alola Form" / "Alolan Ninetales", "Galar" / "Galarian", and so on.
+_ABILITY_REGION_STEMS = {
+    "alola": "alola",
+    "alolan": "alola",
+    "galar": "galar",
+    "galarian": "galar",
+    "hisui": "hisui",
+    "hisuian": "hisui",
+    "paldea": "paldea",
+    "paldean": "paldea",
+}
+
+_FORM_ABILITY_HEADING = _ABILITY_SECTION_HEADING
+
+
+def _ability_owner_tokens(label: str) -> tuple[str, ...]:
+    tokens: list[str] = []
+    for raw in re.findall(r"[a-z0-9]+", label.lower()):
+        token = _ABILITY_REGION_STEMS.get(raw, raw)
+        if token in _ABILITY_OWNER_GENERIC_TOKENS:
+            continue
+        tokens.append(token)
+    return tuple(tokens)
+
+
+def _resolve_ability_owner_label(
+    label: str,
+    species_name: Optional[str],
+    alt_forms: list[dict[str, Any]],
+) -> Any:
+    """Match a page label to the base species or one non-mega form name.
+
+    Returns ``_BASE_FORM_OWNER``, the form's ``name``, or None when the label
+    does not pick a single owner. ``Alola Form`` matches ``Alolan Ninetales``
+    and an exact species name beats a form that merely contains that name.
+    """
+    label_tokens = _ability_owner_tokens(label)
+    if not label_tokens:
+        return None
+
+    candidates: list[tuple[str, str]] = [("base", species_name or "")]
+    for form in alt_forms:
+        name = form.get("name") or ""
+        if name:
+            candidates.append((name, name))
+
+    label_set = set(label_tokens)
+    scored: list[tuple[int, str]] = []
+    for key, name in candidates:
+        candidate_tokens = _ability_owner_tokens(name)
+        if not candidate_tokens:
+            continue
+        if label_tokens == candidate_tokens:
+            score = 1000
+        elif label_set <= set(candidate_tokens):
+            score = 100 + len(label_tokens)
+        else:
+            continue
+        scored.append((score, key))
+
+    if not scored:
+        return None
+    scored.sort(key=lambda item: item[0], reverse=True)
+    if len(scored) > 1 and scored[1][0] == scored[0][0]:
+        return None
+    winner = scored[0][1]
+    if winner == "base":
+        return _BASE_FORM_OWNER
+    return winner
+
+
+def _plain_parenthetical_labels(node: NavigableString) -> list[str]:
+    """Parentheticals that are real text, not Serebii's ``<i>`` notes.
+
+    Champions pages put an empty ``<i></i>`` before ``(Stunfisk)``. The form
+    label is the text node. Hidden-ability notes such as ``<i>(Male Hidden
+    Ability)</i>`` are markup and are ignored.
+    """
+    parent = node.parent
+    if not isinstance(parent, Tag):
+        return []
+    if parent.name in {"i", "a", "b"} or parent.find_parent("a") or parent.find_parent("i"):
+        return []
+    labels: list[str] = []
+    for raw in re.findall(r"\(([^)]*)\)", str(node)):
+        label = " ".join(raw.split())
+        if label:
+            labels.append(label)
+    return labels
+
+
+def _header_ability_owner_groups(
+    header_cell: Tag,
+) -> tuple[int, bool, list[tuple[int, int, str]]]:
+    """Group ability links closed by a following parenthetical.
+
+    ``Static - Limber - Sand Veil (Stunfisk)`` is one run: the parenthetical
+    names the owner of every ability since the previous parenthetical. Returns
+    the link count, whether any plain-text parenthetical was present, and the
+    ``(start, end, label)`` runs.
+    """
+    links = header_cell.find_all("a")
+    link_ids = {id(link) for link in links}
+    index = 0
+    run_start = 0
+    groups: list[tuple[int, int, str]] = []
+    saw_label = False
+    for node in header_cell.descendants:
+        if isinstance(node, Tag) and id(node) in link_ids:
+            index += 1
+            continue
+        if not isinstance(node, NavigableString):
+            continue
+        for label in _plain_parenthetical_labels(node):
+            saw_label = True
+            if index > run_start:
+                groups.append((run_start, index, label))
+                run_start = index
+    return len(links), saw_label, groups
+
+
+def _description_ability_sections(
+    description_cell: Optional[Tag],
+    link_count: int,
+) -> tuple[bool, dict[int, Optional[str]]]:
+    """Map description ability links to a heading label, or '' for the base form.
+
+    A bold heading such as ``Galarian Form Abilities`` starts that form's list.
+    Links before the first heading belong to the base form. Returns no signal
+    when this cell's links do not line up with the header links.
+    """
+    if description_cell is None:
+        return False, {}
+    links = description_cell.find_all("a")
+    if len(links) != link_count:
+        return False, {}
+
+    link_ids = {id(link) for link in links}
+    index = 0
+    # '' means base. A string is an unresolved heading label. None is a heading
+    # that carried no label.
+    current: Optional[str] = ""
+    saw_heading = False
+    sections: dict[int, Optional[str]] = {}
+    for node in description_cell.descendants:
+        if isinstance(node, Tag) and node.name == "b" and node.find_parent("a") is None:
+            text = " ".join(node.get_text(" ", strip=True).split())
+            if _FORM_ABILITY_HEADING.search(text):
+                saw_heading = True
+                label = re.sub(r"(?i)\s*abilities\s*$", "", text).strip()
+                current = label or None
+            continue
+        if isinstance(node, Tag) and id(node) in link_ids:
+            sections[index] = current
+            index += 1
+    if not saw_heading:
+        return False, {}
+    return True, sections
+
+
+def _merge_ability_owner_signals(
+    link_count: int,
+    *,
+    header_present: bool,
+    description_present: bool,
+    header_owners: dict[int, Any],
+    description_owners: dict[int, Any],
+) -> Optional[list[Any]]:
+    """Combine the two signals. A missing opinion yields to the other signal.
+
+    Disagreement, or an ability with no resolved owner, yields None so the
+    caller does not fall back to an even split.
+    """
+    if not header_present and not description_present:
+        return None
+
+    owners: list[Any] = []
+    for index in range(link_count):
+        header_has = index in header_owners
+        description_has = index in description_owners
+        header_owner = header_owners.get(index)
+        description_owner = description_owners.get(index)
+        if header_present and description_present:
+            if header_has and description_has:
+                if (
+                    header_owner is not None
+                    and description_owner is not None
+                    and header_owner != description_owner
+                ):
+                    return None
+                chosen = header_owner if header_owner is not None else description_owner
+            elif header_has:
+                chosen = header_owner
+            else:
+                chosen = description_owner if description_has else None
+        elif header_present:
+            chosen = header_owner if header_has else None
+        else:
+            chosen = description_owner if description_has else None
+        if chosen is None:
+            return None
+        owners.append(chosen)
+    return owners
+
+
+def _italic_ability_notes(header_cell: Tag) -> dict[int, str]:
+    """Map an ability index to a non-empty ``<i>(Label)</i>`` on that link.
+
+    Empty ``<i></i>`` markers are not notes. ``Prankster <i>(Male Hidden
+    Ability)</i>`` annotates Prankster only, not every ability before it.
+    """
+    links = header_cell.find_all("a")
+    link_ids = {id(link) for link in links}
+    index = -1
+    notes: dict[int, str] = {}
+    for node in header_cell.descendants:
+        if isinstance(node, Tag) and id(node) in link_ids:
+            index += 1
+            continue
+        if not isinstance(node, Tag) or node.name != "i":
+            continue
+        text = " ".join(node.get_text(" ", strip=True).split())
+        match = re.fullmatch(r"\(([^)]+)\)", text)
+        if match and index >= 0:
+            notes[index] = " ".join(match.group(1).split())
+    return notes
+
+
+def _resolve_italic_ability_owner(
+    label: str,
+    species_name: Optional[str],
+    alt_forms: list[dict[str, Any]],
+) -> Any:
+    """Resolve a per-ability italic note.
+
+    ``Female Hidden Ability`` matches a form named Female. ``Male Hidden
+    Ability`` is the base species when the page has a female form and no male
+    form, which is how Serebii lists Meowstic.
+    """
+    resolved = _resolve_ability_owner_label(label, species_name, alt_forms)
+    if resolved is not None:
+        return resolved
+    if _ability_owner_tokens(label) != ("male",):
+        return None
+    has_female = False
+    has_male = False
+    for form in alt_forms:
+        tokens = set(_ability_owner_tokens(form.get("name") or ""))
+        if "female" in tokens:
+            has_female = True
+        if "male" in tokens:
+            has_male = True
+    if has_female and not has_male:
+        return _BASE_FORM_OWNER
+    return None
+
+
+def _owner_lists_from_italic_notes(
+    link_count: int,
+    notes: dict[int, str],
+    species_name: Optional[str],
+    alt_forms: list[dict[str, Any]],
+) -> Optional[list[list[Any]]]:
+    """Abilities with no italic note are shared by every noted owner.
+
+    Returns None when a note does not resolve. The caller still treats the
+    notes as a signal and does not invent an even split.
+    """
+    resolved: dict[int, Any] = {}
+    for index, label in notes.items():
+        if not 0 <= index < link_count:
+            return None
+        owner = _resolve_italic_ability_owner(label, species_name, alt_forms)
+        if owner is None:
+            return None
+        resolved[index] = owner
+
+    shared: list[Any] = []
+    for owner in resolved.values():
+        if owner not in shared:
+            shared.append(owner)
+
+    owner_lists: list[list[Any]] = []
+    for index in range(link_count):
+        if index in resolved:
+            owner_lists.append([resolved[index]])
+        else:
+            owner_lists.append(list(shared))
+    return owner_lists
+
+
+def _ability_owners_from_table(
+    table: Tag,
+    species_name: Optional[str],
+    alt_forms: list[dict[str, Any]],
+) -> Optional[tuple[int, Optional[list[list[Any]]]]]:
+    """Return ``(link_count, owner_lists)`` when the page marks form ownership.
+
+    Each ability maps to one or more owners. ``owner_lists`` is None when a
+    signal is present but does not assign every ability without a conflict.
+    Returns None when the page does not name an owner.
+    """
+    rows = table.find_all("tr", recursive=False)
+    if not rows:
+        return None
+    header_cells = rows[0].find_all(["td", "th"], recursive=False)
+    if not header_cells:
+        return None
+
+    link_count, saw_header, groups = _header_ability_owner_groups(header_cells[0])
+    if link_count == 0:
+        return None
+
+    italic_notes = _italic_ability_notes(header_cells[0])
+    if italic_notes:
+        return link_count, _owner_lists_from_italic_notes(
+            link_count, italic_notes, species_name, alt_forms
+        )
+
+    header_owners: dict[int, Any] = {}
+    for start, end, label in groups:
+        resolved = _resolve_ability_owner_label(label, species_name, alt_forms)
+        for index in range(start, end):
+            header_owners[index] = resolved
+
+    description_cell = None
+    if len(rows) >= 2:
+        info_cells = rows[1].find_all(["td", "th"], recursive=False)
+        if info_cells:
+            description_cell = info_cells[0]
+    saw_description, raw_sections = _description_ability_sections(
+        description_cell, link_count
+    )
+    description_owners: dict[int, Any] = {}
+    for index, raw in raw_sections.items():
+        if raw == "":
+            description_owners[index] = _BASE_FORM_OWNER
+        elif raw is None:
+            description_owners[index] = None
+        else:
+            description_owners[index] = _resolve_ability_owner_label(
+                raw, species_name, alt_forms
+            )
+
+    if not saw_header and not saw_description:
+        return None
+
+    owners = _merge_ability_owner_signals(
+        link_count,
+        header_present=saw_header,
+        description_present=saw_description,
+        header_owners=header_owners,
+        description_owners=description_owners,
+    )
+    if owners is None:
+        return link_count, None
+    return link_count, [[owner] for owner in owners]
+
+
+def _apply_ability_owners(
+    result: dict[str, Any],
+    abilities: list[dict[str, Any]],
+    alt_forms: list[dict[str, Any]],
+    owner_lists: list[list[Any]],
+) -> None:
+    result["abilities"] = [
+        ability
+        for ability, owners in zip(abilities, owner_lists)
+        if any(owner is _BASE_FORM_OWNER for owner in owners)
+    ]
+    by_form: dict[str, list[dict[str, Any]]] = {}
+    for ability, owners in zip(abilities, owner_lists):
+        for owner in owners:
+            if isinstance(owner, str):
+                by_form.setdefault(owner, []).append(ability)
+    for form in alt_forms:
+        name = form.get("name") or ""
+        if name in by_form:
+            form["abilities"] = list(by_form[name])
+
+
+def _split_default_and_alternate_abilities(
+    result: dict[str, Any],
+    abilities_table: Optional[Tag] = None,
+) -> None:
+    """Give each form the abilities the page assigns to it.
+
+    A plain parenthetical after an ability link (``(Stunfisk)``, ``(Galarian
+    Form)``) closes that run. Empty ``<i></i>`` markup is ignored. A non-empty
+    italic note such as ``<i>(Female Hidden Ability)</i>`` belongs only to the
+    ability before it; abilities with no note are shared. A bold description
+    heading such as ``Galarian Form Abilities`` starts that form's list, and
+    links before the first heading belong to the base form. An unlabeled list
+    stays on the species. It is not cut into equal chunks.
+    """
     abilities = result.get("abilities") or []
     alt_forms = [entry for entry in result.get("forms") or [] if not entry.get("is_mega")]
-    groups = len(alt_forms) + 1
-    if groups < 2 or not abilities or len(abilities) % groups != 0:
+    if len(alt_forms) + 1 < 2 or not abilities or abilities_table is None:
         return
-    chunk = len(abilities) // groups
-    if chunk == 0:
+
+    parsed = _ability_owners_from_table(
+        abilities_table, result.get("name"), alt_forms
+    )
+    if parsed is None:
         return
-    chunks = [abilities[i * chunk : (i + 1) * chunk] for i in range(groups)]
-    result["abilities"] = chunks[0]
-    for form, group in zip(alt_forms, chunks[1:]):
-        if not form.get("abilities"):
-            form["abilities"] = group
+    link_count, owner_lists = parsed
+    if owner_lists is not None and link_count == len(abilities):
+        _apply_ability_owners(result, abilities, alt_forms, owner_lists)
 
 
 def _normalize_toxtricity_detail(result: dict[str, Any]) -> None:
@@ -1555,7 +1993,11 @@ def scrape_pokemon_details(slug: str, page_url: str) -> Optional[dict[str, Any]]
     elif slug == "squawkabilly":
         _normalize_squawkabilly_detail(result)
 
-    _split_default_and_alternate_abilities(result)
+    abilities_table: Optional[Tag] = None
+    for table in groups[0][1]:
+        if _classify_dextable(table) == "abilities":
+            abilities_table = table
+    _split_default_and_alternate_abilities(result, abilities_table)
 
     return result
 

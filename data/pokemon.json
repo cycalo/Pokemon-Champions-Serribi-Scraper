@@ -5828,12 +5828,6 @@
           "name": "Lightning Rod",
           "url": "https://www.serebii.net/abilitydex/lightningrod.shtml",
           "description": "Electric-type moves are drawn to this Pokémon. Electric-type moves will do no damage and the Pokémon's SP ATK is raised one stage."
-        },
-        {
-          "slug": "surgesurfer",
-          "name": "Surge Surfer",
-          "url": "https://www.serebii.net/abilitydex/surgesurfer.shtml",
-          "description": "Doubles the Pokémon's Speed stat on Electric Terrain."
         }
       ],
       "stats": {
@@ -5890,7 +5884,14 @@
             "electric",
             "psychic"
           ],
-          "abilities": [],
+          "abilities": [
+            {
+              "slug": "surgesurfer",
+              "name": "Surge Surfer",
+              "url": "https://www.serebii.net/abilitydex/surgesurfer.shtml",
+              "description": "Doubles the Pokémon's Speed stat on Electric Terrain."
+            }
+          ],
           "stats": {
             "base": {
               "hp": 135,
@@ -18552,7 +18553,7 @@
           "slug": "owntempo",
           "name": "Own Tempo",
           "url": "https://www.serebii.net/abilitydex/owntempo.shtml",
-          "description": "The Pokémon cannot be Confused while having this ability."
+          "description": "The Pokémon cannot be Confused while having this ability. Blocks Intimidate :"
         },
         {
           "slug": "regenerator",
@@ -18626,7 +18627,7 @@
               "slug": "owntempo",
               "name": "Own Tempo",
               "url": "https://www.serebii.net/abilitydex/owntempo.shtml",
-              "description": "The Pokémon cannot be Confused while having this ability."
+              "description": "The Pokémon cannot be Confused while having this ability. Blocks Intimidate :"
             },
             {
               "slug": "regenerator",
@@ -29899,7 +29900,7 @@
           "slug": "hydration",
           "name": "Hydration",
           "url": "https://www.serebii.net/abilitydex/hydration.shtml",
-          "description": null
+          "description": "All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining."
         }
       ],
       "stats": {
@@ -44039,7 +44040,7 @@
           "slug": "owntempo",
           "name": "Own Tempo",
           "url": "https://www.serebii.net/abilitydex/owntempo.shtml",
-          "description": "The Pokémon cannot be Confused while having this ability."
+          "description": "The Pokémon cannot be Confused while having this ability. Blocks Intimidate :"
         },
         {
           "slug": "regenerator",
@@ -44113,7 +44114,7 @@
               "slug": "owntempo",
               "name": "Own Tempo",
               "url": "https://www.serebii.net/abilitydex/owntempo.shtml",
-              "description": "The Pokémon cannot be Confused while having this ability."
+              "description": "The Pokémon cannot be Confused while having this ability. Blocks Intimidate :"
             },
             {
               "slug": "regenerator",
@@ -118954,6 +118955,12 @@
           "name": "Limber",
           "url": "https://www.serebii.net/abilitydex/limber.shtml",
           "description": "The Pokémon cannot be Paralysed while having this ability. :"
+        },
+        {
+          "slug": "sandveil",
+          "name": "Sand Veil",
+          "url": "https://www.serebii.net/abilitydex/sandveil.shtml",
+          "description": "Raises the Pokémon’s evasion during a sandstorm by one level."
         }
       ],
       "stats": {
@@ -119011,12 +119018,6 @@
             "steel"
           ],
           "abilities": [
-            {
-              "slug": "sandveil",
-              "name": "Sand Veil",
-              "url": "https://www.serebii.net/abilitydex/sandveil.shtml",
-              "description": "Raises the Pokémon’s evasion during a sandstorm by one level."
-            },
             {
               "slug": "mimicry",
               "name": "Mimicry",
@@ -128905,6 +128906,12 @@
           "name": "Flower Veil",
           "url": "https://www.serebii.net/abilitydex/flowerveil.shtml",
           "description": "Ally Grass-type Pokémon are protected from status conditions and the lowering of their stats."
+        },
+        {
+          "slug": "symbiosis",
+          "name": "Symbiosis",
+          "url": "https://www.serebii.net/abilitydex/symbiosis.shtml",
+          "description": "Passes the Pokémon's hold item to its adjacent ally when that ally consumes its hold item"
         }
       ],
       "stats": null,
@@ -128939,14 +128946,7 @@
           "types": [
             "fairy"
           ],
-          "abilities": [
-            {
-              "slug": "symbiosis",
-              "name": "Symbiosis",
-              "url": "https://www.serebii.net/abilitydex/symbiosis.shtml",
-              "description": "Passes the Pokémon's hold item to its adjacent ally when that ally consumes its hold item"
-            }
-          ],
+          "abilities": [],
           "stats": {
             "base": {
               "hp": 149,
@@ -132488,7 +132488,13 @@
           "slug": "infiltrator",
           "name": "Infiltrator",
           "url": "https://www.serebii.net/abilitydex/infiltrator.shtml",
-          "description": "The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored. Prankster (Male) : Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail. Competitive (Female) : Raises Sp. Atk stat by two stages whenever a stat is lowered"
+          "description": "The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored."
+        },
+        {
+          "slug": "prankster",
+          "name": "Prankster",
+          "url": "https://www.serebii.net/abilitydex/prankster.shtml",
+          "description": "Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail."
         }
       ],
       "stats": {
@@ -132555,19 +132561,13 @@
               "slug": "infiltrator",
               "name": "Infiltrator",
               "url": "https://www.serebii.net/abilitydex/infiltrator.shtml",
-              "description": "The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored. Prankster (Male) : Status category moves have their Speed Priority increased by 1. Moves increased by this that are used on Dark-type opponents will fail. Competitive (Female) : Raises Sp. Atk stat by two stages whenever a stat is lowered"
-            },
-            {
-              "slug": "prankster",
-              "name": "Prankster",
-              "url": "https://www.serebii.net/abilitydex/prankster.shtml",
-              "description": null
+              "description": "The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored."
             },
             {
               "slug": "competitive",
               "name": "Competitive",
               "url": "https://www.serebii.net/abilitydex/competitive.shtml",
-              "description": null
+              "description": "Raises Sp. Atk stat by two stages whenever a stat is lowered"
             }
           ],
           "stats": {
@@ -144204,7 +144204,7 @@
           "slug": "hydration",
           "name": "Hydration",
           "url": "https://www.serebii.net/abilitydex/hydration.shtml",
-          "description": null
+          "description": "All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining. :"
         },
         {
           "slug": "gooey",
@@ -155661,37 +155661,13 @@
           "slug": "sandrush",
           "name": "Sand Rush",
           "url": "https://www.serebii.net/abilitydex/sandrush.shtml",
-          "description": null
+          "description": "Speed is doubled within a sandstorm :"
         },
         {
           "slug": "steadfast",
           "name": "Steadfast",
           "url": "https://www.serebii.net/abilitydex/steadfast.shtml",
           "description": "Speed raises by one level every time the Pokémon flinches."
-        },
-        {
-          "slug": "keeneye",
-          "name": "Keen Eye",
-          "url": "https://www.serebii.net/abilitydex/keeneye.shtml",
-          "description": "Opponent cannot lower this Pokémon’s accuracy. The Pokémon ignores evasion boosts of the opponent"
-        },
-        {
-          "slug": "vitalspirit",
-          "name": "Vital Spirit",
-          "url": "https://www.serebii.net/abilitydex/vitalspirit.shtml",
-          "description": "The Pokémon cannot be Asleep while having this ability. :"
-        },
-        {
-          "slug": "noguard",
-          "name": "No Guard",
-          "url": "https://www.serebii.net/abilitydex/noguard.shtml",
-          "description": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%"
-        },
-        {
-          "slug": "toughclaws",
-          "name": "Tough Claws",
-          "url": "https://www.serebii.net/abilitydex/toughclaws.shtml",
-          "description": "Increases the power of moves that make physical contact by 30%"
         }
       ],
       "stats": {
@@ -155747,7 +155723,26 @@
           "types": [
             "rock"
           ],
-          "abilities": [],
+          "abilities": [
+            {
+              "slug": "keeneye",
+              "name": "Keen Eye",
+              "url": "https://www.serebii.net/abilitydex/keeneye.shtml",
+              "description": "Opponent cannot lower this Pokémon’s accuracy. The Pokémon ignores evasion boosts of the opponent"
+            },
+            {
+              "slug": "vitalspirit",
+              "name": "Vital Spirit",
+              "url": "https://www.serebii.net/abilitydex/vitalspirit.shtml",
+              "description": "The Pokémon cannot be Asleep while having this ability. :"
+            },
+            {
+              "slug": "noguard",
+              "name": "No Guard",
+              "url": "https://www.serebii.net/abilitydex/noguard.shtml",
+              "description": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%"
+            }
+          ],
           "stats": {
             "base": {
               "hp": 150,
@@ -156516,7 +156511,14 @@
           "types": [
             "rock"
           ],
-          "abilities": [],
+          "abilities": [
+            {
+              "slug": "toughclaws",
+              "name": "Tough Claws",
+              "url": "https://www.serebii.net/abilitydex/toughclaws.shtml",
+              "description": "Increases the power of moves that make physical contact by 30%"
+            }
+          ],
           "stats": {
             "base": {
               "hp": 150,
@@ -193454,7 +193456,7 @@
           "slug": "guts",
           "name": "Guts",
           "url": "https://www.serebii.net/abilitydex/guts.shtml",
-          "description": "Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn’s effect of lowering Attack is not applied. Yellow &"
+          "description": "Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn’s effect of lowering Attack is not applied."
         }
       ],
       "stats": {
@@ -193528,7 +193530,7 @@
               "slug": "guts",
               "name": "Guts",
               "url": "https://www.serebii.net/abilitydex/guts.shtml",
-              "description": "Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn’s effect of lowering Attack is not applied. Yellow &"
+              "description": "Attack is increased by 50% when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). Burn’s effect of lowering Attack is not applied."
             }
           ],
           "stats": {
