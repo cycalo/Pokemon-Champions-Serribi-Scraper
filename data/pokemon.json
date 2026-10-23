@@ -5828,12 +5828,6 @@
           "name": "Lightning Rod",
           "url": "https://www.serebii.net/abilitydex/lightningrod.shtml",
           "description": "Electric-type moves are drawn to this Pokémon. Electric-type moves will do no damage and the Pokémon's SP ATK is raised one stage."
-        },
-        {
-          "slug": "surgesurfer",
-          "name": "Surge Surfer",
-          "url": "https://www.serebii.net/abilitydex/surgesurfer.shtml",
-          "description": "Doubles the Pokémon's Speed stat on Electric Terrain."
         }
       ],
       "stats": {
@@ -5890,7 +5884,14 @@
             "electric",
             "psychic"
           ],
-          "abilities": [],
+          "abilities": [
+            {
+              "slug": "surgesurfer",
+              "name": "Surge Surfer",
+              "url": "https://www.serebii.net/abilitydex/surgesurfer.shtml",
+              "description": "Doubles the Pokémon's Speed stat on Electric Terrain."
+            }
+          ],
           "stats": {
             "base": {
               "hp": 135,
@@ -118954,6 +118955,12 @@
           "name": "Limber",
           "url": "https://www.serebii.net/abilitydex/limber.shtml",
           "description": "The Pokémon cannot be Paralysed while having this ability. :"
+        },
+        {
+          "slug": "sandveil",
+          "name": "Sand Veil",
+          "url": "https://www.serebii.net/abilitydex/sandveil.shtml",
+          "description": "Raises the Pokémon’s evasion during a sandstorm by one level."
         }
       ],
       "stats": {
@@ -119011,12 +119018,6 @@
             "steel"
           ],
           "abilities": [
-            {
-              "slug": "sandveil",
-              "name": "Sand Veil",
-              "url": "https://www.serebii.net/abilitydex/sandveil.shtml",
-              "description": "Raises the Pokémon’s evasion during a sandstorm by one level."
-            },
             {
               "slug": "mimicry",
               "name": "Mimicry",
@@ -155668,30 +155669,6 @@
           "name": "Steadfast",
           "url": "https://www.serebii.net/abilitydex/steadfast.shtml",
           "description": "Speed raises by one level every time the Pokémon flinches."
-        },
-        {
-          "slug": "keeneye",
-          "name": "Keen Eye",
-          "url": "https://www.serebii.net/abilitydex/keeneye.shtml",
-          "description": "Opponent cannot lower this Pokémon’s accuracy. The Pokémon ignores evasion boosts of the opponent"
-        },
-        {
-          "slug": "vitalspirit",
-          "name": "Vital Spirit",
-          "url": "https://www.serebii.net/abilitydex/vitalspirit.shtml",
-          "description": "The Pokémon cannot be Asleep while having this ability. :"
-        },
-        {
-          "slug": "noguard",
-          "name": "No Guard",
-          "url": "https://www.serebii.net/abilitydex/noguard.shtml",
-          "description": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%"
-        },
-        {
-          "slug": "toughclaws",
-          "name": "Tough Claws",
-          "url": "https://www.serebii.net/abilitydex/toughclaws.shtml",
-          "description": "Increases the power of moves that make physical contact by 30%"
         }
       ],
       "stats": {
@@ -155747,7 +155724,26 @@
           "types": [
             "rock"
           ],
-          "abilities": [],
+          "abilities": [
+            {
+              "slug": "keeneye",
+              "name": "Keen Eye",
+              "url": "https://www.serebii.net/abilitydex/keeneye.shtml",
+              "description": "Opponent cannot lower this Pokémon’s accuracy. The Pokémon ignores evasion boosts of the opponent"
+            },
+            {
+              "slug": "vitalspirit",
+              "name": "Vital Spirit",
+              "url": "https://www.serebii.net/abilitydex/vitalspirit.shtml",
+              "description": "The Pokémon cannot be Asleep while having this ability. :"
+            },
+            {
+              "slug": "noguard",
+              "name": "No Guard",
+              "url": "https://www.serebii.net/abilitydex/noguard.shtml",
+              "description": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%"
+            }
+          ],
           "stats": {
             "base": {
               "hp": 150,
@@ -156516,7 +156512,14 @@
           "types": [
             "rock"
           ],
-          "abilities": [],
+          "abilities": [
+            {
+              "slug": "toughclaws",
+              "name": "Tough Claws",
+              "url": "https://www.serebii.net/abilitydex/toughclaws.shtml",
+              "description": "Increases the power of moves that make physical contact by 30%"
+            }
+          ],
           "stats": {
             "base": {
               "hp": 150,
