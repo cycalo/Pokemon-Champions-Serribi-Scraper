@@ -864,8 +864,8 @@ def _is_regional_form_standard_moves_table(table: Tag) -> bool:
     h0 = (heads[0] or "").lower() if heads else ""
     if h0 == "standard moves":
         return False
-    if "standard moves" in h0 and "form" in h0:
-        return True
+    # "Standard Moves - <form>" is a secondary learnset, handled elsewhere.
+    # Only headers like "Alola Form Standard Moves" are regional.
     if "form standard moves" in h0:
         return True
     return False
